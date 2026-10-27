@@ -1,8 +1,23 @@
 {
   "dal": "2026-10-27T19:53+01:00",
-  "turni": {},
-  "usati": [],
+  "turni": {
+    "2026-10-27 21:00": {
+      "esito": "pubblicato",
+      "id": "pijamamania-00001",
+      "file": "pijamamania-00001.mp4",
+      "media_id": "18025526432937813",
+      "link": "https://www.instagram.com/reel/DfAvolIjtyq/",
+      "audio": "Bad Times — برهان",
+      "audio_id": "1807179967374221",
+      "ora": "2026-10-27T21:44+01:00"
+    }
+  },
+  "usati": [
+    "pijamamania-00001"
+  ],
   "scartati": {},
   "errori": {},
-  "audio_usati": []
+  "audio_usati": [
+    "1807179967374221"
+  ]
 }
