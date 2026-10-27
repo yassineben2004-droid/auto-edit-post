@@ -45,7 +45,10 @@ class Meta:
         if ricerca:
             params["search_query"] = ricerca
         res = self.get("ig_audio", **params)
-        return res.get("data", res if isinstance(res, list) else [])
+        if isinstance(res, list):
+            return res
+        # la documentazione dice "data", ma Meta in realtà risponde con "audio": accetto entrambi
+        return res.get("audio") or res.get("data") or []
 
     # --- reel
     def crea_container(self, ig_user_id, caption, audio_cfg, share_to_feed=True, video_url=None):
