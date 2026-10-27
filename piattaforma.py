@@ -488,12 +488,17 @@ def verifica():
         try:
             info = m.get(pag["ig_user_id"], fields="username,followers_count")
             q = m.get(f"{pag['ig_user_id']}/content_publishing_limit", fields="config,quota_usage")
-            dbg = m.get("debug_token", input_token=tok).get("data", {})
-            scade = dbg.get("expires_at")
-            print(f"[{nome}] @{info.get('username')} ({info.get('followers_count')} follower) | quota {q} | token "
-                  f"{'valido' if dbg.get('is_valid') else 'NON valido'}, scade "
-                  f"{'mai' if not scade else datetime.fromtimestamp(scade):%Y-%m-%d}")
-        except ErroreAPI as e:
+            print(f"[{nome}] account OK: @{info.get('username')} ({info.get('followers_count')} follower)")
+            print(f"[{nome}] quota pubblicazioni: {q}")
+            try:
+                dbg = m.get("debug_token", input_token=tok).get("data", {})
+                scade = dbg.get("expires_at") or 0
+                scade_txt = "mai" if not scade else datetime.fromtimestamp(scade).strftime("%Y-%m-%d")
+                print(f"[{nome}] token {'valido' if dbg.get('is_valid') else 'NON valido'}, scade: {scade_txt}, "
+                      f"permessi: {', '.join(dbg.get('scopes', []))}")
+            except ErroreAPI as e:
+                print(f"[{nome}] (dettagli token non disponibili: {e})")
+        except Exception as e:  # noqa: BLE001
             print(f"[{nome}] ERRORE: {e}")
 
 
@@ -505,7 +510,7 @@ def audio(nome, parole):
         for q in (parole or [None]):
             try:
                 res = m.cerca_audio(pag["ig_user_id"], tipo, q)
-            except ErroreAPI as e:
+            except Exception as e:  # noqa: BLE001
                 print(f"{tipo} «{q or 'tendenza'}»: ERRORE {e}")
                 continue
             print(f"\n== {tipo} — {'ricerca: ' + q if q else 'di tendenza'} ({len(res)} risultati)")
