@@ -1,0 +1,28 @@
+# Pagina: PijamaMania
+nome: "PijamaMania"
+attiva: true
+ig_user_id: "17841428063511900"         # @pijamamania.it
+token_env: TOKEN_META             # nome del secret con il token (uno solo per tutte le pagine dello stesso portfolio)
+anche_nel_feed: true
+elimina_dopo: true                # cancella il video dopo averlo pubblicato
+
+# ORARI FISSI (ora italiana). A ogni orario esce il prossimo video della coda.
+orari:
+  ogni_giorno: ["08:15", "12:45", "18:30", "21:00"]
+  # per giorni diversi basta aggiungere il giorno (sostituisce ogni_giorno quel giorno):
+  # sabato: ["10:00", "13:00", "18:00", "21:30"]
+  # domenica: ["11:00", "20:30"]
+
+hashtag: "#pigiamasqualo #coperta #squalo #regalodinatale #ideeregalo #pijamamania #perte"                       # aggiunti in fondo a ogni caption
+caption: []                       # caption a rotazione (se il video non ne ha una sua)
+
+audio:
+  attivo: true
+  tipo: music                     # music | original_sound
+  ricerca: []                     # vuoto = TENDENZA; es. ["natale", "christmas"]
+  tra_i_primi: 5
+  no_ripetere_ultimi: 10
+  volume_audio: 100
+  volume_video: 1
+  vietati: []
+  pubblica_senza_audio: false

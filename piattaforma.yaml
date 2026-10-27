@@ -1,0 +1,5 @@
+# Impostazioni generali di Auto Edit & Post
+api_version: v26.0
+fuso_orario: Europe/Rome
+finestra_minuti: 90        # un turno può ancora uscire fino a 90 minuti dopo l'orario (ritardi di GitHub)
+max_per_esecuzione: 1      # post al massimo per pagina a ogni esecuzione (mai due Reel attaccati)

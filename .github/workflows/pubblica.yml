@@ -1,0 +1,44 @@
+name: Pubblica Reel
+# GENERATO da `python piattaforma.py cron` — non modificare a mano: cambia gli orari in pagine/*/pagina.yaml
+on:
+  schedule:
+    - cron: "5 19,20 * * *"
+    - cron: "20 6,7 * * *"
+    - cron: "35 16,17 * * *"
+    - cron: "50 10,11 * * *"
+  workflow_dispatch:
+    inputs:
+      comando:
+        description: "esegui | esegui --prova | pannello | verifica | audio <pagina> <parole>"
+        required: false
+        default: "esegui"
+
+concurrency:
+  group: pubblica
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Esegui
+        env:
+          SEGRETI: ${{ toJSON(secrets) }}
+          COMANDO: ${{ github.event.inputs.comando || 'esegui' }}
+        run: python piattaforma.py $COMANDO
+      - name: Salva stato
+        if: always()
+        run: |
+          git config user.name "auto-edit-post"
+          git config user.email "auto-edit-post@users.noreply.github.com"
+          git add -A pagine PANNELLO.md
+          git diff --cached --quiet || (git commit -m "pubblicazioni $(date -u +%F' '%H:%M)" && git pull --rebase && git push)
