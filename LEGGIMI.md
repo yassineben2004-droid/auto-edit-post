@@ -28,6 +28,8 @@ Su GitHub si apre direttamente dal repository, anche dal telefono.
 | Vedere il pannello | `python piattaforma.py pannello` |
 | Prova senza pubblicare | `python piattaforma.py esegui --prova` |
 | Controllare token/account/quota | `python piattaforma.py verifica` |
+| Inserire l'audio vero nei video in coda (da pagine/<pagina>/audio/) | `python piattaforma.py metti-audio pijamamania` |
+| Diagnostica di un post | `python piattaforma.py info pijamamania <media_id>` |
 | Vedere gli audio disponibili | `python piattaforma.py audio pijamamania natale christmas` |
 
 Gli stessi comandi si lanciano dal sito: GitHub → **Actions → Pubblica Reel → Run workflow** → scrivi il comando.
@@ -42,11 +44,12 @@ Dopo una modifica: `python piattaforma.py cron` (rigenera gli avvii di GitHub, g
 
 ## Regole automatiche
 - un solo post per pagina a ogni turno; se più turni sono arretrati esce solo il più recente (mai due Reel attaccati)
-- un turno può uscire fino a 90 minuti dopo l'orario (GitHub a volte ritarda); oltre → "mancato", il video resta in coda
+- un turno può uscire fino a 2 ore dopo l'orario (GitHub a volte ritarda); oltre → "mancato", il video resta in coda
 - guasto temporaneo di Meta → riprova finché il turno è valido
 - video rifiutato da Instagram → scartato (scritto in stato.json), al turno esce il successivo
 - coda vuota → il turno è segnato "coda_vuota" e il pannello avvisa
-- audio: tendenza (o parole chiave), scarta quelli più corti del video, non ripete gli ultimi 10
+- audio: dentro ogni video c'è un audio vero (cartella audio/ a rotazione, mai lo stesso due volte di fila), così il reel non esce mai muto; in più si prova ad agganciare la musica di tendenza (Meta a volte la ignora)
+- musica di tendenza: tendenza (o parole chiave), scarta quelli più corti del video, non ripete gli ultimi 10
 
 ## Attivazione (una volta sola)
 1. **App Meta**: developers.facebook.com → Crea app (caso d'uso Instagram / tipo Business). Può restare in modalità Sviluppo.

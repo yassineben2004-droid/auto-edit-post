@@ -34,7 +34,7 @@ from lib_meta import ErroreAPI, Meta, descrivi_audio, scegli_audio
 BASE = Path(__file__).parent
 PAGINE = BASE / "pagine"
 GIORNI = ["lunedi", "martedi", "mercoledi", "giovedi", "venerdi", "sabato", "domenica"]
-CAMPI_CODA = ["id", "file", "durata", "caption", "ricerca_audio", "audio_id", "origine", "aggiunto"]
+CAMPI_CODA = ["id", "file", "durata", "caption", "ricerca_audio", "audio_id", "origine", "aggiunto", "audio_file"]
 
 
 # ================================================================ config / file
@@ -451,6 +451,52 @@ def aggiungi(nome, cartelle, testi=None, ricerca_audio="", seed=None, quanti=Non
     pannello(stampa=False)
 
 
+ESTENSIONI_AUDIO = (".mp3", ".m4a", ".aac", ".wav", ".ogg", ".mp4", ".mov")
+
+
+def metti_audio(nome, rifai=False):
+    """Inserisce un audio vero DENTRO ogni video in coda (a rotazione da pagine/<pagina>/audio/).
+    Così il reel non esce mai muto, anche se Meta ignora la musica di tendenza."""
+    cart = PAGINE / nome / "audio"
+    tracce = sorted(p for p in cart.glob("*") if p.suffix.lower() in ESTENSIONI_AUDIO) if cart.exists() else []
+    if not tracce:
+        sys.exit(f"nessun audio in pagine/{nome}/audio/ (mp3, m4a, wav o anche video mp4 da cui prendere l'audio)")
+    durate = {t.name: _durata(t) for t in tracce}
+    coda = leggi_coda(nome)
+    uso = {t.name: 0 for t in tracce}
+    for r in coda:
+        if r.get("audio_file") in uso:
+            uso[r["audio_file"]] += 1
+    prec, fatti = None, 0
+    for r in coda:
+        if r.get("audio_file") and not rifai:
+            prec = r["audio_file"]
+            continue
+        vid = PAGINE / nome / "coda" / r["file"]
+        if not vid.exists():
+            continue
+        d = _durata(vid)
+        # meno usata, mai uguale alla precedente; preferisce tracce lunghe almeno quanto il video
+        cand = sorted(tracce, key=lambda t: (t.name == prec, durate[t.name] + 0.2 < d, uso[t.name], random.random()))
+        t = cand[0]
+        tmp = vid.with_suffix(".tmp.mp4")
+        loop = ["-stream_loop", "-1"] if durate[t.name] + 0.2 < d else []
+        fade = max(d - 0.6, 0)
+        subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(vid), *loop, "-i", str(t),
+                        "-map", "0:v", "-map", "1:a:0", "-t", f"{d:.3f}",
+                        "-af", f"afade=t=in:d=0.05,afade=t=out:st={fade:.3f}:d=0.6,loudnorm=I=-14:TP=-1.5",
+                        "-c:v", "copy", "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2",
+                        "-movflags", "+faststart", str(tmp)], check=True)
+        tmp.replace(vid)
+        r["audio_file"] = t.name
+        uso[t.name] += 1
+        prec = t.name
+        fatti += 1
+        print(f"♪ {r['id']}  ←  {t.name}")
+    scrivi_coda(nome, coda)
+    print(f"\n{fatti} video con audio inserito ({len(tracce)} tracce a rotazione)")
+
+
 # ================================================================ orari GitHub Actions
 def cron():
     """Workflow GitHub che parte solo agli orari delle pagine (valido con ora solare E legale)."""
@@ -612,6 +658,7 @@ def main():
     sub.add_parser("verifica")
     au = sub.add_parser("audio"); au.add_argument("pagina"); au.add_argument("parole", nargs="*")
     au.add_argument("--grezzo", action="store_true", help="mostra la risposta completa di Meta")
+    ma = sub.add_parser("metti-audio"); ma.add_argument("pagina"); ma.add_argument("--rifai", action="store_true")
     inf = sub.add_parser("info"); inf.add_argument("pagina"); inf.add_argument("media_id")
     x = ap.parse_args()
     if x.cmd == "esegui":
@@ -628,6 +675,8 @@ def main():
         cron()
     elif x.cmd == "verifica":
         verifica()
+    elif x.cmd == "metti-audio":
+        metti_audio(x.pagina, x.rifai)
     elif x.cmd == "info":
         info(x.pagina, x.media_id)
     elif x.cmd == "audio":

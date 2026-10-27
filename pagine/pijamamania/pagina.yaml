@@ -1,6 +1,6 @@
 # Pagina: PijamaMania
 nome: "PijamaMania"
-attiva: true
+attiva: false                     # IN PAUSA dal 27/10: in attesa degli audio da inserire nei video
 ig_user_id: "17841428063511900"         # @pijamamania.it
 token_env: TOKEN_META             # nome del secret con il token (uno solo per tutte le pagine dello stesso portfolio)
 anche_nel_feed: true
