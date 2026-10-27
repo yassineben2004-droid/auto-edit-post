@@ -105,7 +105,8 @@ def token_per(pag):
 def orari_del_giorno(pag, giorno: date):
     o = pag.get("orari") or {}
     nome = GIORNI[giorno.weekday()]
-    lista = o.get(nome, o.get("ogni_giorno", []))
+    # priorità: data precisa ("2026-10-27") > giorno della settimana > ogni_giorno
+    lista = o.get(giorno.isoformat(), o.get(nome, o.get("ogni_giorno", [])))
     return sorted({str(x) for x in lista})
 
 

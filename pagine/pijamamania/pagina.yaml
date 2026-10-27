@@ -5,12 +5,12 @@ ig_user_id: "17841428063511900"         # @pijamamania.it
 token_env: TOKEN_META             # nome del secret con il token (uno solo per tutte le pagine dello stesso portfolio)
 anche_nel_feed: true
 elimina_dopo: true                # cancella il video dopo averlo pubblicato
-inizia_dal: "2026-10-28"         # i turni automatici partono da questa data (stasera solo il post "subito")
 
 # ORARI FISSI (ora italiana). A ogni orario esce il prossimo video della coda.
 # 10 post al giorno, almeno 1h30 di distanza, più fitti la sera (orari di picco).
 orari:
   ogni_giorno: ["08:00", "09:45", "11:30", "13:00", "14:45", "16:30", "18:00", "19:30", "21:00", "22:30"]
+  "2026-10-27": ["21:00"]          # stasera: un solo post (si può togliere da domani)
   # per giorni diversi basta aggiungere il giorno (sostituisce ogni_giorno quel giorno):
   # sabato: ["10:00", "13:00", "18:00", "21:30"]
 
