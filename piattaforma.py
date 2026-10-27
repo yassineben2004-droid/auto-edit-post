@@ -14,6 +14,7 @@ A ogni orario di una pagina ("turno") esce il PRIMO video della sua coda.
 Comandi:
   python piattaforma.py esegui [--prova]       pubblica i turni arrivati (lo lancia GitHub o il server)
   python piattaforma.py pannello               stato di tutte le pagine
+  python piattaforma.py subito <pagina>        pubblica ADESSO il prossimo video della coda
   python piattaforma.py nuova <pagina> "Nome"  crea una nuova pagina
   python piattaforma.py aggiungi <pagina> <cartella video>... [--testi testi.txt] [--ricerca-audio natale]
   python piattaforma.py cron                   rigenera gli orari di GitHub Actions dagli orari delle pagine
@@ -177,6 +178,8 @@ def esegui(prova=False, adesso=None):
         if not st.get("dal"):
             st["dal"] = adesso.isoformat(timespec="minutes")   # i turni prima dell'attivazione non contano
         inizio = max(datetime.fromisoformat(st["dal"]), adesso - timedelta(days=2))
+        if pag.get("inizia_dal"):  # turni automatici solo da questa data (es. per partire "da domani")
+            inizio = max(inizio, datetime.fromisoformat(str(pag["inizia_dal"])).replace(tzinfo=tz))
         finestra = timedelta(minutes=int(pag.get("finestra_minuti", g["finestra_minuti"])))
         turni = [t for t in turni_tra(pag, inizio, adesso, tz) if chiave(t) not in st["turni"]]
         # turni troppo vecchi → mancati
@@ -234,6 +237,46 @@ def esegui(prova=False, adesso=None):
     pannello(stampa=False)
 
 
+def subito(nome, prova=False):
+    """Pubblica ADESSO il prossimo video della coda (fuori dagli orari)."""
+    g = cfg_generale()
+    tz = ZoneInfo(g["fuso_orario"])
+    pag, st, coda = cfg_pagina(nome), leggi_stato(nome), leggi_coda(nome)
+    adesso = datetime.now(tz)
+    st["dal"] = st.get("dal") or adesso.isoformat(timespec="minutes")
+    r = prossimo_video(nome, coda, st)
+    if r is None:
+        print(f"[{nome}] coda vuota: niente da pubblicare")
+        return 1
+    token = token_per(pag)
+    if not token:
+        print(f"[{nome}] manca il token ({pag['token_env']})")
+        return 1
+    k = f"{adesso:%Y-%m-%d %H:%M} (subito)"
+    print(f"[{nome}] pubblicazione immediata")
+    try:
+        ris = pubblica_video(Meta(token, g["api_version"]), pag, nome, r, st, prova)
+        if prova:
+            return 0
+        ris["ora"] = datetime.now(tz).isoformat(timespec="minutes")
+        st["turni"][k] = ris
+        st["usati"].append(r["id"])
+        print(f"   ✅ pubblicato: {ris['link'] or ris['media_id']}")
+        if pag.get("elimina_dopo", True):
+            (PAGINE / nome / "coda" / r["file"]).unlink(missing_ok=True)
+        return 0
+    except Exception as e:  # noqa: BLE001
+        print(f"   ❌ {e}")
+        st["errori"].setdefault(k, []).append({"quando": adesso.isoformat(timespec="minutes"), "video": r["id"],
+                                               "errore": str(e)[:500], "temporaneo": getattr(e, "temporaneo", False)})
+        if not getattr(e, "temporaneo", False) and "elaborazione" in str(e):
+            st.setdefault("scartati", {})[r["id"]] = str(e)[:300]
+        return 1
+    finally:
+        scrivi_stato(nome, st)
+        pannello(stampa=False)
+
+
 # ================================================================ pannello
 def pannello(stampa=True):
     g = cfg_generale()
@@ -246,7 +289,10 @@ def pannello(stampa=True):
         in_coda = [r for r in coda if r["id"] not in usati and (PAGINE / nome / "coda" / r["file"]).exists()]
         oggi = orari_del_giorno(pag, adesso.date())
         al_giorno = len(oggi) or 1
-        prossimi = [t for t in turni_tra(pag, adesso, adesso + timedelta(days=7), tz)]
+        da = adesso
+        if pag.get("inizia_dal"):
+            da = max(da, datetime.fromisoformat(str(pag["inizia_dal"])).replace(tzinfo=tz))
+        prossimi = [t for t in turni_tra(pag, da, da + timedelta(days=7), tz)]
         ultimi = [(k, v) for k, v in sorted(st["turni"].items())][-1:]
         settimana = [v for k, v in st["turni"].items() if k >= chiave(adesso - timedelta(days=7))]
         pubbl = sum(1 for v in settimana if v.get("esito") == "pubblicato")
@@ -395,7 +441,7 @@ def aggiungi(nome, cartelle, testi=None, ricerca_audio="", seed=None, quanti=Non
         dst = PAGINE / nome / "coda" / f"{pid}.mp4"
         _comprimi(src, dst)
         coda.append({"id": pid, "file": dst.name, "durata": f"{_durata(dst):.2f}",
-                     "caption": (rng.choice(caps) + ("\n\n" + tags if tags else "")).strip(),
+                     "caption": (caps[(len(coda)) % len(caps)] + ("\n\n" + tags if tags else "")).strip(),
                      "ricerca_audio": ricerca_audio, "audio_id": "", "origine": src,
                      "aggiunto": date.today().isoformat()})
         print(f"+ {pid}  {Path(src).name}  ({dst.stat().st_size / 1e6:.1f} MB)")
@@ -434,7 +480,7 @@ on:
   workflow_dispatch:
     inputs:
       comando:
-        description: "esegui | esegui --prova | pannello | verifica | audio <pagina> <parole>"
+        description: "esegui | subito <pagina> | esegui --prova | pannello | verifica | audio <pagina> <parole>"
         required: false
         default: "esegui"
 
@@ -544,6 +590,7 @@ def main():
     a.add_argument("--testi", nargs="*", default=[]); a.add_argument("--ricerca-audio", default="")
     a.add_argument("--quanti", type=int); a.add_argument("--seed", type=int)
     sub.add_parser("cron")
+    su = sub.add_parser("subito"); su.add_argument("pagina"); su.add_argument("--prova", action="store_true")
     sub.add_parser("verifica")
     au = sub.add_parser("audio"); au.add_argument("pagina"); au.add_argument("parole", nargs="*")
     au.add_argument("--grezzo", action="store_true", help="mostra la risposta completa di Meta")
@@ -556,6 +603,8 @@ def main():
         nuova(x.pagina, x.titolo)
     elif x.cmd == "aggiungi":
         aggiungi(x.pagina, x.cartelle, x.testi, x.ricerca_audio, x.seed, x.quanti)
+    elif x.cmd == "subito":
+        sys.exit(subito(x.pagina, x.prova))
     elif x.cmd == "cron":
         cron()
     elif x.cmd == "verifica":

@@ -1,10 +1,9 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 27/10/2026 19:53
+Aggiornato: 27/10/2026 20:31
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| PijamaMania | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mar 21:00 | - | 0 pubblicati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 32 | 3.2 gg | mer 08:00 | - | 0 pubblicati |
 
-## ⚠ Da guardare
-- **PijamaMania**: coda quasi finita (0 video ≈ 0.0 giorni)
+✅ Nessun problema.

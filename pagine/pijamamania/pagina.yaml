@@ -5,16 +5,30 @@ ig_user_id: "17841428063511900"         # @pijamamania.it
 token_env: TOKEN_META             # nome del secret con il token (uno solo per tutte le pagine dello stesso portfolio)
 anche_nel_feed: true
 elimina_dopo: true                # cancella il video dopo averlo pubblicato
+inizia_dal: "2026-10-28"         # i turni automatici partono da questa data (stasera solo il post "subito")
 
 # ORARI FISSI (ora italiana). A ogni orario esce il prossimo video della coda.
+# 10 post al giorno, almeno 1h30 di distanza, più fitti la sera (orari di picco).
 orari:
-  ogni_giorno: ["08:15", "12:45", "18:30", "21:00"]
+  ogni_giorno: ["08:00", "09:45", "11:30", "13:00", "14:45", "16:30", "18:00", "19:30", "21:00", "22:30"]
   # per giorni diversi basta aggiungere il giorno (sostituisce ogni_giorno quel giorno):
   # sabato: ["10:00", "13:00", "18:00", "21:30"]
-  # domenica: ["11:00", "20:30"]
 
-hashtag: "#pigiamasqualo #coperta #squalo #regalodinatale #ideeregalo #pijamamania #perte"                       # aggiunti in fondo a ogni caption
-caption: []                       # caption a rotazione (se il video non ne ha una sua)
+# Hashtag aggiunti in fondo a ogni caption
+hashtag: "#copertasqualo #squalo #coperta #regalodinatale #ideeregalo #regaloperlei #natale2026 #pigiamasqualo #pijamamania #perte"
+
+# Caption a rotazione (una diversa per ogni post, poi ricomincia)
+caption:
+  - "Pensavo fosse un regalo simpatico… ora non me la ridà più 😂🦈\nLa trovi su pijamamania.it (link in bio)"
+  - "Tagga chi deve ricevere questa coperta squalo a Natale 🎁🦈"
+  - "Il regalo che ti ruba la ragazza 😂🦈\nLink in bio"
+  - "Calda, morbida e ridicola al punto giusto 🦈\nTrovala nel link in bio"
+  - "Avvisate i fidanzati: dopo questa non esce più di casa 😂🦈"
+  - "Coperta squalo indossabile: piedi nella coda, testa nello squalo 🦈\nLink in bio"
+  - "Regalo di Natale risolto 🎁🦈\nLink in bio"
+  - "Manda questo video a chi ti deve fare un regalo 👀🦈"
+  - "Serate sul divano versione squalo 🍿🦈\nLink in bio"
+  - "Lei: «non la metterò mai». Lei, 5 minuti dopo: 🦈😂\nLink in bio"
 
 audio:
   attivo: true
