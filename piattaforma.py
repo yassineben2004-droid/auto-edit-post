@@ -506,6 +506,22 @@ def audio(nome, parole):
     g = cfg_generale()
     pag = cfg_pagina(nome)
     m = Meta(token_per(pag), g["api_version"])
+    if "--grezzo" in parole:
+        # risposta completa di Meta, per capire formato/permessi
+        parole = [p for p in parole if p != "--grezzo"]
+        for tipo in ("music", "original_sound"):
+            for q in (parole or [None]):
+                params = {"audio_type": tipo, "user_id": pag["ig_user_id"]}
+                if q:
+                    params["search_query"] = q
+                try:
+                    r = m.s.get(f"{lib_meta.GRAPH}/{m.v}/ig_audio",
+                                params={**params, "access_token": m.token}, timeout=60)
+                    print(f"\n== GREZZO {tipo} «{q or 'tendenza'}» → HTTP {r.status_code}")
+                    print(r.text[:3000])
+                except Exception as e:  # noqa: BLE001
+                    print(f"== GREZZO {tipo}: errore di rete {e}")
+        return
     for tipo in ("music", "original_sound"):
         for q in (parole or [None]):
             try:
@@ -530,6 +546,7 @@ def main():
     sub.add_parser("cron")
     sub.add_parser("verifica")
     au = sub.add_parser("audio"); au.add_argument("pagina"); au.add_argument("parole", nargs="*")
+    au.add_argument("--grezzo", action="store_true", help="mostra la risposta completa di Meta")
     x = ap.parse_args()
     if x.cmd == "esegui":
         esegui(prova=x.prova)
@@ -544,7 +561,7 @@ def main():
     elif x.cmd == "verifica":
         verifica()
     elif x.cmd == "audio":
-        audio(x.pagina, x.parole)
+        audio(x.pagina, x.parole + (["--grezzo"] if x.grezzo else []))
     else:
         ap.print_help()
 
