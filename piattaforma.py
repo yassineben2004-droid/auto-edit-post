@@ -581,6 +581,23 @@ def audio(nome, parole):
                 print(f"  {x.get('audio_id') or x.get('id')}  {(x.get('duration_in_ms') or 0) / 1000:5.0f}s  {descrivi_audio(x)}")
 
 
+def info(nome, media_id):
+    """Diagnostica di un post pubblicato: risposta grezza di Meta, salvata anche in pagine/_diagnostica.txt."""
+    g = cfg_generale()
+    pag = cfg_pagina(nome)
+    m = Meta(token_per(pag), g["api_version"])
+    righe = [f"# info {nome} {media_id} — {datetime.now().isoformat(timespec='seconds')}"]
+    for campi in ("id,media_type,media_product_type,media_audio_type,permalink,timestamp,caption",
+                  "id,media_type,media_product_type,permalink,timestamp",
+                  "audio,music_metadata,copyright_check_information"):
+        r = m.s.get(f"{lib_meta.GRAPH}/{m.v}/{media_id}",
+                    params={"fields": campi, "access_token": m.token}, timeout=60)
+        righe.append(f"\n== fields={campi} → HTTP {r.status_code}\n{r.text[:3000]}")
+    testo = "\n".join(righe)
+    print(testo)
+    (BASE / "pagine" / "_diagnostica.txt").write_text(testo + "\n", encoding="utf-8")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Auto Edit & Post")
     sub = ap.add_subparsers(dest="cmd")
@@ -595,6 +612,7 @@ def main():
     sub.add_parser("verifica")
     au = sub.add_parser("audio"); au.add_argument("pagina"); au.add_argument("parole", nargs="*")
     au.add_argument("--grezzo", action="store_true", help="mostra la risposta completa di Meta")
+    inf = sub.add_parser("info"); inf.add_argument("pagina"); inf.add_argument("media_id")
     x = ap.parse_args()
     if x.cmd == "esegui":
         esegui(prova=x.prova)
@@ -610,6 +628,8 @@ def main():
         cron()
     elif x.cmd == "verifica":
         verifica()
+    elif x.cmd == "info":
+        info(x.pagina, x.media_id)
     elif x.cmd == "audio":
         audio(x.pagina, x.parole + (["--grezzo"] if x.grezzo else []))
     else:
