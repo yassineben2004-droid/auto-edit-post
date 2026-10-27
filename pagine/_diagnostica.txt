@@ -1,0 +1,10 @@
+# info pijamamania 18025526432937813 — 2026-10-27T20:50:16
+
+== fields=id,media_type,media_product_type,media_audio_type,permalink,timestamp,caption → HTTP 200
+{"id":"18025526432937813","caption":"Pensavo fosse un regalo simpatico… ora non me la ridà più 😂🦈\nLa trovi su pijamamania.it (link in bio)\n\n#copertasqualo #squalo #coperta #regalodinatale #ideeregalo #regaloperlei #natale2026 #pigiamasqualo #pijamamania #perte","media_product_type":"REELS","media_type":"VIDEO","media_audio_type":"ORIGINAL_SOUND","permalink":"https://www.instagram.com/reel/DfAvolIjtyq/","timestamp":"2026-10-27T20:44:23+0000"}
+
+== fields=id,media_type,media_product_type,permalink,timestamp → HTTP 200
+{"id":"18025526432937813","media_product_type":"REELS","media_type":"VIDEO","permalink":"https://www.instagram.com/reel/DfAvolIjtyq/","timestamp":"2026-10-27T20:44:23+0000"}
+
+== fields=audio,music_metadata,copyright_check_information → HTTP 400
+{"error":{"message":"(#100) Tried accessing nonexisting field (audio)","type":"OAuthException","code":100,"fbtrace_id":"ACQScOQLG1MztZPaRl9LHB0"}}
