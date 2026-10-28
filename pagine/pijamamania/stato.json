@@ -18,10 +18,22 @@
     "2026-10-28 08:00": {
       "esito": "mancato",
       "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-10-28 11:30": {
+      "esito": "pubblicato",
+      "id": "pijamamania-00002",
+      "file": "pijamamania-00002.mp4",
+      "media_id": "18162564826453575",
+      "link": "https://www.instagram.com/reel/DfCOrzfijL_/",
+      "audio": "inserito: Dezk9XiP4Nf.m4a",
+      "audio_id": null,
+      "audio_file": "Dezk9XiP4Nf.m4a",
+      "ora": "2026-10-28T11:35+01:00"
     }
   },
   "usati": [
-    "pijamamania-00001"
+    "pijamamania-00001",
+    "pijamamania-00002"
   ],
   "scartati": {},
   "errori": {
