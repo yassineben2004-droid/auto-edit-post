@@ -36,14 +36,7 @@
     "pijamamania-00002"
   ],
   "scartati": {},
-  "errori": {
-    "2026-10-28 09:45": [
-      {
-        "errore": "manca il token TOKEN_META",
-        "temporaneo": true
-      }
-    ]
-  },
+  "errori": {},
   "audio_usati": [
     "1807179967374221"
   ]
