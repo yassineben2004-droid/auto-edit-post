@@ -147,7 +147,7 @@ def pubblica_video(meta, pag, nome, r, st, prova):
         aid = audio and str(audio.get("audio_id") or audio.get("id"))
     cfg_audio = {"audio_id": str(aid), "audio_volume": int(a.get("volume_audio", 100)),
                  "video_volume": int(a.get("volume_video", 1))} if aid else None
-    descr = descrivi_audio(audio) if audio else (aid or "-")
+    descr = descrivi_audio(audio) if audio else (aid or (f"inserito: {r['audio_file']}" if r.get("audio_file") else "-"))
     print(f"   {r['id']} ({r['file']}) | audio: {descr} [{info}]")
     if prova:
         return {"esito": "prova", "id": r["id"], "audio": descr}
@@ -164,7 +164,7 @@ def pubblica_video(meta, pag, nome, r, st, prova):
     if aid:
         st["audio_usati"] = (st["audio_usati"] + [str(aid)])[-200:]
     return {"esito": "pubblicato", "id": r["id"], "file": r["file"], "media_id": media_id,
-            "link": link, "audio": descr, "audio_id": aid}
+            "link": link, "audio": descr, "audio_id": aid, "audio_file": r.get("audio_file", "")}
 
 
 def esegui(prova=False, adesso=None):
@@ -462,11 +462,15 @@ def metti_audio(nome, rifai=False):
     if not tracce:
         sys.exit(f"nessun audio in pagine/{nome}/audio/ (mp3, m4a, wav o anche video mp4 da cui prendere l'audio)")
     durate = {t.name: _durata(t) for t in tracce}
+    # pesi da pagina.yaml (audio_inseriti.pesi: {"nomefile": 3}) — peso 3 = usato 3 volte più spesso
+    pesi_cfg = ((cfg_pagina(nome).get("audio_inseriti") or {}).get("pesi") or {})
+    peso = {t.name: float(pesi_cfg.get(t.name, pesi_cfg.get(t.stem, 1)) or 1) for t in tracce}
     coda = leggi_coda(nome)
     uso = {t.name: 0 for t in tracce}
-    for r in coda:
-        if r.get("audio_file") in uso:
-            uso[r["audio_file"]] += 1
+    if not rifai:
+        for r in coda:
+            if r.get("audio_file") in uso:
+                uso[r["audio_file"]] += 1
     prec, fatti = None, 0
     for r in coda:
         if r.get("audio_file") and not rifai:
@@ -477,7 +481,7 @@ def metti_audio(nome, rifai=False):
             continue
         d = _durata(vid)
         # meno usata, mai uguale alla precedente; preferisce tracce lunghe almeno quanto il video
-        cand = sorted(tracce, key=lambda t: (t.name == prec, durate[t.name] + 0.2 < d, uso[t.name], random.random()))
+        cand = sorted(tracce, key=lambda t: (t.name == prec, durate[t.name] + 0.2 < d, uso[t.name] / peso[t.name], random.random()))
         t = cand[0]
         tmp = vid.with_suffix(".tmp.mp4")
         loop = ["-stream_loop", "-1"] if durate[t.name] + 0.2 < d else []

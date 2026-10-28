@@ -1,5 +1,5 @@
 {
-  "dal": "2026-10-27T19:53+01:00",
+  "dal": "2026-10-28T10:50+01:00",
   "turni": {
     "2026-10-27 21:00": {
       "esito": "pubblicato",
@@ -10,13 +10,28 @@
       "audio": "Bad Times — برهان",
       "audio_id": "1807179967374221",
       "ora": "2026-10-27T21:44+01:00"
+    },
+    "2026-10-27 22:30": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-10-28 08:00": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
     }
   },
   "usati": [
     "pijamamania-00001"
   ],
   "scartati": {},
-  "errori": {},
+  "errori": {
+    "2026-10-28 09:45": [
+      {
+        "errore": "manca il token TOKEN_META",
+        "temporaneo": true
+      }
+    ]
+  },
   "audio_usati": [
     "1807179967374221"
   ]
