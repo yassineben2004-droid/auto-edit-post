@@ -1,0 +1,24 @@
+# nome_file url  (clip originali Luce di Fede generate su Higgsfield)
+# --- hook / scene con persone
+h1_lei_cade_scaletta.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261011_214752_f4ca5095-5a1e-4b2b-b6f8-536da7eacfaf.mp4
+h2_lui_cade_sedia.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261011_215436_326dc368-23a8-4263-944b-b9c246cd054b.mp4
+h3_countdown_mamma_nonno.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261011_220312_0a183924-d7b3-4a87-88d0-9970552d8bd9.mp4
+h4_cloche.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_214105_2c4df37e-e014-4ee8-a32e-f888b2de2e5c.mp4
+h5_soffio_trucioli.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_220517_3575b6cd-14c0-4e3f-98c7-089ae1fff0aa.mp4
+h6_supermercato_abbraccio.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_222005_21bae625-6651-4055-bd4a-ddff6eba69b2.mp4
+h7_nonna_commossa.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_191716_bc9e4f1e-2037-4080-8249-608478e644fb.mp4
+h8_nonna_farina.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_200304_714b6c41-bae3-4d32-a4a3-95f970459f7a.mp4
+# --- casa / montaggio a parete
+c1_regalo_scatola.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261006_231812_1f639fc2-6ac2-4796-8255-f4a2b24a33cc.mp4
+c2_telecomando_casa.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261006_231837_fcfc7a1e-2362-46aa-b4a1-5355f118fde7.mp4
+c3_croce_accesa_casa.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261006_231843_8c967ef7-d953-4c28-bdd0-9c894722fc40.mp4
+c4_appende_divano.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_221706_6b9fa30e-b7a1-4f2b-9fd7-1cba781cd31c.mp4
+# --- showcase prodotto
+s1_telecomando_parete_grigia.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_214212_3c2d32c3-be5e-4d77-a4de-471718cbadf6.mp4
+s2_buio_accensione.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_193332_74e636a8-0140-46bb-b1f8-eed88f63cc3f.mp4
+s3_orbita.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_193332_0157cb55-5082-4b5b-abed-d16ca58553b7.mp4
+s4_giorno_notte.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_193333_bcb58bea-cb64-47d6-8d3f-198ec52f3149.mp4
+# --- macro diorami
+m1_ultima_cena.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_215714_61aecee0-0b40-4b4d-a47f-b073ec2b08b8.mp4
+m2_resurrezione.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_215715_dfe54002-d4b5-4ba9-8d08-d5e0246af83c.mp4
+m3_nativita.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_220518_2a749713-2e58-4ed6-8200-2b31601715f6.mp4
