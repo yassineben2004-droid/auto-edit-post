@@ -1,0 +1,17 @@
+# nome_file url  (clip originali Ciabatte Pazze generate su Higgsfield)
+# pranzo della domenica
+p1_pov_ingresso.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261017_042712_f1b80c73-5f6e-41cb-84d0-da38adfe4bd5.mp4
+p2_nonna_paste.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261017_042730_747c5974-9b21-4a47-bdfd-f50c169efc42.mp4
+p3_zio_vino.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261017_042732_f3392995-34ee-4611-9adb-633c9d345847.mp4
+p4_cuginetto.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261017_042733_0c5099c5-2232-42d2-b20e-d3106149a0e5.mp4
+p5_mamma_famiglia.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261017_042735_8e34ebc3-de95-4780-8812-123357257e8a.mp4
+# matrimonio
+m1_pov_camera.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261019_233407_4873eddc-052f-4de7-ae42-bd6c421d26bb.mp4
+m2_zia_cappello.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261019_233421_7a74697e-4ad0-43e9-9f33-9bb956d868b2.mp4
+m3_navata_nonno.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261019_233423_1459b28c-163e-4cf9-9778-c3bdb169176a.mp4
+m4_firma_sposi.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261019_233416_62299126-e723-46ac-97dd-c0ea7a837f68.mp4
+# realistico (quartiere)
+r1_pov_casa.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261023_172939_5d1e04c7-422c-4895-8a43-83c2a37ae894.mp4
+r2_supermercato.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261023_172942_95a0d5e5-dd07-4254-b805-20826a5585fa.mp4
+r3_bar.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261023_172945_77b1d31f-4169-446d-a511-cbc30ebc3fb4.mp4
+r4_posta.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261023_172948_7a6a5a61-fd8e-45eb-9769-a84422e957f0.mp4
