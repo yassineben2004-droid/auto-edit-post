@@ -1,0 +1,35 @@
+# Pagina: Raven & Resin by Cole (mercato in inglese, pubblico USA)
+nome: "Raven & Resin by Cole"
+attiva: false                     # metti true quando ID e token sono pronti
+ig_user_id: "DA_INSERIRE"         # ID numerico dell'account Instagram ravenandresinbycole
+token_env: TOKEN_META
+anche_nel_feed: true
+elimina_dopo: true
+
+# ORARI FISSI (ora italiana) pensati per gli USA:
+# 14:30 = mattina East Coast, 18:30 = pranzo, 00:30 e 02:30 = prima serata East Coast / pomeriggio West Coast
+orari:
+  ogni_giorno: ["14:30", "18:30", "00:30", "02:30"]
+
+hashtag: "#hecate #gothicdecor #gothichome #witchtok #witchyvibes #resinart #spookyseason #darkdecor"
+
+# Ogni reel ha la sua caption in coda.csv; queste servono solo per eventuali video aggiunti senza caption
+caption:
+  - "Would you hang her on your wall? 🕯️🖤"
+  - "Hecate, goddess of the night 🌙 Too much or just right?"
+
+# AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio)
+audio_inseriti:
+  pesi: {}
+
+# Musica di tendenza di Meta: spenta come sulle altre pagine (copre l'audio inserito)
+audio:
+  attivo: false
+  tipo: music
+  ricerca: []
+  tra_i_primi: 5
+  no_ripetere_ultimi: 10
+  volume_audio: 100
+  volume_video: 1
+  vietati: []
+  pubblica_senza_audio: false
