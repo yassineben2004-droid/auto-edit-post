@@ -1,17 +1,19 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 29/10/2026 12:59
+Aggiornato: 29/10/2026 13:10
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | Ciabatte Pazze | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 5 | 1.2 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 20 | 2.0 gg | gio 13:00 | 10-29 11:30 ✅ | 12 pubblicati, 2 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 19 | 1.9 gg | gio 14:45 | 10-29 13:00 ✅ | 13 pubblicati, 2 saltati |
 
-✅ Nessun problema.
+## ⚠ Da guardare
+- **PijamaMania**: coda quasi finita (19 video ≈ 1.9 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-10-29 13:00 | PijamaMania | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DfE-aWOCBvV/ |
 | 2026-10-29 11:30 | PijamaMania | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DfEzTeMgNZD/ |
 | 2026-10-29 09:45 | PijamaMania | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DfEnclYDgRF/ |
 | 2026-10-29 08:00 | PijamaMania | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DfEbZ5mDSrX/ |
