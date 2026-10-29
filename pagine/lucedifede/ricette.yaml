@@ -1,0 +1,216 @@
+# Ricette dei reel Luce di Fede — si montano con: python monta.py lucedifede
+# pezzi: clip  inizio  fine  [velocità]   (clip in clip_originali/lucedifede/)
+# Momenti chiave: h1 caduta 1.5-3.0 | h2 caduta 1.5-2.5 | h3 drappo giù 2.0-2.5 | h4 cloche su 2.5-3.0
+#   h5 soffio 1.2-1.5 | h6 urlo 1.0, abbraccio 2.0 | h8 soffio 1.3 | s1/s2 accensione 1.5 | s4 si accende 2.5
+#   m3: primi 1.2s sfocati, non usarli
+reel:
+  - nome: lf01_cade_scaletta
+    testo: "Ha rischiato tutto per questa croce… aspetta di vederla accesa 😭"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - h1_lei_cade_scaletta 0 3.9
+      - s2_buio_accensione 1.3 3.04
+      - s3_orbita 0 2
+      - m1_ultima_cena 0.5 2
+      - m3_nativita 2 4.04
+
+  - nome: lf02_papa_sedia
+    testo: "Papà ha voluto appenderla da solo 💀✝️"
+    cta: "Commenta CROCE per il link ✝️"
+    pezzi:
+      - h2_lui_cade_sedia 0 4.06
+      - c3_croce_accesa_casa 0 3.04
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf03_countdown
+    testo: "LUCE DI FEDE\nX\nNATALE 🎁✨"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - h3_countdown_mamma_nonno 0.5 5.05
+      - m1_ultima_cena 0.5 2
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf04_cloche
+    testo: "Il regalo perfetto per un cristiano non esist- ✝️😇"
+    cta: "Commenta CROCE se ti serve ✝️✨"
+    pezzi:
+      - h4_cloche 1 4.06
+      - s1_telecomando_parete_grigia 0.8 3.2
+      - m1_ultima_cena 0.5 2
+      - m2_resurrezione 1.2 2.7
+      - m3_nativita 2 4.04
+
+  - nome: lf05_trucioli
+    testo: "Non fatelo vedere alla nonna ✝️👼"
+    cta: "Commenta AMEN se la vuoi 🤩✝️"
+    pezzi:
+      - h5_soffio_trucioli 0 4.04
+      - m1_ultima_cena 0.5 2
+      - m2_resurrezione 1 2.5
+      - s3_orbita 0 2
+      - m3_nativita 2 4.04
+
+  - nome: lf06_supermercato
+    testo: "Non esiste il regalo perfetto per un cristiano.. 😳✝️"
+    cta: "Commenta AMEN per averla! 🥺✝️"
+    pezzi:
+      - h6_supermercato_abbraccio 0 3.04
+      - c4_appende_divano 0 2.5
+      - s1_telecomando_parete_grigia 1 3.5
+      - m1_ultima_cena 0.5 2
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf07_nonna_non_piange
+    testo: "Mia nonna non piange mai… 😳"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - h7_nonna_commossa 0.5 8.04
+      - m3_nativita 2 4.04
+
+  - nome: lf08_farina
+    testo: "Cosa nasconde la nonna sotto la farina? 😳✝️"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - h8_nonna_farina 0 3.04
+      - s2_buio_accensione 1.3 3.04
+      - s3_orbita 0 2
+      - m1_ultima_cena 0.5 2
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf09_spegnete_la_luce
+    testo: "Spegnete la luce e guardate 🤫✝️"
+    cta: "Commenta AMEN se la vuoi ✨"
+    pezzi:
+      - s2_buio_accensione 0 3.04
+      - s3_orbita 0 3.04
+      - s4_giorno_notte 0.5 3.04
+      - m1_ultima_cena 0.5 2
+      - m3_nativita 2 4.04
+
+  - nome: lf10_ha_pianto
+    testo: "Ha aperto la scatola e ha pianto 🥹✝️"
+    cta: "Il regalo di Natale per i nonni 🎁 Link in bio"
+    pezzi:
+      - c1_regalo_scatola 0 3.04
+      - c2_telecomando_casa 0 3.04
+      - c3_croce_accesa_casa 0 3.04
+      - m3_nativita 2 4.04
+
+  - nome: lf11_finche_non_accende
+    testo: "Non sa cosa dire… finché non la accende 🙏✨"
+    cta: "Commenta CROCE per il link ✝️"
+    pezzi:
+      - c2_telecomando_casa 0 3.04
+      - c3_croce_accesa_casa 0 3.04
+      - m1_ultima_cena 0.5 2
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf12_giorno_sera
+    testo: "Di giorno è elegante. Di sera… 🤯✝️"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - s4_giorno_notte 0 3.04
+      - s3_orbita 0 3.04
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf13_dettagli
+    testo: "Guardate i dettagli dentro questa croce 😳✝️"
+    cta: "6 scene bibliche dipinte a mano ✨ Link in bio"
+    pezzi:
+      - m1_ultima_cena 0 4.04
+      - m2_resurrezione 0.5 3.5
+      - m3_nativita 1.5 4.04
+      - s3_orbita 0 2
+
+  - nome: lf14_un_click
+    testo: "Un click e la stanza cambia ✨✝️"
+    cta: "Commenta CROCE per il link 👇"
+    pezzi:
+      - s1_telecomando_parete_grigia 0 4.06
+      - m1_ultima_cena 0.5 2
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf15_pov_salotto
+    testo: "POV: la appendi in salotto per Natale 🎄✝️"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - c4_appende_divano 0 4.04
+      - s1_telecomando_parete_grigia 0.8 3.3
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf16_mamma_8_dicembre
+    testo: "Mamma quando arriva l'8 dicembre 🎄😭"
+    cta: "Tagga chi farebbe così 👇😂"
+    pezzi:
+      - h1_lei_cade_scaletta 0.8 3.9
+      - c3_croce_accesa_casa 0 3.04
+      - s3_orbita 0 2
+      - m3_nativita 2 4.04
+
+  - nome: lf17_nonna_impasta
+    testo: "Nonna, cosa stai impastando?? 😭✝️"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - h8_nonna_farina 0 1.3
+      - h8_nonna_farina 1.3 2.0 0.5
+      - h8_nonna_farina 2.0 3.04
+      - s2_buio_accensione 1.3 3.04
+      - m1_ultima_cena 0.5 2
+      - m3_nativita 2 4.04
+
+  - nome: lf18_regalo_nonna
+    testo: "Ho regalato questa croce a mia nonna… 🥹✝️"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - h7_nonna_commossa 0 8.04
+      - s3_orbita 0 2
+      - m1_ultima_cena 0.5 2
+
+  - nome: lf19_chi_ha_tutto
+    testo: "Il regalo per chi ha già tutto 🎁✝️"
+    cta: "Commenta CROCE per il link ✝️"
+    pezzi:
+      - h5_soffio_trucioli 0 1.2
+      - h5_soffio_trucioli 1.2 1.8 0.5
+      - h5_soffio_trucioli 1.8 4.04
+      - s4_giorno_notte 1 3.04
+      - s3_orbita 0 2
+      - m3_nativita 2 4.04
+
+  - nome: lf20_commuovere_nonni
+    testo: "Il regalo che fa commuovere i nonni 🥹✝️"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - h3_countdown_mamma_nonno 0 5.05
+      - s2_buio_accensione 1.3 3.04
+      - s3_orbita 0 2
+      - m3_nativita 2 4.04
+
+  - nome: lf21_reazioni
+    testo: "Le reazioni quando vedono questa croce 😳✝️"
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi:
+      - h6_supermercato_abbraccio 0.8 2.6
+      - h8_nonna_farina 1.0 2.4
+      - h5_soffio_trucioli 0.9 2.4
+      - h4_cloche 2.4 3.6
+      - h3_countdown_mamma_nonno 1.8 3.2
+      - s2_buio_accensione 1.3 3.04
+      - m3_nativita 2 4.04
+
+  - nome: lf22_piatto_natale
+    testo: "Il piatto più buono a Natale? 🍽️✝️"
+    cta: "Commenta CROCE per il link ✝️"
+    pezzi:
+      - h4_cloche 0 4.06
+      - c3_croce_accesa_casa 0 3.04
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
