@@ -1,16 +1,17 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 28/10/2026 22:53
+Aggiornato: 29/10/2026 08:04
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 23 | 2.3 gg | gio 08:00 | 10-28 22:30 ✅ | 9 pubblicati, 2 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 22 | 2.2 gg | gio 09:45 | 10-29 08:00 ✅ | 10 pubblicati, 2 saltati |
 
 ✅ Nessun problema.
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-10-29 08:00 | PijamaMania | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DfEbZ5mDSrX/ |
 | 2026-10-28 22:30 | PijamaMania | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DfDaDK1iU6I/ |
 | 2026-10-28 21:00 | PijamaMania | inserito: DetkbnLv9bW.m4a | https://www.instagram.com/reel/DfDP0NQoVu9/ |
 | 2026-10-28 19:30 | PijamaMania | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DfDFjSvD-YQ/ |
