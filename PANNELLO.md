@@ -1,20 +1,21 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 29/10/2026 17:24
+Aggiornato: 29/10/2026 18:06
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | Ciabatte Pazze | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 5 | 1.2 gg | - | - | 0 pubblicati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 17 | 1.7 gg | gio 18:00 | 10-29 16:30 ✅ | 15 pubblicati, 2 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 16 | 1.6 gg | gio 19:30 | 10-29 18:00 ✅ | 16 pubblicati, 2 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
-- **PijamaMania**: coda quasi finita (17 video ≈ 1.7 giorni)
+- **PijamaMania**: coda quasi finita (16 video ≈ 1.6 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-10-29 18:00 | PijamaMania | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DfFgLdTiUgG/ |
 | 2026-10-29 16:30 | PijamaMania | inserito: DelynysP4YQ.m4a | https://www.instagram.com/reel/DfFXiM0gKJN/ |
 | 2026-10-29 14:45 | PijamaMania | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DfFLazPAFTn/ |
 | 2026-10-29 13:00 | PijamaMania | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DfE-aWOCBvV/ |
