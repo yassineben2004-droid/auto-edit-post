@@ -1,0 +1,38 @@
+# nome_file url  (clip originali Raven & Resin by Cole, generate su Higgsfield, Kling 3.0)
+# garage 1 - processo completo
+g1_hook_argilla_telefono.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_225857_83ba8f04-05c6-4edc-8b66-60e65fd23bdf.mp4
+g2_scultura.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_225847_64a3e792-72a3-4415-85f8-91dfc21c53a0.mp4
+g3_silicone.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_225847_531ee6d3-eea9-4753-913e-c3594eac75e1.mp4
+g4_resina.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_225847_49804cce-386b-43bf-bde5-3b1b4e5b4c50.mp4
+g5_sformatura.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_225847_d166b95e-f1d4-4409-a578-11434233600b.mp4
+g6_patina.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_225847_d5faabe9-afad-4b31-b980-ce496cb0354e.mp4
+g7_reveal_camera.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_225847_1347002f-19c9-4c4c-9ed9-0377223fca21.mp4
+# garage americano (bandiera)
+u1_scultura.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_232606_287cd541-ac45-4df3-9224-0545b2eb5618.mp4
+u2_sformatura.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_232550_464d726a-94fc-4359-8925-55e07a31c74d.mp4
+u3_patina.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_232551_415b0178-31ff-4d46-91fc-5efcfc344ec1.mp4
+u4_lampada_muro.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261008_232551_4f60078f-fe95-40bc-a7d1-90b58f8a43d9.mp4
+# day 1 + hook
+d1_cole_selfie.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261009_043342_5b7560e6-743b-4c31-b6df-4aadf9b86814.mp4
+d2_mani_argilla.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261009_043723_b8b15b22-1a30-4a6c-9b8d-5ec86a22d1a1.mp4
+d3_lampada_banco.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261009_043342_f2130301-3ace-4070-98d5-1657a2a0250b.mp4
+h1_cole_spallucce.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261009_044328_b922e5d4-c14f-4588-89a9-694e996b2244.mp4
+h2_volto_ecate.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261009_044328_8a166446-676b-49aa-8e13-f29d83d0953b.mp4
+h3_serpente.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261009_044328_477fa202-85c2-478f-bb4e-f561c1576a38.mp4
+# payoff first
+p1_interruttore.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_151154_478297ad-8c91-4f1a-ba5e-df4b008f914d.mp4
+p2_prima_dopo.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_151155_a1d93d93-1490-428e-ba19-d1ffd389c7ef.mp4
+p3_cole_si_gira.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_151154_86ed20c8-311d-4def-9113-49a52c2839f3.mp4
+# bambina col barattolo
+b1_bambina_incantata.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_194141_90b36d3b-f783-4fb1-94f4-c137ffea3069.mp4
+b2_monete.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_194141_d4a1ede5-cec5-4f33-a71c-3e422457baaf.mp4
+b3_cole_regala.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_194141_ac7cb90c-1ea5-4fef-a175-8f262d239397.mp4
+b4_bambina_va.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_194141_0a02f38f-0280-4e82-bf23-1f0eeef79d29.mp4
+# bancarella halloween bambini
+k1_cole_aspetta.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_194708_7f1e9ec0-f817-461b-87ef-211f4d034053.mp4
+k2_bambini_curiosi.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_194707_93ed179b-1db3-4f81-b8ca-b69a03e9deb3.mp4
+k3_accensione_salto.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261015_194707_91e34fab-1b7c-4c18-811b-2053499ece17.mp4
+# signora che riconosce Ecate
+s1_signora_tocca.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261019_205346_95f55db6-9a65-4a76-aff2-c334e0f6e82b.mp4
+s2_signora_racconta.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261019_205346_15d98303-1c43-4ead-aba9-21b22b18c2ec.mp4
+s3_cole_commosso.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261019_205346_65345e68-1835-4005-a151-b5d9448e59bd.mp4
