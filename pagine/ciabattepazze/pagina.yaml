@@ -1,0 +1,40 @@
+# Pagina: Ciabatte Pazze
+nome: "Ciabatte Pazze"
+attiva: false                     # metti true quando ID e token sono pronti
+ig_user_id: "DA_INSERIRE"         # ID numerico dell'account Instagram
+token_env: TOKEN_META             # nome del secret con il token (uno solo per tutte le pagine dello stesso portfolio)
+anche_nel_feed: true
+elimina_dopo: true                # cancella il video dopo averlo pubblicato
+
+# ORARI FISSI (ora italiana). A ogni orario esce il prossimo video della coda.
+orari:
+  ogni_giorno: ["08:15", "12:45", "18:30", "21:00"]
+  # per giorni diversi basta aggiungere il giorno (sostituisce ogni_giorno quel giorno):
+  # sabato: ["10:00", "13:00", "18:00", "21:30"]
+  # domenica: ["11:00", "20:30"]
+
+hashtag: "#ciabattepazze #ciabatte #pantofole #regalodinatale #ideeregalo #regalodivertente #natale2026 #perte"
+
+# Caption a rotazione (una diversa per ogni post, poi ricomincia)
+caption:
+  - "Commenta CIABATTE e ti mando il link 🦶😂"
+  - "Da 1 a 10 quanto rischio di essere diseredato? 😭🦶\nLink in bio"
+  - "Tagga chi si presenterebbe così a pranzo 👇😂"
+  - "Il regalo di Natale di cui parleranno per anni 🎁🦶\nLink in bio"
+  - "Comodissime. Il problema sono gli sguardi 👀😂\nCommenta CIABATTE per il link"
+
+# AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio). Sono quelli che si sentono davvero.
+audio_inseriti:
+  pesi: {}
+
+# Musica di tendenza di Meta: spenta come su PijamaMania (Meta la ignorava e coprirebbe l'audio inserito)
+audio:
+  attivo: false
+  tipo: music                     # music | original_sound
+  ricerca: []                     # vuoto = TENDENZA; es. ["natale", "christmas"]
+  tra_i_primi: 5
+  no_ripetere_ultimi: 10
+  volume_audio: 100
+  volume_video: 1
+  vietati: []
+  pubblica_senza_audio: false

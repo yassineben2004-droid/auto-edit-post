@@ -1,9 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 29/10/2026 11:33
+Aggiornato: 29/10/2026 12:59
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
+| Ciabatte Pazze | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 5 | 1.2 gg | - | - | 0 pubblicati |
 | PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 20 | 2.0 gg | gio 13:00 | 10-29 11:30 ✅ | 12 pubblicati, 2 saltati |
 
 ✅ Nessun problema.
