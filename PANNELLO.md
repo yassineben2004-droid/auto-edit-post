@@ -1,20 +1,21 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 30/10/2026 13:15
+Aggiornato: 30/10/2026 14:49
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | Ciabatte Pazze | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 5 | 1.2 gg | - | - | 0 pubblicati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 9 | 0.9 gg | ven 14:45 | 10-30 13:00 ✅ | 23 pubblicati, 2 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 8 | 0.8 gg | ven 16:30 | 10-30 14:45 ✅ | 24 pubblicati, 2 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
-- **PijamaMania**: coda quasi finita (9 video ≈ 0.9 giorni)
+- **PijamaMania**: coda quasi finita (8 video ≈ 0.8 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-10-30 14:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfHughJCe3K/ |
 | 2026-10-30 13:00 | PijamaMania | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DfHjXZGimcf/ |
 | 2026-10-30 11:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfHYJnCiAjR/ |
 | 2026-10-30 09:45 | PijamaMania | inserito: Dezk9XiP4Nf.m4a | https://www.instagram.com/reel/DfHMMo1DaNU/ |
@@ -34,4 +35,3 @@ Aggiornato: 30/10/2026 13:15
 | 2026-10-28 19:30 | PijamaMania | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DfDFjSvD-YQ/ |
 | 2026-10-28 18:00 | PijamaMania | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DfC7QSykW2a/ |
 | 2026-10-28 16:30 | PijamaMania | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfCxGZoD9Zs/ |
-| 2026-10-28 14:45 | PijamaMania | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DfCmIVQEQmk/ |
