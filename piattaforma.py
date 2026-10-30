@@ -599,6 +599,22 @@ def verifica():
             print(f"[{nome}] ERRORE: {e}")
 
 
+def account():
+    """Elenca le Pagine Facebook e gli account Instagram che il token può usare (per trovare ig_user_id)."""
+    g = cfg_generale()
+    tok = token_per({"token_env": "TOKEN_META"})
+    m = Meta(tok, g["api_version"])
+    for path in ("me/accounts",):
+        try:
+            r = m.get(path, fields="name,instagram_business_account{id,username}", limit=100)
+        except Exception as e:  # noqa: BLE001
+            print(f"{path}: ERRORE {e}")
+            continue
+        for p in r.get("data", []):
+            ig = p.get("instagram_business_account") or {}
+            print(f"Pagina: {p.get('name')}  →  Instagram: @{ig.get('username', '-')}  ig_user_id: {ig.get('id', 'NON COLLEGATO')}")
+
+
 def audio(nome, parole):
     g = cfg_generale()
     pag = cfg_pagina(nome)
@@ -660,6 +676,7 @@ def main():
     sub.add_parser("cron")
     su = sub.add_parser("subito"); su.add_argument("pagina"); su.add_argument("--prova", action="store_true")
     sub.add_parser("verifica")
+    sub.add_parser("account")
     au = sub.add_parser("audio"); au.add_argument("pagina"); au.add_argument("parole", nargs="*")
     au.add_argument("--grezzo", action="store_true", help="mostra la risposta completa di Meta")
     ma = sub.add_parser("metti-audio"); ma.add_argument("pagina"); ma.add_argument("--rifai", action="store_true")
@@ -677,6 +694,8 @@ def main():
         sys.exit(subito(x.pagina, x.prova))
     elif x.cmd == "cron":
         cron()
+    elif x.cmd == "account":
+        account()
     elif x.cmd == "verifica":
         verifica()
     elif x.cmd == "metti-audio":
