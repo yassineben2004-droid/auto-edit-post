@@ -32,7 +32,8 @@ caption:
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio). Sono quelli che si sentono davvero.
 # pesi: un audio con peso 3 esce 3 volte più spesso degli altri (default 1)
 audio_inseriti:
-  pesi: {}
+  pesi:
+    VIRALE_squalo_3M6.mp3: 4      # audio del reel squalo da 3,6M views (2024): esce ~4 volte più spesso degli altri
 
 # Musica di tendenza di Meta: SPENTA (il 27/10 Meta l'ha ignorata e coprirebbe l'audio inserito)
 audio:
