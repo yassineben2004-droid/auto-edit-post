@@ -1,7 +1,24 @@
-# account per token — 2026-10-30T19:38:40
+# account per token — 2026-10-30T19:39:51
 
 [TOKEN_META]
   Pagina: PijamaMania  →  Instagram: @pijamamania.it  ig_user_id: 17841428063511900
+  utente del token: AUTOPOST (122103590337521667)
+  valido: True  app: Auto Edit Post  tipo: SYSTEM_USER
+  permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, instagram_manage_messages, pages_read_engagement, public_profile
+  pages_show_list: tutti
+  business_management: tutti
+  instagram_basic: tutti
+  instagram_content_publish: tutti
+  instagram_manage_messages: tutti
+  pages_read_engagement: tutti
 
 [TOKEN_META_STORE]
   nessuna Pagina assegnata a questo token
+  utente del token: AUTOEDIT&POST (122100083349529783)
+  valido: True  app: Auto Edit Post  tipo: SYSTEM_USER
+  permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, pages_read_engagement, public_profile
+  pages_show_list: tutti
+  business_management: tutti
+  instagram_basic: tutti
+  instagram_content_publish: tutti
+  pages_read_engagement: tutti
