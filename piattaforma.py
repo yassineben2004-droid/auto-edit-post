@@ -481,7 +481,7 @@ def metti_audio(nome, rifai=False):
             continue
         d = _durata(vid)
         # meno usata, mai uguale alla precedente; preferisce tracce lunghe almeno quanto il video
-        cand = sorted(tracce, key=lambda t: (t.name == prec, durate[t.name] + 0.2 < d, uso[t.name] / peso[t.name], random.random()))
+        cand = sorted(tracce, key=lambda t: (t.name == prec, durate[t.name] + 0.2 < d, (uso[t.name] + 1) / peso[t.name], random.random()))
         t = cand[0]
         tmp = vid.with_suffix(".tmp.mp4")
         loop = ["-stream_loop", "-1"] if durate[t.name] + 0.2 < d else []
