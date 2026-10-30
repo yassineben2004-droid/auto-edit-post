@@ -4,3 +4,7 @@ img1_regalo.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU
 img2_prova.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202556_b4073109-5d2f-4c0c-ba35-f0cce6bb1bf3.png
 img3_cucina.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202558_0a21d15c-bb79-44c2-afa6-e4eeff5e14e0.png
 img4_strada.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202602_46ebf1a1-5adb-44dc-8cd9-f92fc8a2bc51.png
+img3b_cucina.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_234739_a195bb95-a7a3-4ac1-a7e4-0a8c4ec2e068.png
+img4b_strada.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_234741_f4003562-9fa9-4d52-a009-93d65963eaa9.png
+v1_regalo.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202747_dad4be45-5044-4ffe-a159-2e9dc5a6e013.mp4
+v2_prova.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202754_6c69f657-533f-4074-95e2-5d5296c23923.mp4
