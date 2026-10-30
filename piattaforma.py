@@ -622,6 +622,17 @@ def account():
                          f"ig_user_id: {ig.get('id', 'NON COLLEGATO')}")
         if not r.get("data"):
             righe.append("  nessuna Pagina assegnata a questo token")
+        try:
+            m = Meta(tok, g["api_version"])
+            chi = m.get("me", fields="id,name")
+            righe.append(f"  utente del token: {chi.get('name')} ({chi.get('id')})")
+            dbg = m.get("debug_token", input_token=tok).get("data", {})
+            righe.append(f"  valido: {dbg.get('is_valid')}  app: {dbg.get('application')}  tipo: {dbg.get('type')}")
+            righe.append(f"  permessi: {', '.join(dbg.get('scopes', []))}")
+            for gs in dbg.get("granular_scopes", []):
+                righe.append(f"  {gs.get('scope')}: {gs.get('target_ids', 'tutti')}")
+        except Exception as e:  # noqa: BLE001
+            righe.append(f"  (dettagli token non disponibili: {e})")
     print("\n".join(righe))
     (PAGINE / "_account.txt").write_text("\n".join(righe) + "\n", encoding="utf-8")
 
