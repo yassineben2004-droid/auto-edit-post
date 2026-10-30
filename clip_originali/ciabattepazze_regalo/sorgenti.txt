@@ -8,3 +8,5 @@ img3b_cucina.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0Xxnq
 img4b_strada.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_234741_f4003562-9fa9-4d52-a009-93d65963eaa9.png
 v1_regalo.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202747_dad4be45-5044-4ffe-a159-2e9dc5a6e013.mp4
 v2_prova.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202754_6c69f657-533f-4074-95e2-5d5296c23923.mp4
+v3_cucina.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_234924_adc6ca29-83ff-445e-a06c-37a53ecb360b.mp4
+v4_strada.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_234926_c2418908-1264-46de-9760-6fa9ea994771.mp4
