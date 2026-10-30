@@ -1,4 +1,4 @@
-# account per token — 2026-10-30T19:39:51
+# account per token — 2026-10-30T19:42:20
 
 [TOKEN_META]
   Pagina: PijamaMania  →  Instagram: @pijamamania.it  ig_user_id: 17841428063511900
@@ -13,7 +13,7 @@
   pages_read_engagement: tutti
 
 [TOKEN_META_STORE]
-  nessuna Pagina assegnata a questo token
+  Pagina: Ciabattepazze  →  Instagram: @ciabattepazze.it  ig_user_id: 17841414476658494
   utente del token: AUTOEDIT&POST (122100083349529783)
   valido: True  app: Auto Edit Post  tipo: SYSTEM_USER
   permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, pages_read_engagement, public_profile
