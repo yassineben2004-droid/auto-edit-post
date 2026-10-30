@@ -610,9 +610,13 @@ def account():
         except Exception as e:  # noqa: BLE001
             print(f"{path}: ERRORE {e}")
             continue
+        righe = [f"# account del token — {datetime.now().isoformat(timespec='seconds')}"]
         for p in r.get("data", []):
             ig = p.get("instagram_business_account") or {}
-            print(f"Pagina: {p.get('name')}  →  Instagram: @{ig.get('username', '-')}  ig_user_id: {ig.get('id', 'NON COLLEGATO')}")
+            righe.append(f"Pagina: {p.get('name')}  →  Instagram: @{ig.get('username', '-')}  "
+                         f"ig_user_id: {ig.get('id', 'NON COLLEGATO')}")
+        print("\n".join(righe))
+        (PAGINE / "_account.txt").write_text("\n".join(righe) + "\n", encoding="utf-8")
 
 
 def audio(nome, parole):
