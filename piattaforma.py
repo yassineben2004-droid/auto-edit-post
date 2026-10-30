@@ -346,7 +346,7 @@ MODELLO_PAGINA = """# Pagina: {nome}
 nome: "{nome}"
 attiva: false                     # metti true quando ID e token sono pronti
 ig_user_id: "DA_INSERIRE"         # ID numerico dell'account Instagram
-token_env: TOKEN_META             # nome del secret con il token (uno solo per tutte le pagine dello stesso portfolio)
+token_env: TOKEN_META_STORE       # secret del token: TOKEN_META_STORE per gli store del profilo personale, TOKEN_META solo per PijamaMania
 anche_nel_feed: true
 elimina_dopo: true                # cancella il video dopo averlo pubblicato
 
@@ -600,23 +600,30 @@ def verifica():
 
 
 def account():
-    """Elenca le Pagine Facebook e gli account Instagram che il token può usare (per trovare ig_user_id)."""
+    """Elenca, per ogni token, le Pagine Facebook e gli account Instagram che può usare (per trovare ig_user_id)."""
     g = cfg_generale()
-    tok = token_per({"token_env": "TOKEN_META"})
-    m = Meta(tok, g["api_version"])
-    for path in ("me/accounts",):
-        try:
-            r = m.get(path, fields="name,instagram_business_account{id,username}", limit=100)
-        except Exception as e:  # noqa: BLE001
-            print(f"{path}: ERRORE {e}")
+    nomi = sorted({"TOKEN_META"} | {cfg_pagina(n).get("token_env", "TOKEN_META") for n in elenco_pagine()})
+    righe = [f"# account per token — {datetime.now().isoformat(timespec='seconds')}"]
+    for nome_tok in nomi:
+        righe.append(f"\n[{nome_tok}]")
+        tok = token_per({"token_env": nome_tok})
+        if not tok:
+            righe.append("  secret mancante su GitHub")
             continue
-        righe = [f"# account del token — {datetime.now().isoformat(timespec='seconds')}"]
-        for p in r.get("data", []):
+        try:
+            r = Meta(tok, g["api_version"]).get("me/accounts", fields="name,instagram_business_account{id,username}",
+                                                limit=100)
+        except Exception as e:  # noqa: BLE001
+            righe.append(f"  ERRORE {e}")
+            continue
+        for p in r.get("data", []) or []:
             ig = p.get("instagram_business_account") or {}
-            righe.append(f"Pagina: {p.get('name')}  →  Instagram: @{ig.get('username', '-')}  "
+            righe.append(f"  Pagina: {p.get('name')}  →  Instagram: @{ig.get('username', '-')}  "
                          f"ig_user_id: {ig.get('id', 'NON COLLEGATO')}")
-        print("\n".join(righe))
-        (PAGINE / "_account.txt").write_text("\n".join(righe) + "\n", encoding="utf-8")
+        if not r.get("data"):
+            righe.append("  nessuna Pagina assegnata a questo token")
+    print("\n".join(righe))
+    (PAGINE / "_account.txt").write_text("\n".join(righe) + "\n", encoding="utf-8")
 
 
 def audio(nome, parole):

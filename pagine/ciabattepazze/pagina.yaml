@@ -2,7 +2,7 @@
 nome: "Ciabatte Pazze"
 attiva: false                     # metti true quando ID e token sono pronti
 ig_user_id: "DA_INSERIRE"         # ID numerico dell'account Instagram
-token_env: TOKEN_META             # nome del secret con il token (uno solo per tutte le pagine dello stesso portfolio)
+token_env: TOKEN_META_STORE        # token del portafoglio Business del profilo personale (tutti gli store tranne PijamaMania)
 anche_nel_feed: true
 elimina_dopo: true                # cancella il video dopo averlo pubblicato
 

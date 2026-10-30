@@ -57,7 +57,7 @@ Dopo una modifica: `python piattaforma.py cron` (rigenera gli avvii di GitHub, g
    tutte le Pagine e gli account Instagram assegnati, permessi `instagram_basic`, `instagram_content_publish`,
    `pages_show_list`, `pages_read_engagement`, `business_management`, scadenza **Mai** → un solo token per tutte le pagine.
 3. **ID Instagram** di ogni pagina: Graph API Explorer → `me/accounts?fields=name,instagram_business_account` → l'`id` va in `pagina.yaml`.
-4. **GitHub**: repository privato con questi file → Settings → Secrets → Actions → `TOKEN_META` = il token.
+4. **GitHub**: repository privato con questi file → Settings → Secrets → Actions. Due token: `TOKEN_META` (portafoglio di PijamaMania) e `TOKEN_META_STORE` (portafoglio del profilo personale, per tutti gli altri store). Ogni pagina sceglie il suo con `token_env`. Il comando `account` elenca Pagine e ID Instagram visti da ciascun token.
 5. In `pagina.yaml` metti `attiva: true`, poi `python piattaforma.py cron`, commit e push.
 6. Prova da Actions: `verifica`, poi `audio pijamamania natale`, poi `esegui --prova`.
 
