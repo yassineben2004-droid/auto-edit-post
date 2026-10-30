@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 30/10/2026 21:27
+Aggiornato: 31/10/2026 00:52
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 15 | 3.8 gg | sab 08:15 | - | 0 pubblicati |
+| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 16 | 4.0 gg | sab 08:15 | - | 0 pubblicati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 4 | 0.4 gg | ven 22:30 | 10-30 21:00 ✅ | 28 pubblicati, 2 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 4 | 0.4 gg | sab 08:00 | 10-30 21:00 ✅ | 28 pubblicati, 2 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
