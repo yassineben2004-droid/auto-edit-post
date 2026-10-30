@@ -1,0 +1,6 @@
+# nome_file url  (reel "regalo al papà" Ciabatte Pazze — Higgsfield)
+img0_papa.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202528_7beac80e-ffab-4b32-970c-d9fb16538c27.png
+img1_regalo.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202554_ee3a3d5a-802e-4238-b706-764d7077dfa0.png
+img2_prova.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202556_b4073109-5d2f-4c0c-ba35-f0cce6bb1bf3.png
+img3_cucina.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202558_0a21d15c-bb79-44c2-afa6-e4eeff5e14e0.png
+img4_strada.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261030_202602_46ebf1a1-5adb-44dc-8cd9-f92fc8a2bc51.png
