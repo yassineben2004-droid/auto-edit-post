@@ -574,6 +574,16 @@ jobs:
 
 # ================================================================ servizio
 def verifica():
+    import builtins, io, contextlib
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        _verifica()
+    out = buf.getvalue()
+    print(out)
+    (PAGINE / "_verifica.txt").write_text(f"# verifica — {datetime.now().isoformat(timespec='seconds')}\n" + out, encoding="utf-8")
+
+
+def _verifica():
     g = cfg_generale()
     for nome in elenco_pagine():
         pag = cfg_pagina(nome)

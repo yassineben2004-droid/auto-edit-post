@@ -1,7 +1,7 @@
 # Pagina: Ciabatte Pazze
 nome: "Ciabatte Pazze"
-attiva: false                     # metti true quando ID e token sono pronti
-ig_user_id: "DA_INSERIRE"         # ID numerico dell'account Instagram
+attiva: true
+ig_user_id: "17841414476658494"         # @ciabattepazze.it
 token_env: TOKEN_META_STORE        # token del portafoglio Business del profilo personale (tutti gli store tranne PijamaMania)
 anche_nel_feed: true
 elimina_dopo: true                # cancella il video dopo averlo pubblicato
