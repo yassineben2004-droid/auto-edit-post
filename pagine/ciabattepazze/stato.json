@@ -33,12 +33,24 @@
       "audio_id": null,
       "audio_file": "Dezk9XiP4Nf.m4a",
       "ora": "2026-10-31T19:34+01:00"
+    },
+    "2026-10-31 21:00": {
+      "esito": "pubblicato",
+      "id": "ciabattepazze-00004",
+      "file": "ciabattepazze-00004.mp4",
+      "media_id": "18109419533249338",
+      "link": "https://www.instagram.com/reel/DfK-OB7EpgL/",
+      "audio": "inserito: DeWAYKMIsHe.m4a",
+      "audio_id": null,
+      "audio_file": "DeWAYKMIsHe.m4a",
+      "ora": "2026-10-31T21:04+01:00"
     }
   },
   "usati": [
     "ciabattepazze-00001",
     "ciabattepazze-00002",
-    "ciabattepazze-00003"
+    "ciabattepazze-00003",
+    "ciabattepazze-00004"
   ],
   "scartati": {},
   "errori": {},

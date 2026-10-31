@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 31/10/2026 20:32
+Aggiornato: 31/10/2026 21:04
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 14 | 3.5 gg | sab 21:00 | 10-31 18:30 ✅ | 3 pubblicati |
+| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 13 | 3.2 gg | dom 08:15 | 10-31 21:00 ✅ | 4 pubblicati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | sab 21:00 | 10-31 19:30 ⚠ coda_vuota | 32 pubblicati, 7 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | sab 22:30 | 10-31 21:00 ⚠ coda_vuota | 32 pubblicati, 8 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -15,6 +15,7 @@ Aggiornato: 31/10/2026 20:32
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-10-31 21:00 | Ciabatte Pazze | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DfK-OB7EpgL/ |
 | 2026-10-31 18:30 | Ciabatte Pazze | inserito: Dezk9XiP4Nf.m4a | https://www.instagram.com/reel/DfKz3qZgZtT/ |
 | 2026-10-31 13:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfKHWzeiaH3/ |
 | 2026-10-31 12:45 | Ciabatte Pazze | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfKFacziTAk/ |
@@ -34,4 +35,3 @@ Aggiornato: 31/10/2026 20:32
 | 2026-10-29 22:30 | PijamaMania | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfF-9OyibSt/ |
 | 2026-10-29 21:00 | PijamaMania | inserito: Dezk9XiP4Nf.m4a | https://www.instagram.com/reel/DfF04ukCjCm/ |
 | 2026-10-29 19:30 | PijamaMania | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DfFqZo9kdT5/ |
-| 2026-10-29 18:00 | PijamaMania | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DfFgLdTiUgG/ |
