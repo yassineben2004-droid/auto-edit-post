@@ -319,6 +319,17 @@
     "2026-10-30 22:30": {
       "esito": "mancato",
       "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-10-31 08:00": {
+      "esito": "pubblicato",
+      "id": "pijamamania-00029",
+      "file": "pijamamania-00029.mp4",
+      "media_id": "18138372928636529",
+      "link": "https://www.instagram.com/reel/DfJlHW1DXph/",
+      "audio": "inserito: DeZxXLPiEUV.m4a",
+      "audio_id": null,
+      "audio_file": "DeZxXLPiEUV.m4a",
+      "ora": "2026-10-31T08:05+01:00"
     }
   },
   "usati": [
@@ -349,7 +360,8 @@
     "pijamamania-00025",
     "pijamamania-00026",
     "pijamamania-00027",
-    "pijamamania-00028"
+    "pijamamania-00028",
+    "pijamamania-00029"
   ],
   "scartati": {},
   "errori": {},
