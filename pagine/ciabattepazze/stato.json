@@ -1,7 +1,21 @@
 {
   "dal": "2026-10-30T21:04+01:00",
-  "turni": {},
-  "usati": [],
+  "turni": {
+    "2026-10-31 08:15": {
+      "esito": "pubblicato",
+      "id": "ciabattepazze-00001",
+      "file": "ciabattepazze-00001.mp4",
+      "media_id": "18427461319150431",
+      "link": "https://www.instagram.com/reel/DfJw9y9E_x4/",
+      "audio": "inserito: De2eB4GxCRg.m4a",
+      "audio_id": null,
+      "audio_file": "De2eB4GxCRg.m4a",
+      "ora": "2026-10-31T09:49+01:00"
+    }
+  },
+  "usati": [
+    "ciabattepazze-00001"
+  ],
   "scartati": {},
   "errori": {},
   "audio_usati": []
