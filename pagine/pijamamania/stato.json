@@ -363,6 +363,9 @@
       "audio_id": null,
       "audio_file": "VIRALE_squalo_3M6.mp3",
       "ora": "2026-10-31T13:05+01:00"
+    },
+    "2026-10-31 14:45": {
+      "esito": "coda_vuota"
     }
   },
   "usati": [
