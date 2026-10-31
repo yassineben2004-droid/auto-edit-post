@@ -5,3 +5,4 @@ img3_casa.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4K
 img3b_casa.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_124657_a2412ee2-22c8-49b2-827e-d29ccae5953d.png
 v1_corsia.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115706_41f94b94-6756-464e-a26e-10c07fb1abdb.mp4
 v2_scaffale.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115710_17ced0c0-7f94-4183-9a69-b53db538ac01.mp4
+v3_casa.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_124857_cbf27d20-133d-4072-b1dc-5aedb0ab62cd.mp4
