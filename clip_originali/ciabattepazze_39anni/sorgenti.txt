@@ -1,0 +1,4 @@
+# nome_file url  (reel "hai 39 anni" Ciabatte Pazze — Higgsfield)
+img1_corsia.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115459_9eeb37ae-6506-4ed4-809b-65ddfe394588.png
+img2_scaffale.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115527_fe69099e-6872-4bde-adb9-789e63b41277.png
+img3_casa.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115531_b5ae9960-3a98-448b-b54c-d5f9f6910fa0.png
