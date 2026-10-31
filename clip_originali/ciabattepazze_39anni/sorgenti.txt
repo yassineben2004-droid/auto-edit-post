@@ -2,3 +2,6 @@
 img1_corsia.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115459_9eeb37ae-6506-4ed4-809b-65ddfe394588.png
 img2_scaffale.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115527_fe69099e-6872-4bde-adb9-789e63b41277.png
 img3_casa.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115531_b5ae9960-3a98-448b-b54c-d5f9f6910fa0.png
+img3b_casa.png https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_124657_a2412ee2-22c8-49b2-827e-d29ccae5953d.png
+v1_corsia.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115706_41f94b94-6756-464e-a26e-10c07fb1abdb.mp4
+v2_scaffale.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261031_115710_17ced0c0-7f94-4183-9a69-b53db538ac01.mp4
