@@ -7,13 +7,22 @@ Uso:  python monta.py lucedifede            (monta tutti i reel)
 Ricetta (in ricette.yaml):
   - nome: lf01_cade_scaletta
     testo: "Hook in alto per tutto il video 😭"      # bianco grassetto con bordo nero, senza banda
-    posizione: alto                                  # alto | centro | basso (metterlo sopra le parti sgranate)
+    posizione: alto                                  # alto | centro | basso | 0.58 (metterlo sopra le parti sgranate)
     cta: "Commenta AMEN se la vuoi 🙏"                # opzionale, ultimi cta_secondi, sotto l'hook
     pezzi:                                           # clip  inizio  fine  [velocità]
       - h1_lei_cade_scaletta 0 4.06
       - s2_buio_accensione 1.2 3.04 1.0
+    stile: tiktok                                    # tiktok (default) | classico
 Esce in clip_montate/<pagina>/<nome>.mp4, 1080x1920 30fps, senza audio (l'audio lo mette `metti-audio`).
+
+Testo "tiktok": font TikTok Sans SemiBold (quello del testo nativo dell'app, open source OFL, in fonts/),
+bianco con bordino scuro sottile e ombra morbida. Emoji iOS: si usano solo se c'è il font Apple Color Emoji,
+cioè quando si monta su un Mac (workflow GitHub "Monta reel" su runner macOS). Su Linux ripiega sulle emoji
+Google e lo scrive; con EMOJI_IOS=obbligatorie invece si ferma.
+
+Uso extra:  python monta.py <pagina> --solo-nuovi   (monta solo i reel che non esistono ancora in clip_montate)
 """
+import os
 import re
 import subprocess
 import sys
@@ -22,13 +31,45 @@ import unicodedata
 from pathlib import Path
 
 import yaml
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 BASE = Path(__file__).resolve().parent
 W, H, FPS = 1080, 1920, 30
-FONT_TESTO = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
-FONT_EMOJI = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"  # bitmap a 109 px
+FFMPEG = os.environ.get("FFMPEG", "ffmpeg")
+FONT_TIKTOK = BASE / "fonts" / "TikTokSans-SemiBold.ttf"
+FONT_CLASSICO = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
+EMOJI_APPLE = ["/System/Library/Fonts/Apple Color Emoji.ttc"]
+EMOJI_GOOGLE = ["/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf",
+                "/usr/share/fonts/noto/NotoColorEmoji.ttf"]
 Y_POS = {"alto": 0.115, "centro": 0.42, "basso": 0.70}
+
+
+def _font_emoji():
+    """(font, nome) per le emoji: Apple (iOS) se c'è, altrimenti Google. Le bitmap hanno taglie fisse."""
+    for p in EMOJI_APPLE:
+        if Path(p).exists():
+            for size in (160, 96, 64):
+                try:
+                    return ImageFont.truetype(p, size), "ios"
+                except OSError:
+                    pass
+    if os.environ.get("EMOJI_IOS") == "obbligatorie":
+        sys.exit("Emoji iOS richieste ma il font Apple Color Emoji non c'è: monta su macOS (workflow 'Monta reel').")
+    for p in EMOJI_GOOGLE:
+        if Path(p).exists():
+            print("⚠ emoji Google (non iOS): per le emoji iOS monta con il workflow 'Monta reel' su macOS")
+            return ImageFont.truetype(p, 109), "google"
+    sys.exit("nessun font emoji trovato")
+
+
+_EMOJI = None
+
+
+def font_emoji():
+    global _EMOJI
+    if _EMOJI is None:
+        _EMOJI = _font_emoji()
+    return _EMOJI
 
 
 # ------------------------------------------------------------------ testo con emoji a colori
@@ -62,15 +103,22 @@ def _cluster_emoji(s):
 
 
 class Scrittore:
-    def __init__(self, px):
+    def __init__(self, px, stile="tiktok"):
         self.px = px
-        self.f = ImageFont.truetype(FONT_TESTO, px)
-        self.fe = ImageFont.truetype(FONT_EMOJI, 109)
-        self.bordo = max(4, px // 11)
-        self.em_px = int(px * 1.12)
+        self.stile = stile
+        if stile == "tiktok":
+            self.f = ImageFont.truetype(str(FONT_TIKTOK), px)
+            self.bordo = max(2, px // 26)          # bordino sottile come il testo nativo
+            self.interlinea = 1.10
+        else:
+            self.f = ImageFont.truetype(FONT_CLASSICO, px)
+            self.bordo = max(4, px // 11)
+            self.interlinea = 1.22
+        self.fe = font_emoji()[0]
+        self.em_px = int(px * (1.05 if stile == "tiktok" else 1.12))
 
     def _emoji_img(self, g):
-        im = Image.new("RGBA", (160, 160), (0, 0, 0, 0))
+        im = Image.new("RGBA", (200, 200), (0, 0, 0, 0))
         ImageDraw.Draw(im).text((0, 0), g, font=self.fe, embedded_color=True)
         bb = im.getbbox() or (0, 0, 1, 1)
         im = im.crop(bb)
@@ -101,30 +149,52 @@ class Scrittore:
         return righe
 
     def disegna(self, img, testo, y_top, max_w=W - 120):
-        d = ImageDraw.Draw(img)
-        alt = int(self.px * 1.22)
-        for i, riga in enumerate(self.a_capo(testo, max_w)):
+        alt = int(self.px * self.interlinea)
+        testo_lay = Image.new("RGBA", img.size, (0, 0, 0, 0))
+        ombra = Image.new("RGBA", img.size, (0, 0, 0, 0))
+        d, do = ImageDraw.Draw(testo_lay), ImageDraw.Draw(ombra)
+        emoji = []
+        righe = self.a_capo(testo, max_w)
+        for i, riga in enumerate(righe):
             x = (W - self.larghezza(riga)) / 2
             y = y_top + i * alt
             for t, em in _gruppi(riga):
                 if em:
                     for g in _cluster_emoji(t):
                         e = self._emoji_img(g)
-                        img.alpha_composite(e, (int(x), int(y + (self.px - e.height) / 2 + self.px * 0.08)))
+                        emoji.append((e, (int(x), int(y + (self.px - e.height) / 2 + self.px * 0.10))))
                         x += e.width + 4
+                elif self.stile == "tiktok":
+                    # ombra morbida sotto + bordino scuro sottile, come il testo "Classic" di TikTok
+                    do.text((x, y), t, font=self.f, fill=(0, 0, 0, 150),
+                            stroke_width=self.bordo + 2, stroke_fill=(0, 0, 0, 150))
+                    d.text((x, y), t, font=self.f, fill="white", stroke_width=self.bordo, stroke_fill=(0, 0, 0, 215))
+                    x += self.f.getlength(t)
                 else:
                     d.text((x, y), t, font=self.f, fill="white", stroke_width=self.bordo, stroke_fill="black")
                     x += self.f.getlength(t)
-        return y_top + len(self.a_capo(testo, max_w)) * alt
+        if self.stile == "tiktok":
+            img.alpha_composite(ombra.filter(ImageFilter.GaussianBlur(self.px / 28)))
+        img.alpha_composite(testo_lay)
+        for e, pos in emoji:
+            img.alpha_composite(e, pos)
+        return y_top + len(righe) * alt
 
 
-def png_testo(testo, posizione, dest, cta=None, px=66):
+def png_testo(testo, posizione, dest, cta=None, px=None, stile="tiktok"):
+    if px is None:
+        px = 72 if stile == "tiktok" else 66
+    max_w = W - 110 if stile == "tiktok" else W - 120
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    s = Scrittore(px)
-    y = int(H * Y_POS.get(posizione, Y_POS["alto"]))
-    fine = s.disegna(img, testo, y) if testo else y
+    s = Scrittore(px, stile)
+    try:
+        frac = float(posizione)            # posizione anche come numero: 0.58 = 58% dall'alto
+    except (TypeError, ValueError):
+        frac = Y_POS.get(posizione, Y_POS["alto"])
+    y = int(H * frac)
+    fine = s.disegna(img, testo, y, max_w) if testo else y
     if cta:
-        Scrittore(int(px * 0.9)).disegna(img, cta, fine + int(px * 0.5))
+        Scrittore(int(px * 0.9), stile).disegna(img, cta, fine + int(px * 0.5), max_w)
     img.save(dest)
 
 
@@ -143,7 +213,7 @@ def monta(pagina, r, tmp):
     cta_s = float(r.get("cta_secondi", 2.5))
     pos = r.get("posizione", "alto")
 
-    args, fc = ["ffmpeg", "-nostdin", "-v", "error", "-y"], []
+    args, fc = [FFMPEG, "-nostdin", "-v", "error", "-y"], []
     for i, (clip, a, b, v) in enumerate(pezzi):
         f = src_dir / f"{clip}.mp4"
         if not f.exists():
@@ -154,18 +224,23 @@ def monta(pagina, r, tmp):
     n = len(pezzi)
     fc.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[base]")
 
-    # testo: solo hook fino all'ultima parte, poi hook + CTA
+    # testo: solo hook fino all'ultima parte, poi hook + CTA.
+    # Con cta_posizione la CTA SOSTITUISCE l'hook (come nei virali) e va a quell'altezza.
     ultimo = "base"
     k = n
     finestre = []
+    cta_pos = r.get("cta_posizione")
     if r.get("cta"):
         t_cta = max(durata - cta_s, 0)
-        finestre = [(r.get("testo"), None, 0, t_cta), (r.get("testo"), r["cta"], t_cta, durata + 1)]
+        if cta_pos is not None:
+            finestre = [(r.get("testo"), None, pos, 0, t_cta), (r["cta"], None, cta_pos, t_cta, durata + 1)]
+        else:
+            finestre = [(r.get("testo"), None, pos, 0, t_cta), (r.get("testo"), r["cta"], pos, t_cta, durata + 1)]
     elif r.get("testo"):
-        finestre = [(r["testo"], None, 0, durata + 1)]
-    for j, (testo, cta, t0, t1) in enumerate(finestre):
+        finestre = [(r["testo"], None, pos, 0, durata + 1)]
+    for j, (testo, cta, posiz, t0, t1) in enumerate(finestre):
         png = Path(tmp) / f"{r['nome']}_{j}.png"
-        png_testo(testo, pos, png, cta)
+        png_testo(testo, posiz, png, cta, stile=r.get("stile", "tiktok"))
         args += ["-i", str(png)]
         fc.append(f"[{ultimo}][{k}:v]overlay=0:0:enable='between(t,{t0:.3f},{t1:.3f})'[o{j}]")
         ultimo, k = f"o{j}", k + 1
@@ -181,12 +256,17 @@ def monta(pagina, r, tmp):
 def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
-    pagina, filtri = sys.argv[1], sys.argv[2:]
+    pagina = sys.argv[1]
+    solo_nuovi = "--solo-nuovi" in sys.argv[2:]
+    filtri = [a for a in sys.argv[2:] if not a.startswith("--")]
     ricette = yaml.safe_load((BASE / "pagine" / pagina / "ricette.yaml").read_text(encoding="utf-8"))
     with tempfile.TemporaryDirectory() as tmp:
         for r in ricette["reel"]:
-            if not filtri or any(r["nome"].startswith(f) for f in filtri):
-                monta(pagina, r, tmp)
+            if filtri and not any(r["nome"].startswith(f) for f in filtri):
+                continue
+            if solo_nuovi and (BASE / "clip_montate" / pagina / f"{r['nome']}.mp4").exists():
+                continue
+            monta(pagina, r, tmp)
 
 
 if __name__ == "__main__":

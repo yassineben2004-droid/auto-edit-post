@@ -1,0 +1,53 @@
+name: Monta reel
+# Monta i reel su un Mac, così il testo ha le emoji iOS vere (font Apple Color Emoji del sistema)
+# e il font TikTok Sans di fonts/.
+# - push di pagine/<pagina>/ricette.yaml  → monta solo i reel nuovi delle pagine cambiate
+# - Run workflow con "<pagina> [inizio_nome ...]" → rimonta quei reel (anche se esistono già)
+on:
+  push:
+    paths: ["pagine/*/ricette.yaml"]
+  workflow_dispatch:
+    inputs:
+      comando:
+        description: "<pagina> [inizio nome reel ...]   es: capybounce cb01"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monta
+  cancel-in-progress: false
+
+jobs:
+  monta:
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q PyYAML Pillow imageio-ffmpeg
+      - name: Monta
+        env:
+          EMOJI_IOS: obbligatorie
+          COMANDO: ${{ github.event.inputs.comando }}
+        run: |
+          export FFMPEG="$(python -c 'import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())')"
+          if [ -n "$COMANDO" ]; then
+            python monta.py $COMANDO
+          else
+            for p in $(git diff --name-only HEAD~1 HEAD -- 'pagine/*/ricette.yaml' | cut -d/ -f2 | sort -u); do
+              python monta.py "$p" --solo-nuovi
+            done
+          fi
+      - name: Salva
+        if: always()
+        run: |
+          git config user.name "auto-edit-post"
+          git config user.email "auto-edit-post@users.noreply.github.com"
+          git add -A clip_montate
+          git diff --cached --quiet || (git commit -m "reel montati $(date -u +%F' '%H:%M)" && git pull --rebase && git push)

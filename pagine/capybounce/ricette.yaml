@@ -1,0 +1,66 @@
+# Ricette dei reel CapyBounce — si montano su Mac con il workflow "Monta reel" (emoji iOS)
+# Stesso video (struttura del virale Pogo Glow), split test solo sul text hook.
+# Clip in clip_originali/capybounce/:
+#   k1_cucina_tablet   mamma toglie i tablet (dopo 2.6s artefatto: non usare)
+#   k2_cucina_scatola  mamma mostra la scatola, i bimbi si girano
+#   u1_unboxing_albero tirano fuori i pogo davanti all'albero
+#   d1_salti_buio      salti al buio, LED (facce un po' mosse)
+#   f1_primo_piano_led piedi sulla pedana LED
+# Hook a 0.56 (non in cima): in cucina sta sui tablet. Negli ultimi 6s la CTA sostituisce l'hook
+# e va a 0.20, sopra le facce mosse della scena al buio (d1).
+reel:
+  - nome: cb00_clean
+    pezzi: &base
+      - k1_cucina_tablet 0 2.6
+      - k2_cucina_scatola 0 3.04
+      - u1_unboxing_albero 0 3.04
+      - d1_salti_buio 0 3.04
+      - f1_primo_piano_led 0 3.04
+
+  - nome: cb01_hook_virale
+    testo: '"The PERFECT gift for iPad kids doesn''t exi-..." 🤩'
+    posizione: 0.56
+    cta: "Comment \"CAPY\"\nif you want one 😍"
+    cta_posizione: 0.20
+    cta_secondi: 6.1
+    pezzi: *base
+
+  - nome: cb02_hook_tablet_tolti
+    testo: "Took the iPads away for Christmas… they didn't even notice 😭"
+    posizione: 0.56
+    cta: "Comment \"CAPY\"\nif you want one 😍"
+    cta_posizione: 0.20
+    cta_secondi: 6.1
+    pezzi: *base
+
+  - nome: cb03_hook_prezzo
+    testo: "Best $45 I spent this Christmas 🎁"
+    posizione: 0.56
+    cta: "Comment \"CAPY\"\nif you want one 😍"
+    cta_posizione: 0.20
+    cta_secondi: 6.1
+    pezzi: *base
+
+  - nome: cb04_hook_risultato
+    testo: "My kids haven't touched the iPad since this arrived 🙌"
+    posizione: 0.56
+    cta: "Comment \"CAPY\"\nif you want one 😍"
+    cta_posizione: 0.20
+    cta_secondi: 6.1
+    pezzi: *base
+
+  - nome: cb05_hook_wow
+    testo: "It's a capybara… and it LIGHTS UP 🌈"
+    posizione: 0.56
+    cta: "Comment \"CAPY\"\nif you want one 😍"
+    cta_posizione: 0.20
+    cta_secondi: 6.1
+    pezzi: *base
+
+  - nome: cb06_hook_regalo
+    testo: "Gift idea for kids 5-12 that isn't a screen 🎁"
+    posizione: 0.56
+    cta: "Comment \"CAPY\"\nif you want one 😍"
+    cta_posizione: 0.20
+    cta_secondi: 6.1
+    pezzi: *base

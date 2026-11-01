@@ -65,3 +65,13 @@ Dopo una modifica: `python piattaforma.py cron` (rigenera gli avvii di GitHub, g
 Su GitHub gratuito (repository privato) ci sono circa 2.000 minuti al mese: ogni avvio ne consuma almeno 1.
 Con molte pagine e orari diversi conviene un piccolo server sempre acceso (pochi euro al mese):
 stesso codice, si lancia `python piattaforma.py esegui` ogni 5 minuti con cron.
+
+## Testo stile TikTok + emoji iOS (monta.py)
+- Il testo dei reel usa **TikTok Sans SemiBold** (il font del testo nativo di TikTok, open source, in `fonts/`):
+  bianco, bordino scuro sottile e ombra morbida. Per il vecchio stile: `stile: classico` nella ricetta.
+- Le **emoji iOS** ci sono solo montando su Mac: workflow **Monta reel** (runner macOS, font Apple Color Emoji del sistema).
+  Parte da solo quando cambia un `pagine/<pagina>/ricette.yaml` (monta solo i reel nuovi) oppure
+  Actions → Monta reel → Run workflow → `capybounce cb01` per rimontare.
+- In ricetta: `posizione` accetta anche un numero (0.56 = 56% dall'alto); `cta_posizione: 0.20` fa sì che la CTA
+  **sostituisca** l'hook negli ultimi `cta_secondi` e vada a quell'altezza (sopra le parti sgranate).
+- Su Linux (montaggio locale) le emoji sono quelle Google: vanno bene solo come anteprima.
