@@ -68,7 +68,12 @@ stesso codice, si lancia `python piattaforma.py esegui` ogni 5 minuti con cron.
 
 ## Testo stile TikTok + emoji iOS (monta.py)
 - Il testo dei reel usa **TikTok Sans SemiBold** (il font del testo nativo di TikTok, open source, in `fonts/`):
-  bianco, bordino scuro sottile e ombra morbida. Per il vecchio stile: `stile: classico` nella ricetta.
+  bianco, bordino scuro sottile e ombra morbida.
+- **Rotazione 70/30** su tutti i reel con testo: 7 su 10 in TikTok Sans **SemiBold** (`tiktok`, il predefinito),
+  3 su 10 in TikTok Sans **Regular**, non grassetto (`tiktok_regular`, in test). Lo stile di ogni reel finisce in
+  `clip_montate/<pagina>/stili.csv`, così negli insights si confrontano i due stili.
+  Per forzarne uno: `stile: tiktok` / `stile: tiktok_regular` / `stile: classico` (vecchio stile) nella ricetta.
+- Un'emoji non va mai a capo da sola: resta attaccata all'ultima parola.
 - Le **emoji iOS** ci sono solo montando su Mac: workflow **Monta reel** (runner macOS, font Apple Color Emoji del sistema).
   Parte da solo quando cambia un `pagine/<pagina>/ricette.yaml` (monta solo i reel nuovi) oppure
   Actions → Monta reel → Run workflow → `capybounce cb01` per rimontare.

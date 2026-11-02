@@ -8,6 +8,7 @@
 #   f1_primo_piano_led piedi sulla pedana LED
 # Hook a 0.56 (non in cima): in cucina sta sui tablet. Negli ultimi 6s la CTA sostituisce l'hook
 # e va a 0.20, sopra le facce mosse della scena al buio (d1).
+# Stile testo a rotazione 70/30 (vedi clip_montate/capybounce/stili.csv): cb03 e cb06 in TikTok Sans Regular.
 reel:
   - nome: cb00_clean
     pezzi: &base

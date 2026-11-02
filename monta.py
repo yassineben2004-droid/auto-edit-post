@@ -12,7 +12,7 @@ Ricetta (in ricette.yaml):
     pezzi:                                           # clip  inizio  fine  [velocità]
       - h1_lei_cade_scaletta 0 4.06
       - s2_buio_accensione 1.2 3.04 1.0
-    stile: tiktok                                    # tiktok (default) | classico
+    stile: tiktok                                    # facoltativo: tiktok | tiktok_regular | classico (se manca: rotazione 70/30)
 Esce in clip_montate/<pagina>/<nome>.mp4, 1080x1920 30fps, senza audio (l'audio lo mette `metti-audio`).
 
 Testo "tiktok": font TikTok Sans SemiBold (quello del testo nativo dell'app, open source OFL, in fonts/),
@@ -36,7 +36,10 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 BASE = Path(__file__).resolve().parent
 W, H, FPS = 1080, 1920, 30
 FFMPEG = os.environ.get("FFMPEG", "ffmpeg")
-FONT_TIKTOK = BASE / "fonts" / "TikTokSans-SemiBold.ttf"
+FONT_TIKTOK = {"tiktok": BASE / "fonts" / "TikTokSans-SemiBold.ttf",          # predefinito (~70%)
+               "tiktok_regular": BASE / "fonts" / "TikTokSans-Regular.ttf"}   # test non grassetto (~30%)
+# Rotazione stili per i reel con testo che non scelgono `stile`: su ogni 10, 3 in regular (posizioni 2, 5, 8)
+ROTAZIONE_REGULAR = {2, 5, 8}
 FONT_CLASSICO = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
 EMOJI_APPLE = ["/System/Library/Fonts/Apple Color Emoji.ttc"]
 EMOJI_GOOGLE = ["/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf",
@@ -106,8 +109,8 @@ class Scrittore:
     def __init__(self, px, stile="tiktok"):
         self.px = px
         self.stile = stile
-        if stile == "tiktok":
-            self.f = ImageFont.truetype(str(FONT_TIKTOK), px)
+        if stile in FONT_TIKTOK:
+            self.f = ImageFont.truetype(str(FONT_TIKTOK[stile]), px)
             self.bordo = max(2, px // 26)          # bordino sottile come il testo nativo
             self.interlinea = 1.10
         else:
@@ -115,7 +118,7 @@ class Scrittore:
             self.bordo = max(4, px // 11)
             self.interlinea = 1.22
         self.fe = font_emoji()[0]
-        self.em_px = int(px * (1.05 if stile == "tiktok" else 1.12))
+        self.em_px = int(px * (1.05 if stile in FONT_TIKTOK else 1.12))
 
     def _emoji_img(self, g):
         im = Image.new("RGBA", (200, 200), (0, 0, 0, 0))
@@ -138,7 +141,14 @@ class Scrittore:
         righe = []
         for par in testo.split("\n"):
             cur = ""
+            parole = []
             for parola in par.split(" "):
+                # un'emoji da sola non va mai a capo: resta attaccata alla parola prima
+                if parole and parola and all(em for _, em in _gruppi(parola)):
+                    parole[-1] += " " + parola
+                else:
+                    parole.append(parola)
+            for parola in parole:
                 prova = (cur + " " + parola).strip()
                 if cur and self.larghezza(prova) > max_w:
                     righe.append(cur)
@@ -164,7 +174,7 @@ class Scrittore:
                         e = self._emoji_img(g)
                         emoji.append((e, (int(x), int(y + (self.px - e.height) / 2 + self.px * 0.10))))
                         x += e.width + 4
-                elif self.stile == "tiktok":
+                elif self.stile in FONT_TIKTOK:
                     # ombra morbida sotto + bordino scuro sottile, come il testo "Classic" di TikTok
                     do.text((x, y), t, font=self.f, fill=(0, 0, 0, 150),
                             stroke_width=self.bordo + 2, stroke_fill=(0, 0, 0, 150))
@@ -173,7 +183,7 @@ class Scrittore:
                 else:
                     d.text((x, y), t, font=self.f, fill="white", stroke_width=self.bordo, stroke_fill="black")
                     x += self.f.getlength(t)
-        if self.stile == "tiktok":
+        if self.stile in FONT_TIKTOK:
             img.alpha_composite(ombra.filter(ImageFilter.GaussianBlur(self.px / 28)))
         img.alpha_composite(testo_lay)
         for e, pos in emoji:
@@ -183,8 +193,8 @@ class Scrittore:
 
 def png_testo(testo, posizione, dest, cta=None, px=None, stile="tiktok"):
     if px is None:
-        px = 72 if stile == "tiktok" else 66
-    max_w = W - 110 if stile == "tiktok" else W - 120
+        px = 72 if stile in FONT_TIKTOK else 66
+    max_w = W - 110 if stile in FONT_TIKTOK else W - 120
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     s = Scrittore(px, stile)
     try:
@@ -240,7 +250,7 @@ def monta(pagina, r, tmp):
         finestre = [(r["testo"], None, pos, 0, durata + 1)]
     for j, (testo, cta, posiz, t0, t1) in enumerate(finestre):
         png = Path(tmp) / f"{r['nome']}_{j}.png"
-        png_testo(testo, posiz, png, cta, stile=r.get("stile", "tiktok"))
+        png_testo(testo, posiz, png, cta, stile=r["stile"])
         args += ["-i", str(png)]
         fc.append(f"[{ultimo}][{k}:v]overlay=0:0:enable='between(t,{t0:.3f},{t1:.3f})'[o{j}]")
         ultimo, k = f"o{j}", k + 1
@@ -260,6 +270,7 @@ def main():
     solo_nuovi = "--solo-nuovi" in sys.argv[2:]
     filtri = [a for a in sys.argv[2:] if not a.startswith("--")]
     ricette = yaml.safe_load((BASE / "pagine" / pagina / "ricette.yaml").read_text(encoding="utf-8"))
+    assegna_stili(ricette["reel"])
     with tempfile.TemporaryDirectory() as tmp:
         for r in ricette["reel"]:
             if filtri and not any(r["nome"].startswith(f) for f in filtri):
@@ -267,6 +278,28 @@ def main():
             if solo_nuovi and (BASE / "clip_montate" / pagina / f"{r['nome']}.mp4").exists():
                 continue
             monta(pagina, r, tmp)
+            registra_stile(pagina, r)
+
+
+def assegna_stili(reel):
+    """Stile a rotazione per i reel con testo senza `stile` esplicito: 70% tiktok (semibold), 30% tiktok_regular.
+    Dipende solo dall'ordine nella ricetta, quindi rimontando lo stesso reel lo stile non cambia."""
+    i = 0
+    for r in reel:
+        if not (r.get("testo") or r.get("cta")):
+            r.setdefault("stile", "tiktok")
+            continue
+        if "stile" not in r:
+            r["stile"] = "tiktok_regular" if i % 10 in ROTAZIONE_REGULAR else "tiktok"
+        i += 1
+
+
+def registra_stile(pagina, r):
+    """clip_montate/<pagina>/stili.csv: nome reel → stile del testo (per confrontare gli insights)."""
+    p = BASE / "clip_montate" / pagina / "stili.csv"
+    righe = dict(l.split(",", 1) for l in p.read_text(encoding="utf-8").splitlines()[1:] if "," in l) if p.exists() else {}
+    righe[r["nome"]] = "clean" if not (r.get("testo") or r.get("cta")) else r["stile"]
+    p.write_text("reel,stile\n" + "".join(f"{k},{v}\n" for k, v in sorted(righe.items())), encoding="utf-8")
 
 
 if __name__ == "__main__":
