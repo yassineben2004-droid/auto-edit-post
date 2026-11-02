@@ -99,6 +99,17 @@
       "audio_id": null,
       "audio_file": "DelynysP4YQ.m4a",
       "ora": "2026-11-02T09:50+01:00"
+    },
+    "2026-11-02 12:45": {
+      "esito": "pubblicato",
+      "id": "ciabattepazze-00010",
+      "file": "ciabattepazze-00010.mp4",
+      "media_id": "17961443343255806",
+      "link": "https://www.instagram.com/reel/DfPQ7d4EfVl/",
+      "audio": "inserito: DelhYk8vORs.m4a",
+      "audio_id": null,
+      "audio_file": "DelhYk8vORs.m4a",
+      "ora": "2026-11-02T13:04+01:00"
     }
   },
   "usati": [
@@ -110,7 +121,8 @@
     "ciabattepazze-00006",
     "ciabattepazze-00007",
     "ciabattepazze-00008",
-    "ciabattepazze-00009"
+    "ciabattepazze-00009",
+    "ciabattepazze-00010"
   ],
   "scartati": {},
   "errori": {},
