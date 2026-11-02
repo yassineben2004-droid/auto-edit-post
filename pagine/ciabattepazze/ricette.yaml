@@ -208,3 +208,88 @@ reel:
       - m3_navata_nonno 0 3.0
       - ../ciabattepazze_regalo/v4_strada 0 3.0
       - p4_cuginetto 0 3.0
+
+  # ---- clip nuove novembre (../ciabattepazze_nov): n1_unboxing n2_squishy n3_cane  (n4_mercatino scartata: ciabatte come piedi nudi)
+  # Split test sul text hook: cp38-cp40 stesso montaggio, hook diversi; cp41-42 e cp43-44 idem.
+  # Posizione scelta per clip: unboxing 0.75 (sotto la scatola), squishy 0.58 (sopra le dita), cane 0.40 (tra cane e ciabatte).
+  - nome: cp38_regalo_stupido
+    testo: "Mi è arrivato il regalo più stupido di sempre 📦😭"
+    posizione: 0.75
+    cta: "E ora lo metto ovunque 🦶😂"
+    cta_posizione: 0.75
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_nov/n1_unboxing 0 3.0
+      - r2_supermercato 0 3.0
+      - m2_zia_cappello 0 3.0
+      - p5_mamma_famiglia 0 3.0
+
+  - nome: cp39_pacco_mamma
+    testo: "Ho aperto il pacco davanti a mia madre 💀"
+    posizione: 0.75
+    cta: "Non mi parla da 3 giorni 😭"
+    cta_posizione: 0.75
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_nov/n1_unboxing 0 3.0
+      - r2_supermercato 0 3.0
+      - m2_zia_cappello 0 3.0
+      - p5_mamma_famiglia 0 3.0
+
+  - nome: cp40_reputazione
+    testo: "Le ciabatte che hanno rovinato la mia reputazione 🦶"
+    posizione: 0.75
+    pezzi:
+      - ../ciabattepazze_nov/n1_unboxing 0 3.0
+      - r2_supermercato 0 3.0
+      - m2_zia_cappello 0 3.0
+      - p5_mamma_famiglia 0 3.0
+
+  - nome: cp41_piedi_veri
+    testo: "Sembrano piedi veri ma sono ciabatte 😳"
+    posizione: 0.58
+    cta: "E le porto pure alle poste 😂"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_nov/n2_squishy 0 3.0
+      - r2_supermercato 0 3.0
+      - r4_posta 0 3.0
+
+  - nome: cp42_piu_realistiche
+    testo: "POV: tocchi le ciabatte più realistiche del mondo 🤯"
+    posizione: 0.58
+    pezzi:
+      - ../ciabattepazze_nov/n2_squishy 0 3.0
+      - r2_supermercato 0 3.0
+      - r4_posta 0 3.0
+
+  - nome: cp43_cane_non_approva
+    testo: "Il mio cane non ha approvato le ciabatte nuove 🐶"
+    posizione: 0.40
+    cta: "Ora abbaia ogni volta che le metto 😭"
+    cta_posizione: 0.40
+    cta_secondi: 3.0
+    pezzi:
+      - r2_supermercato 0 3.0
+      - r3_bar 0 3.0
+      - ../ciabattepazze_nov/n3_cane 0 3.0
+
+  - nome: cp44_anche_il_cane
+    testo: "Anche il cane è sotto shock 😳🐶"
+    posizione: 0.40
+    pezzi:
+      - ../ciabattepazze_nov/n3_cane 0 3.0
+      - r2_supermercato 0 3.0
+      - r4_posta 0 3.0
+
+  - nome: cp45_ordinate_di_notte
+    testo: "Ordinate alle 2 di notte, arrivate oggi 📦🦶"
+    posizione: 0.75
+    cta: "Lui non ha ancora capito 😂"
+    cta_posizione: 0.75
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_nov/n1_unboxing 0 3.0
+      - ../ciabattepazze_39anni/v2_scaffale 0 2.6
+      - ../ciabattepazze_39anni/v3_casa 0 3.0
