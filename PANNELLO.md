@@ -1,15 +1,16 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 02/11/2026 18:29
+Aggiornato: 02/11/2026 18:46
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 27 | 6.8 gg | lun 18:30 | 11-02 12:45 ✅ | 10 pubblicati |
+| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 26 | 6.5 gg | lun 21:00 | 11-02 12:45 ✅ | 10 pubblicati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 | PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | lun 19:30 | 11-02 18:00 ⚠ coda_vuota | 32 pubblicati, 26 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
+- **Ciabatte Pazze** turno 2026-11-02 18:30: HTTP 400: {"debug_info": {"retriable": false, "type": "ProcessingFailedError", "message": "Request processing failed"}}
 - **PijamaMania**: coda quasi finita (0 video ≈ 0.0 giorni)
 
 ## Ultimi post

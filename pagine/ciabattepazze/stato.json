@@ -124,7 +124,18 @@
     "ciabattepazze-00009",
     "ciabattepazze-00010"
   ],
-  "scartati": {},
-  "errori": {},
+  "scartati": {
+    "ciabattepazze-00011": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}"
+  },
+  "errori": {
+    "2026-11-02 18:30": [
+      {
+        "quando": "2026-11-02T18:46+01:00",
+        "video": "ciabattepazze-00011",
+        "errore": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}",
+        "temporaneo": false
+      }
+    ]
+  },
   "audio_usati": []
 }
