@@ -1,0 +1,210 @@
+# Ricette reel Ciabatte Pazze — si montano su Mac con il workflow "Monta reel" (emoji iOS)
+# Clip in clip_originali/ciabattepazze/ (+ ../ciabattepazze_regalo e ../ciabattepazze_39anni):
+#   p1_pov_ingresso p2_nonna_paste p3_zio_vino p4_cuginetto p5_mamma_famiglia   (pranzo domenica)
+#   m1_pov_camera m2_zia_cappello m3_navata_nonno m4_firma_sposi                  (matrimonio)
+#   r1_pov_casa r2_supermercato r3_bar r4_posta                                   (quartiere)
+#   ../ciabattepazze_regalo/v1_regalo v2_prova v3_cucina v4_strada                (papà a Natale)
+#   ../ciabattepazze_39anni/v1_corsia v2_scaffale v3_casa                         (lei al negozio)
+# cp01-cp17 già montati e pubblicati/in coda: qui da cp18 in poi, hook NUOVI (leva: nuovo angolo).
+# Testo a 0.58: a metà-basso (gambe/pavimento in tutte le clip), le ciabatte restano visibili sotto, nessuna banda.
+# Dove c'è `cta`, negli ultimi 3s il punchline SOSTITUISCE l'hook alla stessa altezza.
+reel:
+  - nome: cp18_pov_non_le_tolgo
+    testo: "POV: hai comprato delle ciabatte nuove e non le togli più 😭"
+    posizione: 0.58
+    cta: "Neanche alle poste 🦶😂"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - r1_pov_casa 0 3.0
+      - r2_supermercato 0 3.0
+      - r3_bar 0 3.0
+      - r4_posta 0 3.0
+
+  - nome: cp19_paste_nonna
+    testo: "Volevo solo portare le paste alla nonna 🥲"
+    posizione: 0.58
+    cta: "Ora non mi invitano più 😭"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - p1_pov_ingresso 0 3.0
+      - p2_nonna_paste 0 3.0
+      - p5_mamma_famiglia 0 3.0
+
+  - nome: cp20_cuginetto
+    testo: "Mio cugino di 8 anni ha notato una cosa a pranzo 👀"
+    posizione: 0.58
+    cta: "Lo zio non si è più ripreso 😂"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - p4_cuginetto 0 3.0
+      - p3_zio_vino 0 3.0
+      - p5_mamma_famiglia 0 3.0
+
+  - nome: cp21_vieni_comodo
+    testo: "Lo sposo mi ha detto «vieni comodo» 🤵"
+    posizione: 0.58
+    cta: "Mai più testimone 😭"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - m1_pov_camera 0 3.0
+      - m3_navata_nonno 0 3.0
+      - m2_zia_cappello 0 3.0
+      - m4_firma_sposi 0 3.0
+
+  - nome: cp22_zia_cappello
+    testo: "La zia al matrimonio quando ha visto i miei piedi 😳"
+    posizione: 0.58
+    pezzi:
+      - m3_navata_nonno 0 3.0
+      - m2_zia_cappello 0 3.0
+      - m4_firma_sposi 0 3.0
+
+  - nome: cp23_dress_code
+    testo: "Dress code: elegante.\nIo:"
+    posizione: 0.58
+    cta: "Tecnicamente sono scarpe 🦶"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - m1_pov_camera 0 3.0
+      - m3_navata_nonno 0 3.0
+      - m4_firma_sposi 0 3.0
+
+  - nome: cp24_papa_niente_regali
+    testo: "Mio padre: «quest'anno non regalarmi niente» 🎁"
+    posizione: 0.58
+    cta: "Ora le mette anche per buttare la spazzatura 😂"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_regalo/v1_regalo 0 3.0
+      - ../ciabattepazze_regalo/v2_prova 0 3.0
+      - ../ciabattepazze_regalo/v3_cucina 0 3.0
+      - ../ciabattepazze_regalo/v4_strada 0 3.0
+
+  - nome: cp25_mamma_cucina
+    testo: "Mia madre quando papà è entrato in cucina così 😭"
+    posizione: 0.58
+    pezzi:
+      - ../ciabattepazze_regalo/v2_prova 0 3.0
+      - ../ciabattepazze_regalo/v3_cucina 0 3.0
+      - ../ciabattepazze_regalo/v4_strada 0 3.0
+
+  - nome: cp26_spazzatura
+    testo: "Papà che butta la spazzatura dopo Natale 🗑️"
+    posizione: 0.58
+    cta: "I vicini ancora ne parlano 😂"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_regalo/v4_strada 0 3.0
+      - ../ciabattepazze_regalo/v2_prova 0 3.0
+      - ../ciabattepazze_regalo/v3_cucina 0 3.0
+
+  - nome: cp27_supermercato_lei
+    testo: "Io al negozio quando le ho viste 🤩"
+    posizione: 0.58
+    cta: "Nessun rimpianto 🦶"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_39anni/v1_corsia 0 3.0
+      - ../ciabattepazze_39anni/v2_scaffale 0 3.0
+      - ../ciabattepazze_39anni/v3_casa 0 3.0
+
+  - nome: cp28_adulta_responsabile
+    testo: "Sono un'adulta responsabile 💅"
+    posizione: 0.58
+    pezzi:
+      - ../ciabattepazze_39anni/v1_corsia 0 3.0
+      - ../ciabattepazze_39anni/v2_scaffale 0 3.0
+      - ../ciabattepazze_39anni/v3_casa 0 3.0
+
+  - nome: cp29_amico_ha_tutto
+    testo: "Il regalo per l'amico che ha già tutto 🎁"
+    posizione: 0.58
+    pezzi:
+      - ../ciabattepazze_regalo/v1_regalo 0 3.0
+      - ../ciabattepazze_regalo/v2_prova 0 3.0
+      - r3_bar 0 3.0
+      - r4_posta 0 3.0
+
+  - nome: cp30_amico_segreto
+    testo: "Il regalo per l'amico segreto che farà ridere tutto l'ufficio 😂"
+    posizione: 0.58
+    pezzi:
+      - ../ciabattepazze_regalo/v1_regalo 0 3.0
+      - ../ciabattepazze_regalo/v2_prova 0 3.0
+      - r2_supermercato 0 3.0
+
+  - nome: cp31_bar_ne_parlano
+    testo: "Al bar del paese ancora ne parlano 😂"
+    posizione: 0.58
+    pezzi:
+      - r3_bar 0 3.0
+      - r4_posta 0 3.0
+      - r2_supermercato 0 3.0
+
+  - nome: cp32_fila_poste
+    testo: "Un'ora di fila alle poste e nessuno ha guardato in basso 👀"
+    posizione: 0.58
+    cta: "Quasi nessuno 😭"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - r1_pov_casa 0 3.0
+      - r4_posta 0 3.0
+      - r2_supermercato 0 3.0
+
+  - nome: cp33_piu_realistiche
+    testo: "Le ciabatte più realistiche che esistano 🦶"
+    posizione: 0.58
+    pezzi:
+      - r1_pov_casa 0 3.0
+      - ../ciabattepazze_39anni/v3_casa 0 3.0
+      - m1_pov_camera 0 3.0
+      - p1_pov_ingresso 0 3.0
+
+  - nome: cp34_pranzo_parenti
+    testo: "Pranzo dai parenti: livello di comodità 💯"
+    posizione: 0.58
+    pezzi:
+      - p1_pov_ingresso 0 3.0
+      - p2_nonna_paste 0 3.0
+      - p3_zio_vino 0 3.0
+      - p4_cuginetto 0 3.0
+
+  - nome: cp35_suoceri
+    testo: "Primo pranzo dai suoceri. Ho scelto le scarpe con cura 😌"
+    posizione: 0.58
+    cta: "Non mi hanno più richiamato 😭"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - p1_pov_ingresso 0 3.0
+      - p2_nonna_paste 0 3.0
+      - p5_mamma_famiglia 0 3.0
+
+  - nome: cp36_nessuno_se_ne_accorge
+    testo: "«Tranquillo, nessuno se ne accorgerà» 🤫"
+    posizione: 0.58
+    cta: "Se ne sono accorti tutti 😭"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - r2_supermercato 0 3.0
+      - m2_zia_cappello 0 3.0
+      - p5_mamma_famiglia 0 3.0
+
+  - nome: cp37_tagga_amico
+    testo: "Tagga l'amico che si presenterebbe così 👇"
+    posizione: 0.58
+    pezzi:
+      - r3_bar 0 3.0
+      - m3_navata_nonno 0 3.0
+      - ../ciabattepazze_regalo/v4_strada 0 3.0
+      - p4_cuginetto 0 3.0
