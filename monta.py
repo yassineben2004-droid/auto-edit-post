@@ -12,7 +12,7 @@ Ricetta (in ricette.yaml):
     pezzi:                                           # clip  inizio  fine  [velocità]
       - h1_lei_cade_scaletta 0 4.06
       - s2_buio_accensione 1.2 3.04 1.0
-    stile: tiktok                                    # facoltativo: tiktok | tiktok_regular | classico (se manca: rotazione 70/30)
+    stile: tiktok                                    # facoltativo: tiktok | tiktok_regular | classico (se manca: rotazione 60/40)
 Esce in clip_montate/<pagina>/<nome>.mp4, 1080x1920 30fps, senza audio (l'audio lo mette `metti-audio`).
 
 Testo "tiktok": font TikTok Sans SemiBold (quello del testo nativo dell'app, open source OFL, in fonts/),
@@ -36,10 +36,10 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 BASE = Path(__file__).resolve().parent
 W, H, FPS = 1080, 1920, 30
 FFMPEG = os.environ.get("FFMPEG", "ffmpeg")
-FONT_TIKTOK = {"tiktok": BASE / "fonts" / "TikTokSans-SemiBold.ttf",          # predefinito (~70%)
-               "tiktok_regular": BASE / "fonts" / "TikTokSans-Regular.ttf"}   # test non grassetto (~30%)
-# Rotazione stili per i reel con testo che non scelgono `stile`: su ogni 10, 3 in regular (posizioni 2, 5, 8)
-ROTAZIONE_REGULAR = {2, 5, 8}
+FONT_TIKTOK = {"tiktok": BASE / "fonts" / "TikTokSans-SemiBold.ttf",          # predefinito (~60%)
+               "tiktok_regular": BASE / "fonts" / "TikTokSans-Regular.ttf"}   # test non grassetto (~40%)
+# Rotazione stili per i reel con testo che non scelgono `stile`: su ogni 10, 4 in regular (posizioni 1, 3, 6, 8)
+ROTAZIONE_REGULAR = {1, 3, 6, 8}
 FONT_CLASSICO = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
 EMOJI_APPLE = ["/System/Library/Fonts/Apple Color Emoji.ttc"]
 EMOJI_GOOGLE = ["/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf",
@@ -282,7 +282,7 @@ def main():
 
 
 def assegna_stili(reel):
-    """Stile a rotazione per i reel con testo senza `stile` esplicito: 70% tiktok (semibold), 30% tiktok_regular.
+    """Stile a rotazione per i reel con testo senza `stile` esplicito: 60% tiktok (semibold), 40% tiktok_regular.
     Dipende solo dall'ordine nella ricetta, quindi rimontando lo stesso reel lo stile non cambia."""
     i = 0
     for r in reel:
