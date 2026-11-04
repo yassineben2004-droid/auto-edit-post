@@ -502,6 +502,17 @@
     },
     "2026-11-04 18:00": {
       "esito": "coda_vuota"
+    },
+    "2026-11-04 19:30": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-04 21:00": {
+      "esito": "mancato",
+      "motivo": "più turni arretrati: pubblicato solo il più recente"
+    },
+    "2026-11-04 22:30": {
+      "esito": "coda_vuota"
     }
   },
   "usati": [
