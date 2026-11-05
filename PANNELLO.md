@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 05/11/2026 11:35
+Aggiornato: 05/11/2026 13:06
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 29 | 7.2 gg | gio 12:45 | 11-05 08:15 ✅ | 15 pubblicati, 6 saltati |
+| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 28 | 7.0 gg | gio 18:30 | 11-05 12:45 ✅ | 16 pubblicati, 6 saltati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | gio 13:00 | 11-05 11:30 ⚠ coda_vuota | 20 pubblicati, 50 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | gio 14:45 | 11-05 13:00 ⚠ coda_vuota | 19 pubblicati, 51 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -15,6 +15,7 @@ Aggiornato: 05/11/2026 11:35
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-05 12:45 | Ciabatte Pazze | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DfW_hNWDDdv/ |
 | 2026-11-05 08:15 | Ciabatte Pazze | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DfWpPDNE9RA/ |
 | 2026-11-04 21:00 | Ciabatte Pazze | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DfVc_jEjMc2/ |
 | 2026-11-03 21:00 | Ciabatte Pazze | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DfS3gXfjMEA/ |
@@ -34,4 +35,3 @@ Aggiornato: 05/11/2026 11:35
 | 2026-10-31 09:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfJxAYwj9tX/ |
 | 2026-10-31 08:15 | Ciabatte Pazze | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DfJw9y9E_x4/ |
 | 2026-10-31 08:00 | PijamaMania | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfJlHW1DXph/ |
-| 2026-10-30 21:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfIZfmjiuuG/ |
