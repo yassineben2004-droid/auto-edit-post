@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 06/11/2026 11:34
+Aggiornato: 06/11/2026 13:06
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 25 | 6.2 gg | ven 12:45 | 11-06 08:15 ✅ | 19 pubblicati, 6 saltati |
+| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 24 | 6.0 gg | ven 18:30 | 11-06 12:45 ✅ | 20 pubblicati, 6 saltati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | ven 13:00 | 11-06 11:30 ⚠ coda_vuota | 10 pubblicati, 60 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | ven 14:45 | 11-06 13:00 ⚠ coda_vuota | 9 pubblicati, 61 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -15,6 +15,7 @@ Aggiornato: 06/11/2026 11:34
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-06 12:45 | Ciabatte Pazze | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DfZkWV3jcTD/ |
 | 2026-11-06 08:15 | Ciabatte Pazze | inserito: DetkbnLv9bW.m4a | https://www.instagram.com/reel/DfZNv2MEuHl/ |
 | 2026-11-05 21:00 | Ciabatte Pazze | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfX2StID_vU/ |
 | 2026-11-05 18:30 | Ciabatte Pazze | inserito: DelynysP4YQ.m4a | https://www.instagram.com/reel/DfXlN0AkheH/ |
@@ -34,4 +35,3 @@ Aggiornato: 06/11/2026 11:34
 | 2026-10-31 18:30 | Ciabatte Pazze | inserito: Dezk9XiP4Nf.m4a | https://www.instagram.com/reel/DfKz3qZgZtT/ |
 | 2026-10-31 13:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfKHWzeiaH3/ |
 | 2026-10-31 12:45 | Ciabatte Pazze | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfKFacziTAk/ |
-| 2026-10-31 11:30 | PijamaMania | inserito: DelynysP4YQ.m4a | https://www.instagram.com/reel/DfJ8_2YgH4c/ |
