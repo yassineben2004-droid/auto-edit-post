@@ -281,6 +281,10 @@
       "audio_id": null,
       "audio_file": "DeWAYKMIsHe.m4a",
       "ora": "2026-11-07T13:36+01:00"
+    },
+    "2026-11-07 18:30": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
     }
   },
   "usati": [
