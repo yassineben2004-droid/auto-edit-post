@@ -345,6 +345,10 @@
       "audio_id": null,
       "audio_file": "De9-6_5vUNU.m4a",
       "ora": "2026-11-09T18:51+01:00"
+    },
+    "2026-11-09 21:00": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
     }
   },
   "usati": [
