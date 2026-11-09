@@ -326,6 +326,14 @@
       "audio_id": null,
       "audio_file": "DetkbnLv9bW.m4a",
       "ora": "2026-11-08T21:14+01:00"
+    },
+    "2026-11-09 08:15": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-09 12:45": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
     }
   },
   "usati": [
