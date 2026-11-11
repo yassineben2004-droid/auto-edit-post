@@ -387,6 +387,14 @@
       "audio_id": null,
       "audio_file": "DelynysP4YQ.m4a",
       "ora": "2026-11-11T14:41+01:00"
+    },
+    "2026-11-11 18:30": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-11 21:00": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
     }
   },
   "usati": [
