@@ -715,6 +715,21 @@
     },
     "2026-11-10 22:30": {
       "esito": "coda_vuota"
+    },
+    "2026-11-11 08:00": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-11 09:45": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-11 11:30": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-11 13:00": {
+      "esito": "coda_vuota"
     }
   },
   "usati": [
