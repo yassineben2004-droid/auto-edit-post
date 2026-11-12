@@ -395,6 +395,14 @@
     "2026-11-11 21:00": {
       "esito": "mancato",
       "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-12 08:15": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-12 12:45": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
     }
   },
   "usati": [
