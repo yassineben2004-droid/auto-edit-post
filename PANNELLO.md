@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 12/11/2026 17:20
+Aggiornato: 12/11/2026 18:42
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 15 | 3.8 gg | gio 18:30 | 11-12 12:45 ⚠ mancato | 13 pubblicati, 15 saltati |
+| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 14 | 3.5 gg | gio 21:00 | 11-12 18:30 ✅ | 13 pubblicati, 15 saltati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | gio 18:00 | 11-12 16:30 ⚠ coda_vuota | 0 pubblicati, 70 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | gio 19:30 | 11-12 18:00 ⚠ coda_vuota | 0 pubblicati, 70 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -15,6 +15,7 @@ Aggiornato: 12/11/2026 17:20
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-12 18:30 | Ciabatte Pazze | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfpnhrgibxS/ |
 | 2026-11-11 12:45 | Ciabatte Pazze | inserito: DelynysP4YQ.m4a | https://www.instagram.com/reel/DfmnIobD7x3/ |
 | 2026-11-10 21:00 | Ciabatte Pazze | inserito: Dezk9XiP4Nf.m4a | https://www.instagram.com/reel/Dfk5RNfCRI5/ |
 | 2026-11-09 18:30 | Ciabatte Pazze | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/Dfh6H3UiT_p/ |
@@ -34,4 +35,3 @@ Aggiornato: 12/11/2026 17:20
 | 2026-11-03 21:00 | Ciabatte Pazze | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DfS3gXfjMEA/ |
 | 2026-11-02 21:00 | Ciabatte Pazze | inserito: Dezk9XiP4Nf.m4a | https://www.instagram.com/reel/DfQIA-Kky3d/ |
 | 2026-11-02 18:30 | Ciabatte Pazze | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DfP9qRXkzaS/ |
-| 2026-11-02 12:45 | Ciabatte Pazze | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DfPQ7d4EfVl/ |
