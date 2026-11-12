@@ -221,3 +221,111 @@ reel:
       - gr_04_coppia_comica 0 3
       - gr_05_finale_coppia 0 3
       - gr_03_telecomando 0 3
+
+  # ═══════════════════════════════════════════════════════════════
+  # POWERPUFF GIRLS — 5 clip da 3s (Higgsfield), 3 reel
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: pp01_superpoteri
+    testo: "Pigiama Powerpuff Girls 💖💙💚\nSuperpoteri attivati!"
+    posizione: centro
+    pezzi:
+      - pp_01 0 3
+      - pp_02 0 3
+      - pp_03 0 3
+      - pp_04 0 3
+      - pp_05 0 3
+
+  - nome: pp02_regalo
+    testo: "Il regalo perfetto per\nle vere Superchicche 💖"
+    posizione: basso
+    pezzi:
+      - pp_03 0 3
+      - pp_01 0 3
+      - pp_05 0 3
+      - pp_04 0 3
+
+  - nome: pp03_amica
+    testo: "Tagga l'amica che\nlo deve avere 👀💚"
+    posizione: centro
+    pezzi:
+      - pp_05 0 3
+      - pp_02 0 3
+      - pp_04 0 3
+      - pp_01 0 3
+
+  # ═══════════════════════════════════════════════════════════════
+  # PIJAMA DUCK — 4 clip standalone (TikTok), testo in sovrimpressione
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: dk01_matching
+    testo: "Matching Duck pajamas 🦆\nTroppo teneri!"
+    posizione: centro
+    pezzi:
+      - dk_01 0 10.7
+
+  - nome: dk02_doccia
+    testo: "POV: il tuo pigiama anatra\nti aspetta dopo la doccia 🦆😂"
+    posizione: basso
+    pezzi:
+      - dk_02 0 10
+
+  - nome: dk03_reveal
+    testo: "Il pigiama più carino\ndi sempre 🦆"
+    posizione: centro
+    pezzi:
+      - dk_03 0 9
+
+  - nome: dk04_coppia
+    testo: "Pigiami anatra di coppia 🦆🖤\nLink in bio"
+    posizione: basso
+    pezzi:
+      - dk_04 0 10.7
+
+  # ═══════════════════════════════════════════════════════════════
+  # CUSCINO TARTARUGA — 1 clip (TikTok), 2 varianti testo
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: tart01_unboxing
+    testo: "Cuscino tartaruga gigante 🐢\nTroppo morbido!"
+    posizione: centro
+    pezzi:
+      - tart_01 0 12.8
+
+  - nome: tart02_regalo
+    testo: "Il regalo che tutti vogliono 🐢🎁\nLink in bio"
+    posizione: basso
+    pezzi:
+      - tart_01 0 12.8
+
+  # ═══════════════════════════════════════════════════════════════
+  # PIJAMA DRAGON TRAINER (Sdentato) — 1 clip (TikTok), 2 varianti
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: dt01_sdentato
+    testo: "Pigiama Sdentato 🐉\nDragon Trainer approva!"
+    posizione: centro
+    pezzi:
+      - dt_01 0 11.1
+
+  - nome: dt02_notte
+    testo: "Serate film con il pigiama\nDragon Trainer 🐉🍿"
+    posizione: basso
+    pezzi:
+      - dt_01 0 11.1
+
+  # ═══════════════════════════════════════════════════════════════
+  # PIJAMASQUALO extra — clip 9 (TikTok)
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: sq09a_pantofole
+    testo: "Coperta squalo + pantofole 🦈❄\nCombo invernale perfetta"
+    posizione: centro
+    pezzi:
+      - sq09_tiktok 0 6.7
+
+  - nome: sq09b_regala
+    testo: "Regalala a Natale 🎁🦈\npijamamania.it"
+    posizione: basso
+    pezzi:
+      - sq09_tiktok 0 6.7
