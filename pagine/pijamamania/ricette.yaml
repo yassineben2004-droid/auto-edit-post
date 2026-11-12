@@ -1,0 +1,223 @@
+# Ricette PijamaMania — generato il 12/11/2026
+# PijamaSqualo (clip standalone, testo in sovrimpressione)
+# Beer Belly / Christmas Heels / Grinch (clip Higgsfield combinate)
+
+reel:
+
+  # ═══════════════════════════════════════════════════════════════
+  # PIJAMASQUALO — clip pronte, ogni clip = 1 reel con testo diverso
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: sq01a_regalo
+    testo: "Il regalo che non ti ridà più 😂🦈"
+    posizione: centro
+    pezzi:
+      - sq01_mov 0 11.9
+
+  - nome: sq02a_tagga
+    testo: "Tagga chi deve riceverla 🎁🦈"
+    posizione: basso
+    pezzi:
+      - sq02_tiktok 0 6.1
+
+  - nome: sq03a_5min
+    testo: "Lei: non la metterò mai\n5 minuti dopo: 🦈😂"
+    posizione: centro
+    pezzi:
+      - sq03_tiktok 0 9.9
+
+  - nome: sq04a_pov
+    testo: "POV: hai regalato\nla coperta squalo 🦈"
+    posizione: basso
+    pezzi:
+      - sq04_tiktok 0 8.6
+
+  - nome: sq05a_natale
+    testo: "Regalo di Natale risolto 🎁🦈"
+    posizione: centro
+    pezzi:
+      - sq05_tiktok 0 9.1
+
+  - nome: sq06a_calda
+    testo: "Calda, morbida e ridicola\nal punto giusto 🦈"
+    posizione: centro
+    pezzi:
+      - sq06_tiktok 0 12.8
+
+  - nome: sq07a_fidanzato
+    testo: "Il fidanzato dopo 5 min: 🦈😂"
+    posizione: basso
+    pezzi:
+      - sq07_tiktok 0 7.6
+
+  - nome: sq08a_manda
+    testo: "Manda questo a chi\nti deve fare un regalo 👀🦈"
+    posizione: centro
+    pezzi:
+      - sq08_tiktok 0 9.7
+
+  # Varianti con testi diversi sulle stesse clip
+  - nome: sq01b_indossabile
+    testo: "Coperta squalo indossabile 🦈\nPiedi nella coda!"
+    posizione: basso
+    pezzi:
+      - sq01_mov 0 11.9
+
+  - nome: sq02b_avvisate
+    testo: "Avvisate i fidanzati:\ndopo questa non esce più 😂🦈"
+    posizione: centro
+    pezzi:
+      - sq02_tiktok 0 6.1
+
+  - nome: sq03b_serate
+    testo: "Serate sul divano\nversione squalo 🍿🦈"
+    posizione: basso
+    pezzi:
+      - sq03_tiktok 0 9.9
+
+  - nome: sq04b_pensavo
+    testo: "Pensavo fosse un regalo simpatico\nora non me la ridà più 😂🦈"
+    posizione: centro
+    pezzi:
+      - sq04_tiktok 0 8.6
+
+  - nome: sq05b_prezzo
+    testo: "Solo 39,90€ 🦈\nLink in bio"
+    posizione: basso
+    cta: "Link in bio 👇"
+    cta_secondi: 3
+    cta_posizione: basso
+    pezzi:
+      - sq05_tiktok 0 9.1
+
+  - nome: sq06b_regalo_perfetto
+    testo: "Il regalo perfetto non esi- 🦈"
+    posizione: centro
+    pezzi:
+      - sq06_tiktok 0 12.8
+
+  - nome: sq07b_divano
+    testo: "Coperta squalo per il divano 🛋🦈"
+    posizione: centro
+    pezzi:
+      - sq07_tiktok 0 7.6
+
+  - nome: sq08b_link
+    testo: "La trovi su pijamamania.it 🦈"
+    posizione: basso
+    pezzi:
+      - sq08_tiktok 0 9.7
+
+  # ═══════════════════════════════════════════════════════════════
+  # BEER BELLY — 6 clip da 3s, combinate in 3 reel da 2 clip
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: bb01_assurdo
+    testo: "Il regalo più assurdo\ndi Natale 😂🍺"
+    posizione: centro
+    pezzi:
+      - bb_01_nave_polizia 0 3
+      - bb_02_signora_salotto 0 3
+      - bb_04_centro_commerciale 0 3
+
+  - nome: bb02_festa
+    testo: "POV: arrivi alla festa\ncon questo 😂"
+    posizione: basso
+    pezzi:
+      - bb_03_dettaglio_negozio 0 3
+      - bb_05_due_uomini 0 3
+      - bb_06_cassa 0 3
+
+  - nome: bb03_pancia
+    testo: "Marsupio pancia finta 🍺\nIl regalo che nessuno dimentica"
+    posizione: centro
+    pezzi:
+      - bb_04_centro_commerciale 0 3
+      - bb_01_nave_polizia 0 3
+      - bb_06_cassa 0 3
+
+  - nome: bb04_ridere
+    testo: "Quando la nonna\nvede il marsupio 😂"
+    posizione: basso
+    pezzi:
+      - bb_02_signora_salotto 0 3
+      - bb_05_due_uomini 0 3
+      - bb_03_dettaglio_negozio 0 3
+
+  # ═══════════════════════════════════════════════════════════════
+  # CHRISTMAS HEELS V1 — 5 clip da 3s, 2 reel
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: ch1_01_stivali
+    testo: "Gli stivali che illuminano\nil Natale ✨👢"
+    posizione: centro
+    pezzi:
+      - ch1_01 0 3
+      - ch1_02 0 3
+      - ch1_03 0 3
+      - ch1_04 0 3
+      - ch1_05 0 3
+
+  - nome: ch1_02_regalo
+    testo: "Il regalo che non\nti aspetti 🎄✨"
+    posizione: basso
+    pezzi:
+      - ch1_03 0 3
+      - ch1_01 0 3
+      - ch1_05 0 3
+      - ch1_04 0 3
+
+  # ═══════════════════════════════════════════════════════════════
+  # CHRISTMAS HEELS V2 — 5 clip da 3s, 2 reel
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: ch2_01_brillano
+    testo: "Stivali natalizi LED ✨\nBrillano al buio!"
+    posizione: centro
+    pezzi:
+      - ch2_01_reveal_lenzuolo 0 3
+      - ch2_02_reveal_scatole 0 3
+      - ch2_03_unboxing 0 3
+      - ch2_04_stivali_insieme 0 3
+      - ch2_05_finale_bar 0 3
+
+  - nome: ch2_02_amiche
+    testo: "Quando le amiche vedono\ni tuoi stivali 👀✨"
+    posizione: basso
+    pezzi:
+      - ch2_03_unboxing 0 3
+      - ch2_05_finale_bar 0 3
+      - ch2_01_reveal_lenzuolo 0 3
+      - ch2_04_stivali_insieme 0 3
+
+  # ═══════════════════════════════════════════════════════════════
+  # VESTAGLIA GRINCH — 5 clip da 3s, 2 reel
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: gr01_perfetto
+    testo: "Il regalo perfetto non esi- 💚"
+    posizione: centro
+    pezzi:
+      - gr_01_reveal_magazzino 0 3
+      - gr_02_unboxing_bambino 0 3
+      - gr_03_telecomando 0 3
+      - gr_04_coppia_comica 0 3
+      - gr_05_finale_coppia 0 3
+
+  - nome: gr02_riscaldata
+    testo: "Vestaglia riscaldata\nil Grinch approva 💚"
+    posizione: basso
+    pezzi:
+      - gr_03_telecomando 0 3
+      - gr_01_reveal_magazzino 0 3
+      - gr_04_coppia_comica 0 3
+      - gr_05_finale_coppia 0 3
+
+  - nome: gr03_freddo
+    testo: "Quando fa freddo\nma hai la vestaglia Grinch 💚"
+    posizione: centro
+    pezzi:
+      - gr_02_unboxing_bambino 0 3
+      - gr_04_coppia_comica 0 3
+      - gr_05_finale_coppia 0 3
+      - gr_03_telecomando 0 3

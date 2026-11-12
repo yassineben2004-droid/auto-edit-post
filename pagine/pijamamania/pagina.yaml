@@ -13,21 +13,26 @@ orari:
   # per giorni diversi basta aggiungere il giorno (sostituisce ogni_giorno quel giorno):
   # sabato: ["10:00", "13:00", "18:00", "21:30"]
 
-# Hashtag aggiunti in fondo a ogni caption
-hashtag: "#copertasqualo #squalo #coperta #regalodinatale #ideeregalo #regaloperlei #natale2026 #pigiamasqualo #pijamamania #perte"
+# Hashtag aggiunti in fondo a ogni caption (generici, quelli per-prodotto sono nel coda.csv)
+hashtag: "#regalodinatale #ideeregalo #natale2026 #pijamamania #perte"
 
-# Caption a rotazione (una diversa per ogni post, poi ricomincia)
+# Caption a rotazione multi-prodotto (una diversa per ogni post, poi ricomincia)
+# Le caption specifiche per-video sono nel coda.csv; queste sono il fallback
 caption:
+  # Squalo
   - "Pensavo fosse un regalo simpatico… ora non me la ridà più 😂🦈\nLa trovi su pijamamania.it (link in bio)"
   - "Tagga chi deve ricevere questa coperta squalo a Natale 🎁🦈"
-  - "Il regalo che ti ruba la ragazza 😂🦈\nLink in bio"
-  - "Calda, morbida e ridicola al punto giusto 🦈\nTrovala nel link in bio"
+  - "Calda, morbida e ridicola al punto giusto 🦈\nLink in bio"
   - "Avvisate i fidanzati: dopo questa non esce più di casa 😂🦈"
-  - "Coperta squalo indossabile: piedi nella coda, testa nello squalo 🦈\nLink in bio"
-  - "Regalo di Natale risolto 🎁🦈\nLink in bio"
-  - "Manda questo video a chi ti deve fare un regalo 👀🦈"
-  - "Serate sul divano versione squalo 🍿🦈\nLink in bio"
-  - "Lei: «non la metterò mai». Lei, 5 minuti dopo: 🦈😂\nLink in bio"
+  # Beer Belly
+  - "Il regalo più assurdo di Natale 😂🍺 Marsupio pancia finta su pijamamania.it"
+  - "POV: arrivi alla festa con il marsupio pancia 😂 Link in bio"
+  # Christmas Heels
+  - "Gli stivali che illuminano il Natale ✨👢 Link in bio"
+  - "Stivali natalizi LED: brillano al buio! ✨ pijamamania.it"
+  # Grinch
+  - "Vestaglia riscaldata Grinch 💚 Il Grinch approva! Link in bio"
+  - "Quando fa freddo ma hai la vestaglia Grinch 💚 pijamamania.it"
 
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio). Sono quelli che si sentono davvero.
 # pesi: un audio con peso 3 esce 3 volte più spesso degli altri (default 1)
