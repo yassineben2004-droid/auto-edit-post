@@ -1,7 +1,7 @@
-# account per token — 2026-11-13T09:17:09
+# account per token — 2026-11-13T09:43:25
 
 [TOKEN_META]
-  Pagina: PijamaMania  →  Instagram: @pijamamania.it  ig_user_id: 17841428063511900
+  Pagina: PijamaMania  fb_page_id: 583107068221301  →  Instagram: @pijamamania.it  ig_user_id: 17841428063511900
   utente del token: AUTOPOST (122103590337521667)
   valido: True  app: Auto Edit Post  tipo: SYSTEM_USER
   permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, instagram_manage_messages, pages_read_engagement, public_profile
@@ -13,12 +13,16 @@
   pages_read_engagement: tutti
 
 [TOKEN_META_STORE]
-  Pagina: Ciabattepazze  →  Instagram: @ciabattepazze.it  ig_user_id: 17841414476658494
+  Pagina: Lucedifede   fb_page_id: 1534306123097996  →  Instagram: @luce_di_fede_  ig_user_id: 17841472291969379
+  Pagina: Ciabattepazze  fb_page_id: 1385448827991605  →  Instagram: @ciabattepazze.it  ig_user_id: 17841414476658494
+  Pagina: Donidinatale  fb_page_id: 1373503919179249  →  Instagram: @-  ig_user_id: NON COLLEGATO
+  Pagina: BottiZero  fb_page_id: 1437785246079859  →  Instagram: @-  ig_user_id: NON COLLEGATO
   utente del token: AUTOEDIT&POST (122100083349529783)
   valido: True  app: Auto Edit Post  tipo: SYSTEM_USER
-  permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, pages_read_engagement, public_profile
+  permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, pages_read_engagement, pages_manage_posts, public_profile
   pages_show_list: tutti
   business_management: tutti
   instagram_basic: tutti
   instagram_content_publish: tutti
   pages_read_engagement: tutti
+  pages_manage_posts: tutti
