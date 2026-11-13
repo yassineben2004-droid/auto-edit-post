@@ -1,0 +1,1 @@
+# Incolla qui i link dei reel da analizzare (uno per riga), poi Actions → Analizza reel → Run workflow

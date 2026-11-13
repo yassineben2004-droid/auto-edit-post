@@ -14,6 +14,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # SEMPRE l'ultima versione: un run in coda deve vedere lo stato salvato dal run precedente
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q -U yt-dlp
       - run: python scarica_audio.py ${{ github.event.inputs.pagina }}
       - name: Salva

@@ -603,6 +603,8 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # SEMPRE l'ultima versione: un run in coda deve vedere lo stato salvato dal run precedente
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
