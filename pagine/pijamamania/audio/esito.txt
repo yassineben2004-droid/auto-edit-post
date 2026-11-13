@@ -1,10 +1,15 @@
-OK De9-6_5vUNU 9.9s
-OK De2HYYvqdNK 12.8s
-OK Dezk9XiP4Nf 10.0s
-OK DeuSp1UAWbb 13.1s
-OK De2eB4GxCRg 15.0s
-OK DeWAYKMIsHe 18.0s
-OK DeZxXLPiEUV 12.5s
-OK DetkbnLv9bW 10.9s
-OK DelynysP4YQ 10.6s
-OK DelhYk8vORs 11.6s
+OK (già presente) De9-6_5vUNU
+OK (già presente) De2HYYvqdNK
+OK (già presente) Dezk9XiP4Nf
+OK (già presente) DeuSp1UAWbb
+OK (già presente) De2eB4GxCRg
+OK (già presente) DeWAYKMIsHe
+OK (già presente) DeZxXLPiEUV
+OK (già presente) DetkbnLv9bW
+OK (già presente) DelynysP4YQ
+OK (già presente) DelhYk8vORs
+OK DfoYCD4hnZI 13.7s
+OK DfZ_7-fJC7N 10.4s
+OK Dfn9wfYR-6A 15.0s
+OK DfdTxVtAxLK 15.2s
+OK DeQ30juIto- 12.0s
