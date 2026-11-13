@@ -425,6 +425,17 @@
       "audio_id": null,
       "audio_file": "De2HYYvqdNK.m4a",
       "ora": "2026-11-12T22:32+01:00"
+    },
+    "2026-11-13 08:15": {
+      "esito": "pubblicato",
+      "id": "ciabattepazze-00033",
+      "file": "ciabattepazze-00033.mp4",
+      "media_id": "17952213516344780",
+      "link": "https://www.instagram.com/reel/DfrPndSE6Bn/",
+      "audio": "inserito: DeWAYKMIsHe.m4a",
+      "audio_id": null,
+      "audio_file": "DeWAYKMIsHe.m4a",
+      "ora": "2026-11-13T09:52+01:00"
     }
   },
   "usati": [
@@ -458,7 +469,8 @@
     "ciabattepazze-00029",
     "ciabattepazze-00030",
     "ciabattepazze-00031",
-    "ciabattepazze-00032"
+    "ciabattepazze-00032",
+    "ciabattepazze-00033"
   ],
   "scartati": {
     "ciabattepazze-00011": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}"

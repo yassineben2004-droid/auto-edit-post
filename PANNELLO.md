@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 13/11/2026 08:06
+Aggiornato: 13/11/2026 09:52
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 13 | 3.2 gg | ven 08:15 | 11-12 21:00 ✅ | 13 pubblicati, 15 saltati |
+| Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 12 | 3.0 gg | ven 12:45 | 11-13 08:15 ✅ | 13 pubblicati, 15 saltati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 38 | 3.8 gg | ven 09:45 | 11-13 08:00 ✅ | 2 pubblicati, 68 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 37 | 3.7 gg | ven 11:30 | 11-13 09:45 ✅ | 3 pubblicati, 67 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ✅ Nessun problema.
@@ -14,6 +14,8 @@ Aggiornato: 13/11/2026 08:06
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-13 09:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfrPrU6k_wk/ |
+| 2026-11-13 08:15 | Ciabatte Pazze | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DfrPndSE6Bn/ |
 | 2026-11-13 08:00 | PijamaMania | inserito: DelynysP4YQ.m4a | https://www.instagram.com/reel/DfrDOtaDKwX/ |
 | 2026-11-12 22:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfqB3CvjdC9/ |
 | 2026-11-12 21:00 | Ciabatte Pazze | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DfqBzJZDYxK/ |
@@ -32,5 +34,3 @@ Aggiornato: 13/11/2026 08:06
 | 2026-11-05 21:00 | Ciabatte Pazze | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfX2StID_vU/ |
 | 2026-11-05 18:30 | Ciabatte Pazze | inserito: DelynysP4YQ.m4a | https://www.instagram.com/reel/DfXlN0AkheH/ |
 | 2026-11-05 12:45 | Ciabatte Pazze | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DfW_hNWDDdv/ |
-| 2026-11-05 08:15 | Ciabatte Pazze | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DfWpPDNE9RA/ |
-| 2026-11-04 21:00 | Ciabatte Pazze | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DfVc_jEjMc2/ |
