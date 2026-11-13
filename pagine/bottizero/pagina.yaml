@@ -1,6 +1,6 @@
 # Pagina: BottiZero — SOLO FACEBOOK (Reel sulla Pagina Facebook, niente Instagram)
 nome: "BottiZero"
-attiva: false                     # metti true quando fb_page_id e permesso pages_manage_posts sono pronti
+attiva: true
 piattaforma: facebook             # facebook = Reel sulla Pagina FB | instagram (predefinito) = Reel IG
 fb_page_id: "1437785246079859"   # Pagina BottiZero
 token_env: TOKEN_META_STORE       # token del portafoglio Business del profilo personale
@@ -11,7 +11,12 @@ orari:
   ogni_giorno: ["08:15", "12:45", "18:30", "21:00"]
 
 hashtag: "#bottizero #cani #botti #capodanno #cane #canepauroso #temporale #ansiacane #regaloperilcane"
-caption: []                       # da compilare con le caption del brand
+caption:
+  - "Commenta BOTTI e ti mando il link 🐶🎆"
+  - "Quest'anno Capodanno lo passa con noi, non sotto al letto 🐶❤️\nLink in bio"
+  - "Tagga chi ha un cane che trema ai botti 👇"
+  - "Il regalo di Natale per il cane di casa 🎁🐶\nLink in bio"
+  - "Fascia antirumore BottiZero: attutisce botti e temporali 🎆⛈️\nCommenta BOTTI per il link"
 
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio): su Facebook è l'unico audio possibile da API
 audio_inseriti:
