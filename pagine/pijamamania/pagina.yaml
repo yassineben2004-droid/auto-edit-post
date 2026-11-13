@@ -48,7 +48,7 @@ caption:
 # pesi: un audio con peso 3 esce 3 volte più spesso degli altri (default 1)
 audio_inseriti:
   pesi:
-    VIRALE_squalo_3M6.mp3: 10     # audio del reel squalo da 3,6M views: circa 1 video su 2 (mai due di fila)
+    VIRALE_squalo_3M6.mp3: 20     # audio del reel squalo da 3,6M views: circa 1 video su 2 (mai due di fila), anche con la libreria comune più grande
 
 # Musica di tendenza di Meta: SPENTA (il 27/10 Meta l'ha ignorata e coprirebbe l'audio inserito)
 audio:

@@ -95,3 +95,9 @@ token_env: TOKEN_META_STORE
   La Pagina va assegnata all'utente di sistema con **controllo completo**.
 - Audio: sui Reel Facebook la musica di tendenza da API non esiste → si usa solo l'audio inserito con `metti-audio`.
 - `verifica` dice se token della Pagina e permessi sono a posto; `esegui --prova` controlla senza pubblicare.
+
+## Libreria audio comune (audio_comuni/)
+Gli audio di `audio_comuni/` valgono per **tutte le pagine italiane**: `metti-audio <pagina>` usa questi + quelli
+in `pagine/<pagina>/audio/` (lì vanno solo gli audio specifici, es. `VIRALE_squalo_3M6.mp3` di PijamaMania).
+Per escludere una pagina (es. quelle in inglese): `audio_inseriti: {comuni: false}` in `pagina.yaml`.
+Nuovi link: si mettono in `pagine/<pagina>/audio/link.txt` → workflow **Scarica audio** → poi si spostano in `audio_comuni/`.

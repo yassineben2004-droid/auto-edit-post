@@ -474,6 +474,7 @@ def aggiungi(nome, cartelle, testi=None, ricerca_audio="", seed=None, quanti=Non
     pannello(stampa=False)
 
 
+COMUNI = BASE / "audio_comuni"
 ESTENSIONI_AUDIO = (".mp3", ".m4a", ".aac", ".wav", ".ogg", ".mp4", ".mov")
 
 
@@ -482,8 +483,13 @@ def metti_audio(nome, rifai=False):
     Così il reel non esce mai muto, anche se Meta ignora la musica di tendenza."""
     cart = PAGINE / nome / "audio"
     tracce = sorted(p for p in cart.glob("*") if p.suffix.lower() in ESTENSIONI_AUDIO) if cart.exists() else []
+    # libreria comune (audio_comuni/): valida per tutte le pagine italiane; in pagina.yaml
+    # audio_inseriti: {comuni: false} per non usarla (es. pagine in inglese)
+    if ((cfg_pagina(nome).get("audio_inseriti") or {}).get("comuni", True)) and COMUNI.exists():
+        propri = {t.name for t in tracce}
+        tracce += sorted(p for p in COMUNI.glob("*") if p.suffix.lower() in ESTENSIONI_AUDIO and p.name not in propri)
     if not tracce:
-        sys.exit(f"nessun audio in pagine/{nome}/audio/ (mp3, m4a, wav o anche video mp4 da cui prendere l'audio)")
+        sys.exit(f"nessun audio in pagine/{nome}/audio/ né in audio_comuni/ (mp3, m4a, wav o video mp4)")
     durate = {t.name: _durata(t) for t in tracce}
     # pesi da pagina.yaml (audio_inseriti.pesi: {"nomefile": 3}) — peso 3 = usato 3 volte più spesso
     pesi_cfg = ((cfg_pagina(nome).get("audio_inseriti") or {}).get("pesi") or {})

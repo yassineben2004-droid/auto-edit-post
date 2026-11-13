@@ -20,6 +20,7 @@ caption:
 
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio)
 audio_inseriti:
+  comuni: false                   # pagina in inglese: niente libreria audio comune italiana
   pesi: {}
 
 # Musica di tendenza di Meta: spenta come sulle altre pagine (copre l'audio inserito)
