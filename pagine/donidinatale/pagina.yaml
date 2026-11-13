@@ -10,6 +10,8 @@ elimina_dopo: true
 orari:
   ogni_giorno: ["08:15", "12:45", "18:30", "21:00"]
 
+caption_cta: "Commenta NATALE per ricevere l'offerta 🎄"   # caption = CTA diretta
+
 hashtag: "#donidinatale #natale #natale2026 #regalodinatale #ideeregalo #luciditale #decorazioninatalizie #atmosferanatalizia"
 caption: []                       # da compilare con le caption del brand
 

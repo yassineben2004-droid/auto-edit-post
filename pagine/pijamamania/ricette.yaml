@@ -144,28 +144,8 @@ reel:
       - bb_05_due_uomini 0 3
       - bb_03_dettaglio_negozio 0 3
 
-  # ═══════════════════════════════════════════════════════════════
-  # CHRISTMAS HEELS V1 — 5 clip da 3s, 2 reel
-  # ═══════════════════════════════════════════════════════════════
-
-  - nome: ch1_01_stivali
-    testo: "Gli stivali che illuminano\nil Natale ✨👢"
-    posizione: centro
-    pezzi:
-      - ch1_01 0 3
-      - ch1_02 0 3
-      - ch1_03 0 3
-      - ch1_04 0 3
-      - ch1_05 0 3
-
-  - nome: ch1_02_regalo
-    testo: "Il regalo che non\nti aspetti 🎄✨"
-    posizione: basso
-    pezzi:
-      - ch1_03 0 3
-      - ch1_01 0 3
-      - ch1_05 0 3
-      - ch1_04 0 3
+  # CHRISTMAS HEELS V1 RIMOSSO (13/11/2026): le clip ch1_01..05 erano copie identiche delle Powerpuff pp_01..05.
+  # Rimettere le ricette solo quando ci sono le clip vere degli stivali V1.
 
   # ═══════════════════════════════════════════════════════════════
   # CHRISTMAS HEELS V2 — 5 clip da 3s, 2 reel

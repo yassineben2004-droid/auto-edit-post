@@ -21,6 +21,17 @@ facebook:
   fb_page_id: "583107068221301"
   orari: ["09:45", "13:00", "18:00", "21:00"]
 
+caption_cta:                      # caption = CTA diretta, per prodotto (prefisso del nome del reel montato)
+  sq: "Commenta SQUALO per ricevere l'offerta 🦈"
+  bb: "Commenta PANCIA per ricevere l'offerta 🍺"
+  ch: "Commenta STIVALI per ricevere l'offerta 👢"
+  gr: "Commenta GRINCH per ricevere l'offerta 💚"
+  pp: "Commenta POWERPUFF per ricevere l'offerta 💖"
+  dk: "Commenta PAPERA per ricevere l'offerta 🦆"
+  tart: "Commenta TARTARUGA per ricevere l'offerta 🐢"
+  dt: "Commenta DRAGO per ricevere l'offerta 🐉"
+  altro: "Commenta REGALO per ricevere l'offerta 🎁"
+
 hashtag: "#regalodinatale #ideeregalo #natale2026 #pijamamania #perte"
 
 # Caption a rotazione multi-prodotto (una diversa per ogni post, poi ricomincia)

@@ -10,6 +10,8 @@ elimina_dopo: true
 orari:
   ogni_giorno: ["08:15", "12:45", "18:30", "21:00"]
 
+caption_cta: "Commenta BOTTI per ricevere l'offerta 🐶"   # caption = CTA diretta
+
 hashtag: "#bottizero #cani #botti #capodanno #cane #canepauroso #temporale #ansiacane #regaloperilcane"
 caption:
   - "Commenta BOTTI e ti mando il link 🐶🎆"

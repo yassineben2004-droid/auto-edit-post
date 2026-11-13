@@ -460,6 +460,38 @@ def _captions_da_testi(path):
     return caps, tags
 
 
+def caption_cta(pag, origine):
+    """Caption = CTA diretta ("Commenta SQUALO per ricevere l'offerta 🦈"), da `caption_cta` in pagina.yaml:
+    una stringa per tutta la pagina, oppure {prefisso del nome clip: cta} per le pagine multi-prodotto.
+    None se la pagina non ha caption_cta (si usa la rotazione di `caption`)."""
+    c = pag.get("caption_cta")
+    if not c:
+        return None
+    if isinstance(c, str):
+        return c
+    nome_clip = Path(str(origine)).name.lower()
+    for pref in sorted(c, key=len, reverse=True):
+        if pref != "altro" and nome_clip.startswith(str(pref).lower()):
+            return c[pref]
+    return c.get("altro")
+
+
+def applica_caption_cta(nome):
+    """Riscrive con la CTA la caption di tutti i video ancora in coda (gli hashtag restano)."""
+    pag = cfg_pagina(nome)
+    coda, n = leggi_coda(nome), 0
+    for r in coda:
+        cta = caption_cta(pag, r.get("origine", ""))
+        if cta:
+            tags = pag.get("hashtag") or ""
+            vecchi = [l for l in r.get("caption", "").split("\n") if l.strip().startswith("#")]
+            tags = vecchi[-1].strip() if vecchi else tags
+            r["caption"] = (cta + ("\n\n" + tags if tags else "")).strip()
+            n += 1
+    scrivi_coda(nome, coda)
+    print(f"{pag['nome']}: caption CTA su {n} video in coda")
+
+
 def aggiungi(nome, cartelle, testi=None, ricerca_audio="", seed=None, quanti=None):
     if not (PAGINE / nome / "pagina.yaml").exists():
         sys.exit(f"pagina {nome} inesistente (crea con: nuova {nome})")
@@ -491,7 +523,8 @@ def aggiungi(nome, cartelle, testi=None, ricerca_audio="", seed=None, quanti=Non
         dst = PAGINE / nome / "coda" / f"{pid}.mp4"
         _comprimi(src, dst)
         coda.append({"id": pid, "file": dst.name, "durata": f"{_durata(dst):.2f}",
-                     "caption": (caps[(len(coda)) % len(caps)] + ("\n\n" + tags if tags else "")).strip(),
+                     "caption": ((caption_cta(pag, src) or caps[(len(coda)) % len(caps)])
+                                 + ("\n\n" + tags if tags else "")).strip(),
                      "ricerca_audio": ricerca_audio, "audio_id": "", "origine": src,
                      "aggiunto": date.today().isoformat()})
         print(f"+ {pid}  {Path(src).name}  ({dst.stat().st_size / 1e6:.1f} MB)")

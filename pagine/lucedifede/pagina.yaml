@@ -13,6 +13,8 @@ orari:
   # sabato: ["10:00", "13:00", "18:00", "21:30"]
   # domenica: ["11:00", "20:30"]
 
+caption_cta: "Commenta AMEN per ricevere l'offerta ✝️"   # caption = CTA diretta
+
 hashtag: "#lucedifede #croce #croceluminosa #fede #regalodinatale #ideeregalo #regaloperlanonna #battesimo #primacomunione #natale2026"
 
 # Caption a rotazione (una diversa per ogni post, poi ricomincia)
