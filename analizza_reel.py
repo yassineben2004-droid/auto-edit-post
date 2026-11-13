@@ -79,8 +79,15 @@ def trascrivi(video):
         from faster_whisper import WhisperModel
     except ImportError:
         return None
+    import numpy as np
+    # audio decodificato con ffmpeg (16 kHz mono float32): evita il decoder PyAV di faster-whisper
+    pcm = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-i", str(video), "-ac", "1", "-ar", "16000",
+                          "-f", "f32le", "-"], capture_output=True).stdout
+    audio = np.frombuffer(pcm, dtype=np.float32)
+    if audio.size < 16000:
+        return "-", []
     m = WhisperModel("small", compute_type="int8")
-    seg, info = m.transcribe(str(video), vad_filter=True)
+    seg, info = m.transcribe(audio, vad_filter=True)
     righe = [f"{s.start:.1f}-{s.end:.1f}s  {s.text.strip()}" for s in seg]
     return info.language, righe
 
