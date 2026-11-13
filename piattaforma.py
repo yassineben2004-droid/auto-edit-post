@@ -55,6 +55,7 @@ def elenco_pagine():
 def cfg_pagina(nome):
     c = yaml.safe_load((PAGINE / nome / "pagina.yaml").read_text(encoding="utf-8"))
     c.setdefault("nome", nome)
+    c["_slug"] = nome
     c.setdefault("attiva", True)
     c.setdefault("token_env", "TOKEN_META")
     c.setdefault("orari", {})
@@ -188,6 +189,26 @@ def pubblica_video_fb(meta, pag, r, video, prova):
             "audio_file": r.get("audio_file", ""), "piattaforma": "facebook", "stato_fb": stato_fb}
 
 
+def anche_su_facebook(meta, pag, r, k, ris):
+    """Pagine Instagram con `facebook:` in pagina.yaml: lo stesso reel esce anche sulla Pagina Facebook collegata,
+    ma solo agli orari in facebook.orari (es. 4 su 10). Un errore Facebook non tocca il post Instagram."""
+    fb = pag.get("facebook") or {}
+    if su_facebook(pag) or not fb.get("attivo") or str(fb.get("fb_page_id", "DA_")).startswith("DA_"):
+        return
+    orari = fb.get("orari", "tutti")
+    if orari != "tutti" and k[-5:] not in {str(x) for x in orari}:
+        return
+    video = PAGINE / pag["_slug"] / "coda" / r["file"]
+    try:
+        vid, stato_fb = meta.pubblica_reel_fb(str(fb["fb_page_id"]), str(video), r.get("caption", ""))
+        ris["fb_link"] = f"https://www.facebook.com/reel/{vid}"
+        ris["fb_stato"] = stato_fb
+        print(f"   ✅ anche su Facebook: {ris['fb_link']} ({stato_fb})")
+    except Exception as e:  # noqa: BLE001
+        ris["fb_errore"] = str(e)[:300]
+        print(f"   ⚠ Facebook non riuscito (Instagram ok): {e}")
+
+
 def esegui(prova=False, adesso=None):
     g = cfg_generale()
     tz = ZoneInfo(g["fuso_orario"])
@@ -240,10 +261,11 @@ def esegui(prova=False, adesso=None):
                 if prova:
                     continue
                 ris["ora"] = datetime.now(tz).isoformat(timespec="minutes")
+                print(f"   ✅ pubblicato: {ris['link'] or ris['media_id']}")
+                anche_su_facebook(meta, pag, r, k, ris)
                 st["turni"][k] = ris
                 st["usati"].append(r["id"])
                 st["errori"].pop(k, None)
-                print(f"   ✅ pubblicato: {ris['link'] or ris['media_id']}")
                 if pag.get("elimina_dopo", True):
                     (PAGINE / nome / "coda" / r["file"]).unlink(missing_ok=True)
             except Exception as e:  # noqa: BLE001 — qualsiasi errore va registrato, non deve fermare le altre pagine
@@ -327,6 +349,9 @@ def pannello(stampa=True):
             avvisi.append(f"**{pag['nome']}**: manca l'ID della Pagina Facebook (fb_page_id) in pagina.yaml")
         elif pag["attiva"] and not su_facebook(pag) and str(pag.get("ig_user_id", "")).startswith("DA_"):
             avvisi.append(f"**{pag['nome']}**: manca l'ID dell'account Instagram in pagina.yaml")
+        for k, v in st["turni"].items():
+            if v.get("fb_errore") and k >= chiave(adesso - timedelta(days=1)):
+                avvisi.append(f"**{pag['nome']}** turno {k}: Instagram ok, Facebook NO → {v['fb_errore'][:140]}")
         for k, v in st["errori"].items():
             if v and k >= chiave(adesso - timedelta(days=1)) and k not in st["turni"]:
                 avvisi.append(f"**{pag['nome']}** turno {k}: {v[-1]['errore'][:140]}")
@@ -356,7 +381,8 @@ def pannello(stampa=True):
                 tutti.append((k, cfg_pagina(nome)["nome"], v))
     if tutti:
         md += ["\n## Ultimi post", "| Quando | Pagina | Audio | Link |", "|---|---|---|---|"]
-        md += [f"| {k} | {p} | {v.get('audio', '-')} | {v.get('link') or v.get('media_id')} |"
+        md += [f"| {k} | {p} | {v.get('audio', '-')} | {v.get('link') or v.get('media_id')}"
+               + (f" · FB: {v['fb_link']}" if v.get("fb_link") else "") + " |"
                for k, p, v in sorted(tutti, reverse=True)[:20]]
     testo = "\n".join(md) + "\n"
     (BASE / "PANNELLO.md").write_text(testo, encoding="utf-8")

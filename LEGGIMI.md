@@ -101,3 +101,15 @@ Gli audio di `audio_comuni/` valgono per **tutte le pagine italiane**: `metti-au
 in `pagine/<pagina>/audio/` (lì vanno solo gli audio specifici, es. `VIRALE_squalo_3M6.mp3` di PijamaMania).
 Per escludere una pagina (es. quelle in inglese): `audio_inseriti: {comuni: false}` in `pagina.yaml`.
 Nuovi link: si mettono in `pagine/<pagina>/audio/link.txt` → workflow **Scarica audio** → poi si spostano in `audio_comuni/`.
+
+## Pagine Instagram che escono ANCHE su Facebook
+Le API di Instagram non condividono da sole sulla Pagina Facebook collegata (l'opzione "condividi su Facebook"
+vale solo per i post fatti a mano dall'app). Per farlo fare al bot, in `pagina.yaml`:
+```yaml
+facebook:
+  attivo: true
+  fb_page_id: "1385448827991605"
+  orari: "tutti"                 # oppure solo alcuni turni, es. ["09:45", "13:00", "18:00", "21:00"]
+```
+Dopo il post Instagram, a quegli orari lo stesso video esce come Reel sulla Pagina. Serve `pages_manage_posts` sul token.
+Se Facebook fallisce, il post Instagram resta valido e il pannello mostra l'avviso.

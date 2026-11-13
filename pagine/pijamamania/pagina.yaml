@@ -14,6 +14,13 @@ orari:
   # sabato: ["10:00", "13:00", "18:00", "21:30"]
 
 # Hashtag aggiunti in fondo a ogni caption (generici, quelli per-prodotto sono nel coda.csv)
+# ANCHE SU FACEBOOK: lo stesso reel esce anche come Reel sulla Pagina Facebook collegata (4 dei 10 turni (su FB 10 al giorno sembrano spam)).
+# Serve il permesso pages_manage_posts sul token. Se Facebook fallisce, Instagram esce lo stesso.
+facebook:
+  attivo: true
+  fb_page_id: "583107068221301"
+  orari: ["09:45", "13:00", "18:00", "21:00"]
+
 hashtag: "#regalodinatale #ideeregalo #natale2026 #pijamamania #perte"
 
 # Caption a rotazione multi-prodotto (una diversa per ogni post, poi ricomincia)

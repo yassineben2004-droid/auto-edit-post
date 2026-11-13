@@ -13,6 +13,13 @@ orari:
   # sabato: ["10:00", "13:00", "18:00", "21:30"]
   # domenica: ["11:00", "20:30"]
 
+# ANCHE SU FACEBOOK: lo stesso reel esce anche come Reel sulla Pagina Facebook collegata (tutti e 4 i turni).
+# Serve il permesso pages_manage_posts sul token. Se Facebook fallisce, Instagram esce lo stesso.
+facebook:
+  attivo: true
+  fb_page_id: "1385448827991605"
+  orari: "tutti"
+
 hashtag: "#ciabattepazze #ciabatte #pantofole #regalodinatale #ideeregalo #regalodivertente #natale2026 #perte"
 
 # Caption a rotazione (una diversa per ogni post, poi ricomincia)
