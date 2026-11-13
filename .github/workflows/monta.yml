@@ -27,7 +27,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main   # SEMPRE l'ultima versione: un run in coda deve vedere lo stato salvato dal run precedente
-        with:
           fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
