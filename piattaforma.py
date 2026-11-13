@@ -575,6 +575,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: ffmpeg (solo per metti-audio / aggiungi)
+        if: startsWith(github.event.inputs.comando, 'metti-audio') || startsWith(github.event.inputs.comando, 'aggiungi')
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Esegui
         env:
           SEGRETI: ${{{{ toJSON(secrets) }}}}
