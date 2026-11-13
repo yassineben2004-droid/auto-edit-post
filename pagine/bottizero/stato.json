@@ -1,7 +1,23 @@
 {
   "dal": "2026-11-13T11:37+01:00",
-  "turni": {},
-  "usati": [],
+  "turni": {
+    "2026-11-13 12:45": {
+      "esito": "pubblicato",
+      "id": "bottizero-00001",
+      "file": "bottizero-00001.mp4",
+      "media_id": "1583363520213990",
+      "link": "https://www.facebook.com/reel/1583363520213990",
+      "audio": "inserito: DfoYCD4hnZI.m4a",
+      "audio_id": null,
+      "audio_file": "DfoYCD4hnZI.m4a",
+      "piattaforma": "facebook",
+      "stato_fb": "pubblicato",
+      "ora": "2026-11-13T13:03+01:00"
+    }
+  },
+  "usati": [
+    "bottizero-00001"
+  ],
   "scartati": {},
   "errori": {},
   "audio_usati": []

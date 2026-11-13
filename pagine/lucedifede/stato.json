@@ -1,7 +1,21 @@
 {
   "dal": "2026-11-13T11:02+01:00",
-  "turni": {},
-  "usati": [],
+  "turni": {
+    "2026-11-13 12:45": {
+      "esito": "pubblicato",
+      "id": "lucedifede-00001",
+      "file": "lucedifede-00001.mp4",
+      "media_id": "17982752790131514",
+      "link": "https://www.instagram.com/reel/DfrluzhAGFM/",
+      "audio": "inserito: DfblaVNxHsY.m4a",
+      "audio_id": null,
+      "audio_file": "DfblaVNxHsY.m4a",
+      "ora": "2026-11-13T13:05+01:00"
+    }
+  },
+  "usati": [
+    "lucedifede-00001"
+  ],
   "scartati": {},
   "errori": {},
   "audio_usati": []
