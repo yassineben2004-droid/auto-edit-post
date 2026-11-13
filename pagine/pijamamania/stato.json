@@ -794,6 +794,17 @@
       "audio_id": null,
       "audio_file": "VIRALE_squalo_3M6.mp3",
       "ora": "2026-11-12T22:32+01:00"
+    },
+    "2026-11-13 08:00": {
+      "esito": "pubblicato",
+      "id": "pm-00002",
+      "file": "pm-00002.mp4",
+      "media_id": "18118623428325619",
+      "link": "https://www.instagram.com/reel/DfrDOtaDKwX/",
+      "audio": "inserito: DelynysP4YQ.m4a",
+      "audio_id": null,
+      "audio_file": "DelynysP4YQ.m4a",
+      "ora": "2026-11-13T08:03+01:00"
     }
   },
   "usati": [
@@ -829,7 +840,8 @@
     "pijamamania-00030",
     "pijamamania-00031",
     "pijamamania-00032",
-    "pm-00001"
+    "pm-00001",
+    "pm-00002"
   ],
   "scartati": {},
   "errori": {},

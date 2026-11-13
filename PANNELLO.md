@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 13/11/2026 00:48
+Aggiornato: 13/11/2026 08:03
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | Ciabatte Pazze | ✅ attiva | 08:15, 12:45, 18:30, 21:00 | 4 | 13 | 3.2 gg | ven 08:15 | 11-12 21:00 ✅ | 13 pubblicati, 15 saltati |
 | Luce di Fede | ⏸ in pausa | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
-| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 39 | 3.9 gg | ven 08:00 | 11-12 22:30 ✅ | 1 pubblicati, 69 saltati |
+| PijamaMania | ✅ attiva | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 38 | 3.8 gg | ven 09:45 | 11-13 08:00 ✅ | 2 pubblicati, 68 saltati |
 | Raven & Resin by Cole | ⏸ in pausa | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ✅ Nessun problema.
@@ -14,6 +14,7 @@ Aggiornato: 13/11/2026 00:48
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-13 08:00 | PijamaMania | inserito: DelynysP4YQ.m4a | https://www.instagram.com/reel/DfrDOtaDKwX/ |
 | 2026-11-12 22:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfqB3CvjdC9/ |
 | 2026-11-12 21:00 | Ciabatte Pazze | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DfqBzJZDYxK/ |
 | 2026-11-12 18:30 | Ciabatte Pazze | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfpnhrgibxS/ |
@@ -33,4 +34,3 @@ Aggiornato: 13/11/2026 00:48
 | 2026-11-05 12:45 | Ciabatte Pazze | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DfW_hNWDDdv/ |
 | 2026-11-05 08:15 | Ciabatte Pazze | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DfWpPDNE9RA/ |
 | 2026-11-04 21:00 | Ciabatte Pazze | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DfVc_jEjMc2/ |
-| 2026-11-03 21:00 | Ciabatte Pazze | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DfS3gXfjMEA/ |
