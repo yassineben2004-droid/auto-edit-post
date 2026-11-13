@@ -1,0 +1,118 @@
+# Ricette reel BottiZero (solo Facebook Reels) — si montano su Mac con il workflow "Monta reel" (emoji iOS)
+# Clip in clip_originali/bottizero/ (generate su Higgsfield: niente sgranature da coprire):
+#   PROBLEMA   a1_palco (4s) · a3_capodanno (festa) · a4_nonna_tavolo (cane sotto il tavolo durante i fuochi)
+#   FASCIA     c1_ragazza_fascia (4s) · c2_nonna_fascia
+#   LIETO FINE f1_ragazza_fuochi (5s) · f2_nonna_divano · f3_nonna_carezza
+#   ESCLUSA    a2_temporale: split prima/dopo generato con AI → niente prima/dopo AI (pubblicità ingannevole)
+# Stesso corpo, cambia l'hook (leva: nuovo angolo). Niente claim salute ("ansia", "calma"): si parla di rumore/botti.
+# Testo a metà-basso come nei reel nativi (0.58); negli ultimi 3s la CTA SOSTITUISCE l'hook (0.62).
+reel:
+  - nome: bz01_sotto_al_tavolo
+    testo: "Ogni Capodanno il mio cane finiva sotto al tavolo 😢"
+    posizione: 0.58
+    cta: "Quest'anno resta con noi 🐶❤️"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - a4_nonna_tavolo 0 3.0
+      - c2_nonna_fascia 0 3.0
+      - f2_nonna_divano 0 3.0
+      - f3_nonna_carezza 0 3.0
+
+  - nome: bz02_palco_trucco
+    testo: "Lei ha appena svelato il trucco per i botti 🎆👀"
+    posizione: 0.58
+    cta: "Si chiama BottiZero 🐶"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - a1_palco 0 4.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+
+  - nome: bz03_loro_festeggiano
+    testo: "Loro festeggiano. Lui dorme 😴🎆"
+    posizione: 0.58
+    cta: "Fascia antirumore per cani 🐶\nLink in bio"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - a3_capodanno 0 3.0
+      - f2_nonna_divano 0 3.0
+      - f3_nonna_carezza 0 3.0
+
+  - nome: bz04_regalo_fifone
+    testo: "Il regalo di Natale per chi ha un cane fifone 🎁🐶"
+    posizione: 0.58
+    cta: "Commenta BOTTI per il link 👇"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 5.0
+
+  - nome: bz05_nonna_soluzione
+    testo: "Mia nonna ha trovato la soluzione per i botti 👵🎆"
+    posizione: 0.58
+    cta: "Ora il cane non la lascia più 😂"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - c2_nonna_fascia 0 3.0
+      - f3_nonna_carezza 0 3.0
+      - f2_nonna_divano 0 3.0
+
+  - nome: bz06_poche_settimane
+    testo: "Mancano poche settimane ai botti di Capodanno 🎆"
+    posizione: 0.58
+    cta: "Preparati in tempo 🐶\nLink in bio"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - a4_nonna_tavolo 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+
+  - nome: bz07_pov_primo_capodanno
+    testo: "POV: il primo Capodanno senza nascondersi sotto al letto 🐶"
+    posizione: 0.58
+    cta: "BottiZero 🐶❤️"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - a3_capodanno 0 3.0
+      - c2_nonna_fascia 0 3.0
+      - f3_nonna_carezza 0 3.0
+
+  - nome: bz08_orecchie_destra
+    testo: "Il cane a destra ha qualcosa sulle orecchie 👀"
+    posizione: 0.58
+    cta: "Fascia antirumore BottiZero 🐶"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - a1_palco 0 4.0
+      - a3_capodanno 0 3.0
+      - f1_ragazza_fuochi 0 4.0
+
+  - nome: bz09_regalo_cane_di_casa
+    testo: "Quest'anno il regalo di Natale è per il cane di casa 🎄🐶"
+    posizione: 0.58
+    cta: "Commenta BOTTI per il link 👇"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - a4_nonna_tavolo 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+
+  - nome: bz10_io_guardo_lui
+    testo: "A Capodanno tutti guardano i fuochi. Io guardo lui 🥹"
+    posizione: 0.58
+    cta: "Quest'anno dorme 😴🐶"
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    pezzi:
+      - a3_capodanno 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
