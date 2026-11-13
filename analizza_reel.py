@@ -126,7 +126,11 @@ def analizza(url):
             col = min(len(mini), 8)
             sh(["ffmpeg", "-nostdin", "-v", "error", "-y", "-framerate", "1", "-i", str(tmp / "t%02d.png"),
                 "-vf", f"tile={col}x{(len(mini) + col - 1) // col}", "-frames:v", "1", str(dest / "scene.jpg")])
-        tr = trascrivi(video)
+        try:
+            tr = trascrivi(video)
+        except Exception as e:  # noqa: BLE001  la trascrizione non deve bloccare il report
+            print(f"   trascrizione non riuscita: {e}")
+            tr = None
         dr = drop(video)
 
     def n(k):

@@ -19,7 +19,7 @@ jobs:
         with:
           ref: main   # SEMPRE l'ultima versione: un run in coda deve vedere lo stato salvato dal run precedente
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg tesseract-ocr tesseract-ocr-ita
-      - run: pip install -q -U yt-dlp faster-whisper
+      - run: pip install -q -U yt-dlp faster-whisper "av<14"
       - run: python analizza_reel.py ${{ github.event.inputs.link }}
       - name: Salva
         if: always()
