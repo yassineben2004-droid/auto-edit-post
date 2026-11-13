@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 13/11/2026 17:23
+Aggiornato: 13/11/2026 18:04
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -8,15 +8,17 @@ Aggiornato: 13/11/2026 17:23
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 11 | 2.8 gg | ven 18:30 | 11-13 12:45 ✅ | 13 pubblicati, 15 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 21 | 5.2 gg | ven 18:30 | 11-13 12:45 ✅ | 1 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 33 | 3.3 gg | ven 18:00 | 11-13 16:30 ✅ | 7 pubblicati, 63 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 32 | 3.2 gg | ven 19:30 | 11-13 18:00 ✅ | 8 pubblicati, 62 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **PijamaMania** turno 2026-11-13 13:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
+- **PijamaMania** turno 2026-11-13 18:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-13 18:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfsH8JEk_mV/ |
 | 2026-11-13 16:30 | PijamaMania | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/Dfr-ZskoORB/ |
 | 2026-11-13 14:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfrzS84jRH9/ |
 | 2026-11-13 13:00 | PijamaMania | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/Dfrly3SgNle/ |
@@ -36,4 +38,3 @@ Aggiornato: 13/11/2026 17:23
 | 2026-11-08 21:00 | Ciabatte Pazze | inserito: DetkbnLv9bW.m4a | https://www.instagram.com/reel/DfflyAvDF0O/ |
 | 2026-11-08 12:45 | Ciabatte Pazze | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DfezPRhkZPX/ |
 | 2026-11-07 21:00 | Ciabatte Pazze | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfdCVjaD1o_/ |
-| 2026-11-07 12:45 | Ciabatte Pazze | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DfcMjpujWV9/ |
