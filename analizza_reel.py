@@ -66,12 +66,24 @@ def frame(video, t, dest, larg=480):
     return dest.exists()
 
 
+def _parole(testo):
+    import re as _re
+    return [w for w in _re.findall(r"[A-Za-zÀ-ÿ']{3,}", testo)]
+
+
 def ocr(img):
-    r = sh(["tesseract", str(img), "-", "-l", "ita+eng", "--psm", "11"])
-    righe = [l.strip() for l in r.stdout.splitlines()]
-    # tieni solo righe "da testo a schermo": almeno 2 lettere di fila, niente rumore
-    buone = [l for l in righe if re.search(r"[A-Za-zÀ-ÿ]{2,}", l) and len(l) >= 3]
-    return " / ".join(buone)
+    """Testo a schermo: 1) solo i pixel quasi bianchi (testo bianco col bordo, il caso tipico dei reel)
+    2) immagine normale. Tiene la lettura con più parole vere."""
+    letture = []
+    bin_ = img.with_name(img.stem + "_bin.png")
+    sh(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(img), "-vf",
+        "scale=1440:-1,format=gray,lutyuv=y='if(gt(val\\,240)\\,0\\,255)'", str(bin_)])
+    for src, psm in ((bin_, "6"), (img, "11")):
+        if src.exists():
+            r = sh(["tesseract", str(src), "-", "-l", "ita+eng", "--psm", psm]).stdout
+            righe = [l.strip() for l in r.splitlines() if len(_parole(l)) >= 1]
+            letture.append(" / ".join(righe))
+    return max(letture, key=lambda t: sum(len(w) for w in _parole(t)), default="")
 
 
 def trascrivi(video):
@@ -88,7 +100,10 @@ def trascrivi(video):
         return "-", []
     m = WhisperModel("small", compute_type="int8")
     seg, info = m.transcribe(audio, vad_filter=True)
-    righe = [f"{s.start:.1f}-{s.end:.1f}s  {s.text.strip()}" for s in seg]
+    finte = ("thank you for watching", "see you in the next", "bye", "sottotitoli", "subscribe", "grazie per la visione")
+    righe = [f"{s.start:.1f}-{s.end:.1f}s  {s.text.strip()}" for s in seg
+             if s.no_speech_prob < 0.5 and s.avg_logprob > -1.0
+             and not any(f in s.text.lower() for f in finte)]  # niente frasi "inventate" sulla musica
     return info.language, righe
 
 
@@ -124,7 +139,7 @@ def analizza(url):
             b = inizi[i + 1] if i + 1 < len(inizi) else dur
             mid = a + min((b - a) / 2, 1.0)
             img = tmp / f"s{i:02d}.png"
-            testo = ocr(img) if frame(video, mid, img, 720) else ""
+            testo = ocr(img) if frame(video, mid, img, 1080) else ""
             frame(video, mid, tmp / f"t{i:02d}.png", 120)
             scene.append((a, b, testo))
         # miniatura: 1 fotogramma per scena, piccolo (max 16 scene)
