@@ -90,6 +90,11 @@ def scrivi_stato(nome, st):
     (PAGINE / nome / "stato.json").write_text(json.dumps(st, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def su_facebook(pag):
+    """True se la pagina pubblica i Reel sulla Pagina Facebook (piattaforma: facebook) invece che su Instagram."""
+    return str(pag.get("piattaforma", "instagram")).lower() in ("facebook", "fb")
+
+
 def token_per(pag):
     """Token dalla variabile indicata, oppure dal pacchetto di secret di GitHub (SEGRETI)."""
     t = os.environ.get(pag["token_env"])
@@ -137,6 +142,8 @@ def prossimo_video(nome, coda, st):
 # ================================================================ esecuzione
 def pubblica_video(meta, pag, nome, r, st, prova):
     video = PAGINE / nome / "coda" / r["file"]
+    if su_facebook(pag):
+        return pubblica_video_fb(meta, pag, r, video, prova)
     durata = float(r.get("durata") or 0)
     audio, info, aid = None, "audio disattivato", r.get("audio_id") or None
     a = pag.get("audio") or {}
@@ -165,6 +172,20 @@ def pubblica_video(meta, pag, nome, r, st, prova):
         st["audio_usati"] = (st["audio_usati"] + [str(aid)])[-200:]
     return {"esito": "pubblicato", "id": r["id"], "file": r["file"], "media_id": media_id,
             "link": link, "audio": descr, "audio_id": aid, "audio_file": r.get("audio_file", "")}
+
+
+def pubblica_video_fb(meta, pag, r, video, prova):
+    """Reel sulla Pagina Facebook. L'audio è quello già inserito nel video (metti-audio):
+    da API Facebook non si può agganciare la musica di tendenza."""
+    descr = f"inserito: {r['audio_file']}" if r.get("audio_file") else "audio originale del video"
+    print(f"   {r['id']} ({r['file']}) | Facebook Reel | audio: {descr}")
+    if prova:
+        meta.token_pagina(pag["fb_page_id"])   # in prova controllo almeno che il token della Pagina si ottenga
+        return {"esito": "prova", "id": r["id"], "audio": descr}
+    vid, stato_fb = meta.pubblica_reel_fb(pag["fb_page_id"], str(video), r.get("caption", ""))
+    return {"esito": "pubblicato", "id": r["id"], "file": r["file"], "media_id": vid,
+            "link": f"https://www.facebook.com/reel/{vid}", "audio": descr, "audio_id": None,
+            "audio_file": r.get("audio_file", ""), "piattaforma": "facebook", "stato_fb": stato_fb}
 
 
 def esegui(prova=False, adesso=None):
@@ -299,10 +320,12 @@ def pannello(stampa=True):
         pubbl = sum(1 for v in settimana if v.get("esito") == "pubblicato")
         problemi = sum(1 for v in settimana if v.get("esito") in ("mancato", "coda_vuota"))
         giorni = len(in_coda) / al_giorno
-        stato_txt = "✅ attiva" if pag["attiva"] else "⏸ in pausa"
+        stato_txt = ("✅ attiva" if pag["attiva"] else "⏸ in pausa") + (" · FB" if su_facebook(pag) else " · IG")
         if pag["attiva"] and giorni < 2:
             avvisi.append(f"**{pag['nome']}**: coda quasi finita ({len(in_coda)} video ≈ {giorni:.1f} giorni)")
-        if pag["attiva"] and str(pag.get("ig_user_id", "")).startswith("DA_"):
+        if pag["attiva"] and su_facebook(pag) and str(pag.get("fb_page_id", "DA_")).startswith("DA_"):
+            avvisi.append(f"**{pag['nome']}**: manca l'ID della Pagina Facebook (fb_page_id) in pagina.yaml")
+        elif pag["attiva"] and not su_facebook(pag) and str(pag.get("ig_user_id", "")).startswith("DA_"):
             avvisi.append(f"**{pag['nome']}**: manca l'ID dell'account Instagram in pagina.yaml")
         for k, v in st["errori"].items():
             if v and k >= chiave(adesso - timedelta(days=1)) and k not in st["turni"]:
@@ -592,6 +615,20 @@ def _verifica():
             print(f"[{nome}] manca il token ({pag['token_env']})")
             continue
         m = Meta(tok, g["api_version"])
+        if su_facebook(pag):
+            try:
+                info = m.get(pag["fb_page_id"], fields="name,followers_count")
+                m.token_pagina(pag["fb_page_id"])
+                dbg = m.get("debug_token", input_token=tok).get("data", {})
+                scopes = dbg.get("scopes", [])
+                manca = [p for p in ("pages_manage_posts", "pages_read_engagement", "pages_show_list") if p not in scopes]
+                print(f"[{nome}] Pagina Facebook OK: {info.get('name')} ({info.get('followers_count')} follower), "
+                      f"token della Pagina ottenuto")
+                print(f"[{nome}] permessi: {', '.join(scopes)}"
+                      + (f"  ❌ MANCANO: {', '.join(manca)}" if manca else "  ✅ pronti per i Reel Facebook"))
+            except Exception as e:  # noqa: BLE001
+                print(f"[{nome}] ERRORE Facebook: {e}")
+            continue
         try:
             info = m.get(pag["ig_user_id"], fields="username,followers_count")
             q = m.get(f"{pag['ig_user_id']}/content_publishing_limit", fields="config,quota_usage")
@@ -621,14 +658,14 @@ def account():
             righe.append("  secret mancante su GitHub")
             continue
         try:
-            r = Meta(tok, g["api_version"]).get("me/accounts", fields="name,instagram_business_account{id,username}",
+            r = Meta(tok, g["api_version"]).get("me/accounts", fields="id,name,instagram_business_account{id,username}",
                                                 limit=100)
         except Exception as e:  # noqa: BLE001
             righe.append(f"  ERRORE {e}")
             continue
         for p in r.get("data", []) or []:
             ig = p.get("instagram_business_account") or {}
-            righe.append(f"  Pagina: {p.get('name')}  →  Instagram: @{ig.get('username', '-')}  "
+            righe.append(f"  Pagina: {p.get('name')}  fb_page_id: {p.get('id')}  →  Instagram: @{ig.get('username', '-')}  "
                          f"ig_user_id: {ig.get('id', 'NON COLLEGATO')}")
         if not r.get("data"):
             righe.append("  nessuna Pagina assegnata a questo token")

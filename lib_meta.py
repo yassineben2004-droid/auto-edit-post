@@ -1,4 +1,4 @@
-"""Chiamate alle API Meta (Instagram) + scelta audio. Usato da piattaforma.py."""
+"""Chiamate alle API Meta (Instagram Reels + Facebook Reels delle Pagine) + scelta audio. Usato da piattaforma.py."""
 import json, os, random, time
 
 import requests
@@ -85,6 +85,56 @@ class Meta:
 
     def pubblica(self, ig_user_id, container_id):
         return self.post(f"{ig_user_id}/media_publish", creation_id=container_id)["id"]
+
+
+    # --- Facebook Reels (Pagina)
+    # Serve il token della PAGINA: lo ricavo dal token dell'utente di sistema (permesso pages_manage_posts).
+    def token_pagina(self, page_id):
+        if not hasattr(self, "_tok_pag"):
+            self._tok_pag = {}
+        if page_id not in self._tok_pag:
+            t = self.get(page_id, fields="access_token").get("access_token")
+            if not t:
+                raise ErroreAPI(f"nessun token per la Pagina {page_id}: assegnala all'utente di sistema "
+                                f"con controllo completo e aggiungi il permesso pages_manage_posts")
+            self._tok_pag[page_id] = t
+        return self._tok_pag[page_id]
+
+    def _pag(self, metodo, path, page_id, **dati):
+        dati["access_token"] = self.token_pagina(page_id)
+        url = f"{GRAPH}/{self.v}/{path}"
+        if metodo == "get":
+            return self._chk(self.s.get(url, params=dati, timeout=60))
+        return self._chk(self.s.post(url, data=dati, timeout=120))
+
+    def pubblica_reel_fb(self, page_id, path, descrizione, max_sec=900, ogni=15):
+        """Reel sulla Pagina Facebook: start → upload del file → finish (PUBLISHED) → attesa pubblicazione.
+        Ritorna (video_id, stato_finale)."""
+        ptok = self.token_pagina(page_id)
+        r = self._pag("post", f"{page_id}/video_reels", page_id, upload_phase="start")
+        vid = r["video_id"]
+        url = r.get("upload_url") or f"{RUPLOAD}/video-upload/{self.v}/{vid}"
+        size = os.path.getsize(path)
+        with open(path, "rb") as fh:
+            self._chk(self.s.post(url, headers={"Authorization": f"OAuth {ptok}", "offset": "0",
+                                                "file_size": str(size)}, data=fh, timeout=600))
+        fin = self._pag("post", f"{page_id}/video_reels", page_id, upload_phase="finish", video_id=vid,
+                        video_state="PUBLISHED", description=descrizione)
+        if not fin.get("success", True):
+            raise ErroreAPI(f"Facebook non ha accettato il reel: {fin}")
+        t0 = time.time()
+        while True:
+            st = (self._pag("get", vid, page_id, fields="status").get("status") or {})
+            fase = (st.get("publishing_phase") or {})
+            if st.get("video_status") == "error" or fase.get("status") == "error" \
+                    or (st.get("processing_phase") or {}).get("status") == "error":
+                raise ErroreAPI(f"elaborazione video fallita su Facebook: {json.dumps(st)[:400]}")
+            if fase.get("status") == "complete" or fase.get("publish_status") == "published":
+                return vid, "pubblicato"
+            if time.time() - t0 > max_sec:
+                # il reel è già stato consegnato con PUBLISHED: Facebook lo pubblica appena finisce di elaborarlo
+                return vid, f"in elaborazione ({st.get('video_status')})"
+            time.sleep(ogni)
 
 
 # ---------------------------------------------------------------- scelta audio

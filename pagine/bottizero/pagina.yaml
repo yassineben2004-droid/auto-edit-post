@@ -1,0 +1,21 @@
+# Pagina: BottiZero — SOLO FACEBOOK (Reel sulla Pagina Facebook, niente Instagram)
+nome: "BottiZero"
+attiva: false                     # metti true quando fb_page_id e permesso pages_manage_posts sono pronti
+piattaforma: facebook             # facebook = Reel sulla Pagina FB | instagram (predefinito) = Reel IG
+fb_page_id: "DA_INSERIRE"         # ID numerico della Pagina Facebook (comando: account)
+token_env: TOKEN_META_STORE       # token del portafoglio Business del profilo personale
+elimina_dopo: true
+
+# ORARI FISSI (ora italiana): gli stessi di Ciabatte Pazze, così partono con i timer cron-job.org già esistenti
+orari:
+  ogni_giorno: ["08:15", "12:45", "18:30", "21:00"]
+
+hashtag: "#bottizero #cani #botti #capodanno #cane #canepauroso #temporale #ansiacane #regaloperilcane"
+caption: []                       # da compilare con le caption del brand
+
+# AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio): su Facebook è l'unico audio possibile da API
+audio_inseriti:
+  pesi: {}
+
+audio:
+  attivo: false                   # musica di tendenza non disponibile via API sui Reel Facebook

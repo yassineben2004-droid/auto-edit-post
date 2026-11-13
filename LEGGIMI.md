@@ -80,3 +80,18 @@ stesso codice, si lancia `python piattaforma.py esegui` ogni 5 minuti con cron.
 - In ricetta: `posizione` accetta anche un numero (0.56 = 56% dall'alto); `cta_posizione: 0.20` fa sì che la CTA
   **sostituisca** l'hook negli ultimi `cta_secondi` e vada a quell'altezza (sopra le parti sgranate).
 - Su Linux (montaggio locale) le emoji sono quelle Google: vanno bene solo come anteprima.
+
+## Pagine solo Facebook (Reel sulla Pagina FB)
+Per i brand che girano solo su Facebook (BottiZero, Doni di Natale) in `pagina.yaml`:
+```yaml
+piattaforma: facebook
+fb_page_id: "1234567890"     # ID della Pagina: lo stampa il comando `account`
+token_env: TOKEN_META_STORE
+```
+- Il bot ricava da solo il **token della Pagina** dal token dell'utente di sistema e pubblica con le API
+  `video_reels` (start → upload → finish PUBLISHED), poi aspetta che Facebook confermi la pubblicazione.
+- **Permesso necessario in più sul token:** `pages_manage_posts` (oltre a `pages_show_list` e `pages_read_engagement`).
+  Utente di sistema → Genera nuovo token → spunta anche `pages_manage_posts` → aggiorna il secret `TOKEN_META_STORE` su GitHub.
+  La Pagina va assegnata all'utente di sistema con **controllo completo**.
+- Audio: sui Reel Facebook la musica di tendenza da API non esiste → si usa solo l'audio inserito con `metti-audio`.
+- `verifica` dice se token della Pagina e permessi sono a posto; `esegui --prova` controlla senza pubblicare.
