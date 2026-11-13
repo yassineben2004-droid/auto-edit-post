@@ -2,7 +2,7 @@
 nome: "BottiZero"
 attiva: false                     # metti true quando fb_page_id e permesso pages_manage_posts sono pronti
 piattaforma: facebook             # facebook = Reel sulla Pagina FB | instagram (predefinito) = Reel IG
-fb_page_id: "DA_INSERIRE"         # ID numerico della Pagina Facebook (comando: account)
+fb_page_id: "1437785246079859"   # Pagina BottiZero
 token_env: TOKEN_META_STORE       # token del portafoglio Business del profilo personale
 elimina_dopo: true
 

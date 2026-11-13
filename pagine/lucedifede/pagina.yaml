@@ -1,7 +1,7 @@
 # Pagina: Luce di Fede
 nome: "Luce di Fede"
 attiva: false                     # metti true quando ID e token sono pronti
-ig_user_id: "DA_INSERIRE"         # ID numerico dell'account Instagram
+ig_user_id: "17841472291969379"         # @luce_di_fede_
 token_env: TOKEN_META_STORE        # token del portafoglio Business del profilo personale (tutti gli store tranne PijamaMania)
 anche_nel_feed: true
 elimina_dopo: true                # cancella il video dopo averlo pubblicato
