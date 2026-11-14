@@ -442,3 +442,85 @@ reel:
       - ../ciabattepazze_massaggio/f3_frontale 0 3.0
       - ../ciabattepazze_massaggio/f4_laterale 0 1.5
       - ../ciabattepazze_massaggio/f5_nonna_divano 0 3.0
+
+  # varianti del rifacimento fedele: stesso corpo, cambia solo l'hook della prima scena
+  - nome: ms14_fedele_nonna
+    posizione: 0.38
+    stile: tiktok
+    testi_scene:
+      - "POV: hai trovato il regalo da fare a tua nonna… 🥹"
+      - "Riscaldamento fino a 45 gradi 🔥"
+      - "Compressione e vibrazione sui piedi 🤤"
+      - "Massaggio rotante su tutto il piede 😌"
+      - "Massaggio rotante su tutto il piede 😌"
+    pezzi:
+      - ../ciabattepazze_massaggio/f1_regalo_unboxing 0 3.0
+      - ../ciabattepazze_massaggio/f2_pulsanti_calore 0 3.0
+      - ../ciabattepazze_massaggio/f3_frontale 0 3.0
+      - ../ciabattepazze_massaggio/f4_laterale 0 1.5
+      - ../ciabattepazze_massaggio/f5_nonna_divano 0 3.0
+
+  - nome: ms15_fedele_non_si_aspettava
+    posizione: 0.38
+    stile: tiktok
+    testi_scene:
+      - "Il regalo che mia madre non si aspettava 🎁"
+      - "Riscaldamento fino a 45 gradi 🔥"
+      - "Compressione e vibrazione sui piedi 🤤"
+      - "Massaggio rotante su tutto il piede 😌"
+      - "Massaggio rotante su tutto il piede 😌"
+    pezzi:
+      - ../ciabattepazze_massaggio/f1_regalo_unboxing 0 3.0
+      - ../ciabattepazze_massaggio/f2_pulsanti_calore 0 3.0
+      - ../ciabattepazze_massaggio/f3_frontale 0 3.0
+      - ../ciabattepazze_massaggio/f4_laterale 0 1.5
+      - ../ciabattepazze_massaggio/f5_nonna_divano 0 3.0
+
+  - nome: ms16_fedele_non_ditelo
+    posizione: 0.38
+    stile: tiktok
+    testi_scene:
+      - "Non ditelo a mia madre ma questo è il suo regalo di Natale 🤫"
+      - "Riscaldamento fino a 45 gradi 🔥"
+      - "Compressione e vibrazione sui piedi 🤤"
+      - "Massaggio rotante su tutto il piede 😌"
+      - "Massaggio rotante su tutto il piede 😌"
+    pezzi:
+      - ../ciabattepazze_massaggio/f1_regalo_unboxing 0 3.0
+      - ../ciabattepazze_massaggio/f2_pulsanti_calore 0 3.0
+      - ../ciabattepazze_massaggio/f3_frontale 0 3.0
+      - ../ciabattepazze_massaggio/f4_laterale 0 1.5
+      - ../ciabattepazze_massaggio/f5_nonna_divano 0 3.0
+
+  - nome: ms17_fedele_in_piedi
+    posizione: 0.38
+    stile: tiktok
+    testi_scene:
+      - "Il regalo per chi passa tutto il giorno in piedi 🥲"
+      - "Riscaldamento fino a 45 gradi 🔥"
+      - "Compressione e vibrazione sui piedi 🤤"
+      - "Massaggio rotante su tutto il piede 😌"
+      - "Massaggio rotante su tutto il piede 😌"
+    pezzi:
+      - ../ciabattepazze_massaggio/f1_regalo_unboxing 0 3.0
+      - ../ciabattepazze_massaggio/f2_pulsanti_calore 0 3.0
+      - ../ciabattepazze_massaggio/f3_frontale 0 3.0
+      - ../ciabattepazze_massaggio/f4_laterale 0 1.5
+      - ../ciabattepazze_massaggio/f5_nonna_divano 0 3.0
+
+  - nome: ms18_fedele_dopo_regalo
+    posizione: 0.38
+    stile: tiktok
+    testi_scene:
+      - "Mia nonna dopo che le ho regalato questo 😂"
+      - "Riscaldamento fino a 45 gradi 🔥"
+      - "Compressione e vibrazione sui piedi 🤤"
+      - "Massaggio rotante su tutto il piede 😌"
+      - "Massaggio rotante su tutto il piede 😌"
+    pezzi:
+      - ../ciabattepazze_massaggio/f1_regalo_unboxing 0 3.0
+      - ../ciabattepazze_massaggio/f2_pulsanti_calore 0 3.0
+      - ../ciabattepazze_massaggio/f3_frontale 0 3.0
+      - ../ciabattepazze_massaggio/f4_laterale 0 1.5
+      - ../ciabattepazze_massaggio/f5_nonna_divano 0 3.0
+
