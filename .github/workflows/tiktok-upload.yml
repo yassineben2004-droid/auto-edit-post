@@ -1,0 +1,36 @@
+name: Carica video Insegnia su Higgsfield (per TikTok)
+on:
+  push:
+    branches: [main]
+    paths: ["tiktok_upload.txt"]
+concurrency:
+  group: pubblica
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  carica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Upload
+        run: |
+          [ -f tiktok_upload.txt ] || exit 0
+          : > pagine/_tiktok_upload.txt
+          while IFS='|' read -r f u; do
+            [ -z "$f" ] && continue
+            c=$(curl -sS -o /dev/null -w "%{http_code}" -X PUT -H "Content-Type: video/mp4" --data-binary @"$f" "$u" || echo ERR)
+            echo "$f $c" >> pagine/_tiktok_upload.txt
+          done < tiktok_upload.txt
+          cat pagine/_tiktok_upload.txt
+      - name: Salva esito e cancella i link temporanei
+        if: always()
+        run: |
+          git config user.name "auto-edit-post"
+          git config user.email "auto-edit-post@users.noreply.github.com"
+          git rm -q --cached tiktok_upload.txt 2>/dev/null; rm -f tiktok_upload.txt
+          git add -A pagine/_tiktok_upload.txt tiktok_upload.txt 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "upload TikTok insegnia $(date -u +%F' '%H:%M)" && git pull --rebase && git push)
