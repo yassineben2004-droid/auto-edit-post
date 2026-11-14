@@ -524,3 +524,70 @@ reel:
       - ../ciabattepazze_massaggio/f4_laterale 0 1.5
       - ../ciabattepazze_massaggio/f5_nonna_divano 0 3.0
 
+
+  # ---- CIABATTE RISCALDATE: rifacimento fedele del virale SnugToes De-DMbQPfLZ (packaging Ciabatte Pazze, clip in ../ciabattepazze_calde)
+  # stesse 5 scene e durate dell'originale (5 / 2.2 / 1.5 / 1.2 / 5s); cambia solo l'hook della prima scena
+  - nome: cr01_fedele_disponibili
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Quando finalmente le trovi disponibili 😍"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr02_cercano_natale
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Le ciabatte che tutti cercano per Natale 🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr03_non_farle_vedere
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Non farle vedere a tua madre o te le ruba 😭"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr04_nonna_freddo
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Mia nonna: «ho sempre freddo ai piedi». Io:"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
