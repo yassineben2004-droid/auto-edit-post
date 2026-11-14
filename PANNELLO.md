@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 14/11/2026 12:52
+Aggiornato: 14/11/2026 13:04
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -8,20 +8,21 @@ Aggiornato: 14/11/2026 12:52
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 25 | 4.2 gg | sab 15:30 | 11-14 12:45 ✅ | 14 pubblicati, 18 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 17 | 4.2 gg | sab 18:30 | 11-14 12:45 ✅ | 5 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 26 | 2.6 gg | sab 13:00 | 11-14 11:30 ✅ | 14 pubblicati, 56 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 25 | 2.5 gg | sab 14:45 | 11-14 13:00 ✅ | 15 pubblicati, 55 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **BottiZero**: coda quasi finita (5 video ≈ 1.2 giorni)
 - **Ciabatte Pazze** turno 2026-11-13 21:00: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '1597701578340425' does not exist, cannot be loaded due to missing permission
-- **PijamaMania** turno 2026-11-13 13:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 - **PijamaMania** turno 2026-11-13 18:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 - **PijamaMania** turno 2026-11-13 21:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 - **PijamaMania** turno 2026-11-14 09:45: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
+- **PijamaMania** turno 2026-11-14 13:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-14 13:00 | PijamaMania | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DfuKXlMEtkm/ |
 | 2026-11-14 12:45 | Luce di Fede | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DfuJD_1E0eD/ |
 | 2026-11-14 12:45 | Ciabatte Pazze | inserito: Dfc14MBxfoy.m4a | https://www.instagram.com/reel/DfuI8n7E93L/ · FB: https://www.facebook.com/reel/1137704718910093 |
 | 2026-11-14 12:45 | BottiZero | inserito: DeZxXLPiEUV.m4a | https://www.facebook.com/reel/1587266153416632 |
@@ -41,4 +42,3 @@ Aggiornato: 14/11/2026 12:52
 | 2026-11-13 18:30 | Ciabatte Pazze | inserito: DelynysP4YQ.m4a | https://www.instagram.com/reel/DfsOzRJAf2l/ · FB: https://www.facebook.com/reel/2385790055588635 |
 | 2026-11-13 18:30 | BottiZero | inserito: DeuSp1UAWbb.m4a | https://www.facebook.com/reel/29591022393855633 |
 | 2026-11-13 18:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfsH8JEk_mV/ |
-| 2026-11-13 16:30 | PijamaMania | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/Dfr-ZskoORB/ |
