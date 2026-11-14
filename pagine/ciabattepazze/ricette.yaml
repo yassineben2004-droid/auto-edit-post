@@ -293,3 +293,134 @@ reel:
       - ../ciabattepazze_nov/n1_unboxing 0 3.0
       - ../ciabattepazze_39anni/v2_scaffale 0 2.6
       - ../ciabattepazze_39anni/v3_casa 0 3.0
+
+  # ---- MASSAGGIATORE PIEDI (clip Higgsfield in ../ciabattepazze_massaggio), 6 reel x 2 hook (split test A/B)
+  # Struttura: hook -> 01_piedi_entrano -> 02_pulsanti -> finale. Testo a 0.42 (sopra il prodotto). Niente claim salute.
+  - nome: ms01_regalo_mamma_A
+    testo: "POV: hai trovato il regalo da fare a tua madre 🥹"
+    posizione: 0.42
+    cta: "Ora non si alza più dal divano 😂"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/03_mamma_apre_pacco 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/04_mamma_relax_divano 0 3.0
+
+  - nome: ms02_regalo_mamma_B
+    testo: "Mia madre ha aperto il regalo e non si è più alzata 😭"
+    posizione: 0.42
+    pezzi:
+      - ../ciabattepazze_massaggio/03_mamma_apre_pacco 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/04_mamma_relax_divano 0 3.0
+
+  - nome: ms03_non_ditelo_A
+    testo: "Non ditelo a mia madre ma questo è il suo regalo di Natale 🤫"
+    posizione: 0.42
+    cta: "Missione compiuta 🎁"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/05_figlio_nasconde 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/06_mamma_caffe_ride 0 3.0
+
+  - nome: ms04_non_ditelo_B
+    testo: "Il regalo per la mamma che dice sempre «non voglio niente» 🙄"
+    posizione: 0.42
+    pezzi:
+      - ../ciabattepazze_massaggio/05_figlio_nasconde 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/06_mamma_caffe_ride 0 3.0
+
+  - nome: ms05_nonna_A
+    testo: "La nonna non si alza più dal divano da quando le ho fatto questo regalo 😂"
+    posizione: 0.42
+    pezzi:
+      - ../ciabattepazze_massaggio/07_pranzo_nonna_non_viene 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/08_nonna_primo_piano 0 3.0
+
+  - nome: ms06_nonna_B
+    testo: "«Nonna è pronto!» La nonna:"
+    posizione: 0.42
+    cta: "Arrivo… tra un'ora 😂"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/07_pranzo_nonna_non_viene 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/08_nonna_primo_piano 0 3.0
+
+  - nome: ms07_zio_A
+    testo: "Lo zio dopo il pranzo di Natale 😂"
+    posizione: 0.42
+    cta: "La zia non l'ha presa bene 😳"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/09_zio_dorme 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/10_zia_arrabbiata 0 3.0
+
+  - nome: ms08_zio_B
+    testo: "La zia quando ha capito chi ha regalato questo allo zio 😳"
+    posizione: 0.42
+    cta: "Colpevole 🙋‍♂️"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/09_zio_dorme 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/10_zia_arrabbiata 0 3.0
+
+  - nome: ms09_pensa_A
+    testo: "Cosa pensa mia madre che le ho regalato…"
+    posizione: 0.42
+    cta: "…cosa le ho regalato davvero 😳"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/11_ciabatte_grigie 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/12_mamma_scioccata 0 3.0
+
+  - nome: ms10_pensa_B
+    testo: "Mia madre si aspettava le solite ciabatte…"
+    posizione: 0.42
+    cta: "…e invece 😳"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/11_ciabatte_grigie 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/12_mamma_scioccata 0 3.0
+
+  - nome: ms11_costano_A
+    testo: "Rispondo a: «Ma quanto costano?» 👇"
+    posizione: 0.42
+    pezzi:
+      - ../ciabattepazze_massaggio/14_ragazza_parla 0 3.0
+      - ../ciabattepazze_massaggio/13_prodotto_scatola 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+
+  - nome: ms12_costano_B
+    testo: "Tutti mi chiedono dove le ho prese 👇"
+    posizione: 0.42
+    pezzi:
+      - ../ciabattepazze_massaggio/14_ragazza_parla 0 3.0
+      - ../ciabattepazze_massaggio/13_prodotto_scatola 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0

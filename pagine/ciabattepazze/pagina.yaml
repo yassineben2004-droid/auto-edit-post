@@ -20,7 +20,9 @@ facebook:
   fb_page_id: "1385448827991605"
   orari: "tutti"
 
-caption_cta: "Commenta CIABATTE per ricevere l'offerta 🦶"   # caption = CTA diretta
+caption_cta:                       # caption = CTA diretta, per prodotto (prefisso del nome clip)
+  ms: "Commenta PIEDI per ricevere l'offerta del massaggiatore 🦶✨"
+  altro: "Commenta CIABATTE per ricevere l'offerta 🦶"
 
 hashtag: "#ciabattepazze #ciabatte #pantofole #regalodinatale #ideeregalo #regalodivertente #natale2026 #perte"
 
