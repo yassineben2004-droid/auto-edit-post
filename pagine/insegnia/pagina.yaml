@@ -1,7 +1,8 @@
 # Pagina: Insegnia (insegnia.it) — servizi AI per attività locali
 nome: "Insegnia"
-attiva: false                     # metti true quando ID Instagram e Pagina Facebook sono collegati
-ig_user_id: "DA_INSERIRE"         # ID numerico dell'account Instagram @insegnia
+attiva: true
+inizia_dal: "2026-11-16"          # primo post lunedì 16/11 alle 15:30, come da calendario
+ig_user_id: "17841462126814223"   # account Instagram Insegnia
 token_env: TOKEN_META_STORE       # portafoglio del profilo personale (come gli store)
 anche_nel_feed: true
 elimina_dopo: true
@@ -16,7 +17,7 @@ orari:
 
 facebook:
   attivo: true
-  fb_page_id: "DA_INSERIRE"       # Pagina Facebook di Insegnia (il bot la salta finché è DA_INSERIRE)
+  fb_page_id: "1455907850933451"  # Pagina Facebook di Insegnia
   orari: "tutti"
 
 hashtag: ""                       # gli hashtag sono già dentro ogni caption
