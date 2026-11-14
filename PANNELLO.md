@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 14/11/2026 22:01
+Aggiornato: 14/11/2026 22:35
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -9,7 +9,7 @@ Aggiornato: 14/11/2026 22:01
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30 | 1 | 14 | 14.0 gg | lun 15:30 | - | 0 pubblicati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 15 | 3.8 gg | dom 08:15 | 11-14 21:00 ✅ | 7 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 21 | 2.1 gg | sab 22:30 | 11-14 21:00 ✅ | 19 pubblicati, 51 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 20 | 2.0 gg | dom 08:00 | 11-14 22:30 ✅ | 20 pubblicati, 50 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -23,6 +23,7 @@ Aggiornato: 14/11/2026 22:01
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-14 22:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfvLxPfAAcW/ |
 | 2026-11-14 21:00 | PijamaMania | inserito: De4UoomsP0B.m4a | https://www.instagram.com/reel/DfvByQijmhO/ |
 | 2026-11-14 21:00 | Luce di Fede | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DfvBuV2kdDA/ |
 | 2026-11-14 21:00 | Ciabatte Pazze | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DfvBp4Gmzvy/ |
@@ -42,4 +43,3 @@ Aggiornato: 14/11/2026 22:01
 | 2026-11-14 09:45 | PijamaMania | inserito: DfblOSux_I5.m4a | https://www.instagram.com/reel/Dft0m2dk1vx/ |
 | 2026-11-14 08:15 | Luce di Fede | inserito: DfXJfGTRPnC.m4a | https://www.instagram.com/reel/Dft0jCxj8U9/ |
 | 2026-11-14 08:15 | Ciabatte Pazze | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/Dft0cb4D1D4/ · FB: https://www.facebook.com/reel/1657987506121066 |
-| 2026-11-14 08:15 | BottiZero | inserito: DeWAYKMIsHe.m4a | https://www.facebook.com/reel/957322657205870 |
