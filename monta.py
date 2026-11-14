@@ -12,6 +12,7 @@ Ricetta (in ricette.yaml):
     pezzi:                                           # clip  inizio  fine  [velocità]
       - h1_lei_cade_scaletta 0 4.06
       - s2_buio_accensione 1.2 3.04 1.0
+    testi_scene: ["Hook", "Testo scena 2", ""]       # facoltativo: un testo per ogni pezzo (sostituisce testo/cta)
     stile: tiktok                                    # facoltativo: tiktok | tiktok_regular | classico (se manca: rotazione 60/40)
 Esce in clip_montate/<pagina>/<nome>.mp4, 1080x1920 30fps, senza audio (l'audio lo mette `metti-audio`).
 
@@ -248,6 +249,19 @@ def monta(pagina, r, tmp):
             finestre = [(r.get("testo"), None, pos, 0, t_cta), (r.get("testo"), r["cta"], pos, t_cta, durata + 1)]
     elif r.get("testo"):
         finestre = [(r["testo"], None, pos, 0, durata + 1)]
+    if r.get("testi_scene"):
+        # un testo diverso per ogni pezzo (come nei virali che cambiano scritta a ogni scena);
+        # "" = nessun testo su quel pezzo, pezzi consecutivi con lo stesso testo restano un'unica scritta
+        finestre, t = [], 0.0
+        for (_, a, b, v), testo in zip(pezzi, r["testi_scene"]):
+            t1 = t + (b - a) / v
+            if testo and finestre and finestre[-1][0] == testo:
+                finestre[-1] = (testo, None, pos, finestre[-1][3], t1)
+            elif testo:
+                finestre.append((testo, None, pos, t, t1))
+            t = t1
+        if finestre:
+            finestre[-1] = finestre[-1][:4] + (durata + 1,)
     for j, (testo, cta, posiz, t0, t1) in enumerate(finestre):
         png = Path(tmp) / f"{r['nome']}_{j}.png"
         png_testo(testo, posiz, png, cta, stile=r["stile"])

@@ -424,3 +424,21 @@ reel:
       - ../ciabattepazze_massaggio/13_prodotto_scatola 0 3.0
       - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
       - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+
+  # ---- RIFACIMENTO FEDELE del virale @yourelief Dfc14MBxfoy (446K views): stessa struttura a 5 scene,
+  # una scritta diversa per scena (testi_scene), audio Bublé "It's Beginning to Look a Lot like Christmas" (drop ~6.7s)
+  - nome: ms13_fedele_regalo_madre
+    posizione: 0.38
+    stile: tiktok
+    testi_scene:
+      - "POV: Hai trovato il regalo da fare a tua madre… 🥹"
+      - "Riscaldamento fino a 45 gradi 🔥"
+      - "Compressione e vibrazione sui piedi 🤤"
+      - "Massaggio rotante su tutto il piede 😌"
+      - "Massaggio rotante su tutto il piede 😌"
+    pezzi:
+      - ../ciabattepazze_massaggio/f1_regalo_unboxing 0 3.0
+      - ../ciabattepazze_massaggio/f2_pulsanti_calore 0 3.0
+      - ../ciabattepazze_massaggio/f3_frontale 0 3.0
+      - ../ciabattepazze_massaggio/f4_laterale 0 1.5
+      - ../ciabattepazze_massaggio/f5_nonna_divano 0 3.0
