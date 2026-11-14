@@ -474,6 +474,19 @@
       "audio_file": "DelhYk8vORs.m4a",
       "ora": "2026-11-13T21:08+01:00",
       "fb_errore": "HTTP 400: {\"message\": \"Unsupported get request. Object with ID '1597701578340425' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\", \"type\": \"GraphMethodException"
+    },
+    "2026-11-14 08:15": {
+      "esito": "pubblicato",
+      "id": "ciabattepazze-00037",
+      "file": "ciabattepazze-00037.mp4",
+      "media_id": "18496041307105765",
+      "link": "https://www.instagram.com/reel/Dft0cb4D1D4/",
+      "audio": "inserito: De9-6_5vUNU.m4a",
+      "audio_id": null,
+      "audio_file": "De9-6_5vUNU.m4a",
+      "ora": "2026-11-14T09:52+01:00",
+      "fb_link": "https://www.facebook.com/reel/1657987506121066",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -511,7 +524,8 @@
     "ciabattepazze-00033",
     "ciabattepazze-00034",
     "ciabattepazze-00035",
-    "ciabattepazze-00036"
+    "ciabattepazze-00036",
+    "ciabattepazze-00037"
   ],
   "scartati": {
     "ciabattepazze-00011": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}"

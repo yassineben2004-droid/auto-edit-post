@@ -1,26 +1,31 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 14/11/2026 08:06
+Aggiornato: 14/11/2026 09:53
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 7 | 1.8 gg | sab 08:15 | 11-13 21:00 ✅ | 3 pubblicati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 9 | 2.2 gg | sab 08:15 | 11-13 21:00 ✅ | 13 pubblicati, 15 saltati |
+| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 6 | 1.5 gg | sab 12:45 | 11-14 08:15 ✅ | 4 pubblicati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | sab 12:45 | 11-14 08:15 ✅ | 14 pubblicati, 14 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
-| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 19 | 4.8 gg | sab 08:15 | 11-13 21:00 ✅ | 3 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 28 | 2.8 gg | sab 09:45 | 11-14 08:00 ✅ | 12 pubblicati, 58 saltati |
+| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 18 | 4.5 gg | sab 12:45 | 11-14 08:15 ✅ | 4 pubblicati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 27 | 2.7 gg | sab 11:30 | 11-14 09:45 ✅ | 13 pubblicati, 57 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
-- **BottiZero**: coda quasi finita (7 video ≈ 1.8 giorni)
+- **BottiZero**: coda quasi finita (6 video ≈ 1.5 giorni)
 - **Ciabatte Pazze** turno 2026-11-13 21:00: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '1597701578340425' does not exist, cannot be loaded due to missing permission
 - **PijamaMania** turno 2026-11-13 13:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 - **PijamaMania** turno 2026-11-13 18:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 - **PijamaMania** turno 2026-11-13 21:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
+- **PijamaMania** turno 2026-11-14 09:45: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-14 09:45 | PijamaMania | inserito: DfblOSux_I5.m4a | https://www.instagram.com/reel/Dft0m2dk1vx/ |
+| 2026-11-14 08:15 | Luce di Fede | inserito: DfXJfGTRPnC.m4a | https://www.instagram.com/reel/Dft0jCxj8U9/ |
+| 2026-11-14 08:15 | Ciabatte Pazze | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/Dft0cb4D1D4/ · FB: https://www.facebook.com/reel/1657987506121066 |
+| 2026-11-14 08:15 | BottiZero | inserito: DeWAYKMIsHe.m4a | https://www.facebook.com/reel/957322657205870 |
 | 2026-11-14 08:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/Dftn-7Jiu_J/ |
 | 2026-11-13 22:30 | PijamaMania | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/DfsnQ7kjXiJ/ |
 | 2026-11-13 21:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfsdHb4EnJJ/ |
@@ -37,7 +42,3 @@ Aggiornato: 14/11/2026 08:06
 | 2026-11-13 13:00 | PijamaMania | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/Dfrly3SgNle/ |
 | 2026-11-13 12:45 | Luce di Fede | inserito: DfblaVNxHsY.m4a | https://www.instagram.com/reel/DfrluzhAGFM/ |
 | 2026-11-13 12:45 | Ciabatte Pazze | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DfrlnqaAK_1/ · FB: https://www.facebook.com/reel/1196552412931110 |
-| 2026-11-13 12:45 | BottiZero | inserito: DfoYCD4hnZI.m4a | https://www.facebook.com/reel/1583363520213990 |
-| 2026-11-13 11:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfrbrirksSx/ |
-| 2026-11-13 09:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfrPrU6k_wk/ |
-| 2026-11-13 08:15 | Ciabatte Pazze | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DfrPndSE6Bn/ |
