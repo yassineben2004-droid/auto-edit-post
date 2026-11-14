@@ -438,10 +438,13 @@ def _durata(p):
     return float(r.stdout.strip())
 
 
-def _comprimi(src, dst):
+def _comprimi(src, dst, audio_originale=False):
+    """Ricomprime per Instagram. Di norma toglie l'audio (lo inserisce poi metti-audio);
+    con audio_originale=True (pagine con dialoghi/voce, es. Insegnia) tiene l'audio del video."""
+    sorgente_audio = ["-map", "0:v", "-map", "0:a"] if audio_originale else \
+        ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100", "-map", "0:v", "-map", "1:a", "-shortest"]
     subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(src),
-                    "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
-                    "-map", "0:v", "-map", "1:a", "-shortest",
+                    *sorgente_audio,
                     "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-maxrate", "3.5M", "-bufsize", "7M",
                     "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "64k",
                     "-movflags", "+faststart", "-map_metadata", "-1", str(dst)], check=True)
@@ -508,7 +511,10 @@ def aggiungi(nome, cartelle, testi=None, ricerca_audio="", seed=None, quanti=Non
     pool = []
     for d in cartelle:
         v = sorted(str(p.resolve()) for p in ([Path(d)] if Path(d).is_file() else Path(d).glob("*.mp4")) if str(p.resolve()) not in gia)
-        rng.shuffle(v)
+        if not pag.get("ordine_fisso"):      # ordine_fisso: true → escono in ordine di nome file
+            rng.shuffle(v)
+        else:
+            v.reverse()
         pool.append(v)
     ordine = []
     while any(pool):
@@ -521,7 +527,7 @@ def aggiungi(nome, cartelle, testi=None, ricerca_audio="", seed=None, quanti=Non
     for i, src in enumerate(ordine, 1):
         pid = f"{nome}-{n0 + i:05d}"
         dst = PAGINE / nome / "coda" / f"{pid}.mp4"
-        _comprimi(src, dst)
+        _comprimi(src, dst, audio_originale=bool(pag.get("audio_originale")))
         coda.append({"id": pid, "file": dst.name, "durata": f"{_durata(dst):.2f}",
                      "caption": ((caption_cta(pag, src) or caps[(len(coda)) % len(caps)])
                                  + ("\n\n" + tags if tags else "")).strip(),
@@ -540,6 +546,9 @@ ESTENSIONI_AUDIO = (".mp3", ".m4a", ".aac", ".wav", ".ogg", ".mp4", ".mov")
 def metti_audio(nome, rifai=False):
     """Inserisce un audio vero DENTRO ogni video in coda (a rotazione da pagine/<pagina>/audio/).
     Così il reel non esce mai muto, anche se Meta ignora la musica di tendenza."""
+    if cfg_pagina(nome).get("audio_originale"):
+        print(f"{nome}: audio_originale attivo, i video tengono il loro audio (niente metti-audio)")
+        return
     cart = PAGINE / nome / "audio"
     tracce = sorted(p for p in cart.glob("*") if p.suffix.lower() in ESTENSIONI_AUDIO) if cart.exists() else []
     # libreria comune (audio_comuni/): valida per tutte le pagine italiane; in pagina.yaml

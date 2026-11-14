@@ -1,0 +1,49 @@
+# Pagina: Insegnia (insegnia.it) — servizi AI per attività locali
+nome: "Insegnia"
+attiva: true
+inizia_dal: "2026-11-16"          # primo post lunedì 16/11 alle 15:30, come da calendario
+ig_user_id: "17841462126814223"   # account Instagram Insegnia
+token_env: TOKEN_META_STORE       # portafoglio del profilo personale (come gli store)
+anche_nel_feed: true
+elimina_dopo: true
+
+# I reel di Insegnia hanno dialoghi/voci: si pubblicano con il LORO audio
+audio_originale: true             # niente audio inserito, niente silenzio
+ordine_fisso: true                # escono nell'ordine del calendario (nome file 01_, 02_, ...)
+
+# 1 al giorno. 15:30 = pausa tra pranzo e cena di ristoratori/baristi, quando i titolari scrollano
+orari:
+  ogni_giorno: ["15:30"]
+
+facebook:
+  attivo: true
+  fb_page_id: "1455907850933451"  # Pagina Facebook di Insegnia
+  orari: "tutti"
+
+hashtag: ""                       # gli hashtag sono già dentro ogni caption
+
+# Caption nello STESSO ordine dei video del calendario (1 = primo video in coda)
+caption:
+  - "POV: sei il titolare e fai il pizzaiolo, il centralinista e il social media manager. Insieme. 🍕📞\nTelefono, WhatsApp, recensioni, Instagram… e le pizze chi le fa?\n👉 Commenta ROBOT e ti diciamo cosa possiamo automatizzare nella tua attività.\n\n#ristoratori #pizzeria #intelligenzaartificiale #piccoleimprese"
+  - "AI vs fatto a mano (dal cugino) 😂🦖\nSito, risposte alle recensioni, post: ci sono cose che non si fanno fare al parente.\n👉 Link in bio: insegnia.it\n\n#sitoweb #ristoranti #marketinglocale #intelligenzaartificiale"
+  - "Sito? Volantino. Instagram? Il nipote. Recensioni? La mamma. 😂\nTagga quel titolare che fa marketing così (lo conosciamo tutti).\n👉 Link in bio: insegnia.it\n\n#marketinglocale #titolari #socialmediamarketing #imprenditoriitaliani"
+  - "Il colloquio di lavoro più strano della pizzeria. 🤖🍕\nNon sa fare la pizza, ma risponde a 300 messaggi al minuto, prende le prenotazioni e risponde alle recensioni.\n👉 Commenta ROBOT se lo vuoi anche tu.\n\n#pizzeria #ristorazione #intelligenzaartificiale #automazione"
+  - "Su Instagram: 10/10. Dal vivo: I'm so sorry. 😔\nGoogle, recensioni e sito raccontano un altro locale? Si sistema.\n👉 Commenta ROBOT e ti diciamo da dove partire.\n\n#ristoratori #googlemaps #recensionigoogle #reputazioneonline"
+  - "\"Sei aperta domani?\" alle 23:47. Poi \"Ciao??\". Poi \"Vabbè vado da un'altra\". 💇‍♀️😴\nOgni messaggio senza risposta è una cliente persa.\n👉 Commenta ROBOT: rispondiamo noi, anche alle 3 di notte.\n\n#parrucchiera #parrucchieri #prenotazionionline #hairstylist"
+  - "Recensione da 1 stella: rispondi di pancia o con la testa? ✂️⭐\nUna risposta giusta ti riporta il cliente. Con un amico.\n👉 Link in bio: insegnia.it\n\n#barbiere #barbershop #recensionigoogle #reputazioneonline"
+  - "Locale digitale in caricamento… 99%… DAI! 😩➡️🔥\nSito, prenotazioni, recensioni e social: il glow-up che il tuo locale aspetta.\n👉 Commenta ROBOT per partire.\n\n#ristorante #digitalizzazione #localepieno #intelligenzaartificiale"
+  - "Giorno 1: agenda di carta. Giorno 7: 192% digitale. 📈🍕\nIl tuo locale può fare lo stesso salto.\n👉 Commenta ROBOT e ti diciamo da dove partire.\n\n#pizzeria #ristoratori #digitalizzazione #intelligenzaartificiale"
+  - "20 anni di pizzeria… e su Google non ti trova nessuno. 🍕\nNiente sito, recensioni senza risposta, ultimo post del 2021. Ti suona familiare?\n👉 Link in bio: insegnia.it\n\n#pizzeria #ristoratori #sitoweb #googlemybusiness"
+  - "\"Anche la domenica?\" \"Anche a Natale.\" 🎄💇‍♀️\nLe clienti prenotano quando vogliono loro, non quando sei libera tu.\n👉 Commenta ROBOT per sapere come funziona.\n\n#parrucchiera #saloneparrucchiere #prenotazioni #whatsappbusiness"
+  - "L'ultimo post del tuo bar è un cappuccino sfocato del 2019? ☕📸\nUn post al giorno, all'ora giusta, in automatico. E il bar si riempie.\n👉 Commenta ROBOT e ti mostriamo come.\n\n#bar #caffetteria #instagrammarketing #socialmedia"
+
+audio:
+  attivo: false                   # niente musica di tendenza Meta: coprirebbe le voci
+  tipo: music
+  ricerca: []
+  tra_i_primi: 5
+  no_ripetere_ultimi: 10
+  volume_audio: 100
+  volume_video: 1
+  vietati: []
+  pubblica_senza_audio: true
