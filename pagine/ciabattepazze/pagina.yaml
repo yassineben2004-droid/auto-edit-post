@@ -8,7 +8,7 @@ elimina_dopo: true                # cancella il video dopo averlo pubblicato
 
 # ORARI FISSI (ora italiana). A ogni orario esce il prossimo video della coda.
 orari:
-  ogni_giorno: ["08:15", "12:45", "18:30", "21:00"]
+  ogni_giorno: ["08:15", "10:45", "12:45", "15:30", "18:30", "21:00"]   # 6 al giorno dal 14/11
   # per giorni diversi basta aggiungere il giorno (sostituisce ogni_giorno quel giorno):
   # sabato: ["10:00", "13:00", "18:00", "21:30"]
   # domenica: ["11:00", "20:30"]
