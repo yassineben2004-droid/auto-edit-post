@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 14/11/2026 00:03
+Aggiornato: 14/11/2026 08:03
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -8,7 +8,7 @@ Aggiornato: 14/11/2026 00:03
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 9 | 2.2 gg | sab 08:15 | 11-13 21:00 ✅ | 13 pubblicati, 15 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 19 | 4.8 gg | sab 08:15 | 11-13 21:00 ✅ | 3 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 29 | 2.9 gg | sab 08:00 | 11-13 22:30 ✅ | 11 pubblicati, 59 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 28 | 2.8 gg | sab 09:45 | 11-14 08:00 ✅ | 12 pubblicati, 58 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -21,6 +21,7 @@ Aggiornato: 14/11/2026 00:03
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-14 08:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/Dftn-7Jiu_J/ |
 | 2026-11-13 22:30 | PijamaMania | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/DfsnQ7kjXiJ/ |
 | 2026-11-13 21:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfsdHb4EnJJ/ |
 | 2026-11-13 21:00 | Luce di Fede | inserito: DfjoCIMhKuO.m4a | https://www.instagram.com/reel/DfsdDnmEgk3/ |
@@ -40,4 +41,3 @@ Aggiornato: 14/11/2026 00:03
 | 2026-11-13 11:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfrbrirksSx/ |
 | 2026-11-13 09:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfrPrU6k_wk/ |
 | 2026-11-13 08:15 | Ciabatte Pazze | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DfrPndSE6Bn/ |
-| 2026-11-13 08:00 | PijamaMania | inserito: DelynysP4YQ.m4a | https://www.instagram.com/reel/DfrDOtaDKwX/ |
