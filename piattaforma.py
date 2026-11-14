@@ -507,7 +507,7 @@ def aggiungi(nome, cartelle, testi=None, ricerca_audio="", seed=None, quanti=Non
     # alterna i video tra le cartelle (prodotti diversi non escono mai tutti di fila)
     pool = []
     for d in cartelle:
-        v = sorted(str(p.resolve()) for p in Path(d).glob("*.mp4") if str(p.resolve()) not in gia)
+        v = sorted(str(p.resolve()) for p in ([Path(d)] if Path(d).is_file() else Path(d).glob("*.mp4")) if str(p.resolve()) not in gia)
         rng.shuffle(v)
         pool.append(v)
     ordine = []
