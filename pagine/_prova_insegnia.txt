@@ -1,0 +1,11 @@
+✅ permessi del token: business_management, instagram_basic, instagram_content_publish, pages_manage_posts, pages_read_engagement, pages_show_list, public_profile
+✅ permesso instagram_content_publish
+✅ permesso instagram_basic
+✅ permesso pages_manage_posts
+✅ permesso pages_read_engagement
+✅ permesso pages_show_list
+✅ Instagram raggiungibile: @insegnia.it (None)
+✅ Pagina Facebook raggiungibile: Insegnia.it
+❌ Instagram collegato alla Pagina: None
+✅ token della Pagina ottenuto (può pubblicare Reel su FB)
+✅ Pagina tra quelle del token; ruoli: ['MANAGE', 'CREATE_CONTENT', 'MODERATE', 'MESSAGING', 'ADVERTISE', 'ANALYZE', 'MANAGE_LEADS', 'VIEW_MONETIZATION_INSIGHTS']
