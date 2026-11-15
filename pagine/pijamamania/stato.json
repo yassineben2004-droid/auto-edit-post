@@ -1014,6 +1014,17 @@
       "audio_id": null,
       "audio_file": "VIRALE_squalo_3M6.mp3",
       "ora": "2026-11-14T22:35+01:00"
+    },
+    "2026-11-15 08:00": {
+      "esito": "pubblicato",
+      "id": "pm-00021",
+      "file": "pm-00021.mp4",
+      "media_id": "18127486361489730",
+      "link": "https://www.instagram.com/reel/DfwMoz2jLy6/",
+      "audio": "inserito: DelynysP4YQ.m4a",
+      "audio_id": null,
+      "audio_file": "DelynysP4YQ.m4a",
+      "ora": "2026-11-15T08:02+01:00"
     }
   },
   "usati": [
@@ -1068,7 +1079,8 @@
     "pm-00017",
     "pm-00018",
     "pm-00019",
-    "pm-00020"
+    "pm-00020",
+    "pm-00021"
   ],
   "scartati": {},
   "errori": {},
