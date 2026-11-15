@@ -591,3 +591,161 @@ reel:
       - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
       - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
 
+
+  # --- 15/11/2026: nuove clip Higgsfield (c6-c11), 3 strutture x 4 hook. Testo a 0.38: sopra ciabatte e logo della scatola.
+  - nome: cr05_riscaldamento_dicembre
+    posizione: 0.38
+    testi_scene:
+      - "Il riscaldamento si accende a dicembre. I miei piedi: 🥶"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c6_pavimento_gelato 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c9_divano_tisana 0.1 2.95
+
+  - nome: cr06_pavimento_novembre
+    posizione: 0.38
+    testi_scene:
+      - "Quando appoggi i piedi sul pavimento a novembre 🥶"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c6_pavimento_gelato 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c9_divano_tisana 0.1 2.95
+
+  - nome: cr07_metti_le_calze
+    posizione: 0.38
+    testi_scene:
+      - "Mia madre: «metti le calze». Io:"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c6_pavimento_gelato 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c9_divano_tisana 0.1 2.95
+
+  - nome: cr08_pov_piedi_congelati
+    posizione: 0.38
+    testi_scene:
+      - "POV: hai sempre i piedi congelati 🥶"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c6_pavimento_gelato 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c9_divano_tisana 0.1 2.95
+
+  - nome: cr09_si_scaldano_da_sole
+    posizione: 0.38
+    testi_scene:
+      - "Le ciabatte che si scaldano da sole 🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c9_divano_tisana 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr10_premi_un_tasto
+    posizione: 0.38
+    testi_scene:
+      - "Premi un tasto e addio piedi freddi 😮‍💨"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c9_divano_tisana 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr11_acquisto_inverno
+    posizione: 0.38
+    testi_scene:
+      - "L'acquisto migliore di questo inverno 🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c9_divano_tisana 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr12_valgono_la_pena
+    posizione: 0.38
+    testi_scene:
+      - "Mi avete chiesto se valgono la pena 👀"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c9_divano_tisana 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr13_le_ho_regalato
+    posizione: 0.38
+    testi_scene:
+      - "Le ho regalato delle ciabatte per Natale 🎁"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c10_regalo_scettica 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr14_davvero_ciabatte
+    posizione: 0.38
+    testi_scene:
+      - "Lei: «delle ciabatte? Davvero?» 🙄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c10_regalo_scettica 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr15_sembra_banale
+    posizione: 0.38
+    testi_scene:
+      - "Il regalo che sembra banale finché non lo provi 🎁"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c10_regalo_scettica 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr16_ragazza_piedi_freddi
+    posizione: 0.38
+    testi_scene:
+      - "Quando la tua ragazza ha sempre i piedi freddi 🥶"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c10_regalo_scettica 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
