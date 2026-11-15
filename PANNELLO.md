@@ -1,11 +1,11 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 15/11/2026 09:53
+Aggiornato: 15/11/2026 10:48
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 2 | 0.5 gg | dom 12:45 | 11-15 08:15 ✅ | 8 pubblicati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 25 | 4.2 gg | dom 10:45 | 11-15 08:15 ✅ | 17 pubblicati, 16 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 24 | 4.0 gg | dom 12:45 | 11-15 10:45 ✅ | 18 pubblicati, 16 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30 | 1 | 14 | 14.0 gg | lun 15:30 | - | 0 pubblicati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 14 | 3.5 gg | dom 12:45 | 11-15 08:15 ✅ | 8 pubblicati |
@@ -24,6 +24,7 @@ Aggiornato: 15/11/2026 09:53
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-15 10:45 | Ciabatte Pazze | inserito: De4UoomsP0B.m4a | https://www.instagram.com/reel/Dfwfp2xidRg/ · FB: https://www.facebook.com/reel/2121914258430244 |
 | 2026-11-15 09:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfwZX4UgiBv/ |
 | 2026-11-15 08:15 | Luce di Fede | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfwZT0-guI9/ |
 | 2026-11-15 08:15 | Ciabatte Pazze | inserito: Dfc14MBxfoy.m4a | https://www.instagram.com/reel/DfwZMkBAunu/ · FB: https://www.facebook.com/reel/1458038479769332 |
@@ -43,4 +44,3 @@ Aggiornato: 15/11/2026 09:53
 | 2026-11-14 14:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfuW7rzD3UU/ |
 | 2026-11-14 13:00 | PijamaMania | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DfuKXlMEtkm/ |
 | 2026-11-14 12:45 | Luce di Fede | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DfuJD_1E0eD/ |
-| 2026-11-14 12:45 | Ciabatte Pazze | inserito: Dfc14MBxfoy.m4a | https://www.instagram.com/reel/DfuI8n7E93L/ · FB: https://www.facebook.com/reel/1137704718910093 |
