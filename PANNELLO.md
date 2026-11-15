@@ -1,11 +1,11 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 15/11/2026 15:30
+Aggiornato: 15/11/2026 15:33
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 1 | 0.2 gg | dom 18:30 | 11-15 12:45 ✅ | 9 pubblicati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 35 | 5.8 gg | dom 18:30 | 11-15 12:45 ✅ | 18 pubblicati, 16 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 34 | 5.7 gg | dom 18:30 | 11-15 15:30 ✅ | 19 pubblicati, 16 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30 | 1 | 14 | 14.0 gg | lun 15:30 | - | 0 pubblicati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 13 | 3.2 gg | dom 18:30 | 11-15 12:45 ✅ | 9 pubblicati |
@@ -24,6 +24,7 @@ Aggiornato: 15/11/2026 15:30
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-15 15:30 | Ciabatte Pazze | inserito: DfblaVNxHsY.m4a | https://www.instagram.com/reel/DfxAQrpE6NA/ · FB: https://www.facebook.com/reel/1139994665677421 |
 | 2026-11-15 14:45 | PijamaMania | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/Dfw7iyzlI_6/ |
 | 2026-11-15 13:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/Dfwu9h1jJmI/ |
 | 2026-11-15 12:45 | Luce di Fede | inserito: DfZ_7-fJC7N.m4a | https://www.instagram.com/reel/DfwtZgBgKyi/ |
@@ -43,4 +44,3 @@ Aggiornato: 15/11/2026 15:30
 | 2026-11-14 21:00 | BottiZero | inserito: DfZ_7-fJC7N.m4a | https://www.facebook.com/reel/1143398581772574 |
 | 2026-11-14 19:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/Dfu3UeNgDUX/ |
 | 2026-11-14 18:30 | Luce di Fede | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DfuziM5jBPI/ |
-| 2026-11-14 18:30 | Ciabatte Pazze | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/DfuzcPqDNvt/ · FB: https://www.facebook.com/reel/1495361042516307 |
