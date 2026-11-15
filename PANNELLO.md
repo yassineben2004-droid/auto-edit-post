@@ -1,19 +1,19 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 15/11/2026 11:35
+Aggiornato: 15/11/2026 12:48
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 2 | 0.5 gg | dom 12:45 | 11-15 08:15 ✅ | 8 pubblicati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 24 | 4.0 gg | dom 12:45 | 11-15 10:45 ✅ | 18 pubblicati, 16 saltati |
+| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 1 | 0.2 gg | dom 18:30 | 11-15 12:45 ✅ | 9 pubblicati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 23 | 3.8 gg | dom 15:30 | 11-15 12:45 ✅ | 18 pubblicati, 16 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30 | 1 | 14 | 14.0 gg | lun 15:30 | - | 0 pubblicati |
-| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 14 | 3.5 gg | dom 12:45 | 11-15 08:15 ✅ | 8 pubblicati |
+| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 13 | 3.2 gg | dom 18:30 | 11-15 12:45 ✅ | 9 pubblicati |
 | PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 17 | 1.7 gg | dom 13:00 | 11-15 11:30 ✅ | 23 pubblicati, 47 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
-- **BottiZero**: coda quasi finita (2 video ≈ 0.5 giorni)
+- **BottiZero**: coda quasi finita (1 video ≈ 0.2 giorni)
 - **Ciabatte Pazze** turno 2026-11-14 21:00: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '1195922793375280' does not exist, cannot be loaded due to missing permission
 - **PijamaMania**: coda quasi finita (17 video ≈ 1.7 giorni)
 - **PijamaMania** turno 2026-11-14 13:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
@@ -24,6 +24,9 @@ Aggiornato: 15/11/2026 11:35
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-15 12:45 | Luce di Fede | inserito: DfZ_7-fJC7N.m4a | https://www.instagram.com/reel/DfwtZgBgKyi/ |
+| 2026-11-15 12:45 | Ciabatte Pazze | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DfwtSZ7D9pc/ · FB: https://www.facebook.com/reel/1004229118738791 |
+| 2026-11-15 12:45 | BottiZero | inserito: Dfn9wfYR-6A.m4a | https://www.facebook.com/reel/1161002736619417 |
 | 2026-11-15 11:30 | PijamaMania | inserito: DfXJfGTRPnC.m4a | https://www.instagram.com/reel/DfwlEvzlLM8/ |
 | 2026-11-15 10:45 | Ciabatte Pazze | inserito: De4UoomsP0B.m4a | https://www.instagram.com/reel/Dfwfp2xidRg/ · FB: https://www.facebook.com/reel/2121914258430244 |
 | 2026-11-15 09:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfwZX4UgiBv/ |
@@ -41,6 +44,3 @@ Aggiornato: 15/11/2026 11:35
 | 2026-11-14 18:30 | Ciabatte Pazze | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/DfuzcPqDNvt/ · FB: https://www.facebook.com/reel/1495361042516307 |
 | 2026-11-14 18:30 | BottiZero | inserito: DfblOSux_I5.m4a | https://www.facebook.com/reel/1826111375298761 |
 | 2026-11-14 18:00 | PijamaMania | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/Dfusiljitj4/ |
-| 2026-11-14 15:30 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DfubZzniYwe/ · FB: https://www.facebook.com/reel/1395477709106950 |
-| 2026-11-14 14:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfuW7rzD3UU/ |
-| 2026-11-14 13:00 | PijamaMania | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DfuKXlMEtkm/ |
