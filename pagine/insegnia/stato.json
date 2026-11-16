@@ -3,7 +3,8 @@
   "turni": {},
   "usati": [],
   "scartati": {
-    "insegnia-00001": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"AvqgUgcjaHaI3Vew2CtQaCf\"}"
+    "insegnia-00001": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"AvqgUgcjaHaI3Vew2CtQaCf\"}",
+    "insegnia-00002": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"AV094kx68wuLSE082vt0p4g\"}"
   },
   "errori": {
     "2026-11-16 15:30": [
@@ -11,6 +12,12 @@
         "quando": "2026-11-16T15:33+01:00",
         "video": "insegnia-00001",
         "errore": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"AvqgUgcjaHaI3Vew2CtQaCf\"}",
+        "temporaneo": false
+      },
+      {
+        "quando": "2026-11-16T16:00+01:00",
+        "video": "insegnia-00002",
+        "errore": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"AV094kx68wuLSE082vt0p4g\"}",
         "temporaneo": false
       }
     ]
