@@ -2,7 +2,18 @@
   "dal": "2026-11-14T15:43+01:00",
   "turni": {},
   "usati": [],
-  "scartati": {},
-  "errori": {},
+  "scartati": {
+    "insegnia-00001": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"AvqgUgcjaHaI3Vew2CtQaCf\"}"
+  },
+  "errori": {
+    "2026-11-16 15:30": [
+      {
+        "quando": "2026-11-16T15:33+01:00",
+        "video": "insegnia-00001",
+        "errore": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"AvqgUgcjaHaI3Vew2CtQaCf\"}",
+        "temporaneo": false
+      }
+    ]
+  },
   "audio_usati": []
 }
