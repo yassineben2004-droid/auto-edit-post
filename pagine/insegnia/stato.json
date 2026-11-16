@@ -34,6 +34,14 @@
         "errore": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"AbUo4-iah4luW8XylxROID0\"}",
         "temporaneo": false
       }
+    ],
+    "2026-11-16 21:59 (subito)": [
+      {
+        "quando": "2026-11-16T21:59+01:00",
+        "video": "insegnia-00001",
+        "errore": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"A72emuC-0MzW1C7VQBa_q5c\"}",
+        "temporaneo": false
+      }
     ]
   },
   "audio_usati": []
