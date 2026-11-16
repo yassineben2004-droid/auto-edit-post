@@ -298,11 +298,13 @@ def subito(nome, prova=False):
         return 1
     k = f"{adesso:%Y-%m-%d %H:%M} (subito)"
     print(f"[{nome}] pubblicazione immediata")
+    meta = Meta(token, g["api_version"])
     try:
-        ris = pubblica_video(Meta(token, g["api_version"]), pag, nome, r, st, prova)
+        ris = pubblica_video(meta, pag, nome, r, st, prova)
         if prova:
             return 0
         ris["ora"] = datetime.now(tz).isoformat(timespec="minutes")
+        anche_su_facebook(meta, pag, r, k, ris)   # anche "subito" esce sulla Pagina Facebook (come i turni normali)
         st["turni"][k] = ris
         st["usati"].append(r["id"])
         print(f"   ✅ pubblicato: {ris['link'] or ris['media_id']}")
