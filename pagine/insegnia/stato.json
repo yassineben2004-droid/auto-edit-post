@@ -1,6 +1,11 @@
 {
   "dal": "2026-11-14T15:43+01:00",
-  "turni": {},
+  "turni": {
+    "2026-11-16 15:30": {
+      "esito": "mancato",
+      "motivo": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"O"
+    }
+  },
   "usati": [],
   "scartati": {
     "insegnia-00001": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"AvqgUgcjaHaI3Vew2CtQaCf\"}",
