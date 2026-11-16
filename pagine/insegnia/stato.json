@@ -4,9 +4,22 @@
     "2026-11-16 15:30": {
       "esito": "mancato",
       "motivo": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"O"
+    },
+    "2026-11-16 22:11 (subito)": {
+      "esito": "pubblicato",
+      "id": "insegnia-00001",
+      "file": "insegnia-00001.mp4",
+      "media_id": "17887739370512730",
+      "link": "https://www.instagram.com/reel/Df0StRAoNJJ/",
+      "audio": "-",
+      "audio_id": null,
+      "audio_file": "",
+      "ora": "2026-11-16T22:12+01:00"
     }
   },
-  "usati": [],
+  "usati": [
+    "insegnia-00001"
+  ],
   "scartati": {},
   "errori": {
     "2026-11-16 15:30": [
