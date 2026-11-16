@@ -1128,6 +1128,17 @@
       "audio_id": null,
       "audio_file": "DeZxXLPiEUV.m4a",
       "ora": "2026-11-15T22:36+01:00"
+    },
+    "2026-11-16 08:00": {
+      "esito": "pubblicato",
+      "id": "pm-00031",
+      "file": "pm-00031.mp4",
+      "media_id": "18123029878744133",
+      "link": "https://www.instagram.com/reel/DfyxgWtDPUa/",
+      "audio": "inserito: VIRALE_squalo_3M6.mp3",
+      "audio_id": null,
+      "audio_file": "VIRALE_squalo_3M6.mp3",
+      "ora": "2026-11-16T08:03+01:00"
     }
   },
   "usati": [
@@ -1192,7 +1203,8 @@
     "pm-00027",
     "pm-00028",
     "pm-00029",
-    "pm-00030"
+    "pm-00030",
+    "pm-00031"
   ],
   "scartati": {},
   "errori": {},

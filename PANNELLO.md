@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 16/11/2026 02:23
+Aggiornato: 16/11/2026 08:03
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -9,12 +9,12 @@ Aggiornato: 16/11/2026 02:23
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30 | 1 | 14 | 14.0 gg | lun 15:30 | - | 0 pubblicati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 11 | 2.8 gg | lun 08:15 | 11-15 21:00 ✅ | 11 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 10 | 1.0 gg | lun 08:00 | 11-15 22:30 ✅ | 30 pubblicati, 40 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 9 | 0.9 gg | lun 09:45 | 11-16 08:00 ✅ | 31 pubblicati, 39 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **BottiZero**: coda quasi finita (0 video ≈ 0.0 giorni)
-- **PijamaMania**: coda quasi finita (10 video ≈ 1.0 giorni)
+- **PijamaMania**: coda quasi finita (9 video ≈ 0.9 giorni)
 - **PijamaMania** turno 2026-11-15 09:45: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 - **PijamaMania** turno 2026-11-15 13:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 - **PijamaMania** turno 2026-11-15 18:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
@@ -23,6 +23,7 @@ Aggiornato: 16/11/2026 02:23
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-16 08:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfyxgWtDPUa/ |
 | 2026-11-15 22:30 | PijamaMania | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfxwqyroQjs/ |
 | 2026-11-15 21:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/Dfxmo3xksp2/ |
 | 2026-11-15 21:00 | Luce di Fede | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/Dfxmk3fElob/ |
@@ -42,4 +43,3 @@ Aggiornato: 16/11/2026 02:23
 | 2026-11-15 11:30 | PijamaMania | inserito: DfXJfGTRPnC.m4a | https://www.instagram.com/reel/DfwlEvzlLM8/ |
 | 2026-11-15 10:45 | Ciabatte Pazze | inserito: De4UoomsP0B.m4a | https://www.instagram.com/reel/Dfwfp2xidRg/ · FB: https://www.facebook.com/reel/2121914258430244 |
 | 2026-11-15 09:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DfwZX4UgiBv/ |
-| 2026-11-15 08:15 | Luce di Fede | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/DfwZT0-guI9/ |
