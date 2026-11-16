@@ -1174,6 +1174,17 @@
       "audio_file": "DetkbnLv9bW.m4a",
       "ora": "2026-11-16T13:02+01:00",
       "fb_errore": "HTTP 403: {\"message\": \"(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission.\", \"type\": \"OAuthException\", \"code\": 200, \"fbtrace_id\": \"ALVuPEXQKJ8d1FtJFDLnJom\"}"
+    },
+    "2026-11-16 14:45": {
+      "esito": "pubblicato",
+      "id": "pm-00035",
+      "file": "pm-00035.mp4",
+      "media_id": "17969217633219116",
+      "link": "https://www.instagram.com/reel/DfzgwNqjJxK/",
+      "audio": "inserito: VIRALE_squalo_3M6.mp3",
+      "audio_id": null,
+      "audio_file": "VIRALE_squalo_3M6.mp3",
+      "ora": "2026-11-16T14:55+01:00"
     }
   },
   "usati": [
@@ -1242,7 +1253,8 @@
     "pm-00031",
     "pm-00032",
     "pm-00033",
-    "pm-00034"
+    "pm-00034",
+    "pm-00035"
   ],
   "scartati": {},
   "errori": {},
