@@ -1,11 +1,11 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 16/11/2026 09:54
+Aggiornato: 16/11/2026 10:50
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | lun 12:45 | 11-16 08:15 ⚠ coda_vuota | 10 pubblicati, 2 saltati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 31 | 5.2 gg | lun 10:45 | 11-16 08:15 ✅ | 21 pubblicati, 14 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 30 | 5.0 gg | lun 12:45 | 11-16 10:45 ✅ | 22 pubblicati, 14 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30 | 1 | 14 | 14.0 gg | lun 15:30 | - | 0 pubblicati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 10 | 2.5 gg | lun 12:45 | 11-16 08:15 ✅ | 12 pubblicati |
@@ -23,6 +23,7 @@ Aggiornato: 16/11/2026 09:54
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-16 10:45 | Ciabatte Pazze | inserito: Det5jkoxU4q.m4a | https://www.instagram.com/reel/DfzEpj8Cnrd/ · FB: https://www.facebook.com/reel/2263709894500294 |
 | 2026-11-16 09:45 | PijamaMania | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/Dfy-SD8GGjL/ |
 | 2026-11-16 08:15 | Luce di Fede | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/Dfy-OTnjGPa/ |
 | 2026-11-16 08:15 | Ciabatte Pazze | inserito: DeQ30juIto-.m4a | https://www.instagram.com/reel/Dfy-IBrCfQh/ · FB: https://www.facebook.com/reel/4709077439360042 |
@@ -42,4 +43,3 @@ Aggiornato: 16/11/2026 09:54
 | 2026-11-15 13:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/Dfwu9h1jJmI/ |
 | 2026-11-15 12:45 | Luce di Fede | inserito: DfZ_7-fJC7N.m4a | https://www.instagram.com/reel/DfwtZgBgKyi/ |
 | 2026-11-15 12:45 | Ciabatte Pazze | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DfwtSZ7D9pc/ · FB: https://www.facebook.com/reel/1004229118738791 |
-| 2026-11-15 12:45 | BottiZero | inserito: Dfn9wfYR-6A.m4a | https://www.facebook.com/reel/1161002736619417 |
