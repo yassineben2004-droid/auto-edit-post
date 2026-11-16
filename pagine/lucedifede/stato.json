@@ -132,6 +132,17 @@
       "audio_id": null,
       "audio_file": "De2eB4GxCRg.m4a",
       "ora": "2026-11-16T09:54+01:00"
+    },
+    "2026-11-16 12:45": {
+      "esito": "pubblicato",
+      "id": "lucedifede-00013",
+      "file": "lucedifede-00013.mp4",
+      "media_id": "18144589849732125",
+      "link": "",
+      "audio": "inserito: DeWAYKMIsHe.m4a",
+      "audio_id": null,
+      "audio_file": "DeWAYKMIsHe.m4a",
+      "ora": "2026-11-16T12:49+01:00"
     }
   },
   "usati": [
@@ -146,7 +157,8 @@
     "lucedifede-00009",
     "lucedifede-00010",
     "lucedifede-00011",
-    "lucedifede-00012"
+    "lucedifede-00012",
+    "lucedifede-00013"
   ],
   "scartati": {},
   "errori": {},
