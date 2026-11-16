@@ -17,7 +17,7 @@ orari:
 # ANCHE SU FACEBOOK: lo stesso reel esce anche come Reel sulla Pagina Facebook collegata (4 dei 10 turni (su FB 10 al giorno sembrano spam)).
 # Serve il permesso pages_manage_posts sul token. Se Facebook fallisce, Instagram esce lo stesso.
 facebook:
-  attivo: true
+  attivo: false   # disattivato 16/11/2026: la Pagina FB non è nel portafoglio del token, per ora solo Instagram
   fb_page_id: "583107068221301"
   orari: ["09:45", "13:00", "18:00", "21:00"]
 
