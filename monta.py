@@ -41,7 +41,11 @@ FONT_TIKTOK = {"tiktok": BASE / "fonts" / "TikTokSans-SemiBold.ttf",          # 
                "tiktok_regular": BASE / "fonts" / "TikTokSans-Regular.ttf"}   # test non grassetto (~40%)
 # Rotazione stili per i reel con testo che non scelgono `stile`: su ogni 10, 4 in regular (posizioni 1, 3, 6, 8)
 ROTAZIONE_REGULAR = {1, 3, 6, 8}
-FONT_CLASSICO = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
+# font "classico": Liberation su Linux, Arial Bold su Mac, altrimenti TikTok Sans Bold del repo
+FONT_CLASSICO = next((f for f in ["/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+                                  "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+                                  "/Library/Fonts/Arial Bold.ttf"] if os.path.exists(f)),
+                     str(BASE / "fonts" / "TikTokSans-Bold.ttf"))
 EMOJI_APPLE = ["/System/Library/Fonts/Apple Color Emoji.ttc"]
 EMOJI_GOOGLE = ["/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf",
                 "/usr/share/fonts/noto/NotoColorEmoji.ttf"]
