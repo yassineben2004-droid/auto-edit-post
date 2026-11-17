@@ -15,6 +15,10 @@
       "audio_id": null,
       "audio_file": "",
       "ora": "2026-11-16T22:12+01:00"
+    },
+    "2026-11-16 22:30": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
     }
   },
   "usati": [
