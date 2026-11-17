@@ -395,3 +395,84 @@ reel:
     pezzi:
       - tar02_tartaruga 0 5.8
       - tar01_tartaruga 0 9.4
+
+  # ═══════════════════════════════════════════════════════════════
+  # 17/11 — SQUALO 3° giro: nuovi testi sulle stesse clip + 3 mix
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: sq01c_freddo
+    testo: "Quando fuori fanno 2 gradi\ne tu sei così 🦈❄️"
+    posizione: centro
+    pezzi:
+      - sq01_mov 0 11.9
+
+  - nome: sq02c_brutta
+    testo: "Lui ha detto che era brutta…\nora ci dorme dentro 😂🦈"
+    posizione: basso
+    pezzi:
+      - sq02_tiktok 0 6.1
+
+  - nome: sq03c_casa
+    testo: "Ogni casa ha bisogno\ndi uno squalo 🦈"
+    posizione: centro
+    pezzi:
+      - sq03_tiktok 0 9.9
+
+  - nome: sq04c_reazione
+    testo: "Regalo da 10/10\nreazione da 100/10 🦈😂"
+    posizione: basso
+    pezzi:
+      - sq04_tiktok 0 8.6
+
+  - nome: sq05c_natale2026
+    testo: "Natale 2026:\ntutti in versione squalo 🎄🦈"
+    posizione: centro
+    pezzi:
+      - sq05_tiktok 0 9.1
+
+  - nome: sq06c_comoda
+    testo: "Il pigiama più comodo\nche abbia mai provato 🦈"
+    posizione: basso
+    pezzi:
+      - sq06_tiktok 0 12.8
+
+  - nome: sq07c_mamma
+    testo: "Mamma l'ha vista\ne ne ha voluta una anche lei 😂🦈"
+    posizione: centro
+    pezzi:
+      - sq07_tiktok 0 7.6
+
+  - nome: sq08c_tuttoinuno
+    testo: "Coperta, pigiama e costume\ntutto in uno 🦈"
+    posizione: basso
+    pezzi:
+      - sq08_tiktok 0 9.7
+
+  - nome: sq09c_inverno
+    testo: "Inverno risolto 🦈❄️"
+    posizione: centro
+    pezzi:
+      - sq09_tiktok 0 6.7
+
+  - nome: sq10_mix_guardi
+    testo: "Più la guardi\npiù la vuoi 🦈👀"
+    posizione: centro
+    pezzi:
+      - sq03_tiktok 0 5
+      - sq07_tiktok 0 4
+      - sq05_tiktok 0 4
+
+  - nome: sq11_mix_motivi
+    testo: "3 motivi per volerla:\ncalda, comoda, ridicola 🦈😂"
+    posizione: centro
+    pezzi:
+      - sq08_tiktok 0 4.5
+      - sq01_mov 0 5
+      - sq04_tiktok 0 4
+
+  - nome: sq12_mix_prima_dopo
+    testo: "Prima: freddo 🥶\nDopo: 🦈"
+    posizione: centro
+    pezzi:
+      - sq06_tiktok 0 5
+      - sq02_tiktok 0 6.1
