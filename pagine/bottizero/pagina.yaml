@@ -22,7 +22,8 @@ caption:
 
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio): su Facebook è l'unico audio possibile da API
 audio_inseriti:
-  pesi: {}
+  pesi:
+    rif_fuochi_19M.m4a: 4     # audio originale del TikTok "before vs during fireworks" da 19,6M: più spesso degli altri
 
 audio:
   attivo: false                   # musica di tendenza non disponibile via API sui Reel Facebook

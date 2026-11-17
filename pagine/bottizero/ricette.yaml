@@ -141,3 +141,210 @@ reel:
     testi_scene:
       - "prima dei botti vs."
       - "durante i botti"
+
+  # ═══════════════════════════════════════════════════════════════
+  # 18/11 — 12 VARIANTI dalle clip nuove (golden g1/g2, bassotti b1/b2):
+  # hook diversi (POV, ironia, domanda, orario, curiosità, tagga) e stili diversi
+  # (tiktok = grassetto, tiktok_regular = normale, classico) per lo split test del testo.
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: bz13_golden_pov
+    stile: tiktok
+    posizione: 0.62
+    pezzi:
+      - g1_golden_prima 0 3.0 0.75
+      - g2_golden_durante 0 3.0 0.75
+    testi_scene:
+      - "POV: il loro primo Capodanno\ncon le cuffie antibotti 🎆"
+      - "e stavolta niente tremori 🥹"
+
+  - nome: bz14_bassotti_pov
+    stile: tiktok_regular
+    posizione: 0.64
+    pezzi:
+      - b1_bassotti_prima 0 3.0 0.75
+      - b2_bassotto_durante 0 3.0 0.75
+    testi_scene:
+      - "POV: il loro primo Capodanno\ncon le cuffie antibotti 🎆"
+      - "e stavolta niente tremori 🥹"
+
+  - nome: bz15_golden_pronti
+    stile: tiktok
+    posizione: 0.62
+    pezzi:
+      - g1_golden_prima 0 3.0 0.75
+      - g2_golden_durante 0 3.0 0.75
+    testi_scene:
+      - "I miei cani pronti per Capodanno 🎆"
+      - "Io pronta per Capodanno 😂"
+
+  - nome: bz16_bassotti_pronti
+    stile: classico
+    posizione: 0.64
+    pezzi:
+      - b1_bassotti_prima 0 3.0 0.75
+      - b2_bassotto_durante 0 3.0 0.75
+    testi_scene:
+      - "I miei cani pronti per Capodanno 🎆"
+      - "Io pronta per Capodanno 😂"
+
+  - nome: bz17_bassotti_mezzanotte
+    stile: tiktok
+    posizione: 0.64
+    pezzi:
+      - b1_bassotti_prima 0 3.0 0.75
+      - b2_bassotto_durante 0 3.0 0.75
+    testi_scene:
+      - "31 dicembre, ore 23:59 ⏰"
+      - "Mezzanotte 🎆"
+
+  - nome: bz18_golden_mezzanotte
+    stile: tiktok_regular
+    posizione: 0.62
+    pezzi:
+      - g1_golden_prima 0 3.0 0.75
+      - g2_golden_durante 0 3.0 0.75
+    testi_scene:
+      - "31 dicembre, ore 23:59 ⏰"
+      - "Mezzanotte 🎆"
+
+  - nome: bz19_bassotti_domanda
+    stile: tiktok
+    posizione: 0.64
+    pezzi:
+      - b1_bassotti_prima 0 3.0 0.75
+      - b2_bassotto_durante 0 3.0 0.75
+    testi_scene:
+      - "Il tuo cane ha paura dei botti?"
+      - "Quest'anno il mio ha le cuffie 🎧🐶"
+
+  - nome: bz20_golden_domanda
+    stile: classico
+    posizione: 0.62
+    pezzi:
+      - g1_golden_prima 0 3.0 0.75
+      - g2_golden_durante 0 3.0 0.75
+    testi_scene:
+      - "Il tuo cane ha paura dei botti?"
+      - "Quest'anno il mio ha le cuffie 🎧🐶"
+
+  - nome: bz21_bassotti_esistono
+    testo: "Le cuffie antirumore per cani\nesistono davvero 😳🎧"
+    stile: tiktok
+    posizione: 0.64
+    pezzi:
+      - b1_bassotti_prima 0 3.0 0.75
+      - b2_bassotto_durante 0 3.0 0.75
+
+  - nome: bz22_golden_esistono
+    testo: "Le cuffie antirumore per cani\nesistono davvero 😳🎧"
+    stile: tiktok_regular
+    posizione: 0.62
+    pezzi:
+      - g1_golden_prima 0 3.0 0.75
+      - g2_golden_durante 0 3.0 0.75
+
+  - nome: bz23_mix_tagga
+    testo: "Tagga chi ha un cane\nche ha paura dei botti 👇🎆"
+    stile: tiktok
+    posizione: 0.64
+    pezzi:
+      - b1_bassotti_prima 0 2.0 0.8
+      - g1_golden_prima 0 2.0 0.8
+      - b2_bassotto_durante 0 2.5 0.8
+      - g2_golden_durante 0 2.5 0.8
+
+  - nome: bz24_mix_nessuno
+    testo: "Nessuno:\nIo a Capodanno col mio cane 🫂🎆"
+    stile: tiktok_regular
+    posizione: 0.64
+    pezzi:
+      - g2_golden_durante 0 3.0 0.8
+      - b2_bassotto_durante 0 3.0 0.8
+
+  # ═══════════════════════════════════════════════════════════════
+  # 18/11 — VECCHIE CLIP con hook nuovi (frasi e stili diversi da bz01-bz10)
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: bz25_temporale_3am
+    stile: tiktok
+    posizione: 0.72
+    pezzi:
+      - a2_temporale 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+    testi_scene:
+      - "Temporale alle 3 di notte ⛈️"
+      - "gli metto le cuffie antirumore 🎧"
+      - "e si torna a dormire 😴"
+
+  - nome: bz26_sotto_tavolo
+    stile: tiktok_regular
+    posizione: 0.72
+    pezzi:
+      - a4_nonna_tavolo 0 3.0
+      - c2_nonna_fascia 0 3.0
+      - f2_nonna_divano 0 3.0
+    testi_scene:
+      - "Ogni anno a Capodanno finiva sotto al tavolo 😔"
+      - "Quest'anno la nonna ha trovato la soluzione 🎧"
+      - "Ora sta sul divano con lei ❤️"
+
+  - nome: bz27_natale_nonni
+    stile: classico
+    posizione: 0.72
+    pezzi:
+      - a4_nonna_tavolo 0 3.0
+      - c2_nonna_fascia 0 3.0
+      - f3_nonna_carezza 0 3.0
+    testi_scene:
+      - "Natale dai nonni 🎄"
+      - "con le cuffie antibotti 🐶"
+      - "il regalo più utile dell'anno ❤️"
+
+  - nome: bz28_festa_dorme
+    testo: "La festa di Capodanno vs.\nlui che dorme con le cuffie 😴🎧"
+    stile: tiktok
+    posizione: 0.72
+    pezzi:
+      - a3_capodanno 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+
+  - nome: bz29_sotto_letto
+    testo: "Se il tuo cane a Capodanno\nsi nasconde sotto al letto 👇"
+    stile: classico
+    posizione: 0.72
+    pezzi:
+      - a2_temporale 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+
+  - nome: bz30_cuffie_cani
+    testo: "Cuffie antirumore…\nma per cani 🐶🎧"
+    stile: tiktok_regular
+    posizione: 0.72
+    pezzi:
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 5.0
+
+  - nome: bz31_cosa_faccio
+    stile: tiktok
+    posizione: 0.72
+    pezzi:
+      - a2_temporale 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+    testi_scene:
+      - "Cosa faccio quando arrivano i botti 🎆"
+      - "1. cuffie antirumore 🎧"
+      - "2. tante coccole 🫂"
+
+  - nome: bz32_regalo_cane
+    testo: "Il regalo di Natale\nper il cane di casa 🎁🐶"
+    stile: tiktok_regular
+    posizione: 0.72
+    pezzi:
+      - a4_nonna_tavolo 0 3.0
+      - c2_nonna_fascia 0 3.0
+      - f2_nonna_divano 0 3.0
