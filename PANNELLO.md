@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 18/11/2026 00:23
+Aggiornato: 18/11/2026 00:44
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mer 08:15 | 11-17 21:00 ⚠ mancato | 10 pubblicati, 9 saltati |
+| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 2 | 0.5 gg | mer 08:15 | 11-17 21:00 ⚠ mancato | 10 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 21 | 3.5 gg | mer 08:15 | 11-17 21:00 ⚠ mancato | 29 pubblicati, 10 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 11 | 5.5 gg | mer 15:30 | 11-17 22:30 ✅ | 3 pubblicati, 2 saltati |
@@ -13,7 +13,7 @@ Aggiornato: 18/11/2026 00:23
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
-- **BottiZero**: coda quasi finita (0 video ≈ 0.0 giorni)
+- **BottiZero**: coda quasi finita (2 video ≈ 0.5 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
