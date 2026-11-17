@@ -774,6 +774,10 @@
       "ora": "2026-11-17T19:04+01:00",
       "fb_link": "https://www.facebook.com/reel/1570138021803288",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-17 21:00": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
     }
   },
   "usati": [

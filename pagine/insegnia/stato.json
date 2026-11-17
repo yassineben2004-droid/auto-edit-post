@@ -32,11 +32,25 @@
       "ora": "2026-11-17T16:04+01:00",
       "fb_link": "https://www.facebook.com/reel/1840942227322584",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-17 22:30": {
+      "esito": "pubblicato",
+      "id": "insegnia-00003",
+      "file": "insegnia-00003.mp4",
+      "media_id": "17930605527431289",
+      "link": "https://www.instagram.com/reel/Df3EoaZCf3p/",
+      "audio": "-",
+      "audio_id": null,
+      "audio_file": "",
+      "ora": "2026-11-18T00:07+01:00",
+      "fb_link": "https://www.facebook.com/reel/1061446543572922",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
     "insegnia-00001",
-    "insegnia-00002"
+    "insegnia-00002",
+    "insegnia-00003"
   ],
   "scartati": {},
   "errori": {

@@ -198,6 +198,10 @@
       "audio_id": null,
       "audio_file": "De-DMbQPfLZ.m4a",
       "ora": "2026-11-17T19:05+01:00"
+    },
+    "2026-11-17 21:00": {
+      "esito": "mancato",
+      "motivo": "nessuna esecuzione in tempo"
     }
   },
   "usati": [
