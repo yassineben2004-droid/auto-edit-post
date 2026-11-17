@@ -397,82 +397,122 @@ reel:
       - tar01_tartaruga 0 9.4
 
   # ═══════════════════════════════════════════════════════════════
-  # 17/11 — SQUALO 3° giro: nuovi testi sulle stesse clip + 3 mix
+  # 17/11 — SQUALO 3° giro: copy ricalcato sui TikTok originali di queste clip
+  # (analisi/: 7,5M · 6,4M · 2,3M · 509k · 243k views). Stessa ricetta: voce del
+  # fidanzato che "si lamenta" del regalo, testo che CAMBIA a ogni taglio, payoff
+  # sull'ultima scena. Copy in italiano parlato, non tradotto parola per parola.
   # ═══════════════════════════════════════════════════════════════
 
-  - nome: sq01c_freddo
-    testo: "Quando fuori fanno 2 gradi\ne tu sei così 🦈❄️"
+  # ricalca 7,5M (sq06): "I'm an idiot for buying her this… / I think she loves it / She won't take it off"
+  - nome: sq06c_idiota
     posizione: centro
     pezzi:
-      - sq01_mov 0 11.9
+      - sq06_tiktok 0 4.1
+      - sq06_tiktok 4.1 8.1
+      - sq06_tiktok 8.1 12.8
+    testi_scene:
+      - "Che idiota a regalarle\nla coperta squalo 🤦‍♂️ guardate"
+      - "Credo le piaccia 🦈"
+      - "Non se la toglie più 😭"
 
-  - nome: sq02c_brutta
-    testo: "Lui ha detto che era brutta…\nora ci dorme dentro 😂🦈"
-    posizione: basso
+  # stessa ricetta, hook diverso (split test del text hook)
+  - nome: sq06d_persa
+    posizione: centro
+    pezzi:
+      - sq06_tiktok 0 4.1
+      - sq06_tiktok 4.1 8.1
+      - sq06_tiktok 8.1 12.8
+    testi_scene:
+      - "Le ho regalato la coperta squalo\ne ho perso la mia ragazza 😭"
+      - "Ora è uno squalo 🦈"
+      - "e non esce più dal letto 😂"
+
+  # ricalca 6,4M (sq05): "She's been stressed lately, so I got her this / It's a cozy fleece shark blanket / It made her feel better"
+  - nome: sq05c_stressata
+    posizione: centro
+    pezzi:
+      - sq05_tiktok 0 3.07
+      - sq05_tiktok 3.07 7.03
+      - sq05_tiktok 7.03 9.1
+    testi_scene:
+      - "Era stressata ultimamente,\nquindi le ho preso questa 🥹"
+      - "Una coperta squalo\nmorbidissima 🦈"
+      - "Ora sta molto meglio 🤍"
+
+  # stessa ricetta con angolo Natale
+  - nome: sq05d_natale
+    posizione: centro
+    pezzi:
+      - sq05_tiktok 0 3.07
+      - sq05_tiktok 3.07 7.03
+      - sq05_tiktok 7.03 9.1
+    testi_scene:
+      - "Non sapevo cosa regalarle\nper Natale 🎄"
+      - "Così ho preso la coperta squalo 🦈"
+      - "Regalo più azzeccato di sempre 🥹"
+
+  # ricalca 2,3M (sq02): "When you and your bf get matching shark blankies"
+  - nome: sq02c_coppia
+    testo: "Quando tu e il tuo ragazzo\nprendete le coperte squalo uguali 🦈❤️"
+    posizione: centro
     pezzi:
       - sq02_tiktok 0 6.1
 
-  - nome: sq03c_casa
-    testo: "Ogni casa ha bisogno\ndi uno squalo 🦈"
+  - nome: sq02d_bestie
+    testo: "Quando tu e la tua migliore amica\nprendete le coperte squalo uguali 🦈🦈"
+    posizione: centro
+    pezzi:
+      - sq02_tiktok 0 6.1
+
+  # ricalca 509k (sq04): "It was a bad idea getting my gf this shark blanket / She thinks she is a shark now"
+  - nome: sq04c_pessima_idea
+    posizione: centro
+    pezzi:
+      - sq04_tiktok 0 3.6
+      - sq04_tiktok 3.6 8.6
+    testi_scene:
+      - "È stata una pessima idea\nregalarle la coperta squalo 😅"
+      - "Ora pensa di essere uno squalo 🦈"
+
+  # ricalca 243k (sq03): "I bought this shark blanket for my gf but… / She left me for her brother / I don't mind, I love this blanket now"
+  - nome: sq03c_lasciato
+    posizione: centro
+    pezzi:
+      - sq03_tiktok 0 3.97
+      - sq03_tiktok 3.97 8.53
+      - sq03_tiktok 8.53 9.9
+    testi_scene:
+      - "Ho comprato la coperta squalo\nalla mia ragazza, ma…"
+      - "mi ha lasciato per un altro squalo 🦈💔"
+      - "Va bene così, ora la uso io 😂"
+
+  # hook di identificazione per il pubblico femminile (stessa clip, split test)
+  - nome: sq03d_ditemi
+    testo: "Ditemi che non sono l'unica\nche vive dentro la coperta squalo 🦈"
     posizione: centro
     pezzi:
       - sq03_tiktok 0 9.9
 
-  - nome: sq04c_reazione
-    testo: "Regalo da 10/10\nreazione da 100/10 🦈😂"
-    posizione: basso
-    pezzi:
-      - sq04_tiktok 0 8.6
-
-  - nome: sq05c_natale2026
-    testo: "Natale 2026:\ntutti in versione squalo 🎄🦈"
+  # ricalca il format dialogo di sq08 ("Babe, what do you want for Valentine's Day? Her:") spostato su Natale
+  - nome: sq08c_amore_natale
+    testo: "Amore, cosa vuoi per Natale? 🎄\nLei:"
     posizione: centro
-    pezzi:
-      - sq05_tiktok 0 9.1
-
-  - nome: sq06c_comoda
-    testo: "Il pigiama più comodo\nche abbia mai provato 🦈"
-    posizione: basso
-    pezzi:
-      - sq06_tiktok 0 12.8
-
-  - nome: sq07c_mamma
-    testo: "Mamma l'ha vista\ne ne ha voluta una anche lei 😂🦈"
-    posizione: centro
-    pezzi:
-      - sq07_tiktok 0 7.6
-
-  - nome: sq08c_tuttoinuno
-    testo: "Coperta, pigiama e costume\ntutto in uno 🦈"
-    posizione: basso
     pezzi:
       - sq08_tiktok 0 9.7
 
-  - nome: sq09c_inverno
-    testo: "Inverno risolto 🦈❄️"
-    posizione: centro
+  # sq07: testo all'altezza delle emoji rimaste nella clip, per coprirle
+  - nome: sq07c_venerdi
+    testo: "Il nostro appuntamento\ndel venerdì sera 🍿🦈"
+    posizione: 0.22
     pezzi:
-      - sq09_tiktok 0 6.7
+      - sq07_tiktok 0 7.6
 
-  - nome: sq10_mix_guardi
-    testo: "Più la guardi\npiù la vuoi 🦈👀"
+  # sq01 (bagno con le candele, squalo nella vasca)
+  - nome: sq01c_vasca
     posizione: centro
     pezzi:
-      - sq03_tiktok 0 5
-      - sq07_tiktok 0 4
-      - sq05_tiktok 0 4
-
-  - nome: sq11_mix_motivi
-    testo: "3 motivi per volerla:\ncalda, comoda, ridicola 🦈😂"
-    posizione: centro
-    pezzi:
-      - sq08_tiktok 0 4.5
-      - sq01_mov 0 5
-      - sq04_tiktok 0 4
-
-  - nome: sq12_mix_prima_dopo
-    testo: "Prima: freddo 🥶\nDopo: 🦈"
-    posizione: centro
-    pezzi:
-      - sq06_tiktok 0 5
-      - sq02_tiktok 0 6.1
+      - sq01_mov 0 3.4
+      - sq01_mov 3.4 11.9
+    testi_scene:
+      - "Torno a casa e trovo\nle candele accese in bagno 🕯️"
+      - "La mia ragazza da quando\nha la coperta squalo 🦈😂"
