@@ -1,22 +1,19 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 17/11/2026 19:57
+Aggiornato: 18/11/2026 00:03
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mar 21:00 | 11-17 18:30 ⚠ coda_vuota | 10 pubblicati, 8 saltati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 21 | 3.5 gg | mar 21:00 | 11-17 18:30 ✅ | 30 pubblicati, 9 saltati |
+| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mer 08:15 | 11-17 18:30 ⚠ coda_vuota | 10 pubblicati, 8 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 21 | 3.5 gg | mer 08:15 | 11-17 18:30 ✅ | 29 pubblicati, 9 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
-| Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 12 | 6.0 gg | mar 22:30 | 11-17 15:30 ✅ | 2 pubblicati, 2 saltati |
-| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | mar 21:00 | 11-17 18:30 ✅ | 18 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 22 | 2.2 gg | mar 21:00 | 11-17 19:30 ✅ | 43 pubblicati, 27 saltati |
+| Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 12 | 6.0 gg | mer 15:30 | 11-17 15:30 ✅ | 2 pubblicati, 2 saltati |
+| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | mer 08:15 | 11-17 18:30 ✅ | 18 pubblicati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 22 | 2.2 gg | mer 08:00 | 11-17 19:30 ✅ | 43 pubblicati, 25 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **BottiZero**: coda quasi finita (0 video ≈ 0.0 giorni)
-- **Ciabatte Pazze** turno 2026-11-16 21:00: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '2256624938230073' does not exist, cannot be loaded due to missing permission
-- **Insegnia** turno 2026-11-16 21:59 (subito): HTTP 400: {"message": "(#10) Requires instagram_content_publish permission to manage the object", "code": 10, "type": "OAuthException", "fbt
-- **PijamaMania** turno 2026-11-16 21:00: Instagram ok, Facebook NO → HTTP 403: {"message": "(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission."
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
