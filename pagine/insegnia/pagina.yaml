@@ -11,9 +11,10 @@ elimina_dopo: true
 audio_originale: true             # niente audio inserito, niente silenzio
 ordine_fisso: true                # escono nell'ordine del calendario (nome file 01_, 02_, ...)
 
-# 1 al giorno. 15:30 = pausa tra pranzo e cena di ristoratori/baristi, quando i titolari scrollano
+# 2 al giorno dal 17/11 (per finire prima i reel in coda).
+# 15:30 = pausa tra pranzo e cena; 22:30 = fine servizio, quando i titolari scrollano
 orari:
-  ogni_giorno: ["15:30"]
+  ogni_giorno: ["15:30", "22:30"]
 
 facebook:
   attivo: true

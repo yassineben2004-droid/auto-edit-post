@@ -1,13 +1,13 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 17/11/2026 13:07
+Aggiornato: 17/11/2026 14:14
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mar 18:30 | 11-17 12:45 ⚠ coda_vuota | 10 pubblicati, 7 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 23 | 3.8 gg | mar 15:30 | 11-17 12:45 ✅ | 28 pubblicati, 10 saltati |
 | Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | - | - | 0 pubblicati |
-| Insegnia | ✅ attiva · IG | 15:30 | 1 | 13 | 13.0 gg | mar 15:30 | 11-16 22:11 (subito) ✅ | 1 pubblicati, 1 saltati |
+| Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 13 | 6.5 gg | mar 15:30 | 11-16 22:11 (subito) ✅ | 1 pubblicati, 1 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 9 | 2.2 gg | mar 18:30 | 11-17 12:45 ✅ | 17 pubblicati |
 | PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 0 | 0.0 gg | mar 14:45 | 11-17 13:00 ⚠ coda_vuota | 40 pubblicati, 30 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
