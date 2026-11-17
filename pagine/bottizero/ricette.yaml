@@ -116,3 +116,28 @@ reel:
       - a3_capodanno 0 3.0
       - c1_ragazza_fascia 0 4.0
       - f1_ragazza_fuochi 0 4.0
+
+  # ═══════════════════════════════════════════════════════════════
+  # 18/11 — RICALCO del TikTok "before fireworks vs. during fireworks" (19,6M views):
+  # scena 1 cani fermi con la fascia davanti alla porta, scena 2 abbraccio stretto mentre
+  # scoppiano i fuochi. Clip Higgsfield (GPT Image 2.5 + Kling 3.0), rallentate a 0.75
+  # per tornare ai ~4 s a scena dell'originale. Testo che cambia tra le due scene.
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: bz11_prima_durante_golden
+    posizione: 0.62
+    pezzi:
+      - g1_golden_prima 0 3.0 0.75
+      - g2_golden_durante 0 3.0 0.75
+    testi_scene:
+      - "prima dei botti vs."
+      - "durante i botti"
+
+  - nome: bz12_prima_durante_bassotti
+    posizione: 0.64
+    pezzi:
+      - b1_bassotti_prima 0 3.0 0.75
+      - b2_bassotto_durante 0 3.0 0.75
+    testi_scene:
+      - "prima dei botti vs."
+      - "durante i botti"
