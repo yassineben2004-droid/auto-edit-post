@@ -309,3 +309,89 @@ reel:
     posizione: basso
     pezzi:
       - sq09_tiktok 0 6.7
+
+  # ═══════════════════════════════════════════════════════════════
+  # 17/11 — PIGIAMA DEMOGORGONE (Stranger Things), STITCH, CUSCINO TARTARUGA
+  # Clip TikTok con le scritte originali tolte (inpainting): il nostro testo va
+  # nello stesso punto per coprire la zona ritoccata. Tagliati i finali "li vendiamo noi".
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: demo01_corri
+    testo: "Correte a prenderlo\nprima che finisca 🏃‍♀️👹"
+    posizione: 0.41
+    pezzi:
+      - st01_stranger 0 6.4
+
+  - nome: demo02_comodo
+    testo: "Comodissimo e caldissimo\n(e fa un po' paura) 👹"
+    posizione: 0.24
+    pezzi:
+      - st01_stranger 6.5 12.6
+
+  - nome: demo03_esiste
+    testo: "Il pigiama Demogorgone\nesiste davvero 😱👹"
+    posizione: 0.19
+    pezzi:
+      - st02_stranger 0 12.4
+
+  - nome: demo04_tagga
+    testo: "Tagga il fan di Stranger Things\nche lo deve avere 👇👹"
+    posizione: 0.19
+    pezzi:
+      - st02_stranger 0 12.4
+
+  - nome: demo05_coppia
+    testo: "Pigiami Stranger Things\ndi coppia 👹🖤"
+    posizione: 0.41
+    pezzi:
+      - st03_stranger 0 7.6
+
+  - nome: demo06_5min
+    testo: "Lui: non lo metterò mai\n5 minuti dopo: 👹😂"
+    posizione: 0.41
+    pezzi:
+      - st03_stranger 0 7.6
+
+  - nome: stitch01_famiglia
+    testo: "Tutta la famiglia\nin versione Stitch 💙😂"
+    posizione: 0.18
+    pezzi:
+      - sti01_stitch 0 21.7
+
+  - nome: stitch02_bimbo
+    testo: "Il bimbo più felice\ndel mondo 💙"
+    posizione: 0.18
+    pezzi:
+      - sti01_stitch 10.5 21.7
+
+  - nome: stitch03_tagga
+    testo: "Tagga chi lo farebbe\ncon te 💙👇"
+    posizione: 0.18
+    pezzi:
+      - sti01_stitch 0 12
+
+  - nome: tart11_pov
+    testo: "POV: hai regalato al tuo ragazzo\nil cuscino tartaruga 🐢😂"
+    posizione: 0.17
+    pezzi:
+      - tar01_tartaruga 0 9.4
+
+  - nome: tart12_coccole
+    testo: "Coccole da tartaruga\nogni sera 🐢💚"
+    posizione: 0.17
+    pezzi:
+      - tar01_tartaruga 0 9.4
+
+  - nome: tart13_natale
+    testo: "Lei voleva il cuscino tartaruga\nper Natale… 🐢🎄"
+    posizione: 0.16
+    pezzi:
+      - tar02_tartaruga 0 5.8
+      - tar01_tartaruga 0 9.4
+
+  - nome: tart14_presta
+    testo: "Gliel'ho regalato…\nora non me lo presta più 😭🐢"
+    posizione: 0.16
+    pezzi:
+      - tar02_tartaruga 0 5.8
+      - tar01_tartaruga 0 9.4
