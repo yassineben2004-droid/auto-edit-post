@@ -19,10 +19,24 @@
     "2026-11-16 22:30": {
       "esito": "mancato",
       "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-17 15:30": {
+      "esito": "pubblicato",
+      "id": "insegnia-00002",
+      "file": "insegnia-00002.mp4",
+      "media_id": "18087224627344395",
+      "link": "https://www.instagram.com/reel/Df2NauOCgWG/",
+      "audio": "-",
+      "audio_id": null,
+      "audio_file": "",
+      "ora": "2026-11-17T16:04+01:00",
+      "fb_link": "https://www.facebook.com/reel/1840942227322584",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
-    "insegnia-00001"
+    "insegnia-00001",
+    "insegnia-00002"
   ],
   "scartati": {},
   "errori": {
