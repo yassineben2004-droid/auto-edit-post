@@ -1,6 +1,6 @@
-OK st01_stranger.mp4 15.300000s
-OK st02_stranger.mp4 13.933333s
-OK st03_stranger.mp4 7.600000s
-OK sti01_stitch.mp4 21.755011s
-OK tar01_tartaruga.mp4 9.433333s
-OK tar02_tartaruga.mp4 14.900000s
+OK (già presente) st01_stranger.mp4
+OK (già presente) st02_stranger.mp4
+OK (già presente) st03_stranger.mp4
+OK (già presente) sti01_stitch.mp4
+OK (già presente) tar01_tartaruga.mp4
+OK (già presente) tar02_tartaruga.mp4
