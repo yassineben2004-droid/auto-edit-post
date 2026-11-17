@@ -2,3 +2,18 @@
 - [DfblOSux_I5](DfblOSux_I5/report.md) — autore: Holyveil  ·  data: 20261107 · views: -  ·  like: 173.775  ·  commenti: 8.023
 - [Dfc14MBxfoy](Dfc14MBxfoy/report.md) — autore: YouRelief  ·  data: 20261107 · views: -  ·  like: 3.301  ·  commenti: 278
 - [De-DMbQPfLZ](De-DMbQPfLZ/report.md) — autore: SnugToes 🔥 | Heated Slippers 🧦  ·  data: 20261026 · views: -  ·  like: 0  ·  commenti: 0
+- [DfZ_7-fJC7N](DfZ_7-fJC7N/report.md) — autore: whiskerwarmth  ·  data: 20261106 · views: -  ·  like: 13.860  ·  commenti: 2.007
+- [Dfn9wfYR-6A](Dfn9wfYR-6A/report.md) — autore: avoachair  ·  data: 20261112 · views: -  ·  like: 81.777  ·  commenti: 1.985
+- [DeQ30juIto-](DeQ30juIto-/report.md) — autore: ~Rozy~  ·  data: 20261009 · views: -  ·  like: 5.558  ·  commenti: 57
+- [Dfs2ZdTMnGw](Dfs2ZdTMnGw/report.md) — autore: Antonella Castellana  ·  data: 20261113 · views: -  ·  like: 349  ·  commenti: 16
+- [De9mXGYxfUc](De9mXGYxfUc/report.md) — autore: Mariana Moura  ·  data: 20261026 · views: -  ·  like: 8.142  ·  commenti: 44
+- [Dfv1Hs6umL4](Dfv1Hs6umL4/report.md) — autore: RideOutlaw  ·  data: 20261115 · views: -  ·  like: 854.154  ·  commenti: 21.080
+- [DfN_bzwinf5](DfN_bzwinf5/report.md) — autore: carpediem  ·  data: 20261102 · views: -  ·  like: 540  ·  commenti: 0
+- [DfVk91wsXyg](DfVk91wsXyg/report.md) — autore: HedwPuff  ·  data: 20261104 · views: -  ·  like: 197.624  ·  commenti: 6.569
+- [7464386519306964229](7464386519306964229/report.md) — autore: mycozysharkblanket  ·  data: 20250127 · views: 3.856  ·  like: 75  ·  commenti: 0
+- [7268720844577262894](7268720844577262894/report.md) — autore: mrcomfyshark  ·  data: 20230818 · views: 243.700  ·  like: 5.047  ·  commenti: 71
+- [7269010267881688362](7269010267881688362/report.md) — autore: mrcomfyshark  ·  data: 20230819 · views: 509.000  ·  like: 9.972  ·  commenti: 99
+- [7256508873501183278](7256508873501183278/report.md) — autore: sharkblankieshop  ·  data: 20230716 · views: 2.300.000  ·  like: 274.500  ·  commenti: 5.855
+- [7366328334118096133](7366328334118096133/report.md) — autore: mycozysharkblanket  ·  data: 20240507 · views: 7.500.000  ·  like: 225.300  ·  commenti: 1.659
+- [7324039866268912902](7324039866268912902/report.md) — autore: mycozysharkblanket  ·  data: 20240114 · views: 6.400.000  ·  like: 495.500  ·  commenti: 2.891
+- [7462129664396496134](7462129664396496134/report.md) — autore: mycozysharkblanket  ·  data: 20250120 · views: 1.031  ·  like: 44  ·  commenti: 0
