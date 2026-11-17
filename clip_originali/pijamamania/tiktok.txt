@@ -1,0 +1,7 @@
+# nome_file  link TikTok (scaricati con yt-dlp da .github/workflows/scarica-tiktok.yml)
+st01_stranger.mp4 https://vm.tiktok.com/ZN859NNeR/
+st02_stranger.mp4 https://vm.tiktok.com/ZN8598TCr/
+st03_stranger.mp4 https://vm.tiktok.com/ZN859kkFX/
+sti01_stitch.mp4 https://vm.tiktok.com/ZN859UhcP/
+tar01_tartaruga.mp4 https://vm.tiktok.com/ZN8592KnD/
+tar02_tartaruga.mp4 https://vm.tiktok.com/ZN859R6e6/

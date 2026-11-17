@@ -1,0 +1,43 @@
+name: Scarica clip TikTok
+# Scarica i video elencati in clip_originali/<brand>/tiktok.txt (formato: nome_file link) con yt-dlp
+on:
+  push:
+    paths: ["clip_originali/**/tiktok.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: scarica-clip
+  cancel-in-progress: false
+jobs:
+  scarica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q -U yt-dlp
+      - name: Scarica
+        run: |
+          for f in clip_originali/*/tiktok.txt; do
+            d=$(dirname "$f"); : > "$d/tiktok_esito.txt"
+            grep -v '^#' "$f" | while read -r nome url; do
+              [ -z "$nome" ] && continue
+              [ -s "$d/$nome" ] && { echo "OK (già presente) $nome" >> "$d/tiktok_esito.txt"; continue; }
+              if yt-dlp -q --no-warnings -f "bv*[vcodec^=h264]+ba/b[vcodec^=h264]/bv*+ba/b" --merge-output-format mp4 -o "$d/$nome" "$url"; then
+                dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$d/$nome")
+                echo "OK $nome ${dur}s" >> "$d/tiktok_esito.txt"
+              else
+                echo "FALLITO $nome $url" >> "$d/tiktok_esito.txt"
+              fi
+            done
+          done
+          cat clip_originali/*/tiktok_esito.txt
+      - name: Salva
+        if: always()
+        run: |
+          git config user.name "auto-edit-post"
+          git config user.email "auto-edit-post@users.noreply.github.com"
+          git add -A clip_originali
+          git diff --cached --quiet || (git commit -m "clip TikTok scaricate" && git pull --rebase && git push)
