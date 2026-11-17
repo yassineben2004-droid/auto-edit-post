@@ -11,6 +11,10 @@ on:
       comando:
         description: "<pagina> [inizio nome reel ...]   es: capybounce cb01"
         required: true
+      runner:
+        description: "macchina (se i Mac arm sono pieni: macos-15-intel)"
+        required: false
+        default: "macos-latest"
 
 permissions:
   contents: write
@@ -21,7 +25,7 @@ concurrency:
 
 jobs:
   monta:
-    runs-on: macos-latest
+    runs-on: ${{ github.event.inputs.runner || 'macos-latest' }}
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
