@@ -45,6 +45,8 @@ Dopo una modifica: `python piattaforma.py cron` (rigenera gli avvii di GitHub, g
 ## Regole automatiche
 - un solo post per pagina a ogni turno; se più turni sono arretrati esce solo il più recente (mai due Reel attaccati)
 - un turno può uscire fino a 2 ore dopo l'orario (GitHub a volte ritarda); oltre → "mancato", il video resta in coda
+- **sveglia** (`.github/workflows/sveglia.yml`): dorme fino al prossimo turno e avvia "Pubblica Reel" all'orario esatto; ogni pubblicazione la riaccende. cron-job.org e gli orari di GitHub restano come riserva
+- **commit firmati dal bot**: con il repo pubblico GitHub mette "in attesa di approvazione" le esecuzioni se l'ultimo commit su main è di un autore esterno (es. "Claude"). Ogni commit su main va firmato `auto-edit-post <auto-edit-post@users.noreply.github.com>` (vedi CLAUDE.md)
 - guasto temporaneo di Meta → riprova finché il turno è valido
 - video rifiutato da Instagram → scartato (scritto in stato.json), al turno esce il successivo
 - coda vuota → il turno è segnato "coda_vuota" e il pannello avvisa
