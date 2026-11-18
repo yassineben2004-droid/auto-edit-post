@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 18/11/2026 01:29
+Aggiornato: 18/11/2026 01:58
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | mer 08:15 | 11-17 21:00 ⚠ mancato | 10 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 21 | 3.5 gg | mer 08:15 | 11-17 21:00 ⚠ mancato | 29 pubblicati, 10 saltati |
-| Doni di Natale | ⏸ in pausa · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 4 | 1.0 gg | - | - | 0 pubblicati |
+| Doni di Natale | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 12 | 3.0 gg | mer 08:15 | - | 0 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 11 | 5.5 gg | mer 15:30 | 11-17 22:30 ✅ | 3 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | mer 08:15 | 11-17 21:00 ⚠ mancato | 18 pubblicati, 1 saltati |
 | PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 21 | 2.1 gg | mer 08:00 | 11-17 22:30 ✅ | 44 pubblicati, 26 saltati |
