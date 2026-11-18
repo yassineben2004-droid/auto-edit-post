@@ -315,3 +315,160 @@ reel:
       - k2_resurrezione_ferma 0 2.5
       - k3_nativita_ferma 0 3.0
 
+
+  # --- 18/11/2026 round 2, dalle statistiche: vince la ragazza che APPENDE la croce vicino all'albero
+  # (POV salotto 2,8K · scaletta 2K · 8 dicembre 1,2K) e il supermercato (più condivisioni).
+  # Si cambia solo il testo dell'hook (split test), corpo uguale ai vincenti.
+  - nome: lf27_albero_manca
+    testo: "POV: hai finito l'albero ma manca qualcosa 🎄✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - c4_appende_divano 0 4.04
+      - s1_telecomando_parete_grigia 0.8 3.3
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf28_compagno_albero
+    testo: "Quest'anno l'albero ha un compagno 🎄✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - c4_appende_divano 0 4.04
+      - c3_croce_accesa_casa 0 3.04
+      - m1_ultima_cena 0.5 2
+      - m3_nativita 2 4.04
+
+  - nome: lf29_nonna_voleva
+    testo: "La decorazione che mia nonna voleva da anni 🥹✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - c4_appende_divano 0 4.04
+      - s2_buio_accensione 1.3 3.04
+      - s3_orbita 0 2
+      - m3_nativita 2 4.04
+
+  - nome: lf30_pov_mamma_8_dicembre
+    testo: "POV: tua mamma l'8 dicembre 🎄😭"
+    posizione: 0.58
+    cta: "Tagga tua mamma 👇😂"
+    cta_posizione: 0.58
+    pezzi:
+      - c4_appende_divano 0 4.04
+      - s1_telecomando_parete_grigia 0.8 3.3
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf31_scaletta_albero
+    testo: "Mamma che fa l'albero da sola 💀🎄"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h1_lei_cade_scaletta 0 3.9
+      - c3_croce_accesa_casa 0 3.04
+      - s3_orbita 0 2
+      - m3_nativita 2 4.04
+
+  - nome: lf32_scaletta_ne_valeva
+    testo: "Ne è valsa la pena? Guarda quando si accende 😭✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h1_lei_cade_scaletta 0 3.9
+      - s2_buio_accensione 1.3 3.04
+      - m1_ultima_cena 0.5 2
+      - m3_nativita 2 4.04
+
+  - nome: lf33_casa_mia_8_dicembre
+    testo: "L'8 dicembre a casa mia 🎄💀"
+    posizione: 0.58
+    cta: "Tagga chi farebbe così 👇😂"
+    cta_posizione: 0.58
+    pezzi:
+      - h1_lei_cade_scaletta 0.8 3.9
+      - c4_appende_divano 1.5 4.04
+      - c3_croce_accesa_casa 0 3.04
+      - m3_nativita 2 4.04
+
+  - nome: lf34_scaletta_poi_salotto
+    testo: "Ha rischiato tutto per questa croce… aspetta di vederla accesa 😭"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h1_lei_cade_scaletta 0 3.9
+      - c4_appende_divano 2 4.04
+      - s1_telecomando_parete_grigia 0.8 3.3
+      - m3_nativita 2 4.04
+
+  - nome: lf35_supermercato_nonna
+    testo: "Il regalo per la nonna l'ho trovato 😭✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h6_supermercato_abbraccio 0 3.04
+      - c4_appende_divano 0 2.5
+      - s1_telecomando_parete_grigia 1 3.5
+      - m3_nativita 2 4.04
+
+  - nome: lf36_supermercato_manda
+    testo: "Manda questo video a chi ti fa il regalo di Natale 👀✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h6_supermercato_abbraccio 0 3.04
+      - c3_croce_accesa_casa 0 3.04
+      - m2_resurrezione 1 2.5
+      - m3_nativita 2 4.04
+
+  - nome: lf37_supermercato_cristiano
+    testo: "Non esiste il regalo perfetto per un cristiano.. 😳✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h6_supermercato_abbraccio 0 3.04
+      - c4_appende_divano 0.5 4.04
+      - s2_buio_accensione 1.3 3.04
+      - m3_nativita 2 4.04
+
+  - nome: lf38_cloche_commenta
+    testo: "Il piatto più buono a Natale? 🍽️✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h4_cloche 0 4.06
+      - c4_appende_divano 1 4.04
+      - c3_croce_accesa_casa 0 3.04
+      - m3_nativita 2 4.04
+
+  - nome: lf39_trucioli_salotto
+    testo: "Non fatelo vedere alla nonna ✝️👼"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h5_soffio_trucioli 0 4.04
+      - c4_appende_divano 1 4.04
+      - c3_croce_accesa_casa 0 3.04
+      - m3_nativita 2 4.04
+
+  - nome: lf40_pov_salotto_bis
+    testo: "POV: la appendi in salotto per Natale 🎄✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - c4_appende_divano 0 4.04
+      - c3_croce_accesa_casa 0 3.04
+      - s3_orbita 0 2
+      - m3_nativita 2 4.04
