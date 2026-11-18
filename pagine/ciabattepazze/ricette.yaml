@@ -749,3 +749,134 @@ reel:
       - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
       - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
 
+
+  # ---- CIABATTE RISCALDATE round 2 (18/11/2026): ricreato il virale SnugToes DemuZChuX50 (caffè che cade al negozio,
+  # piedi gelati come hook B), clip nuove in ../ciabattepazze_snug. Split test solo sul testo dell'hook.
+  - nome: cr17_finalmente_trovi
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Quando finalmente trovi le ciabatte riscaldate 🥹🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_snug/s1_caffe_cade 0 3.04
+      - ../ciabattepazze_snug/s2_apre_scatola 1 3
+      - ../ciabattepazze_snug/s3_infila 0 1.8
+      - ../ciabattepazze_snug/s4_bottone 0 1.5
+      - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
+
+  - nome: cr18_mi_e_caduto_caffe
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Mi è caduto il caffè ma ne è valsa la pena ☕️🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_snug/s1_caffe_cade 0 3.04
+      - ../ciabattepazze_snug/s2_apre_scatola 1 3
+      - ../ciabattepazze_snug/s3_infila 0 1.8
+      - ../ciabattepazze_snug/s4_bottone 0 1.5
+      - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
+
+  - nome: cr19_reazione_scaffale
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "La mia reazione quando le ho viste dal vivo 😳🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_snug/s1_caffe_cade 0 3.04
+      - ../ciabattepazze_snug/s2_apre_scatola 1 3
+      - ../ciabattepazze_snug/s3_infila 0 1.8
+      - ../ciabattepazze_snug/s4_bottone 0 1.5
+      - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
+
+  - nome: cr20_regalo_trovato
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Ok, il regalo di Natale l'ho trovato 🎄😭"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_snug/s1_caffe_cade 0 3.04
+      - ../ciabattepazze_snug/s2_apre_scatola 1 3
+      - ../ciabattepazze_snug/s3_infila 0 1.8
+      - ../ciabattepazze_snug/s4_bottone 0 1.5
+      - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
+
+  - nome: cr21_tutto_inverno
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Le ciabatte che mi salvano tutto l'inverno 🥶➡️🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_snug/s1_caffe_cade 0 3.04
+      - ../ciabattepazze_snug/s2_apre_scatola 1 3
+      - ../ciabattepazze_snug/s3_infila 0 1.8
+      - ../ciabattepazze_snug/s4_bottone 0 1.5
+      - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
+
+  - nome: cr22_ogni_mattina
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Io ogni mattina d'inverno 🥶"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_snug/s6_piedi_gelati 0 2.5
+      - ../ciabattepazze_snug/s2_apre_scatola 1 3
+      - ../ciabattepazze_snug/s3_infila 0 1.8
+      - ../ciabattepazze_snug/s4_bottone 0 1.5
+      - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
+
+  - nome: cr23_pavimento_gelato
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Quando il pavimento è un ghiacciolo 🧊🦶"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_snug/s6_piedi_gelati 0 2.5
+      - ../ciabattepazze_snug/s2_apre_scatola 1 3
+      - ../ciabattepazze_snug/s3_infila 0 1.8
+      - ../ciabattepazze_snug/s4_bottone 0 1.5
+      - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
+
+  - nome: cr24_piedi_freddi_sempre
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Se anche tu hai sempre i piedi freddi… 🥶"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_snug/s6_piedi_gelati 0 2.5
+      - ../ciabattepazze_snug/s2_apre_scatola 1 3
+      - ../ciabattepazze_snug/s3_infila 0 1.8
+      - ../ciabattepazze_snug/s4_bottone 0 1.5
+      - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
+

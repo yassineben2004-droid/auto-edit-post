@@ -37,7 +37,7 @@ caption:
 
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio). Sono quelli che si sentono davvero.
 audio_inseriti:
-  pesi: {}
+  pesi: {"DemuZChuX50.m4a": 6, "De-DMbQPfLZ.m4a": 6}   # audio dei virali SnugToes (Christmas, drop ~12s)
 
 # Musica di tendenza di Meta: spenta come su PijamaMania (Meta la ignorava e coprirebbe l'audio inserito)
 audio:
