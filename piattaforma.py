@@ -18,6 +18,7 @@ Comandi:
   python piattaforma.py nuova <pagina> "Nome"  crea una nuova pagina
   python piattaforma.py aggiungi <pagina> <cartella video>... [--testi testi.txt] [--ricerca-audio natale]
   python piattaforma.py cron                   rigenera gli orari di GitHub Actions dagli orari delle pagine
+  python piattaforma.py prossimo               secondi al prossimo turno (lo usa la sveglia .github/workflows/sveglia.yml)
   python piattaforma.py verifica               controlla token, account e quota di ogni pagina
   python piattaforma.py audio <pagina> [parole...]   elenca gli audio disponibili
 """
@@ -600,6 +601,28 @@ def metti_audio(nome, rifai=False):
     print(f"\n{fatti} video con audio inserito ({len(tracce)} tracce a rotazione)")
 
 
+# ================================================================ sveglia (avvio puntuale ai turni)
+def prossimo():
+    """Stampa i secondi che mancano al prossimo turno di una pagina attiva (+1 minuto di margine).
+    La sveglia (.github/workflows/sveglia.yml) dorme questo tempo e poi avvia "Pubblica Reel",
+    perché gli orari di GitHub (schedule) arrivano in ritardo o vengono saltati."""
+    g = cfg_generale()
+    tz = ZoneInfo(g["fuso_orario"])
+    adesso = datetime.now(tz)
+    turni = []
+    for nome in elenco_pagine():
+        pag = cfg_pagina(nome)
+        if not pag["attiva"]:
+            continue
+        turni += turni_tra(pag, adesso + timedelta(seconds=30), adesso + timedelta(days=2), tz)
+    if not turni:
+        print(-1)
+        return
+    t = min(turni)
+    print(int((t - adesso).total_seconds()) + 60)
+    print(f"prossimo turno: {chiave(t)}", file=sys.stderr)
+
+
 # ================================================================ orari GitHub Actions
 def cron():
     """Workflow GitHub che parte solo agli orari delle pagine (valido con ora solare E legale)."""
@@ -640,6 +663,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write   # per riavviare la sveglia
 
 jobs:
   pubblica:
@@ -668,6 +692,11 @@ jobs:
           git config user.email "auto-edit-post@users.noreply.github.com"
           git add -A pagine PANNELLO.md
           git diff --cached --quiet || (git commit -m "pubblicazioni $(date -u +%F' '%H:%M)" && git pull --rebase && git push)
+      - name: Tieni accesa la sveglia
+        if: always()
+        env:
+          GH_TOKEN: ${{{{ github.token }}}}
+        run: gh workflow run sveglia.yml --ref main || true
 """
     p = BASE / ".github" / "workflows" / "pubblica.yml"
     p.parent.mkdir(parents=True, exist_ok=True)
@@ -824,6 +853,7 @@ def main():
     a.add_argument("--testi", nargs="*", default=[]); a.add_argument("--ricerca-audio", default="")
     a.add_argument("--quanti", type=int); a.add_argument("--seed", type=int)
     sub.add_parser("cron")
+    sub.add_parser("prossimo")
     su = sub.add_parser("subito"); su.add_argument("pagina"); su.add_argument("--prova", action="store_true")
     sub.add_parser("verifica")
     sub.add_parser("account")
@@ -844,6 +874,8 @@ def main():
         sys.exit(subito(x.pagina, x.prova))
     elif x.cmd == "cron":
         cron()
+    elif x.cmd == "prossimo":
+        prossimo()
     elif x.cmd == "account":
         account()
     elif x.cmd == "verifica":

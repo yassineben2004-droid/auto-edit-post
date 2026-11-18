@@ -1,0 +1,57 @@
+name: Sveglia
+# Avvia "Pubblica Reel" all'orario esatto di ogni turno (gli orari "schedule" di GitHub arrivano
+# in ritardo o vengono saltati). Dorme fino al prossimo turno, avvia la pubblicazione e poi si
+# riavvia da sola per il turno dopo. "Pubblica Reel" la riaccende a ogni esecuzione, quindi se la
+# catena si interrompe riparte al primo avvio del bot (cron-job.org, schedule o a mano).
+# Massimo una sveglia attiva + una in attesa (concurrency).
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: sveglia
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  sveglia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340   # i job GitHub durano al massimo 6 ore
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*.py
+            /*.yaml
+            /requirements.txt
+            /pagine/*/pagina.yaml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Dormi fino al prossimo turno
+        id: attesa
+        run: |
+          s=$(python piattaforma.py prossimo)
+          echo "secondi al prossimo turno: $s"
+          if [ "$s" -lt 0 ]; then echo "nessuna pagina attiva"; echo "azione=niente" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "$s" -gt 18000 ]; then
+            echo "turno a più di 5 ore: dormo 5 ore e poi ricontrollo"
+            sleep 18000; echo "azione=ricontrolla" >> "$GITHUB_OUTPUT"
+          else
+            sleep "$s"; echo "azione=pubblica" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Avvia Pubblica Reel
+        if: steps.attesa.outputs.azione == 'pubblica'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pubblica.yml --ref main -f comando=esegui
+      - name: Prepara la sveglia del turno dopo
+        if: steps.attesa.outputs.azione == 'ricontrolla'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run sveglia.yml --ref main
