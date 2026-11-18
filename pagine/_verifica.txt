@@ -1,15 +1,18 @@
-# verifica — 2026-11-13T09:46:30
+# verifica — 2026-11-18T01:07:59
 [bottizero] Pagina Facebook OK: BottiZero (0 follower), token della Pagina ottenuto
 [bottizero] permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, pages_read_engagement, pages_manage_posts, public_profile  ✅ pronti per i Reel Facebook
-[ciabattepazze] account OK: @ciabattepazze.it (24 follower)
-[ciabattepazze] quota pubblicazioni: {'data': [{'quota_usage': 4, 'config': {'quota_total': 100, 'quota_duration': 86400}}]}
+[ciabattepazze] account OK: @ciabattepazze.it (128 follower)
+[ciabattepazze] quota pubblicazioni: {'data': [{'quota_usage': 6, 'config': {'quota_total': 100, 'quota_duration': 86400}}]}
 [ciabattepazze] token valido, scade: mai, permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, pages_read_engagement, pages_manage_posts, public_profile
 [donidinatale] Pagina Facebook OK: Donidinatale (0 follower), token della Pagina ottenuto
 [donidinatale] permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, pages_read_engagement, pages_manage_posts, public_profile  ✅ pronti per i Reel Facebook
-[lucedifede] account OK: @luce_di_fede_ (269 follower)
-[lucedifede] quota pubblicazioni: {'data': [{'quota_usage': 0, 'config': {'quota_total': 100, 'quota_duration': 86400}}]}
+[insegnia] account OK: @insegnia.it (716 follower)
+[insegnia] quota pubblicazioni: {'data': [{'quota_usage': 3, 'config': {'quota_total': 100, 'quota_duration': 86400}}]}
+[insegnia] token valido, scade: mai, permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, pages_read_engagement, pages_manage_posts, public_profile
+[lucedifede] account OK: @luce_di_fede_ (281 follower)
+[lucedifede] quota pubblicazioni: {'data': [{'quota_usage': 3, 'config': {'quota_total': 100, 'quota_duration': 86400}}]}
 [lucedifede] token valido, scade: mai, permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, pages_read_engagement, pages_manage_posts, public_profile
-[pijamamania] account OK: @pijamamania.it (7678 follower)
+[pijamamania] account OK: @pijamamania.it (7677 follower)
 [pijamamania] quota pubblicazioni: {'data': [{'quota_usage': 4, 'config': {'quota_total': 100, 'quota_duration': 86400}}]}
 [pijamamania] token valido, scade: mai, permessi: pages_show_list, business_management, instagram_basic, instagram_content_publish, instagram_manage_messages, pages_read_engagement, public_profile
-[ravenandresin] ERRORE: HTTP 400: {"message": "Unsupported get request. Object with ID 'DA_INSERIRE' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", "type": "GraphMethodException", "code": 100, "error_subcode": 33, "fbtrace_id": "A97L9SFzQqEjdD8FCDgJyAo"}
+[ravenandresin] ERRORE: HTTP 400: {"message": "Unsupported get request. Object with ID 'DA_INSERIRE' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", "type": "GraphMethodException", "code": 100, "error_subcode": 33, "fbtrace_id": "A5x9nHVm1VJHK_OJVQrEaxf"}
