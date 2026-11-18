@@ -1,8 +1,7 @@
 name: Sveglia
 # Avvia "Pubblica Reel" all'orario esatto di ogni turno (gli orari "schedule" di GitHub arrivano
 # in ritardo o vengono saltati). Dorme fino al prossimo turno, avvia la pubblicazione e poi si
-# riavvia da sola per il turno dopo. "Pubblica Reel" la riaccende a ogni esecuzione, quindi se la
-# catena si interrompe riparte al primo avvio del bot (cron-job.org, schedule o a mano).
+# riavvia da sola per il turno dopo. Se la catena si interrompe va riavviata a mano (Actions → Sveglia → Run).
 # Massimo una sveglia attiva + una in attesa (concurrency).
 on:
   workflow_dispatch:
@@ -51,7 +50,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run pubblica.yml --ref main -f comando=esegui
       - name: Prepara la sveglia del turno dopo
-        if: steps.attesa.outputs.azione == 'ricontrolla'
+        if: steps.attesa.outputs.azione == 'pubblica' || steps.attesa.outputs.azione == 'ricontrolla'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run sveglia.yml --ref main

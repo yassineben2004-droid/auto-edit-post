@@ -663,7 +663,6 @@ concurrency:
 
 permissions:
   contents: write
-  actions: write   # per riavviare la sveglia
 
 jobs:
   pubblica:
@@ -692,11 +691,6 @@ jobs:
           git config user.email "auto-edit-post@users.noreply.github.com"
           git add -A pagine PANNELLO.md
           git diff --cached --quiet || (git commit -m "pubblicazioni $(date -u +%F' '%H:%M)" && git pull --rebase && git push)
-      - name: Tieni accesa la sveglia
-        if: always()
-        env:
-          GH_TOKEN: ${{{{ github.token }}}}
-        run: gh workflow run sveglia.yml --ref main || true
 """
     p = BASE / ".github" / "workflows" / "pubblica.yml"
     p.parent.mkdir(parents=True, exist_ok=True)
