@@ -17,7 +17,7 @@ caption: []                       # da compilare con le caption del brand
 
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio): su Facebook è l'unico audio possibile da API
 audio_inseriti:
-  pesi: {}
+  pesi: {"DfxwXrQpgSh.m4a": 10}   # Rockin' Around the Christmas Tree, audio del reel virale copridivano (drop a 8s)
 
 audio:
   attivo: false                   # musica di tendenza non disponibile via API sui Reel Facebook
