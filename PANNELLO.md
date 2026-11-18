@@ -1,11 +1,11 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 18/11/2026 18:37
+Aggiornato: 18/11/2026 19:02
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 19 | 4.8 gg | mer 21:00 | 11-18 18:30 ✅ | 13 pubblicati, 9 saltati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 16 | 2.7 gg | mer 21:00 | 11-18 18:30 ✅ | 33 pubblicati, 8 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 24 | 4.0 gg | mer 21:00 | 11-18 18:30 ✅ | 33 pubblicati, 8 saltati |
 | Doni di Natale | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 9 | 2.2 gg | mer 21:00 | 11-18 18:30 ✅ | 3 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 9 | 4.5 gg | mer 22:30 | 11-18 15:30 ✅ | 4 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 19 | 4.8 gg | mer 21:00 | 11-18 18:30 ✅ | 21 pubblicati, 1 saltati |
