@@ -1,0 +1,62 @@
+# Ricette reel Doni di Natale — prodotto: copridivano trapuntato natalizio (Babbo e Mamma Natale)
+# Ricalco del reel virale DfxwXrQpgSh (negozio → reazione → divano trasformato → reveal sul drop).
+# Clip in clip_originali/donidinatale/ (Higgsfield: GPT Image 2.5 + Kling 3.0 720p):
+#   h1_caffe (5s, le cade il caffè)  h2_svenimento (5s, finto svenimento)   ← split test hook
+#   s2_stende  s3_sistema  s4_nonni (drop)  s5_divano_largo  s6_poltrona     ← corpo uguale
+# Testo a 0.60 (metà-basso, come nei reel nativi), CTA allineata alla caption_cta della pagina.
+reel:
+  - nome: dn01_caffe_decorazione
+    testo: "La decorazione di Natale più bella dell'anno?! 🎄"
+    posizione: 0.60
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.60
+    cta_secondi: 3.2
+    pezzi:
+      - h1_caffe 0 5.0
+      - s2_stende 0 2.8
+      - s3_sistema 0 2.0
+      - s4_nonni 0 2.6
+      - s5_divano_largo 0 1.6
+      - s6_poltrona 0 1.6
+
+  - nome: dn02_svenimento_decorazione
+    testo: "La decorazione di Natale più bella dell'anno?! 🎄"
+    posizione: 0.60
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.60
+    cta_secondi: 3.2
+    pezzi:
+      - h2_svenimento 0 5.0
+      - s2_stende 0 2.8
+      - s3_sistema 0 2.0
+      - s4_nonni 0 2.6
+      - s5_divano_largo 0 1.6
+      - s6_poltrona 0 1.6
+
+  - nome: dn03_caffe_negozio
+    testo: "Quando al negozio trovi QUESTO a Natale 😱"
+    posizione: 0.60
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.60
+    cta_secondi: 3.2
+    pezzi:
+      - h1_caffe 0 5.0
+      - s2_stende 0 2.8
+      - s3_sistema 0 2.0
+      - s4_nonni 0 2.6
+      - s5_divano_largo 0 1.6
+      - s6_poltrona 0 1.6
+
+  - nome: dn04_svenimento_babbo
+    testo: "Lei quando ha visto il copridivano di Babbo Natale 😂"
+    posizione: 0.60
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.60
+    cta_secondi: 3.2
+    pezzi:
+      - h2_svenimento 0 5.0
+      - s2_stende 0 2.8
+      - s3_sistema 0 2.0
+      - s4_nonni 0 2.6
+      - s5_divano_largo 0 1.6
+      - s6_poltrona 0 1.6
