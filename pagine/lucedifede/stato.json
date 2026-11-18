@@ -202,6 +202,17 @@
     "2026-11-17 21:00": {
       "esito": "mancato",
       "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-18 08:15": {
+      "esito": "pubblicato",
+      "id": "lucedifede-00016",
+      "file": "lucedifede-00016.mp4",
+      "media_id": "18133691887805719",
+      "link": "https://www.instagram.com/reel/Df4HU_Sgmai/",
+      "audio": "inserito: DelynysP4YQ.m4a",
+      "audio_id": null,
+      "audio_file": "DelynysP4YQ.m4a",
+      "ora": "2026-11-18T09:49+01:00"
     }
   },
   "usati": [
@@ -222,7 +233,8 @@
     "lucedifede-00014",
     "lucedifede-00024",
     "lucedifede-00015",
-    "lucedifede-00025"
+    "lucedifede-00025",
+    "lucedifede-00016"
   ],
   "scartati": {},
   "errori": {},

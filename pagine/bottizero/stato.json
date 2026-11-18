@@ -158,6 +158,19 @@
     "2026-11-17 21:00": {
       "esito": "mancato",
       "motivo": "nessuna esecuzione in tempo"
+    },
+    "2026-11-18 08:15": {
+      "esito": "pubblicato",
+      "id": "bottizero-00011",
+      "file": "bottizero-00011.mp4",
+      "media_id": "1958369321808240",
+      "link": "https://www.facebook.com/reel/1958369321808240",
+      "audio": "inserito: rif_fuochi_19M.m4a",
+      "audio_id": null,
+      "audio_file": "rif_fuochi_19M.m4a",
+      "piattaforma": "facebook",
+      "stato_fb": "pubblicato",
+      "ora": "2026-11-18T09:47+01:00"
     }
   },
   "usati": [
@@ -170,7 +183,8 @@
     "bottizero-00007",
     "bottizero-00008",
     "bottizero-00009",
-    "bottizero-00010"
+    "bottizero-00010",
+    "bottizero-00011"
   ],
   "scartati": {},
   "errori": {},

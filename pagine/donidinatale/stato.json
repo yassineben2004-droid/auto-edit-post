@@ -1,7 +1,23 @@
 {
   "dal": "2026-11-18T03:36+01:00",
-  "turni": {},
-  "usati": [],
+  "turni": {
+    "2026-11-18 08:15": {
+      "esito": "pubblicato",
+      "id": "donidinatale-00001",
+      "file": "donidinatale-00001.mp4",
+      "media_id": "2610023896137535",
+      "link": "https://www.facebook.com/reel/2610023896137535",
+      "audio": "inserito: Dfv1Hs6umL4.m4a",
+      "audio_id": null,
+      "audio_file": "Dfv1Hs6umL4.m4a",
+      "piattaforma": "facebook",
+      "stato_fb": "pubblicato",
+      "ora": "2026-11-18T09:49+01:00"
+    }
+  },
+  "usati": [
+    "donidinatale-00001"
+  ],
   "scartati": {},
   "errori": {},
   "audio_usati": []
