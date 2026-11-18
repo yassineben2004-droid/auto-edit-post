@@ -60,3 +60,104 @@ reel:
       - s4_nonni 0 2.6
       - s5_divano_largo 0 1.6
       - s6_poltrona 0 1.6
+
+# ---------------------------------------------------------------------------------------------
+# Prodotto 2: proiettore olografico da giardino (picchetto + telecomando)
+# Ricalco del reel virale DfxfzLtKSwL (pianta → accende → reveal ologrammi sul drop → bambino).
+# Clip Higgsfield (GPT Image 2.5 + Kling 3.0 720p): pr_pianta  pr_accende  pr_reveal (usare max 0-2.0s,
+# dopo gli ologrammi si deformano)  pr_bambino
+# Split test: testo hook, stile (rotazione 60/40 + 1 classico), posizione, ordine scene (hook bambino), 1 clean.
+  - nome: pr01_amante_natale
+    testo: "Ogni amante del Natale DEVE averlo... 😍✨"
+    posizione: 0.60
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.60
+    cta_secondi: 3.0
+    pezzi:
+      - pr_pianta 0 3.0
+      - pr_accende 0 2.2
+      - pr_reveal 0 2.0
+      - pr_bambino 0 3.04
+
+  - nome: pr02_giardino_quartiere
+    testo: "Il giardino più bello del quartiere quest'anno 🎄✨"
+    posizione: 0.58
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - pr_pianta 0 3.0
+      - pr_accende 0 2.2
+      - pr_reveal 0 2.0
+      - pr_bambino 0 3.04
+
+  - nome: pr03_pov_bambino
+    testo: "POV: tuo figlio vede Babbo Natale in giardino 🥹🎅"
+    posizione: 0.62
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.62
+    cta_secondi: 2.5
+    pezzi:
+      - pr_bambino 0 1.5
+      - pr_pianta 0.3 2.8
+      - pr_accende 0 2.0
+      - pr_reveal 0 2.0
+      - pr_bambino 1.5 3.04
+
+  - nome: pr04_vicini
+    testo: "I vicini quando vedranno il tuo giardino 👀🎄"
+    posizione: 0.60
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.60
+    cta_secondi: 3.0
+    pezzi:
+      - pr_pianta 0 3.0
+      - pr_accende 0 2.2
+      - pr_reveal 0 2.0
+      - pr_bambino 0 3.04
+
+  - nome: pr05_scene_magia
+    posizione: 0.60
+    testi_scene:
+      - "Lo pianti in giardino 🌲"
+      - "Lo accendi ✨"
+      - "E il Natale prende vita 😍"
+      - "Guarda la sua faccia 🥹🎅"
+    pezzi:
+      - pr_pianta 0 3.0
+      - pr_accende 0 2.2
+      - pr_reveal 0 2.0
+      - pr_bambino 0 3.04
+
+  - nome: pr06_niente_luci
+    testo: "Basta luci aggrovigliate: ti serve solo questo 🎄"
+    posizione: 0.56
+    stile: classico
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.56
+    cta_secondi: 3.0
+    pezzi:
+      - pr_pianta 0 3.0 1.1
+      - pr_accende 0 2.2 1.1
+      - pr_reveal 0 2.0
+      - pr_bambino 0 3.04
+
+  - nome: pr07_aspetta_reazione
+    testo: "Aspetta di vedere la sua reazione 🥹"
+    posizione: 0.62
+    cta: "Commenta NATALE se lo vuoi 🎅"
+    cta_posizione: 0.62
+    cta_secondi: 2.5
+    pezzi:
+      - pr_bambino 0 1.2
+      - pr_pianta 0.5 3.0
+      - pr_accende 0 2.0
+      - pr_reveal 0 2.0
+      - pr_bambino 1.2 3.04
+
+  - nome: pr08_clean
+    pezzi:
+      - pr_pianta 0 3.0
+      - pr_accende 0 2.2
+      - pr_reveal 0 2.0
+      - pr_bambino 0 3.04
