@@ -1,6 +1,6 @@
 # Pagina: Doni di Natale — SOLO FACEBOOK (Reel sulla Pagina Facebook, niente Instagram)
 nome: "Doni di Natale"
-attiva: false                     # metti true quando fb_page_id e permesso pages_manage_posts sono pronti
+attiva: true                      # accesa il 18/11/2026 (verifica 13/11: permessi Reel FB ok)
 piattaforma: facebook             # facebook = Reel sulla Pagina FB | instagram (predefinito) = Reel IG
 fb_page_id: "1373503919179249"   # Pagina Donidinatale
 token_env: TOKEN_META_STORE       # token del portafoglio Business del profilo personale
