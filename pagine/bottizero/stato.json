@@ -171,6 +171,19 @@
       "piattaforma": "facebook",
       "stato_fb": "pubblicato",
       "ora": "2026-11-18T09:47+01:00"
+    },
+    "2026-11-18 12:45": {
+      "esito": "pubblicato",
+      "id": "bottizero-00012",
+      "file": "bottizero-00012.mp4",
+      "media_id": "1579390460609398",
+      "link": "https://www.facebook.com/reel/1579390460609398",
+      "audio": "inserito: rif_fuochi_19M.m4a",
+      "audio_id": null,
+      "audio_file": "rif_fuochi_19M.m4a",
+      "piattaforma": "facebook",
+      "stato_fb": "pubblicato",
+      "ora": "2026-11-18T12:49+01:00"
     }
   },
   "usati": [
@@ -184,7 +197,8 @@
     "bottizero-00008",
     "bottizero-00009",
     "bottizero-00010",
-    "bottizero-00011"
+    "bottizero-00011",
+    "bottizero-00012"
   ],
   "scartati": {},
   "errori": {},
