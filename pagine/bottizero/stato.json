@@ -236,6 +236,19 @@
       "piattaforma": "facebook",
       "stato_fb": "pubblicato",
       "ora": "2026-11-19T12:48+01:00"
+    },
+    "2026-11-19 18:30": {
+      "esito": "pubblicato",
+      "id": "bottizero-00016",
+      "file": "bottizero-00016.mp4",
+      "media_id": "1576274170996515",
+      "link": "https://www.facebook.com/reel/1576274170996515",
+      "audio": "inserito: De9-6_5vUNU.m4a",
+      "audio_id": null,
+      "audio_file": "De9-6_5vUNU.m4a",
+      "piattaforma": "facebook",
+      "stato_fb": "pubblicato",
+      "ora": "2026-11-19T18:34+01:00"
     }
   },
   "usati": [
@@ -254,7 +267,8 @@
     "bottizero-00013",
     "bottizero-00014",
     "bottizero-00025",
-    "bottizero-00015"
+    "bottizero-00015",
+    "bottizero-00016"
   ],
   "scartati": {},
   "errori": {},
