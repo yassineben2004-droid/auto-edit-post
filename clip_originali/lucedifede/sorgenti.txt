@@ -22,3 +22,4 @@ s4_giorno_notte.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0X
 m1_ultima_cena.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_215714_61aecee0-0b40-4b4d-a47f-b073ec2b08b8.mp4
 m2_resurrezione.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_215715_dfe54002-d4b5-4ba9-8d08-d5e0246af83c.mp4
 m3_nativita.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261013_220518_2a749713-2e58-4ed6-8200-2b31601715f6.mp4
+h10_tricolore_cloche.mp4 https://d8j0ntlcm91z4.cloudfront.net/user_39XeQb9vR6L0sKQx0XxnqU4KOyN/hf_20261119_142324_54c21a90-ee10-40b6-8e58-1c89e96766a1.mp4
