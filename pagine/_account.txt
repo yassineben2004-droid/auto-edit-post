@@ -1,4 +1,4 @@
-# account per token — 2026-11-19T09:01:50
+# account per token — 2026-11-19T11:12:48
 
 [TOKEN_META]
   Pagina: PijamaMania  fb_page_id: 583107068221301  →  Instagram: @pijamamania.it  ig_user_id: 17841428063511900
@@ -13,6 +13,7 @@
   pages_read_engagement: tutti
 
 [TOKEN_META_STORE]
+  Pagina: AfterShift  fb_page_id: 1465124596678386  →  Instagram: @shop.aftershift  ig_user_id: 17841429655295961
   Pagina: Insegnia.it  fb_page_id: 1455907850933451  →  Instagram: @insegnia.it  ig_user_id: 17841462126814223
   Pagina: Lucedifede   fb_page_id: 1534306123097996  →  Instagram: @luce_di_fede_  ig_user_id: 17841472291969379
   Pagina: Ciabattepazze  fb_page_id: 1385448827991605  →  Instagram: @ciabattepazze.it  ig_user_id: 17841414476658494
