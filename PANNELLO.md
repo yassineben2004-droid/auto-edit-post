@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 19/11/2026 15:38
+Aggiornato: 19/11/2026 16:03
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -9,7 +9,7 @@ Aggiornato: 19/11/2026 15:38
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 19 | 3.2 gg | gio 18:30 | 11-19 15:30 ✅ | 38 pubblicati, 4 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 46 | 11.5 gg | gio 18:30 | 11-19 12:45 ✅ | 6 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 6 | 3.0 gg | gio 22:30 | 11-19 15:30 ✅ | 6 pubblicati, 2 saltati |
-| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 16 | 4.0 gg | gio 18:30 | 11-19 12:45 ✅ | 24 pubblicati, 1 saltati |
+| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 26 | 6.5 gg | gio 18:30 | 11-19 12:45 ✅ | 24 pubblicati, 1 saltati |
 | PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 6 | 0.6 gg | gio 16:30 | 11-19 14:45 ✅ | 59 pubblicati, 11 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
