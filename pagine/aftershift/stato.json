@@ -1,7 +1,23 @@
 {
   "dal": "2026-11-19T12:47+01:00",
-  "turni": {},
-  "usati": [],
+  "turni": {
+    "2026-11-19 14:30": {
+      "esito": "pubblicato",
+      "id": "aftershift-00001",
+      "file": "aftershift-00001.mp4",
+      "media_id": "18124725172981162",
+      "link": "https://www.instagram.com/reel/Df7MnoFjlcT/",
+      "audio": "inserito: Df1rf6GtDi_.m4a",
+      "audio_id": null,
+      "audio_file": "Df1rf6GtDi_.m4a",
+      "ora": "2026-11-19T14:33+01:00",
+      "fb_link": "https://www.facebook.com/reel/1459281328905534",
+      "fb_stato": "pubblicato"
+    }
+  },
+  "usati": [
+    "aftershift-00001"
+  ],
   "scartati": {},
   "errori": {},
   "audio_usati": []

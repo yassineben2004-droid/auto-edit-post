@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 19/11/2026 13:12
+Aggiornato: 19/11/2026 14:34
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 16 | 5.3 gg | gio 14:30 | - | 0 pubblicati |
+| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 15 | 5.0 gg | gio 19:30 | 11-19 14:30 ✅ | 1 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 16 | 4.0 gg | gio 18:30 | 11-19 12:45 ✅ | 16 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 20 | 3.3 gg | gio 15:30 | 11-19 12:45 ✅ | 37 pubblicati, 5 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 46 | 11.5 gg | gio 18:30 | 11-19 12:45 ✅ | 6 pubblicati |
@@ -19,6 +19,7 @@ Aggiornato: 19/11/2026 13:12
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-19 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/Df7MnoFjlcT/ · FB: https://www.facebook.com/reel/1459281328905534 |
 | 2026-11-19 13:00 | PijamaMania | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/Df7CT54jJJZ/ |
 | 2026-11-19 12:45 | Luce di Fede | inserito: Dezk9XiP4Nf.m4a | https://www.instagram.com/reel/Df7A1TNFr_Z/ |
 | 2026-11-19 12:45 | Doni di Natale | inserito: DfxfzLtKSwL.m4a | https://www.instagram.com/reel/Df7Aue_hK1S/ · FB: https://www.facebook.com/reel/1631945502007568 |
@@ -38,4 +39,3 @@ Aggiornato: 19/11/2026 13:12
 | 2026-11-18 21:00 | Luce di Fede | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/Df5U1pgiA9R/ |
 | 2026-11-18 21:00 | Doni di Natale | inserito: DeWAYKMIsHe.m4a | https://www.facebook.com/reel/1425554656054036 |
 | 2026-11-18 21:00 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/Df5UquOiAaT/ · FB: https://www.facebook.com/reel/1897792801660128 |
-| 2026-11-18 21:00 | BottiZero | inserito: rif_fuochi_19M.m4a | https://www.facebook.com/reel/1867221270944264 |
