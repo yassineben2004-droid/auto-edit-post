@@ -1,4 +1,4 @@
-# account per token — 2026-11-16T21:09:15
+# account per token — 2026-11-19T09:01:50
 
 [TOKEN_META]
   Pagina: PijamaMania  fb_page_id: 583107068221301  →  Instagram: @pijamamania.it  ig_user_id: 17841428063511900
@@ -16,7 +16,7 @@
   Pagina: Insegnia.it  fb_page_id: 1455907850933451  →  Instagram: @insegnia.it  ig_user_id: 17841462126814223
   Pagina: Lucedifede   fb_page_id: 1534306123097996  →  Instagram: @luce_di_fede_  ig_user_id: 17841472291969379
   Pagina: Ciabattepazze  fb_page_id: 1385448827991605  →  Instagram: @ciabattepazze.it  ig_user_id: 17841414476658494
-  Pagina: Donidinatale  fb_page_id: 1373503919179249  →  Instagram: @-  ig_user_id: NON COLLEGATO
+  Pagina: Donidinatale  fb_page_id: 1373503919179249  →  Instagram: @donidinatale.it  ig_user_id: 17841472771979592
   Pagina: BottiZero  fb_page_id: 1437785246079859  →  Instagram: @-  ig_user_id: NON COLLEGATO
   utente del token: AUTOEDIT&POST (122100083349529783)
   valido: True  app: Auto Edit Post  tipo: SYSTEM_USER
