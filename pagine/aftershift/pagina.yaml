@@ -1,8 +1,8 @@
 # Pagina: AfterShift (account IG ex Raven & Resin by Cole, ripulito) (brand worldwide in inglese, nicchia: chi lavora in piedi tutto il giorno)
 # Primo prodotto: massaggiatore riscaldato per caviglia (angoli parrucchiera e magazzino)
 nome: "AfterShift"
-attiva: false                     # metti true quando ID e token sono pronti
-ig_user_id: "DA_INSERIRE"         # ID numerico dell'account Instagram AfterShift
+attiva: true
+ig_user_id: "17841429655295961"   # @shop.aftershift
 token_env: TOKEN_META_STORE        # token del portafoglio Business del profilo personale (tutti gli store tranne PijamaMania)
 anche_nel_feed: true
 elimina_dopo: true
@@ -15,7 +15,7 @@ orari:
 # ANCHE SU FACEBOOK: lo stesso reel esce anche come Reel sulla Pagina Facebook collegata.
 facebook:
   attivo: true
-  fb_page_id: "DA_INSERIRE"
+  fb_page_id: "1465124596678386"   # Pagina FB AfterShift
   orari: "tutti"
 
 hashtag: "#aftershift #onyourfeetallday #hairstylist #warehouseworker #nurselife #giftideas #christmasgift #selfcare"
