@@ -565,6 +565,15 @@ def metti_audio(nome, rifai=False):
     # pesi da pagina.yaml (audio_inseriti.pesi: {"nomefile": 3}) — peso 3 = usato 3 volte più spesso
     pesi_cfg = ((cfg_pagina(nome).get("audio_inseriti") or {}).get("pesi") or {})
     peso = {t.name: float(pesi_cfg.get(t.name, pesi_cfg.get(t.stem, 1)) or 1) for t in tracce}
+    # audio fissato nella ricetta (ricette.yaml: `audio: "DfxwXrQpgSh.m4a"`) → vince sulla rotazione,
+    # così ogni variante montaggio + testo + audio è decisa a mano
+    audio_ricetta = {}
+    pr = PAGINE / nome / "ricette.yaml"
+    if pr.exists():
+        for ric in (yaml.safe_load(pr.read_text(encoding="utf-8")) or {}).get("reel", []) or []:
+            if ric.get("audio"):
+                audio_ricetta[ric["nome"]] = ric["audio"]
+    per_nome = {t.name: t for t in tracce} | {t.stem: t for t in tracce}
     coda = leggi_coda(nome)
     uso = {t.name: 0 for t in tracce}
     if not rifai:
@@ -583,6 +592,12 @@ def metti_audio(nome, rifai=False):
         # meno usata, mai uguale alla precedente; preferisce tracce lunghe almeno quanto il video
         cand = sorted(tracce, key=lambda t: (t.name == prec, durate[t.name] + 0.2 < d, (uso[t.name] + 1) / peso[t.name], random.random()))
         t = cand[0]
+        scelto = audio_ricetta.get(Path(r.get("origine", "")).stem)
+        if scelto:
+            if scelto in per_nome:
+                t = per_nome[scelto]
+            else:
+                print(f"⚠ {r['id']}: audio della ricetta {scelto} non trovato, uso la rotazione")
         tmp = vid.with_suffix(".tmp.mp4")
         loop = ["-stream_loop", "-1"] if durate[t.name] + 0.2 < d else []
         fade = max(d - 0.6, 0)

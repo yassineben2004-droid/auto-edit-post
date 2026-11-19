@@ -161,3 +161,567 @@ reel:
       - pr_accende 0 2.2
       - pr_reveal 0 2.0
       - pr_bambino 0 3.04
+
+# ---------------------------------------------------------------------------------------------
+# VARIANTI 19/11/2026: stesse clip → montaggio × testo × audio tutti diversi (campo `audio` = audio fisso).
+# Ordine di uscita in pagine/donidinatale/piano.txt (prodotti alternati, mai stesso montaggio/testo/audio di fila).
+  - nome: dn05_poltpri_reazione
+    testo: Mia nonna quando ha visto il divano 😭🎅
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DemuZChuX50.m4a
+    pezzi:
+    - s6_poltrona 0 1.5
+    - s2_stende 0 2.5
+    - s3_sistema 0 2.0
+    - s5_divano_largo 0 1.8
+    - s4_nonni 0 3.04
+
+  - nome: dn06_caffevel_30sec
+    testo: Ho trasformato il divano in 30 secondi 😳🎄
+    posizione: 0.58
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    audio: Dfv1Hs6umL4.m4a
+    pezzi:
+    - h1_caffe 0.4 5.0 1.15
+    - s2_stende 0.3 2.8 1.1
+    - s3_sistema 0.3 2.0
+    - s4_nonni 0 2.6
+    - s6_poltrona 0 1.4
+
+  - nome: dn07_nonnipri_decoraz
+    testo: Oh ma che bella questa nuova decorazione natalizia 😍
+    posizione: 0.64
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.64
+    cta_secondi: 3.0
+    audio: De-DMbQPfLZ.m4a
+    pezzi:
+    - s4_nonni 0 1.4
+    - s2_stende 0.2 2.8
+    - s3_sistema 0 2.0
+    - s5_divano_largo 0 2.0
+    - s6_poltrona 0 1.6
+    - s4_nonni 1.4 3.04
+
+  - nome: dn08_revealpri_nonna
+    testo: Guarda cosa ho regalato a mia nonna 🥹🎄
+    posizione: 0.64
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.64
+    cta_secondi: 3.0
+    audio: DfN_bzwinf5.m4a
+    pezzi:
+    - s5_divano_largo 0 1.8
+    - s2_stende 0 2.6
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s6_poltrona 0 1.8
+
+  - nome: dn09_sviene_regalo
+    testo: Il regalo migliore che potessi trovare per questo Natale 🎁
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxwXrQpgSh.m4a
+    pezzi:
+    - h2_svenimento 0 5.0
+    - s2_stende 0 2.8
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.6
+    - s6_poltrona 0 1.6
+
+  - nome: dn10_svienecor_impazzira
+    testo: Non far vedere questo a tua nonna o impazzirà 😂
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfZ_7-fJC7N.m4a
+    pezzi:
+    - h2_svenimento 0.6 5.0 1.1
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.8
+    - s6_poltrona 0 1.6
+
+  - nome: dn11_poltpri_pov
+    testo: 'POV: entri in salotto e trovi Babbo e Mamma Natale 🎅🤶'
+    posizione: 0.64
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.64
+    cta_secondi: 3.0
+    audio: DfxfzLtKSwL.m4a
+    pezzi:
+    - s6_poltrona 0 1.5
+    - s2_stende 0 2.5
+    - s3_sistema 0 2.0
+    - s5_divano_largo 0 1.8
+    - s4_nonni 0 3.04
+
+  - nome: dn12_caffe_risolto
+    testo: 'Regalo per i nonni: RISOLTO ✅🎁'
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: De-DMbQPfLZ.m4a
+    pezzi:
+    - h1_caffe 0 5.0
+    - s2_stende 0 2.8
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.6
+    - s6_poltrona 0 1.6
+
+  - nome: dn13_caffevel_impazzira
+    testo: Non far vedere questo a tua nonna o impazzirà 😂
+    posizione: 0.58
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    audio: DfxwXrQpgSh.m4a
+    pezzi:
+    - h1_caffe 0.4 5.0 1.15
+    - s2_stende 0.3 2.8 1.1
+    - s3_sistema 0.3 2.0
+    - s4_nonni 0 2.6
+    - s6_poltrona 0 1.4
+
+  - nome: dn14_revealpri_pov
+    testo: 'POV: entri in salotto e trovi Babbo e Mamma Natale 🎅🤶'
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: Dfv1Hs6umL4.m4a
+    pezzi:
+    - s5_divano_largo 0 1.8
+    - s2_stende 0 2.6
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s6_poltrona 0 1.8
+
+  - nome: dn15_nonnipri_30sec
+    testo: Ho trasformato il divano in 30 secondi 😳🎄
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DemuZChuX50.m4a
+    pezzi:
+    - s4_nonni 0 1.4
+    - s2_stende 0.2 2.8
+    - s3_sistema 0 2.0
+    - s5_divano_largo 0 2.0
+    - s6_poltrona 0 1.6
+    - s4_nonni 1.4 3.04
+
+  - nome: dn16_svienecor_reazione
+    testo: Mia nonna quando ha visto il divano 😭🎅
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfN_bzwinf5.m4a
+    pezzi:
+    - h2_svenimento 0.6 5.0 1.1
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.8
+    - s6_poltrona 0 1.6
+
+  - nome: dn17_sviene_nonna
+    testo: Guarda cosa ho regalato a mia nonna 🥹🎄
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfZ_7-fJC7N.m4a
+    pezzi:
+    - h2_svenimento 0 5.0
+    - s2_stende 0 2.8
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.6
+    - s6_poltrona 0 1.6
+
+  - nome: dn18_caffe_decoraz
+    testo: Oh ma che bella questa nuova decorazione natalizia 😍
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxfzLtKSwL.m4a
+    pezzi:
+    - h1_caffe 0 5.0
+    - s2_stende 0 2.8
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.6
+    - s6_poltrona 0 1.6
+
+  - nome: dn19_caffe_regalo
+    testo: Il regalo migliore che potessi trovare per questo Natale 🎁
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfZ_7-fJC7N.m4a
+    pezzi:
+    - h1_caffe 0 5.0
+    - s2_stende 0 2.8
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.6
+    - s6_poltrona 0 1.6
+
+  - nome: dn20_revealpri_risolto
+    testo: 'Regalo per i nonni: RISOLTO ✅🎁'
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxwXrQpgSh.m4a
+    pezzi:
+    - s5_divano_largo 0 1.8
+    - s2_stende 0 2.6
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s6_poltrona 0 1.8
+
+  - nome: dn21_poltpri_decoraz
+    testo: Oh ma che bella questa nuova decorazione natalizia 😍
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: Dfv1Hs6umL4.m4a
+    pezzi:
+    - s6_poltrona 0 1.5
+    - s2_stende 0 2.5
+    - s3_sistema 0 2.0
+    - s5_divano_largo 0 1.8
+    - s4_nonni 0 3.04
+
+  - nome: dn22_nonnipri_pov
+    testo: 'POV: entri in salotto e trovi Babbo e Mamma Natale 🎅🤶'
+    posizione: 0.58
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    audio: DfN_bzwinf5.m4a
+    pezzi:
+    - s4_nonni 0 1.4
+    - s2_stende 0.2 2.8
+    - s3_sistema 0 2.0
+    - s5_divano_largo 0 2.0
+    - s6_poltrona 0 1.6
+    - s4_nonni 1.4 3.04
+
+  - nome: dn23_sviene_impazzira
+    testo: Non far vedere questo a tua nonna o impazzirà 😂
+    posizione: 0.58
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    audio: DemuZChuX50.m4a
+    pezzi:
+    - h2_svenimento 0 5.0
+    - s2_stende 0 2.8
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.6
+    - s6_poltrona 0 1.6
+
+  - nome: dn24_caffevel_regalo
+    testo: Il regalo migliore che potessi trovare per questo Natale 🎁
+    posizione: 0.62
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    audio: De-DMbQPfLZ.m4a
+    pezzi:
+    - h1_caffe 0.4 5.0 1.15
+    - s2_stende 0.3 2.8 1.1
+    - s3_sistema 0.3 2.0
+    - s4_nonni 0 2.6
+    - s6_poltrona 0 1.4
+
+  - nome: dn25_svienecor_nonna
+    testo: Guarda cosa ho regalato a mia nonna 🥹🎄
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxfzLtKSwL.m4a
+    pezzi:
+    - h2_svenimento 0.6 5.0 1.1
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.8
+    - s6_poltrona 0 1.6
+
+  - nome: dn26_poltpri_30sec
+    testo: Ho trasformato il divano in 30 secondi 😳🎄
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfZ_7-fJC7N.m4a
+    pezzi:
+    - s6_poltrona 0 1.5
+    - s2_stende 0 2.5
+    - s3_sistema 0 2.0
+    - s5_divano_largo 0 1.8
+    - s4_nonni 0 3.04
+
+  - nome: dn27_caffevel_risolto
+    testo: 'Regalo per i nonni: RISOLTO ✅🎁'
+    posizione: 0.64
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.64
+    cta_secondi: 3.0
+    audio: DemuZChuX50.m4a
+    pezzi:
+    - h1_caffe 0.4 5.0 1.15
+    - s2_stende 0.3 2.8 1.1
+    - s3_sistema 0.3 2.0
+    - s4_nonni 0 2.6
+    - s6_poltrona 0 1.4
+
+  - nome: dn28_sviene_reazione
+    testo: Mia nonna quando ha visto il divano 😭🎅
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxfzLtKSwL.m4a
+    pezzi:
+    - h2_svenimento 0 5.0
+    - s2_stende 0 2.8
+    - s3_sistema 0 2.0
+    - s4_nonni 0 2.6
+    - s5_divano_largo 0 1.6
+    - s6_poltrona 0 1.6
+
+  - nome: pr09_accendepri_regalo
+    testo: Il regalo migliore per chi ama il Natale 🎁✨
+    posizione: 0.64
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.64
+    cta_secondi: 3.0
+    audio: DemuZChuX50.m4a
+    pezzi:
+    - pr_accende 0.5 2.2
+    - pr_reveal 0 2.0
+    - pr_pianta 0 2.5
+    - pr_bambino 0 3.04
+
+  - nome: pr10_bimbopri_impazzira
+    testo: Non far vedere questo a tuo figlio o impazzirà 😂🎅
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxwXrQpgSh.m4a
+    pezzi:
+    - pr_bambino 0 1.5
+    - pr_pianta 0.3 2.8
+    - pr_accende 0 2.0
+    - pr_reveal 0 2.0
+    - pr_bambino 1.5 3.04
+
+  - nome: pr11_veloce_vicini
+    testo: I vicini mi chiedono tutti dove l'ho preso 👀
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: Dfv1Hs6umL4.m4a
+    pezzi:
+    - pr_pianta 0.8 3.0 1.1
+    - pr_accende 0.3 2.2
+    - pr_reveal 0 2.0
+    - pr_bambino 0.5 3.04
+
+  - nome: pr12_revealpri_arrivato
+    testo: Babbo Natale è arrivato in giardino 🎅✨
+    posizione: 0.64
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.64
+    cta_secondi: 3.0
+    audio: De-DMbQPfLZ.m4a
+    pezzi:
+    - pr_reveal 0 1.2
+    - pr_pianta 0.5 2.8
+    - pr_accende 0 2.2
+    - pr_reveal 0 2.0
+    - pr_bambino 0 3.04
+
+  - nome: pr13_classico_luci
+    testo: 'Basta luci aggrovigliate: lo pianti e via 🎄'
+    posizione: 0.62
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    audio: DfZ_7-fJC7N.m4a
+    pezzi:
+    - pr_pianta 0 3.0
+    - pr_accende 0 2.2
+    - pr_reveal 0 2.0
+    - pr_bambino 0 3.04
+
+  - nome: pr14_accendepri_addobbo
+    testo: Oh ma che bello questo nuovo addobbo da giardino 😍
+    posizione: 0.58
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    audio: DfxfzLtKSwL.m4a
+    pezzi:
+    - pr_accende 0.5 2.2
+    - pr_reveal 0 2.0
+    - pr_pianta 0 2.5
+    - pr_bambino 0 3.04
+
+  - nome: pr15_veloce_bambini
+    testo: Guarda cosa ho messo in giardino per i bambini 🥹🎄
+    posizione: 0.62
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.62
+    cta_secondi: 3.0
+    audio: DfN_bzwinf5.m4a
+    pezzi:
+    - pr_pianta 0.8 3.0 1.1
+    - pr_accende 0.3 2.2
+    - pr_reveal 0 2.0
+    - pr_bambino 0.5 3.04
+
+  - nome: pr16_bimbopri_pov
+    testo: 'POV: tuo figlio vede Babbo Natale in giardino 🥹🎅'
+    posizione: 0.64
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.64
+    cta_secondi: 3.0
+    audio: DemuZChuX50.m4a
+    pezzi:
+    - pr_bambino 0 1.5
+    - pr_pianta 0.3 2.8
+    - pr_accende 0 2.0
+    - pr_reveal 0 2.0
+    - pr_bambino 1.5 3.04
+
+  - nome: pr17_revealpri_addobbo
+    testo: Oh ma che bello questo nuovo addobbo da giardino 😍
+    posizione: 0.58
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    audio: DfZ_7-fJC7N.m4a
+    pezzi:
+    - pr_reveal 0 1.2
+    - pr_pianta 0.5 2.8
+    - pr_accende 0 2.2
+    - pr_reveal 0 2.0
+    - pr_bambino 0 3.04
+
+  - nome: pr18_classico_bambini
+    testo: Guarda cosa ho messo in giardino per i bambini 🥹🎄
+    posizione: 0.58
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    audio: DfxwXrQpgSh.m4a
+    pezzi:
+    - pr_pianta 0 3.0
+    - pr_accende 0 2.2
+    - pr_reveal 0 2.0
+    - pr_bambino 0 3.04
+
+  - nome: pr19_revealpri_impazzira
+    testo: Non far vedere questo a tuo figlio o impazzirà 😂🎅
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxfzLtKSwL.m4a
+    pezzi:
+    - pr_reveal 0 1.2
+    - pr_pianta 0.5 2.8
+    - pr_accende 0 2.2
+    - pr_reveal 0 2.0
+    - pr_bambino 0 3.04
+
+  - nome: pr20_classico_vicini
+    testo: I vicini mi chiedono tutti dove l'ho preso 👀
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfN_bzwinf5.m4a
+    pezzi:
+    - pr_pianta 0 3.0
+    - pr_accende 0 2.2
+    - pr_reveal 0 2.0
+    - pr_bambino 0 3.04
+
+  - nome: pr21_accendepri_luci
+    testo: 'Basta luci aggrovigliate: lo pianti e via 🎄'
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: De-DMbQPfLZ.m4a
+    pezzi:
+    - pr_accende 0.5 2.2
+    - pr_reveal 0 2.0
+    - pr_pianta 0 2.5
+    - pr_bambino 0 3.04
+
+  - nome: pr22_accendepri_pov
+    testo: 'POV: tuo figlio vede Babbo Natale in giardino 🥹🎅'
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: Dfv1Hs6umL4.m4a
+    pezzi:
+    - pr_accende 0.5 2.2
+    - pr_reveal 0 2.0
+    - pr_pianta 0 2.5
+    - pr_bambino 0 3.04
+
+  - nome: pr23_bimbopri_arrivato
+    testo: Babbo Natale è arrivato in giardino 🎅✨
+    posizione: 0.64
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.64
+    cta_secondi: 3.0
+    audio: DfZ_7-fJC7N.m4a
+    pezzi:
+    - pr_bambino 0 1.5
+    - pr_pianta 0.3 2.8
+    - pr_accende 0 2.0
+    - pr_reveal 0 2.0
+    - pr_bambino 1.5 3.04
+
+  - nome: pr24_veloce_regalo
+    testo: Il regalo migliore per chi ama il Natale 🎁✨
+    posizione: 0.6
+    cta: Commenta NATALE se lo vuoi 🎅
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: De-DMbQPfLZ.m4a
+    pezzi:
+    - pr_pianta 0.8 3.0 1.1
+    - pr_accende 0.3 2.2
+    - pr_reveal 0 2.0
+    - pr_bambino 0.5 3.04
+
