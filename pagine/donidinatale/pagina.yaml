@@ -1,10 +1,16 @@
-# Pagina: Doni di Natale — SOLO FACEBOOK (Reel sulla Pagina Facebook, niente Instagram)
+# Pagina: Doni di Natale — Instagram @donidinatale.it + stesso Reel sulla Pagina Facebook (dal 19/11/2026)
 nome: "Doni di Natale"
 attiva: true                      # accesa il 18/11/2026 (verifica 13/11: permessi Reel FB ok)
-piattaforma: facebook             # facebook = Reel sulla Pagina FB | instagram (predefinito) = Reel IG
-fb_page_id: "1373503919179249"   # Pagina Donidinatale
+ig_user_id: "17841472771979592"   # @donidinatale.it (collegato alla Pagina FB il 19/11/2026)
 token_env: TOKEN_META_STORE       # token del portafoglio Business del profilo personale
+anche_nel_feed: true
 elimina_dopo: true
+
+# ANCHE SU FACEBOOK: lo stesso reel esce anche come Reel sulla Pagina Facebook (tutti i turni, come prima)
+facebook:
+  attivo: true
+  fb_page_id: "1373503919179249"   # Pagina Donidinatale
+  orari: "tutti"
 
 # ORARI FISSI (ora italiana): gli stessi di Ciabatte Pazze, così partono con i timer cron-job.org già esistenti
 orari:
@@ -15,9 +21,9 @@ caption_cta: "Commenta NATALE per ricevere l'offerta 🎄"   # caption = CTA dir
 hashtag: "#donidinatale #natale #natale2026 #regalodinatale #ideeregalo #luciditale #decorazioninatalizie #atmosferanatalizia"
 caption: []                       # da compilare con le caption del brand
 
-# AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio): su Facebook è l'unico audio possibile da API
+# AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio)
 audio_inseriti:
   pesi: {"DfxwXrQpgSh.m4a": 10, "DfxfzLtKSwL.m4a": 10}   # audio dei 2 reel virali: copridivano (Rockin' Around, drop a 8s) e proiettore (drop a 5,6s)
 
 audio:
-  attivo: false                   # musica di tendenza non disponibile via API sui Reel Facebook
+  attivo: false                   # musica di tendenza spenta come sulle altre pagine (coprirebbe l'audio inserito)
