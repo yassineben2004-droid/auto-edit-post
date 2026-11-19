@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 19/11/2026 17:53
+Aggiornato: 19/11/2026 18:04
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,15 +10,16 @@ Aggiornato: 19/11/2026 17:53
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 46 | 11.5 gg | gio 18:30 | 11-19 12:45 ✅ | 6 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 6 | 3.0 gg | gio 22:30 | 11-19 15:30 ✅ | 6 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 26 | 6.5 gg | gio 18:30 | 11-19 12:45 ✅ | 24 pubblicati, 1 saltati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 5 | 0.5 gg | gio 18:00 | 11-19 16:30 ✅ | 60 pubblicati, 10 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 4 | 0.4 gg | gio 19:30 | 11-19 18:00 ✅ | 61 pubblicati, 9 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
-- **PijamaMania**: coda quasi finita (5 video ≈ 0.5 giorni)
+- **PijamaMania**: coda quasi finita (4 video ≈ 0.4 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-19 18:00 | PijamaMania | inserito: De9mXGYxfUc.m4a | https://www.instagram.com/reel/Df7kwbEAU-A/ |
 | 2026-11-19 16:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/Df7aczZCHPx/ |
 | 2026-11-19 15:30 | Insegnia | - | https://www.instagram.com/reel/Df7Th_1klsx/ · FB: https://www.facebook.com/reel/3606309696203786 |
 | 2026-11-19 15:30 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/Df7Ta3EkleQ/ · FB: https://www.facebook.com/reel/1668365491338415 |
@@ -38,4 +39,3 @@ Aggiornato: 19/11/2026 17:53
 | 2026-11-19 08:15 | BottiZero | inserito: Dfs2ZdTMnGw.m4a | https://www.facebook.com/reel/1651891440066016 |
 | 2026-11-19 08:00 | PijamaMania | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/Df6gIOJgdhX/ |
 | 2026-11-18 22:30 | PijamaMania | inserito: DfXJfGTRPnC.m4a | https://www.instagram.com/reel/Df5fAI1G7IM/ |
-| 2026-11-18 22:30 | Insegnia | - | https://www.instagram.com/reel/Df5ft5_EjcT/ · FB: https://www.facebook.com/reel/2609041959610397 |
