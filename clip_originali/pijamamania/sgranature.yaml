@@ -1,0 +1,40 @@
+# Parti sgranate / scritte residue nelle clip di PijamaMania (controllate a mano il 19/11/2026 con controlla_clip.py)
+# monta.py mette il testo del reel SOPRA queste parti in automatico (anche se la ricetta dice altra posizione).
+#   y:         centro della parte sgranata, in frazione dell'altezza del reel (0 = in cima, 1 = in fondo)
+#   altezza:   quanto è spessa (frazione dell'altezza)            — facoltativo, default 0.05
+#   larghezza: quanto è larga (frazione della larghezza)          — facoltativo, serve al testo evidenziato
+#   forte:     true = si vede molto → testo EVIDENZIATO (riquadro bianco, scritta nera) per coprirla bene.
+#              Scritte ed emoji residue sono SEMPRE forte: col testo normale spuntano fra le parole.
+#              Senza forte (solo macchie sfocate leggere) il testo normale ci passa sopra.
+#   da / a:    secondi della clip in cui c'è (se manca: per tutta la clip)
+# Le clip Higgsfield (bb_, ch2_, gr_, pp_) non hanno sgranature e non sono elencate.
+
+dk_01:
+  - {y: 0.47, altezza: 0.04, larghezza: 0.60, forte: true, da: 0, a: 4.0}        # scritta "Matching Duck pajamas >>" rimasta
+dk_03:
+  - {y: 0.66, altezza: 0.03, larghezza: 0.25, forte: true}                       # emoji residue
+dt_01:
+  - {y: 0.66, altezza: 0.03, larghezza: 0.25, forte: true}                       # emoji residue
+sq02_tiktok:
+  - {y: 0.39, altezza: 0.05, larghezza: 0.45, da: 3.8}              # macchia sfocata tra le due facce
+sq03_tiktok:
+  - {y: 0.30, altezza: 0.03, larghezza: 0.10, forte: true, da: 5.0, a: 8.8}      # emoji 😴 sul quadro
+sq05_tiktok:
+  - {y: 0.74, altezza: 0.07, larghezza: 0.75, da: 3.4, a: 5.0}      # striscia sfocata sul pavimento
+sq07_tiktok:
+  - {y: 0.21, altezza: 0.03, larghezza: 0.25, forte: true}                       # emoji ❄️🍿🎬 residue
+sq09_tiktok:
+  - {y: 0.485, altezza: 0.03, larghezza: 0.15, forte: true}                       # emoji residue
+st01_stranger:
+  - {y: 0.47, altezza: 0.06, larghezza: 0.85, forte: true, a: 11.5} # striscia sgranata larga a metà video
+  - {y: 0.27, altezza: 0.05, larghezza: 0.55, forte: true, da: 13.2}             # scritta "Scherzo, lo vendiamo noi" rimasta
+st02_stranger:
+  - {y: 0.24, altezza: 0.10, larghezza: 0.90, forte: true}          # striscia sgranata in alto + viso pixelato + scritta spagnola finale
+st03_stranger:
+  - {y: 0.45, altezza: 0.05, larghezza: 0.90, forte: true}          # striscia sgranata + emoji per tutta la clip
+tar01_tartaruga:
+  - {y: 0.20, altezza: 0.12, larghezza: 0.90, forte: true}          # macchie sfocate grandi in alto
+tar02_tartaruga:
+  - {y: 0.17, altezza: 0.07, larghezza: 0.60}                       # macchia sfocata in alto
+tart_01:
+  - {y: 0.29, altezza: 0.03, larghezza: 0.10, forte: true, a: 9.5}               # puntino/emoji residuo

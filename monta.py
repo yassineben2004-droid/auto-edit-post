@@ -14,12 +14,19 @@ Ricetta (in ricette.yaml):
       - s2_buio_accensione 1.2 3.04 1.0
     testi_scene: ["Hook", "Testo scena 2", ""]       # facoltativo: un testo per ogni pezzo (sostituisce testo/cta)
     stile: tiktok                                    # facoltativo: tiktok | tiktok_regular | classico (se manca: rotazione 60/40)
+    copri_sgranature: false                          # facoltativo: NON spostare il testo sulle parti sgranate
 Esce in clip_montate/<pagina>/<nome>.mp4, 1080x1920 30fps, senza audio (l'audio lo mette `metti-audio`).
 
 Testo "tiktok": font TikTok Sans SemiBold (quello del testo nativo dell'app, open source OFL, in fonts/),
 bianco con bordino scuro sottile e ombra morbida. Emoji iOS: si usano solo se c'è il font Apple Color Emoji,
 cioè quando si monta su un Mac (workflow GitHub "Monta reel" su runner macOS). Su Linux ripiega sulle emoji
 Google e lo scrive; con EMOJI_IOS=obbligatorie invece si ferma.
+
+PARTI SGRANATE: se in clip_originali/<pagina>/sgranature.yaml c'è una parte sgranata (o scritta/emoji residua)
+di una clip usata nel reel, il testo viene messo SOPRA quella parte (centrato sulla sua altezza), qualunque sia
+`posizione`. Se la parte è segnata `forte: true` (si vede molto) il testo esce EVIDENZIATO: riquadro bianco
+arrotondato con scritta nera, largo almeno quanto la parte da coprire. Formato in sgranature.yaml; per trovarle
+python controlla_clip.py <pagina> crea i fogli con i fotogrammi e la griglia delle altezze.
 
 Uso extra:  python monta.py <pagina> --solo-nuovi   (monta solo i reel che non esistono ancora in clip_montate)
 """
@@ -163,18 +170,38 @@ class Scrittore:
             righe.append(cur)
         return righe
 
-    def disegna(self, img, testo, y_top, max_w=W - 120):
+    def altezza(self, testo, max_w=W - 120):
+        return len(self.a_capo(testo, max_w)) * int(self.px * self.interlinea)
+
+    def disegna(self, img, testo, y_top, max_w=W - 120, evidenziato=False, min_w=0, min_h=0):
+        """evidenziato: riquadro bianco arrotondato dietro al testo (scritta nera), per coprire le parti sgranate.
+        min_w / min_h: il riquadro è largo/alto almeno così (px), per coprire tutta la parte sgranata."""
         alt = int(self.px * self.interlinea)
         testo_lay = Image.new("RGBA", img.size, (0, 0, 0, 0))
         ombra = Image.new("RGBA", img.size, (0, 0, 0, 0))
         d, do = ImageDraw.Draw(testo_lay), ImageDraw.Draw(ombra)
         emoji = []
         righe = self.a_capo(testo, max_w)
+        if evidenziato:
+            pad_x, pad_y = int(self.px * 0.38), int(self.px * 0.20)
+            bw = min(W - 40, max(max(self.larghezza(r) for r in righe) + 2 * pad_x, min_w))
+            bh = max(len(righe) * alt + 2 * pad_y, min_h)
+            extra = (bh - len(righe) * alt - 2 * pad_y) / 2          # se il riquadro è più alto del testo
+            x0, y0 = (W - bw) / 2, y_top - pad_y - extra
+            fondo = Image.new("RGBA", img.size, (0, 0, 0, 0))
+            df = ImageDraw.Draw(fondo)
+            df.rounded_rectangle([x0, y0 + 6, x0 + bw, y0 + bh + 6], radius=int(self.px * 0.32), fill=(0, 0, 0, 70))
+            img.alpha_composite(fondo.filter(ImageFilter.GaussianBlur(8)))
+            ImageDraw.Draw(img).rounded_rectangle([x0, y0, x0 + bw, y0 + bh], radius=int(self.px * 0.32),
+                                                  fill=(255, 255, 255, 255))
         for i, riga in enumerate(righe):
             x = (W - self.larghezza(riga)) / 2
             y = y_top + i * alt
             for t, em in _gruppi(riga):
-                if em:
+                if evidenziato and not em:
+                    d.text((x, y), t, font=self.f, fill=(0, 0, 0, 255))
+                    x += self.f.getlength(t)
+                elif em:
                     for g in _cluster_emoji(t):
                         e = self._emoji_img(g)
                         emoji.append((e, (int(x), int(y + (self.px - e.height) / 2 + self.px * 0.10))))
@@ -188,7 +215,7 @@ class Scrittore:
                 else:
                     d.text((x, y), t, font=self.f, fill="white", stroke_width=self.bordo, stroke_fill="black")
                     x += self.f.getlength(t)
-        if self.stile in FONT_TIKTOK:
+        if self.stile in FONT_TIKTOK and not evidenziato:
             img.alpha_composite(ombra.filter(ImageFilter.GaussianBlur(self.px / 28)))
         img.alpha_composite(testo_lay)
         for e, pos in emoji:
@@ -196,7 +223,9 @@ class Scrittore:
         return y_top + len(righe) * alt
 
 
-def png_testo(testo, posizione, dest, cta=None, px=None, stile="tiktok"):
+def png_testo(testo, posizione, dest, cta=None, px=None, stile="tiktok", copri=None):
+    """copri = parte sgranata da coprire (dict di sgranature.yaml): il testo si centra sulla sua altezza,
+    evidenziato se è `forte`."""
     if px is None:
         px = 72 if stile in FONT_TIKTOK else 66
     max_w = W - 110 if stile in FONT_TIKTOK else W - 120
@@ -207,10 +236,48 @@ def png_testo(testo, posizione, dest, cta=None, px=None, stile="tiktok"):
     except (TypeError, ValueError):
         frac = Y_POS.get(posizione, Y_POS["alto"])
     y = int(H * frac)
-    fine = s.disegna(img, testo, y, max_w) if testo else y
+    evid, min_w, min_h = False, 0, 0
+    if copri and testo:
+        evid = bool(copri.get("forte"))
+        min_w = int(W * float(copri.get("larghezza", 0)) + px * 0.4) if evid else 0
+        min_h = int(H * float(copri.get("altezza", 0.05)) + px * 0.3) if evid else 0
+        alt_riga = int(px * s.interlinea)
+        if evid or H * float(copri.get("altezza", 0.05)) > alt_riga * 1.3:
+            y = int(H * float(copri["y"]) - s.altezza(testo, max_w) / 2)     # parte grande: centro del blocco
+        else:
+            # parte sottile (emoji/scritta residua): la copre la PRIMA riga, mai lo spazio tra due righe
+            y = int(H * float(copri["y"]) - px * 0.62)
+        y = max(int(H * 0.06), min(y, int(H * 0.86) - s.altezza(testo, max_w)))
+    fine = s.disegna(img, testo, y, max_w, evidenziato=evid, min_w=min_w, min_h=min_h) if testo else y
     if cta:
-        Scrittore(int(px * 0.9), stile).disegna(img, cta, fine + int(px * 0.5), max_w)
+        Scrittore(int(px * 0.9), stile).disegna(img, cta, fine + int(px * (0.8 if evid else 0.5)), max_w,
+                                                evidenziato=evid)
     img.save(dest)
+
+
+# ------------------------------------------------------------------ parti sgranate
+def carica_sgranature(pagina):
+    p = BASE / "clip_originali" / pagina / "sgranature.yaml"
+    return (yaml.safe_load(p.read_text(encoding="utf-8")) or {}) if p.exists() else {}
+
+
+def sgranatura_da_coprire(pezzi, sgr, t0, t1):
+    """La parte sgranata più importante visibile tra t0 e t1 (secondi del reel montato), o None.
+    Conta quanto tempo resta a schermo; quelle `forte` valgono il triplo."""
+    meglio, punti, t = None, 0.0, 0.0
+    for clip, a, b, v in pezzi:
+        dur = (b - a) / v
+        s0, s1 = max(t, t0), min(t + dur, t1)            # parte di questo pezzo dentro la finestra del testo
+        if s1 > s0:
+            c0, c1 = a + (s0 - t) * v, a + (s1 - t) * v  # stessi istanti, in secondi della clip
+            for dif in sgr.get(clip) or []:
+                da, fino = float(dif.get("da", 0)), float(dif.get("a", 1e9))
+                vis = max(0.0, min(c1, fino) - max(c0, da)) / v
+                pt = vis * (3 if dif.get("forte") else 1)
+                if vis > 0.3 and pt > punti:
+                    meglio, punti = dif, pt
+        t += dur
+    return meglio
 
 
 # ------------------------------------------------------------------ montaggio
@@ -227,6 +294,7 @@ def monta(pagina, r, tmp):
     durata = sum((b - a) / v for _, a, b, v in pezzi)
     cta_s = float(r.get("cta_secondi", 2.5))
     pos = r.get("posizione", "alto")
+    sgr = carica_sgranature(pagina) if r.get("copri_sgranature", True) else {}
 
     args, fc = [FFMPEG, "-nostdin", "-v", "error", "-y"], []
     for i, (clip, a, b, v) in enumerate(pezzi):
@@ -266,9 +334,16 @@ def monta(pagina, r, tmp):
             t = t1
         if finestre:
             finestre[-1] = finestre[-1][:4] + (durata + 1,)
+    coperte = []
     for j, (testo, cta, posiz, t0, t1) in enumerate(finestre):
         png = Path(tmp) / f"{r['nome']}_{j}.png"
-        png_testo(testo, posiz, png, cta, stile=r["stile"])
+        dif = sgranatura_da_coprire(pezzi, sgr, t0, min(t1, durata))
+        if dif and not testo and cta:                    # finestra con sola CTA: la CTA fa da copertura
+            testo, cta = cta, None
+        png_testo(testo, posiz, png, cta, stile=r["stile"], copri=dif if testo else None)
+        if dif and testo:
+            coperte.append(f"y={dif['y']}{' EVIDENZIATO' if dif.get('forte') else ''}")
+            r["_evidenziato"] = r.get("_evidenziato") or bool(dif.get("forte"))
         args += ["-i", str(png)]
         fc.append(f"[{ultimo}][{k}:v]overlay=0:0:enable='between(t,{t0:.3f},{t1:.3f})'[o{j}]")
         ultimo, k = f"o{j}", k + 1
@@ -278,7 +353,10 @@ def monta(pagina, r, tmp):
              "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
              "-movflags", "+faststart", str(dest)]
     subprocess.run(args, check=True)
-    print(f"✓ {dest.relative_to(BASE)}  {durata:.1f}s  {n} pezzi")
+    print(f"✓ {dest.relative_to(BASE)}  {durata:.1f}s  {n} pezzi"
+          + (f"  · testo sulle parti sgranate: {', '.join(coperte)}" if coperte else ""))
+    if sgr and not finestre and any(sgr.get(c) for c, *_ in pezzi):
+        print(f"  ⚠ {r['nome']}: la clip ha parti sgranate ma il reel non ha testo per coprirle")
 
 
 def main():
@@ -316,7 +394,8 @@ def registra_stile(pagina, r):
     """clip_montate/<pagina>/stili.csv: nome reel → stile del testo (per confrontare gli insights)."""
     p = BASE / "clip_montate" / pagina / "stili.csv"
     righe = dict(l.split(",", 1) for l in p.read_text(encoding="utf-8").splitlines()[1:] if "," in l) if p.exists() else {}
-    righe[r["nome"]] = "clean" if not (r.get("testo") or r.get("cta")) else r["stile"]
+    righe[r["nome"]] = ("clean" if not (r.get("testo") or r.get("cta") or r.get("testi_scene"))
+                        else r["stile"] + ("+evidenziato" if r.get("_evidenziato") else ""))
     p.write_text("reel,stile\n" + "".join(f"{k},{v}\n" for k, v in sorted(righe.items())), encoding="utf-8")
 
 

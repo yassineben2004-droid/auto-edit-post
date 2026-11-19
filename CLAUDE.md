@@ -18,3 +18,9 @@ Se un commit spinto da qui cambia un file in `.github/workflows/` (es. `python p
 GitHub mette in "action_required" ogni esecuzione di Pubblica Reel e la pubblicazione si ferma su TUTTE le pagine
 (successo il 19/11/2026, risolto ripristinando pubblica.yml). La sveglia legge già gli orari da `pagine/*/pagina.yaml`:
 dopo aver cambiato orari non serve `cron`; se servono gli orari di riserva, li aggiorna Yasso dal sito GitHub.
+
+## Parti sgranate: il testo va sempre sopra
+Quando arrivano clip nuove prese da altri video (TikTok/IG, scritte tolte), prima di scrivere le ricette:
+`python controlla_clip.py <pagina> <inizio nome>`, guarda i fogli in analisi/sgranature/ e segna ogni parte
+sgranata / scritta / emoji residua in `clip_originali/<pagina>/sgranature.yaml` (scritte ed emoji residue = `forte: true`,
+così il testo esce evidenziato). monta.py poi mette il testo lì sopra da solo. Non salvare analisi/sgranature/ nel repo.

@@ -21,6 +21,7 @@ Comandi:
   python piattaforma.py prossimo               secondi al prossimo turno (lo usa la sveglia .github/workflows/sveglia.yml)
   python piattaforma.py verifica               controlla token, account e quota di ogni pagina
   python piattaforma.py audio <pagina> [parole...]   elenca gli audio disponibili
+  python piattaforma.py metti-audio <pagina> --rinnova   rifà i video in coda dai reel rimontati (stesso audio)
 """
 import argparse, csv, json, os, random, re, subprocess, sys
 from datetime import date, datetime, timedelta
@@ -546,9 +547,11 @@ COMUNI = BASE / "audio_comuni"
 ESTENSIONI_AUDIO = (".mp3", ".m4a", ".aac", ".wav", ".ogg", ".mp4", ".mov")
 
 
-def metti_audio(nome, rifai=False):
+def metti_audio(nome, rifai=False, rinnova=False):
     """Inserisce un audio vero DENTRO ogni video in coda (a rotazione da pagine/<pagina>/audio/).
-    Così il reel non esce mai muto, anche se Meta ignora la musica di tendenza."""
+    Così il reel non esce mai muto, anche se Meta ignora la musica di tendenza.
+    rinnova=True: i video in coda vengono rifatti dal reel montato aggiornato (clip_montate/<pagina>/, es. dopo
+    aver rimontato per coprire le parti sgranate), tenendo lo stesso audio e lo stesso posto in coda."""
     if cfg_pagina(nome).get("audio_originale"):
         print(f"{nome}: audio_originale attivo, i video tengono il loro audio (niente metti-audio)")
         return
@@ -580,9 +583,18 @@ def metti_audio(nome, rifai=False):
         for r in coda:
             if r.get("audio_file") in uso:
                 uso[r["audio_file"]] += 1
+    rifatti = {}
+    if rinnova:
+        for r in coda:
+            vid = PAGINE / nome / "coda" / r["file"]
+            montato = BASE / "clip_montate" / nome / f"{Path(r.get('origine', '')).stem}.mp4"
+            if vid.exists() and montato.exists():
+                _comprimi(montato, vid)
+                rifatti[r["id"]] = r.get("audio_file") or ""
+                print(f"↻ {r['id']}  ←  {montato.name}")
     prec, fatti = None, 0
     for r in coda:
-        if r.get("audio_file") and not rifai:
+        if r.get("audio_file") and not rifai and r["id"] not in rifatti:
             prec = r["audio_file"]
             continue
         vid = PAGINE / nome / "coda" / r["file"]
@@ -592,7 +604,7 @@ def metti_audio(nome, rifai=False):
         # meno usata, mai uguale alla precedente; preferisce tracce lunghe almeno quanto il video
         cand = sorted(tracce, key=lambda t: (t.name == prec, durate[t.name] + 0.2 < d, (uso[t.name] + 1) / peso[t.name], random.random()))
         t = cand[0]
-        scelto = audio_ricetta.get(Path(r.get("origine", "")).stem)
+        scelto = rifatti.get(r["id"]) or audio_ricetta.get(Path(r.get("origine", "")).stem)
         if scelto:
             if scelto in per_nome:
                 t = per_nome[scelto]
@@ -869,6 +881,7 @@ def main():
     au = sub.add_parser("audio"); au.add_argument("pagina"); au.add_argument("parole", nargs="*")
     au.add_argument("--grezzo", action="store_true", help="mostra la risposta completa di Meta")
     ma = sub.add_parser("metti-audio"); ma.add_argument("pagina"); ma.add_argument("--rifai", action="store_true")
+    ma.add_argument("--rinnova", action="store_true", help="rifà i video in coda dal reel montato aggiornato")
     inf = sub.add_parser("info"); inf.add_argument("pagina"); inf.add_argument("media_id")
     x = ap.parse_args()
     if x.cmd == "esegui":
@@ -890,7 +903,7 @@ def main():
     elif x.cmd == "verifica":
         verifica()
     elif x.cmd == "metti-audio":
-        metti_audio(x.pagina, x.rifai)
+        metti_audio(x.pagina, x.rifai, x.rinnova)
     elif x.cmd == "info":
         info(x.pagina, x.media_id)
     elif x.cmd == "audio":

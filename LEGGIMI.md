@@ -29,6 +29,7 @@ Su GitHub si apre direttamente dal repository, anche dal telefono.
 | Prova senza pubblicare | `python piattaforma.py esegui --prova` |
 | Controllare token/account/quota | `python piattaforma.py verifica` |
 | Inserire l'audio vero nei video in coda (da pagine/<pagina>/audio/) | `python piattaforma.py metti-audio pijamamania` |
+| Rifare i video in coda dai reel rimontati (stesso audio) | `python piattaforma.py metti-audio pijamamania --rinnova` |
 | Diagnostica di un post | `python piattaforma.py info pijamamania <media_id>` |
 | Vedere gli audio disponibili | `python piattaforma.py audio pijamamania natale christmas` |
 
@@ -82,6 +83,24 @@ stesso codice, si lancia `python piattaforma.py esegui` ogni 5 minuti con cron.
 - In ricetta: `posizione` accetta anche un numero (0.56 = 56% dall'alto); `cta_posizione: 0.20` fa sì che la CTA
   **sostituisca** l'hook negli ultimi `cta_secondi` e vada a quell'altezza (sopra le parti sgranate).
 - Su Linux (montaggio locale) le emoji sono quelle Google: vanno bene solo come anteprima.
+
+## Testo sopra le parti sgranate (clip_originali/<pagina>/sgranature.yaml)
+Nelle clip prese da altri video (scritte tolte, emoji residue, strisce sfocate) il testo del reel va SEMPRE sopra
+quelle parti, per coprirle.
+- In `clip_originali/<pagina>/sgranature.yaml` c'è, per ogni clip, dove sta la parte sgranata (`y` = altezza,
+  `altezza`, `larghezza`, `da`/`a` in secondi della clip) e se si vede molto (`forte: true`).
+- `monta.py` sposta da solo il testo lì sopra (vince su `posizione`), solo nei momenti del reel in cui quella clip
+  è a schermo. Parte sottile → la copre la prima riga del testo (mai lo spazio tra due righe).
+- **`forte: true` → testo evidenziato**: riquadro bianco arrotondato con scritta nera, largo almeno quanto la parte
+  da coprire. Scritte ed emoji residue sono sempre `forte` (col testo normale spuntano fra le parole).
+  In `stili.csv` quei reel risultano `tiktok+evidenziato`.
+- Per un reel che non deve spostarsi: `copri_sgranature: false` nella ricetta.
+- **Clip nuove**: `python controlla_clip.py <pagina> [inizio nome]` crea in `analisi/sgranature/<pagina>/`
+  (non salvati nel repo) un foglio per clip con 8 fotogrammi e la griglia delle altezze ogni 5%: da lì si leggono
+  y e spessore da scrivere in sgranature.yaml. Le clip fatte su Higgsfield non hanno sgranature.
+- Dopo aver cambiato sgranature.yaml: Monta reel → Run workflow → `<pagina> <inizio nomi>` per rimontare, poi
+  Pubblica Reel → Run workflow → `metti-audio <pagina> --rinnova` per rifare i video già in coda dai reel
+  rimontati (stesso audio, stesso posto in coda).
 
 ## Pagine solo Facebook (Reel sulla Pagina FB)
 Per i brand che girano solo su Facebook (BottiZero, Doni di Natale) in `pagina.yaml`:
