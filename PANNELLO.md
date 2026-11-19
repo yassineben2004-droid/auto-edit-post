@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 19/11/2026 11:05
+Aggiornato: 19/11/2026 11:32
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -9,15 +9,16 @@ Aggiornato: 19/11/2026 11:05
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 47 | 11.8 gg | gio 12:45 | 11-19 08:15 ✅ | 5 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 7 | 3.5 gg | gio 15:30 | 11-18 22:30 ✅ | 5 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 17 | 4.2 gg | gio 12:45 | 11-19 08:15 ✅ | 23 pubblicati, 1 saltati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 9 | 0.9 gg | gio 11:30 | 11-19 09:45 ✅ | 56 pubblicati, 14 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 8 | 0.8 gg | gio 13:00 | 11-19 11:30 ✅ | 57 pubblicati, 13 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
-- **PijamaMania**: coda quasi finita (9 video ≈ 0.9 giorni)
+- **PijamaMania**: coda quasi finita (8 video ≈ 0.8 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-19 11:30 | PijamaMania | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/Df635pDCSge/ |
 | 2026-11-19 10:45 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/Df6zB8fitML/ · FB: https://www.facebook.com/reel/1609150543815687 |
 | 2026-11-19 09:45 | PijamaMania | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/Df6sJAHFq2g/ |
 | 2026-11-19 08:15 | Luce di Fede | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/Df6iB7kiYkc/ |
@@ -37,4 +38,3 @@ Aggiornato: 19/11/2026 11:05
 | 2026-11-18 18:30 | Doni di Natale | inserito: DfN_bzwinf5.m4a | https://www.facebook.com/reel/2302863186946891 |
 | 2026-11-18 18:30 | Ciabatte Pazze | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/Df5DhIGgmpJ/ · FB: https://www.facebook.com/reel/3558376344333932 |
 | 2026-11-18 18:30 | BottiZero | inserito: Dfc14MBxfoy.m4a | https://www.facebook.com/reel/1698509805096971 |
-| 2026-11-18 18:00 | PijamaMania | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/Df5AQRAnBxa/ |
