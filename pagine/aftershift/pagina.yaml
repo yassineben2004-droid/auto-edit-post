@@ -1,0 +1,46 @@
+# Pagina: AfterShift (brand worldwide in inglese, nicchia: chi lavora in piedi tutto il giorno)
+# Primo prodotto: massaggiatore riscaldato per caviglia (angoli parrucchiera e magazzino)
+nome: "AfterShift"
+attiva: false                     # metti true quando ID e token sono pronti
+ig_user_id: "DA_INSERIRE"         # ID numerico dell'account Instagram AfterShift
+token_env: TOKEN_META_STORE        # token del portafoglio Business del profilo personale (tutti gli store tranne PijamaMania)
+anche_nel_feed: true
+elimina_dopo: true
+
+# ORARI FISSI (ora italiana) pensati per gli USA:
+# 14:30 = mattina East Coast, 19:30 = pranzo/pausa, 01:30 = sera dopo il turno East Coast / pomeriggio West Coast
+orari:
+  ogni_giorno: ["14:30", "19:30", "01:30"]
+
+# ANCHE SU FACEBOOK: lo stesso reel esce anche come Reel sulla Pagina Facebook collegata.
+facebook:
+  attivo: true
+  fb_page_id: "DA_INSERIRE"
+  orari: "tutti"
+
+hashtag: "#aftershift #onyourfeetallday #hairstylist #warehouseworker #nurselife #giftideas #christmasgift #selfcare"
+
+# Caption a rotazione (una diversa per ogni post, poi ricomincia)
+caption:
+  - "For the ones who never sit down 🦶✨ Link in bio"
+  - "Tag someone who's on their feet all day 👇"
+  - "The gift they'll actually use every night 🎁 Link in bio"
+  - "Clocked out. Feet up. 🔥 Link in bio"
+  - "Who's earned this after their last shift? 👇😮‍💨"
+
+# AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio)
+audio_inseriti:
+  comuni: false                   # pagina in inglese: niente libreria audio comune italiana
+  pesi: {}
+
+# Musica di tendenza di Meta: spenta come sulle altre pagine (copre l'audio inserito)
+audio:
+  attivo: false
+  tipo: music
+  ricerca: []
+  tra_i_primi: 5
+  no_ripetere_ultimi: 10
+  volume_audio: 100
+  volume_video: 1
+  vietati: []
+  pubblica_senza_audio: false
