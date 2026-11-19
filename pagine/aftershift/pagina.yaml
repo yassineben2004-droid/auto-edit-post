@@ -1,4 +1,4 @@
-# Pagina: AfterShift (brand worldwide in inglese, nicchia: chi lavora in piedi tutto il giorno)
+# Pagina: AfterShift (account IG ex Raven & Resin by Cole, ripulito) (brand worldwide in inglese, nicchia: chi lavora in piedi tutto il giorno)
 # Primo prodotto: massaggiatore riscaldato per caviglia (angoli parrucchiera e magazzino)
 nome: "AfterShift"
 attiva: false                     # metti true quando ID e token sono pronti
@@ -20,18 +20,18 @@ facebook:
 
 hashtag: "#aftershift #onyourfeetallday #hairstylist #warehouseworker #nurselife #giftideas #christmasgift #selfcare"
 
-# Caption a rotazione (una diversa per ogni post, poi ricomincia)
+# Caption = CTA a commento (lo store non c'e' ancora: si risponde a mano col link quando e' pronto)
+caption_cta: "Comment SHIFT and I'll send you the link 🎁🦶"
+
+# Caption a rotazione (usate solo se caption_cta manca)
 caption:
-  - "For the ones who never sit down 🦶✨ Link in bio"
+  - "For the ones who never sit down 🦶✨ Comment SHIFT for the link"
   - "Tag someone who's on their feet all day 👇"
-  - "The gift they'll actually use every night 🎁 Link in bio"
-  - "Clocked out. Feet up. 🔥 Link in bio"
-  - "Who's earned this after their last shift? 👇😮‍💨"
 
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio)
 audio_inseriti:
   comuni: false                   # pagina in inglese: niente libreria audio comune italiana
-  pesi: {}
+  pesi: {"Df1rf6GtDi_.m4a": 6}   # audio del virale alldaylegs.co (Christmas)
 
 # Musica di tendenza di Meta: spenta come sulle altre pagine (copre l'audio inserito)
 audio:

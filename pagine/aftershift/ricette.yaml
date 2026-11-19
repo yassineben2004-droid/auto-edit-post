@@ -5,37 +5,37 @@
 #   b1_warehouse_v1   magazzino, prima animazione raggi X (15.1s)
 #   b2_warehouse_v2   magazzino, animazione raggi X corretta (15.6s)
 # Split test sul text hook: le v2 hanno 5 varianti, le v1 3 varianti con testi diversi.
-# Hook a 0.58 (piu in basso, come nei reel nativi). CTA negli ultimi 3s.
+# Hook a 0.58 (piu in basso, come nei reel nativi). CTA negli ultimi 3s: commento SHIFT (store non ancora pronto, si risponde a mano col link).
 reel:
   # --- Parrucchiera v2 ---
   - nome: as01_stylist_hardtogift
     testo: "Hairstylists are so hard to gift\nMe: 😍"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [a2_stylist_v2 0 15.6]
   - nome: as02_stylist_pov
     testo: "POV: you stand 10 hours a day doing hair 💇‍♀️"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [a2_stylist_v2 0 15.6]
   - nome: as03_stylist_gift
     testo: "The gift for the hairstylist who never sits down 🎁"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [a2_stylist_v2 0 15.6]
   - nome: as04_stylist_boyfriend
     testo: "My boyfriend finally gets it 😭💙"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [a2_stylist_v2 0 15.6]
   - nome: as05_stylist_10hours
     testo: "10 hours behind the chair… then this 🥹"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [a2_stylist_v2 0 15.6]
 
@@ -43,19 +43,19 @@ reel:
   - nome: as06_stylist_bestgift
     testo: "Best gift I got this Christmas 🎄"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [a1_stylist_v1 0 15.1]
   - nome: as07_stylist_doubleshift
     testo: "My feet after a double shift vs. after this 😮‍💨"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [a1_stylist_v1 0 15.1]
   - nome: as08_stylist_everystylist
     testo: "Every stylist needs this after a long shift 💇‍♀️"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [a1_stylist_v1 0 15.1]
 
@@ -63,31 +63,31 @@ reel:
   - nome: as09_warehouse_hardtogift
     testo: "Warehouse workers are so hard to gift\nMe: 😍"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [b2_warehouse_v2 0 15.6]
   - nome: as10_warehouse_pov
     testo: "POV: 28,000 steps every single shift 🥾"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [b2_warehouse_v2 0 15.6]
   - nome: as11_warehouse_gift
     testo: "The gift for the guy who never sits down 🎁"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [b2_warehouse_v2 0 15.6]
   - nome: as12_warehouse_girlfriend
     testo: "She said it's for my feet. I said I love her 😭"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [b2_warehouse_v2 0 15.6]
   - nome: as13_warehouse_12hours
     testo: "12-hour shift… then this 🥹"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [b2_warehouse_v2 0 15.6]
 
@@ -95,18 +95,18 @@ reel:
   - nome: as14_warehouse_bestgift
     testo: "Best gift I got this Christmas 🎄"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [b1_warehouse_v1 0 15.1]
   - nome: as15_warehouse_doubleshift
     testo: "My feet after a double shift vs. after this 😮‍💨"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [b1_warehouse_v1 0 15.1]
   - nome: as16_warehouse_everyworker
     testo: "Every warehouse worker needs this 📦"
     posizione: 0.58
-    cta: "Link in bio 🎁"
+    cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [b1_warehouse_v1 0 15.1]
