@@ -998,6 +998,19 @@
       "ora": "2026-11-20T18:41+01:00",
       "fb_link": "https://www.facebook.com/reel/1016638147439997",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-20 21:00": {
+      "esito": "pubblicato",
+      "id": "ciabattepazze-00043",
+      "file": "ciabattepazze-00043.mp4",
+      "media_id": "18015993584763371",
+      "link": "https://www.instagram.com/reel/Df-eQCXlSyh/",
+      "audio": "inserito: DeZxXLPiEUV.m4a",
+      "audio_id": null,
+      "audio_file": "DeZxXLPiEUV.m4a",
+      "ora": "2026-11-20T21:05+01:00",
+      "fb_link": "https://www.facebook.com/reel/1452631183749077",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -1074,7 +1087,8 @@
     "ciabattepazze-00053",
     "ciabattepazze-00067",
     "ciabattepazze-00042",
-    "ciabattepazze-00062"
+    "ciabattepazze-00062",
+    "ciabattepazze-00043"
   ],
   "scartati": {
     "ciabattepazze-00011": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}"

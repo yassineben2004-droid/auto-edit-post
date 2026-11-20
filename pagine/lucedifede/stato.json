@@ -323,6 +323,17 @@
       "audio_id": null,
       "audio_file": "voce_it+Df29cLNtRov.m4a",
       "ora": "2026-11-20T18:44+01:00"
+    },
+    "2026-11-20 21:00": {
+      "esito": "pubblicato",
+      "id": "lucedifede-00046",
+      "file": "lucedifede-00046.mp4",
+      "media_id": "18119245115464564",
+      "link": "https://www.instagram.com/reel/Df-edPUFWG7/",
+      "audio": "inserito: voce_it+Df29cLNtRov.m4a",
+      "audio_id": null,
+      "audio_file": "voce_it+Df29cLNtRov.m4a",
+      "ora": "2026-11-20T21:07+01:00"
     }
   },
   "usati": [
@@ -354,7 +365,8 @@
     "lucedifede-00042",
     "lucedifede-00043",
     "lucedifede-00044",
-    "lucedifede-00045"
+    "lucedifede-00045",
+    "lucedifede-00046"
   ],
   "scartati": {},
   "errori": {},
