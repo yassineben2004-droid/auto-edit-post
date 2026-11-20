@@ -52,13 +52,26 @@
       "ora": "2026-11-20T14:36+01:00",
       "fb_link": "https://www.facebook.com/reel/1643177443955436",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-20 19:30": {
+      "esito": "pubblicato",
+      "id": "aftershift-00005",
+      "file": "aftershift-00005.mp4",
+      "media_id": "17959404738260459",
+      "link": "https://www.instagram.com/reel/Df-T2_1jCZx/",
+      "audio": "inserito: Df1rf6GtDi_.m4a",
+      "audio_id": null,
+      "audio_file": "Df1rf6GtDi_.m4a",
+      "ora": "2026-11-20T19:34+01:00",
+      "fb_errore": "HTTP 400: {\"message\": \"Unsupported get request. Object with ID '1683663389781424' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\", \"type\": \"GraphMethodException"
     }
   },
   "usati": [
     "aftershift-00001",
     "aftershift-00002",
     "aftershift-00003",
-    "aftershift-00004"
+    "aftershift-00004",
+    "aftershift-00005"
   ],
   "scartati": {},
   "errori": {},
