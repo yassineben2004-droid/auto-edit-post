@@ -1584,6 +1584,17 @@
       "audio_id": null,
       "audio_file": "DfxfzLtKSwL.m4a",
       "ora": "2026-11-20T21:08+01:00"
+    },
+    "2026-11-20 22:30": {
+      "esito": "pubblicato",
+      "id": "pijamamania-00069",
+      "file": "pijamamania-00069.mp4",
+      "media_id": "17956541874336029",
+      "link": "https://www.instagram.com/reel/Df-omy5ip-L/",
+      "audio": "inserito: tt_7269010267881688362_comfyshark2.m4a",
+      "audio_id": null,
+      "audio_file": "tt_7269010267881688362_comfyshark2.m4a",
+      "ora": "2026-11-20T22:36+01:00"
     }
   },
   "usati": [
@@ -1686,7 +1697,8 @@
     "pijamamania-00064",
     "pijamamania-00066",
     "pijamamania-00067",
-    "pijamamania-00068"
+    "pijamamania-00068",
+    "pijamamania-00069"
   ],
   "scartati": {},
   "errori": {},
