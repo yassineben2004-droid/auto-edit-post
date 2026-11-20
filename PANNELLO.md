@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 20/11/2026 13:13
+Aggiornato: 20/11/2026 14:36
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 13 | 4.3 gg | ven 14:30 | 11-20 01:30 ✅ | 3 pubblicati |
+| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 12 | 4.0 gg | ven 19:30 | 11-20 14:30 ✅ | 4 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 12 | 3.0 gg | ven 18:30 | 11-20 12:45 ✅ | 19 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 14 | 2.3 gg | ven 15:30 | 11-20 12:45 ✅ | 39 pubblicati, 3 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 42 | 10.5 gg | ven 18:30 | 11-20 12:45 ✅ | 10 pubblicati |
@@ -20,6 +20,7 @@ Aggiornato: 20/11/2026 13:13
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-20 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/Df9xrVnGtao/ · FB: https://www.facebook.com/reel/1643177443955436 |
 | 2026-11-20 12:45 | Luce di Fede | inserito: voce_it+Df29cLNtRov.m4a | https://www.instagram.com/reel/Df9l1H5An9B/ |
 | 2026-11-20 12:45 | Doni di Natale | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/Df9lsiJIG_E/ · FB: https://www.facebook.com/reel/1156682413375050 |
 | 2026-11-20 12:45 | Ciabatte Pazze | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/Df9liWVAkvr/ · FB: https://www.facebook.com/reel/2237196693820371 |
@@ -39,4 +40,3 @@ Aggiornato: 20/11/2026 13:13
 | 2026-11-19 21:00 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/Df75uGAAkVY/ |
 | 2026-11-19 21:00 | BottiZero | inserito: DfdTxVtAxLK.m4a | https://www.facebook.com/reel/1035349472962050 |
 | 2026-11-19 19:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/Df7vLU7kqBX/ |
-| 2026-11-19 19:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/Df7vDsBEvVe/ · FB: https://www.facebook.com/reel/29359909763663291 |
