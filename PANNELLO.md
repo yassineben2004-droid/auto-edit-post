@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 20/11/2026 00:06
+Aggiornato: 20/11/2026 01:35
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 14 | 4.7 gg | ven 01:30 | 11-19 19:30 ✅ | 2 pubblicati |
+| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 13 | 4.3 gg | ven 14:30 | 11-20 01:30 ✅ | 3 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 14 | 3.5 gg | ven 08:15 | 11-19 21:00 ✅ | 18 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 17 | 2.8 gg | ven 08:15 | 11-19 21:00 ✅ | 38 pubblicati, 4 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 44 | 11.0 gg | ven 08:15 | 11-19 21:00 ✅ | 8 pubblicati |
@@ -20,6 +20,7 @@ Aggiornato: 20/11/2026 00:06
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-20 01:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/Df8YRefj73e/ · FB: https://www.facebook.com/reel/1164282039393861 |
 | 2026-11-19 22:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/Df8D8qpkSUl/ |
 | 2026-11-19 22:30 | Insegnia | - | https://www.instagram.com/reel/Df8D0ssEfnO/ · FB: https://www.facebook.com/reel/1629062794819320 |
 | 2026-11-19 21:00 | PijamaMania | inserito: DfblaVNxHsY.m4a | https://www.instagram.com/reel/Df76AnRAps0/ |
@@ -39,4 +40,3 @@ Aggiornato: 20/11/2026 00:06
 | 2026-11-19 15:30 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/Df7Ta3EkleQ/ · FB: https://www.facebook.com/reel/1668365491338415 |
 | 2026-11-19 14:45 | PijamaMania | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/Df7OUYoEX-r/ |
 | 2026-11-19 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/Df7MnoFjlcT/ · FB: https://www.facebook.com/reel/1459281328905534 |
-| 2026-11-19 13:00 | PijamaMania | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/Df7CT54jJJZ/ |
