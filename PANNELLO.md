@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 20/11/2026 17:28
+Aggiornato: 20/11/2026 17:42
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,12 +10,12 @@ Aggiornato: 20/11/2026 17:28
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 42 | 10.5 gg | ven 18:30 | 11-20 12:45 ✅ | 10 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 4 | 2.0 gg | ven 22:30 | 11-20 15:30 ✅ | 8 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | ven 18:30 | 11-20 12:45 ✅ | 27 pubblicati, 1 saltati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 4 | 0.4 gg | ven 18:00 | 11-20 16:30 ⚠ coda_vuota | 58 pubblicati, 12 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 9 | 0.9 gg | ven 18:00 | 11-20 16:30 ⚠ coda_vuota | 58 pubblicati, 12 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **Ciabatte Pazze** turno 2026-11-19 21:00: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '1126061793611448' does not exist, cannot be loaded due to missing permission
-- **PijamaMania**: coda quasi finita (4 video ≈ 0.4 giorni)
+- **PijamaMania**: coda quasi finita (9 video ≈ 0.9 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
