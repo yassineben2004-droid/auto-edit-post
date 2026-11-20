@@ -275,6 +275,19 @@
       "piattaforma": "facebook",
       "stato_fb": "pubblicato",
       "ora": "2026-11-20T08:19+01:00"
+    },
+    "2026-11-20 12:45": {
+      "esito": "pubblicato",
+      "id": "bottizero-00018",
+      "file": "bottizero-00018.mp4",
+      "media_id": "2799132277148631",
+      "link": "https://www.facebook.com/reel/2799132277148631",
+      "audio": "inserito: Det5jkoxU4q.m4a",
+      "audio_id": null,
+      "audio_file": "Det5jkoxU4q.m4a",
+      "piattaforma": "facebook",
+      "stato_fb": "pubblicato",
+      "ora": "2026-11-20T12:49+01:00"
     }
   },
   "usati": [
@@ -296,7 +309,8 @@
     "bottizero-00015",
     "bottizero-00016",
     "bottizero-00026",
-    "bottizero-00017"
+    "bottizero-00017",
+    "bottizero-00018"
   ],
   "scartati": {},
   "errori": {},
