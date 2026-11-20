@@ -1551,6 +1551,17 @@
     },
     "2026-11-20 16:30": {
       "esito": "coda_vuota"
+    },
+    "2026-11-20 18:00": {
+      "esito": "pubblicato",
+      "id": "pijamamania-00066",
+      "file": "pijamamania-00066.mp4",
+      "media_id": "18188972557421233",
+      "link": "https://www.instagram.com/reel/Df-KJgylXZQ/",
+      "audio": "inserito: tt_7366328334118096133_barsong.m4a",
+      "audio_id": null,
+      "audio_file": "tt_7366328334118096133_barsong.m4a",
+      "ora": "2026-11-20T18:09+01:00"
     }
   },
   "usati": [
@@ -1650,7 +1661,8 @@
     "pijamamania-00058",
     "pijamamania-00046",
     "pijamamania-00054",
-    "pijamamania-00064"
+    "pijamamania-00064",
+    "pijamamania-00066"
   ],
   "scartati": {},
   "errori": {},

@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 20/11/2026 17:42
+Aggiornato: 20/11/2026 18:09
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,16 +10,17 @@ Aggiornato: 20/11/2026 17:42
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 42 | 10.5 gg | ven 18:30 | 11-20 12:45 ✅ | 10 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 4 | 2.0 gg | ven 22:30 | 11-20 15:30 ✅ | 8 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | ven 18:30 | 11-20 12:45 ✅ | 27 pubblicati, 1 saltati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 9 | 0.9 gg | ven 18:00 | 11-20 16:30 ⚠ coda_vuota | 58 pubblicati, 12 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 8 | 0.8 gg | ven 19:30 | 11-20 18:00 ✅ | 58 pubblicati, 12 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **Ciabatte Pazze** turno 2026-11-19 21:00: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '1126061793611448' does not exist, cannot be loaded due to missing permission
-- **PijamaMania**: coda quasi finita (9 video ≈ 0.9 giorni)
+- **PijamaMania**: coda quasi finita (8 video ≈ 0.8 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-20 18:00 | PijamaMania | inserito: tt_7366328334118096133_barsong.m4a | https://www.instagram.com/reel/Df-KJgylXZQ/ |
 | 2026-11-20 15:30 | Insegnia | - | https://www.instagram.com/reel/Df94eczCnxy/ · FB: https://www.facebook.com/reel/2365387124239471 |
 | 2026-11-20 15:30 | Ciabatte Pazze | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/Df94UqECmb7/ · FB: https://www.facebook.com/reel/1186041137708365 |
 | 2026-11-20 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/Df9xrVnGtao/ · FB: https://www.facebook.com/reel/1643177443955436 |
@@ -39,4 +40,3 @@ Aggiornato: 20/11/2026 17:42
 | 2026-11-19 21:00 | PijamaMania | inserito: DfblaVNxHsY.m4a | https://www.instagram.com/reel/Df76AnRAps0/ |
 | 2026-11-19 21:00 | Luce di Fede | inserito: voce_it+Df29cLNtRov.m4a | https://www.instagram.com/reel/Df757iUAufZ/ |
 | 2026-11-19 21:00 | Doni di Natale | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/Df75z82ifwQ/ · FB: https://www.facebook.com/reel/2951163081926868 |
-| 2026-11-19 21:00 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/Df75uGAAkVY/ |
