@@ -632,3 +632,57 @@ reel:
     testi_scene:
       - "POV: da quando in casa\nvive un drago 🐉"
       - "Non esce più dal divano 😂"
+
+  # --- SQUALO, script "sono stato uno scemo a regalarle la coperta squalo" ---
+  # Variazioni dello script che ha tirato di più (sq06c): confessione + escalation + richiesta di aiuto.
+
+  - nome: sq06f_scemo
+    posizione: centro
+    pezzi:
+      - sq06_tiktok 0 4.1
+      - sq06_tiktok 4.1 8.1
+      - sq06_tiktok 8.1 12.8
+    testi_scene:
+      - "Sono stato uno scemo\na regalarle la coperta squalo 🤦‍♂️"
+      - "Ora non se la leva più 🦈"
+      - "Qualcuno mi aiuti 😭"
+
+  - nome: sq04e_aiuto
+    posizione: centro
+    pezzi:
+      - sq04_tiktok 0 3.6
+      - sq04_tiktok 3.6 8.6
+    testi_scene:
+      - "Le ho regalato la coperta squalo\ne ho fatto un errore 😅"
+      - "Non se la toglie da tre giorni 🦈\nMandate aiuti 🆘"
+
+  - nome: sq03f_errori
+    posizione: centro
+    pezzi:
+      - sq03_tiktok 0 3.97
+      - sq03_tiktok 3.97 8.53
+      - sq03_tiktok 8.53 9.9
+    testi_scene:
+      - "Errore numero uno:\nregalarle la coperta squalo 🫠"
+      - "Errore numero due:\nfargliela provare 🦈"
+      - "Ora vive lì dentro 😭"
+
+  - nome: sq05f_sorpresa
+    posizione: centro
+    pezzi:
+      - sq05_tiktok 0 3.07
+      - sq05_tiktok 3.07 7.03
+      - sq05_tiktok 7.03 9.1
+    testi_scene:
+      - "Che scemo a dargliela\nprima di Natale 🎄🤦‍♂️"
+      - "Doveva essere una sorpresa 🦈"
+      - "Ora non se la leva più 😂"
+
+  - nome: sq01e_sparita
+    posizione: centro
+    pezzi:
+      - sq01_mov 0 3.4
+      - sq01_mov 3.4 11.9
+    testi_scene:
+      - "Le ho regalato la coperta squalo\nun mese fa 🦈"
+      - "Da allora non l'ho più vista 😭\nQualcuno mi aiuti"
