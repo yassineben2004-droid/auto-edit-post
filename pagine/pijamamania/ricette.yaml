@@ -516,3 +516,119 @@ reel:
     testi_scene:
       - "Torno a casa e trovo\nle candele accese in bagno 🕯️"
       - "La mia ragazza da quando\nha la coperta squalo 🦈😂"
+
+  # ═══════════════════════════════════════════════════════════════
+  # 20/11 — SOLO SQUALO + DRAGON TRAINER (coda di oggi e domani)
+  # Stesse clip, testi nuovi con potenziale virale: hook parlato in prima
+  # persona, testo che cambia a ogni taglio, payoff sull'ultima scena.
+  # ═══════════════════════════════════════════════════════════════
+
+  # --- SQUALO ---
+  - nome: sq01d_bagno
+    posizione: centro
+    pezzi:
+      - sq01_mov 0 3.4
+      - sq01_mov 3.4 11.9
+    testi_scene:
+      - "Lei: «stasera mi faccio\nun bagno rilassante» 🕯️"
+      - "Il bagno rilassante: 🦈😂"
+
+  - nome: sq02e_regalati
+    testo: "Cosa ci siamo regalati\nper Natale quest'anno 🎁🦈"
+    posizione: centro
+    pezzi:
+      - sq02_tiktok 0 6.1
+
+  - nome: sq03e_5minuti
+    testo: "«Solo 5 minuti sul divano»\nIo dentro la coperta squalo: 😴🦈"
+    posizione: centro
+    pezzi:
+      - sq03_tiktok 0 9.9
+
+  - nome: sq04d_mamma
+    posizione: centro
+    pezzi:
+      - sq04_tiktok 0 3.6
+      - sq04_tiktok 3.6 8.6
+    testi_scene:
+      - "Ho regalato la coperta squalo\na mia madre 🎁"
+      - "Da allora il divano è suo 🦈😂"
+
+  - nome: sq05e_amica
+    posizione: centro
+    pezzi:
+      - sq05_tiktok 0 3.07
+      - sq05_tiktok 3.07 7.03
+      - sq05_tiktok 7.03 9.1
+    testi_scene:
+      - "Mi è uscita la collega\nal Secret Santa 🎄"
+      - "Le ho preso la coperta squalo 🦈"
+      - "Ora in ufficio mi vogliono tutti bene 😂"
+
+  - nome: sq06e_plaid
+    posizione: centro
+    pezzi:
+      - sq06_tiktok 0 4.1
+      - sq06_tiktok 4.1 8.1
+      - sq06_tiktok 8.1 12.8
+    testi_scene:
+      - "Le ho preso la coperta squalo\nper smettere di prestarle la mia 😤"
+      - "Non ha funzionato 🦈"
+      - "Ora me le prende tutte e due 😂"
+
+  - nome: sq07d_gradi
+    testo: "In casa ci sono 17 gradi ❄️\nMa io ho la coperta squalo 🦈"
+    posizione: 0.22
+    pezzi:
+      - sq07_tiktok 0 7.6
+
+  - nome: sq08d_lista
+    testo: "La mia lista di Natale:\n1. la coperta squalo\n2. nient'altro 🦈"
+    posizione: centro
+    pezzi:
+      - sq08_tiktok 0 9.7
+
+  - nome: sq09c_pacco
+    testo: "Il pacco che tutti vogliono\ntrovare sotto l'albero 🎁🦈"
+    posizione: centro
+    pezzi:
+      - sq09_tiktok 0 6.7
+
+  - nome: sq09d_inverno
+    testo: "Finché c'è la coperta squalo\nl'inverno può fare quello che vuole 🦈❄"
+    posizione: centro
+    pezzi:
+      - sq09_tiktok 0 6.7
+
+  # --- DRAGON TRAINER (Sdentato + Furia Chiara, pigiama di coppia) ---
+  - nome: dt03_serata
+    posizione: centro
+    pezzi:
+      - dt_01 0 3.3
+      - dt_01 3.3 7.0
+      - dt_01 7.0 11.1
+    testi_scene:
+      - "Serata film a tema\ncon i pigiami Dragon Trainer 🐉"
+      - "Snack pronti, luci spente 🍿"
+      - "Il Natale di coppia è vinto 🤍🖤"
+
+  - nome: dt04_lui_lei
+    testo: "Lui: Sdentato 🖤\nLei: Furia Chiara 🤍"
+    posizione: centro
+    pezzi:
+      - dt_01 0 11.1
+
+  - nome: dt05_coppia_tutto
+    testo: "Cosa regalare alla coppia\nche ha già tutto 🎁🐉"
+    posizione: centro
+    pezzi:
+      - dt_01 0 11.1
+
+  - nome: dt06_drago_casa
+    posizione: centro
+    pezzi:
+      - dt_01 0 5.5
+      - dt_01 5.5 11.1
+    testi_scene:
+      - "POV: da quando in casa\nvive un drago 🐉"
+      - "Non esce più dal divano 😂"
