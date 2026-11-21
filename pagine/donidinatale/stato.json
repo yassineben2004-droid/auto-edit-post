@@ -169,6 +169,19 @@
       "ora": "2026-11-21T08:21+01:00",
       "fb_link": "https://www.facebook.com/reel/1024940840646785",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-21 12:45": {
+      "esito": "pubblicato",
+      "id": "donidinatale-00021",
+      "file": "donidinatale-00021.mp4",
+      "media_id": "17931576054184041",
+      "link": "https://www.instagram.com/reel/DgAKNUzBS2s/",
+      "audio": "inserito: De-DMbQPfLZ.m4a",
+      "audio_id": null,
+      "audio_file": "De-DMbQPfLZ.m4a",
+      "ora": "2026-11-21T12:48+01:00",
+      "fb_link": "https://www.facebook.com/reel/3485153848312244",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -184,7 +197,8 @@
     "donidinatale-00017",
     "donidinatale-00018",
     "donidinatale-00019",
-    "donidinatale-00020"
+    "donidinatale-00020",
+    "donidinatale-00021"
   ],
   "scartati": {},
   "errori": {},
