@@ -1,13 +1,13 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 21/11/2026 11:39
+Aggiornato: 21/11/2026 12:08
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 15 | 5.0 gg | sab 14:30 | 11-21 01:30 ✅ | 6 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 9 | 2.2 gg | sab 12:45 | 11-21 08:15 ✅ | 19 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 9 | 1.5 gg | sab 12:45 | 11-21 10:45 ✅ | 41 pubblicati, 1 saltati |
-| Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 39 | 9.8 gg | sab 12:45 | 11-21 08:15 ✅ | 13 pubblicati |
+| Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 44 | 11.0 gg | sab 12:45 | 11-21 08:15 ✅ | 13 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 3 | 1.5 gg | sab 15:30 | 11-20 22:30 ✅ | 9 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 19 | 4.8 gg | sab 12:45 | 11-21 08:15 ✅ | 27 pubblicati, 1 saltati |
 | PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 12 | 1.2 gg | sab 13:00 | 11-21 11:30 ✅ | 58 pubblicati, 12 saltati |
