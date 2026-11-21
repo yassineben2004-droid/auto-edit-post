@@ -883,6 +883,7 @@ def main():
     ma = sub.add_parser("metti-audio"); ma.add_argument("pagina"); ma.add_argument("--rifai", action="store_true")
     ma.add_argument("--rinnova", action="store_true", help="rifà i video in coda dal reel montato aggiornato")
     inf = sub.add_parser("info"); inf.add_argument("pagina"); inf.add_argument("media_id")
+    sta = sub.add_parser("statistiche"); sta.add_argument("pagine", nargs="*"); sta.add_argument("--giorni", type=int, default=7)
     x = ap.parse_args()
     if x.cmd == "esegui":
         esegui(prova=x.prova)
@@ -906,6 +907,9 @@ def main():
         metti_audio(x.pagina, x.rifai, x.rinnova)
     elif x.cmd == "info":
         info(x.pagina, x.media_id)
+    elif x.cmd == "statistiche":
+        import statistiche as S
+        S.statistiche(sys.modules[__name__], x.pagine or None, x.giorni)
     elif x.cmd == "audio":
         audio(x.pagina, x.parole + (["--grezzo"] if x.grezzo else []))
     else:
