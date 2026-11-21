@@ -1,4 +1,4 @@
-# Statistiche reel — 21/11/2026 09:07 (ultimi 4 giorni)
+# Statistiche reel — 21/11/2026 09:13 (ultimi 4 giorni)
 
 
 ## BottiZero — 13 reel (parola CTA: BOTTI)
@@ -54,3 +54,11 @@
 | sq04d_mamma.mp4 | 11-20 22:30 |  | 5 | 0 | 0 |  | tt_7269010267881688362_c |
 | sq06f_scemo.mp4 | 11-21 08:00 |  | 4 | 0 | 0 |  | VIRALE_squalo_3M6.mp3 |
 | dt05_coppia_tutto.mp4 | 11-21 09:45 |  | 0 | 0 | 0 |  | DfoYCD4hnZI.m4a |
+
+## Errori Meta (primi)
+- FB video_insights: HTTP 403: {"message": "(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)", "type": "OAuthException", "code": 200, "fbtrace_id": "A6ryOg
+- FB video_insights: HTTP 403: {"message": "(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)", "type": "OAuthException", "code": 200, "fbtrace_id": "ASL7cI
+- FB video_insights: HTTP 403: {"message": "(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)", "type": "OAuthException", "code": 200, "fbtrace_id": "Ae0vYT
+- FB video_insights: HTTP 403: {"message": "(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)", "type": "OAuthException", "code": 200, "fbtrace_id": "AbE9ZH
+- FB video_insights: HTTP 403: {"message": "(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)", "type": "OAuthException", "code": 200, "fbtrace_id": "AHKAaR
+- FB video_insights: HTTP 403: {"message": "(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)", "type": "OAuthException", "code": 200, "fbtrace_id": "A1l4C8
