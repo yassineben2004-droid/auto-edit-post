@@ -8,14 +8,14 @@ OK (già presente) DeZxXLPiEUV
 OK (già presente) DetkbnLv9bW
 OK (già presente) DelynysP4YQ
 OK (già presente) DelhYk8vORs
-FALLITO DfoYCD4hnZI: ERROR: [Instagram] DfoYCD4hnZI: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)
+FALLITO DfoYCD4hnZI: ERROR: [Instagram] DfoYCD4hnZI: This content isn't available to everyone: It can't be seen by certain audiences.
 OK (già presente) DfZ_7-fJC7N
 OK (già presente) Dfn9wfYR-6A
-FALLITO DfdTxVtAxLK: ERROR: [Instagram] DfdTxVtAxLK: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)
+FALLITO DfdTxVtAxLK: s-cookies-to-yt-dlp  for how to manually pass cookies. Otherwise, if the post is accessible in browser without being logged-in, please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
 OK (già presente) DeQ30juIto-
-FALLITO Dfs2ZdTMnGw: ERROR: [Instagram] Dfs2ZdTMnGw: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)
-FALLITO De9mXGYxfUc: ERROR: [Instagram] De9mXGYxfUc: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)
-FALLITO Dfv1Hs6umL4: ERROR: [Instagram] Dfv1Hs6umL4: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)
-FALLITO DfN_bzwinf5: ERROR: [Instagram] DfN_bzwinf5: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)
-FALLITO DfVk91wsXyg: ERROR: [Instagram] DfVk91wsXyg: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)
-FALLITO Df1AKcmND2p: ERROR: [Instagram] Df1AKcmND2p: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)
+OK Dfs2ZdTMnGw 13.2s
+OK De9mXGYxfUc 9.6s
+OK Dfv1Hs6umL4 19.0s
+OK DfN_bzwinf5 19.1s
+OK DfVk91wsXyg 16.9s
+FALLITO Df1AKcmND2p: s-cookies-to-yt-dlp  for how to manually pass cookies. Otherwise, if the post is accessible in browser without being logged-in, please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
