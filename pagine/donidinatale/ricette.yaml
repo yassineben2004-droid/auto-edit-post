@@ -732,10 +732,10 @@ reel:
   # ═══════════════════════════════════════════════════════════════
 
   - nome: stamp01a_mamme
-    testo: "Le mamme natalizie non dovrebbero\nvedere questo... 😭💕"
-    posizione: 0.6
+    testo: "Le mamme natalizie non dovrebbero vedere questo... 😭💕"
+    posizione: 0.5
     cta: Commenta STAMPA per il link 🔗
-    cta_posizione: 0.6
+    cta_posizione: 0.5
     cta_secondi: 3.0
     audio: stampa_voce_A.m4a
     pezzi: &stamp_pezzi
@@ -746,37 +746,37 @@ reel:
     - stamp_05_foto 0 1.9
 
   - nome: stamp01b_non_guardare
-    testo: "Se sei una mamma che ama il Natale\nNON guardare... 😭💕"
-    posizione: 0.6
+    testo: "Se sei una mamma che ama il Natale NON guardare... 😭💕"
+    posizione: 0.5
     cta: Commenta STAMPA per il link 🔗
-    cta_posizione: 0.6
+    cta_posizione: 0.5
     cta_secondi: 3.0
     audio: stampa_voce_B.m4a
     pezzi: *stamp_pezzi
 
   - nome: stamp01c_piangere
-    testo: "Il regalo di Natale che farà\npiangere la mamma 😭🎄"
-    posizione: 0.6
+    testo: "Il regalo di Natale che farà piangere la mamma 😭🎄"
+    posizione: 0.5
     cta: Commenta STAMPA per il link 🔗
-    cta_posizione: 0.6
+    cta_posizione: 0.5
     cta_secondi: 3.0
     audio: stampa_voce_A.m4a
     pezzi: *stamp_pezzi
 
   - nome: stamp01d_pov
-    testo: "POV: stampi le foto di famiglia\ndirettamente dal telefono 😳📸"
-    posizione: 0.6
+    testo: "POV: stampi le foto di famiglia direttamente dal telefono 😳📸"
+    posizione: 0.5
     cta: Commenta STAMPA per il link 🔗
-    cta_posizione: 0.6
+    cta_posizione: 0.5
     cta_secondi: 3.0
     audio: stampa_voce_B.m4a
     pezzi: *stamp_pezzi
 
   - nome: stamp01e_esiste
-    testo: "Non pensavo esistesse\nuna cosa del genere... 😭🎄"
-    posizione: 0.6
+    testo: "Non pensavo esistesse una cosa del genere... 😭🎄"
+    posizione: 0.5
     cta: Commenta STAMPA per il link 🔗
-    cta_posizione: 0.6
+    cta_posizione: 0.5
     cta_secondi: 3.0
     audio: stampa_voce_A.m4a
     pezzi: *stamp_pezzi
