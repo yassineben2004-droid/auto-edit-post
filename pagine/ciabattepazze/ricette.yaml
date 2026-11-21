@@ -283,17 +283,6 @@ reel:
       - r2_supermercato 0 3.0
       - r4_posta 0 3.0
 
-  - nome: cp45_ordinate_di_notte
-    testo: "Ordinate alle 2 di notte, arrivate oggi 📦🦶"
-    posizione: 0.75
-    cta: "Lui non ha ancora capito 😂"
-    cta_posizione: 0.75
-    cta_secondi: 3.0
-    pezzi:
-      - ../ciabattepazze_nov/n1_unboxing 0 3.0
-      - ../ciabattepazze_39anni/v2_scaffale 0 2.6
-      - ../ciabattepazze_39anni/v3_casa 0 3.0
-
   # ---- MASSAGGIATORE PIEDI (clip Higgsfield in ../ciabattepazze_massaggio), 6 reel x 2 hook (split test A/B)
   # Struttura: hook -> 01_piedi_entrano -> 02_pulsanti -> finale. Testo a 0.42 (sopra il prodotto). Niente claim salute.
   - nome: ms01_regalo_mamma_A

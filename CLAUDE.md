@@ -24,3 +24,7 @@ Quando arrivano clip nuove prese da altri video (TikTok/IG, scritte tolte), prim
 `python controlla_clip.py <pagina> <inizio nome>`, guarda i fogli in analisi/sgranature/ e segna ogni parte
 sgranata / scritta / emoji residua in `clip_originali/<pagina>/sgranature.yaml` (scritte ed emoji residue = `forte: true`,
 così il testo esce evidenziato). monta.py poi mette il testo lì sopra da solo. Non salvare analisi/sgranature/ nel repo.
+
+## Testi: niente frasi su tempi di ordine/consegna
+Mai più nei testi/cta frasi tipo "Ordinate alle 2 di notte, arrivate oggi" o "arrivate in 24h", "consegna lampo", "ordinato ieri, arrivato oggi":
+niente storie sull'ordine o sulla velocità di spedizione (i competitor virali non le usano mai). Rimossa cp45 il 21/11/2026.
