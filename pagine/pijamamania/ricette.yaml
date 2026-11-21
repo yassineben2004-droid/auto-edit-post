@@ -686,3 +686,48 @@ reel:
     testi_scene:
       - "Le ho regalato la coperta squalo\nun mese fa 🦈"
       - "Da allora non l'ho più vista 😭\nQualcuno mi aiuti"
+
+  # ═══════════════════════════════════════════════════════════════
+  # PIGIAMA BARBIE LUMINOSO (bg) — clip Higgsfield 21/11/2026, ricrea reel @rosyblink_ Df1AKcmND2p
+  # stesso montaggio, 5 testi diversi, audio del reel competitor
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: bg01a_barbie
+    testo: "NON far vedere questo\na una Barbie girl...💖👠"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: &bg_pezzi
+      - bg_01_letto 0 2
+      - bg_02_abbottona 0 3
+      - bg_03_selfie_luce 0 3
+      - bg_04_buio_reveal 0 3
+      - bg_05_stampa_luminosa 0 3
+
+  - nome: bg01b_non_guardare
+    testo: "Se sei una Barbie girl\nNON guardare...💖👠"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg01c_spegni
+    testo: "Spegni la luce e guarda\ncosa succede...💖✨"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg01d_esiste
+    testo: "Il pigiama che si illumina\nal buio esiste davvero 😳💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg01e_pov
+    testo: "POV: la tua ragazza ti chiede\nquesto per Natale 💖👠"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
