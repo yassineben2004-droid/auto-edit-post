@@ -1,27 +1,29 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 21/11/2026 15:19
+Aggiornato: 21/11/2026 15:35
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 14 | 4.7 gg | sab 19:30 | 11-21 14:30 ✅ | 7 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | sab 18:30 | 11-21 12:45 ✅ | 19 pubblicati, 9 saltati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 8 | 1.3 gg | sab 15:30 | 11-21 12:45 ✅ | 41 pubblicati, 1 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 7 | 1.2 gg | sab 18:30 | 11-21 15:30 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 43 | 10.8 gg | sab 18:30 | 11-21 12:45 ✅ | 14 pubblicati |
-| Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 3 | 1.5 gg | sab 15:30 | 11-20 22:30 ✅ | 9 pubblicati, 2 saltati |
+| Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 2 | 1.0 gg | sab 22:30 | 11-21 15:30 ✅ | 10 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 18 | 4.5 gg | sab 18:30 | 11-21 12:45 ✅ | 27 pubblicati, 1 saltati |
 | PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 10 | 1.0 gg | sab 16:30 | 11-21 14:45 ✅ | 58 pubblicati, 12 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **AfterShift** turno 2026-11-20 19:30: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '1683663389781424' does not exist, cannot be loaded due to missing permission
-- **Ciabatte Pazze**: coda quasi finita (8 video ≈ 1.3 giorni)
-- **Insegnia**: coda quasi finita (3 video ≈ 1.5 giorni)
+- **Ciabatte Pazze**: coda quasi finita (7 video ≈ 1.2 giorni)
+- **Insegnia**: coda quasi finita (2 video ≈ 1.0 giorni)
 - **PijamaMania**: coda quasi finita (10 video ≈ 1.0 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-21 15:30 | Insegnia | - | https://www.instagram.com/reel/DgAdFI3JRgU/ · FB: https://www.facebook.com/reel/1816687759540819 |
+| 2026-11-21 15:30 | Ciabatte Pazze | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DgAc-AjkXRQ/ · FB: https://www.facebook.com/reel/1799948301282522 |
 | 2026-11-21 14:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgAX1ULCnVR/ |
 | 2026-11-21 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgAWL2YlQgs/ · FB: https://www.facebook.com/reel/1474090335786275 |
 | 2026-11-21 13:00 | PijamaMania | inserito: tt_7324039866268912902_mitski.m4a | https://www.instagram.com/reel/DgALzKgk_YQ/ |
@@ -40,5 +42,3 @@ Aggiornato: 21/11/2026 15:19
 | 2026-11-21 01:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/Df-9Fs1EdtI/ · FB: https://www.facebook.com/reel/2773312149737979 |
 | 2026-11-20 22:30 | PijamaMania | inserito: tt_7269010267881688362_comfyshark2.m4a | https://www.instagram.com/reel/Df-omy5ip-L/ |
 | 2026-11-20 22:30 | Insegnia | - | https://www.instagram.com/reel/Df-oevTCjMq/ · FB: https://www.facebook.com/reel/2159119318020382 |
-| 2026-11-20 21:00 | PijamaMania | inserito: DfxfzLtKSwL.m4a | https://www.instagram.com/reel/Df-ehiYFYva/ |
-| 2026-11-20 21:00 | Luce di Fede | inserito: voce_it+Df29cLNtRov.m4a | https://www.instagram.com/reel/Df-edPUFWG7/ |

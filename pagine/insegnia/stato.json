@@ -123,6 +123,19 @@
       "ora": "2026-11-20T22:35+01:00",
       "fb_link": "https://www.facebook.com/reel/2159119318020382",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-21 15:30": {
+      "esito": "pubblicato",
+      "id": "insegnia-00012",
+      "file": "insegnia-00012.mp4",
+      "media_id": "18052739870813430",
+      "link": "https://www.instagram.com/reel/DgAdFI3JRgU/",
+      "audio": "-",
+      "audio_id": null,
+      "audio_file": "",
+      "ora": "2026-11-21T15:33+01:00",
+      "fb_link": "https://www.facebook.com/reel/1816687759540819",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -134,7 +147,8 @@
     "insegnia-00008",
     "insegnia-00009",
     "insegnia-00010",
-    "insegnia-00011"
+    "insegnia-00011",
+    "insegnia-00012"
   ],
   "scartati": {
     "insegnia-00004": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}",
