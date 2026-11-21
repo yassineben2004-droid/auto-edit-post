@@ -1661,6 +1661,17 @@
       "audio_id": null,
       "audio_file": "Df1AKcmND2p.m4a",
       "ora": "2026-11-21T16:34+01:00"
+    },
+    "2026-11-21 18:00": {
+      "esito": "pubblicato",
+      "id": "pijamamania-00073",
+      "file": "pijamamania-00073.mp4",
+      "media_id": "18222364591356205",
+      "link": "https://www.instagram.com/reel/DgAuNpjAZgm/",
+      "audio": "inserito: tt_7256508873501183278_casadi.m4a",
+      "audio_id": null,
+      "audio_file": "tt_7256508873501183278_casadi.m4a",
+      "ora": "2026-11-21T18:03+01:00"
     }
   },
   "usati": [
@@ -1770,7 +1781,8 @@
     "pijamamania-00080",
     "pijamamania-00076",
     "pijamamania-00070",
-    "pijamamania-00081"
+    "pijamamania-00081",
+    "pijamamania-00073"
   ],
   "scartati": {},
   "errori": {},
