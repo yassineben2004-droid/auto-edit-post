@@ -689,7 +689,7 @@ reel:
 
   # ═══════════════════════════════════════════════════════════════
   # PIGIAMA BARBIE LUMINOSO (bg) — clip Higgsfield 21/11/2026, ricrea reel @rosyblink_ Df1AKcmND2p
-  # stesso montaggio, 5 testi diversi, audio del reel competitor
+  # stesso montaggio 12,6 s (reveal al buio a 7,8 s = drop dell'audio), 5 testi diversi, audio del reel competitor
   # ═══════════════════════════════════════════════════════════════
 
   - nome: bg01a_barbie
@@ -699,10 +699,10 @@ reel:
     audio: Df1AKcmND2p.m4a
     pezzi: &bg_pezzi
       - bg_01_letto 0 2
-      - bg_02_abbottona 0 3
+      - bg_02_abbottona 0 2.8
       - bg_03_selfie_luce 0 3
       - bg_04_buio_reveal 0 3
-      - bg_05_stampa_luminosa 0 3
+      - bg_05_stampa_luminosa 0 1.8
 
   - nome: bg01b_non_guardare
     testo: "Se sei una Barbie girl\nNON guardare...💖👠"
