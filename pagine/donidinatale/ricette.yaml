@@ -725,3 +725,58 @@ reel:
     - pr_reveal 0 2.0
     - pr_bambino 0.5 3.04
 
+
+  # ═══════════════════════════════════════════════════════════════
+  # STAMPANTE FOTO (stamp) — clip Higgsfield 21/11/2026, ricrea reel @PrintLovely Dfx92PGNOP2
+  # 12,2 s, countdown voce italiana (Eleven v4) mixato sopra la musica: stampa_voce_A = Rockin' Around (drop a 8 s = foto che esce), B = DemuZChuX50
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: stamp01a_mamme
+    testo: "Le mamme natalizie non dovrebbero\nvedere questo... 😭💕"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: stampa_voce_A.m4a
+    pezzi: &stamp_pezzi
+    - stamp_01_reveal 0 2.5
+    - stamp_02_cassetto 0 2.5
+    - stamp_03_aggancia 0 2.3
+    - stamp_04_stampa 0 3.0
+    - stamp_05_foto 0 1.9
+
+  - nome: stamp01b_non_guardare
+    testo: "Se sei una mamma che ama il Natale\nNON guardare... 😭💕"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: stampa_voce_B.m4a
+    pezzi: *stamp_pezzi
+
+  - nome: stamp01c_piangere
+    testo: "Il regalo di Natale che farà\npiangere la mamma 😭🎄"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: stampa_voce_A.m4a
+    pezzi: *stamp_pezzi
+
+  - nome: stamp01d_pov
+    testo: "POV: stampi le foto di famiglia\ndirettamente dal telefono 😳📸"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: stampa_voce_B.m4a
+    pezzi: *stamp_pezzi
+
+  - nome: stamp01e_esiste
+    testo: "Non pensavo esistesse\nuna cosa del genere... 😭🎄"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: stampa_voce_A.m4a
+    pezzi: *stamp_pezzi
