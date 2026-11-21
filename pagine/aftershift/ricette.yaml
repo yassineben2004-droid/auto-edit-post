@@ -111,3 +111,35 @@ reel:
     cta_secondi: 3
     pezzi: [b1_warehouse_v1 0 15.1]
 
+
+  # --- Infermiera USA (reel C, bandiera/plaid americano) ---
+  - nome: as17_nurse_hardtogift
+    testo: "Nurses are so hard to gift\nMe: 😍"
+    posizione: 0.58
+    cta: "Comment SHIFT for the link 🎁"
+    cta_secondi: 3
+    pezzi: [c1_nurse_usa 0 15.6]
+  - nome: as18_nurse_nightshift
+    testo: "POV: you just finished a 12-hour night shift 🩺"
+    posizione: 0.58
+    cta: "Comment SHIFT for the link 🎁"
+    cta_secondi: 3
+    pezzi: [c1_nurse_usa 0 15.6]
+  - nome: as19_nurse_husband
+    testo: "My husband finally understands nurse feet 😭💙"
+    posizione: 0.58
+    cta: "Comment SHIFT for the link 🎁"
+    cta_secondi: 3
+    pezzi: [c1_nurse_usa 0 15.6]
+  - nome: as20_nurse_gift
+    testo: "The gift every nurse actually needs 🎁"
+    posizione: 0.58
+    cta: "Comment SHIFT for the link 🎁"
+    cta_secondi: 3
+    pezzi: [c1_nurse_usa 0 15.6]
+  - nome: as21_nurse_asleep
+    testo: "She was asleep in 10 minutes 😴🇺🇸"
+    posizione: 0.58
+    cta: "Comment SHIFT for the link 🎁"
+    cta_secondi: 3
+    pezzi: [c1_nurse_usa 0 15.6]
