@@ -7,12 +7,13 @@ from datetime import datetime, timedelta
 import lib_meta
 from lib_meta import ErroreAPI, Meta
 
+NOTE = []
 CAMPI = ["pubblicato", "turno", "piattaforma", "reel", "media_id", "link", "views", "reach", "like", "commenti",
          "condivisioni", "salvati", "commenti_cta", "audio", "caption"]
 
 
 def _ig(m, mid, parola):
-    d = {}
+    d, err = {}, []
     for metriche in ("views,reach,likes,comments,shares,saved", "plays,reach,likes,comments,shares,saved",
                      "reach,likes,comments,shares,saved"):
         try:
@@ -20,8 +21,10 @@ def _ig(m, mid, parola):
             for x in r.get("data", []):
                 d[x["name"]] = (x.get("values") or [{}])[0].get("value", x.get("total_value", {}).get("value"))
             break
-        except ErroreAPI:
+        except ErroreAPI as e:
+            err.append(f"{metriche.split(',')[0]}: {str(e)[:160]}")
             continue
+    NOTE.extend(err[:1])
     if not d:
         try:
             r = m.get(mid, fields="like_count,comments_count")
@@ -50,7 +53,7 @@ def _fb(m, page_id, vid, parola):
             v = (x.get("values") or [{}])[0].get("value")
             d[x["name"]] = v
     except ErroreAPI as e:
-        d["errore"] = str(e)[:120]
+        d["errore"] = str(e)[:120]; NOTE.append("FB video_insights: " + str(e)[:200])
     like = com = cta = ""
     try:
         r = mp.get(vid, fields="likes.summary(true).limit(0),comments.summary(true).limit(100){message}")
@@ -115,5 +118,7 @@ def statistiche(P, pagine=None, giorni=7):
             riepilogo.append(f"| {x['reel'][:34]} | {x['pubblicato'][5:16]} | {x.get('views','')} | {x.get('like','')} | "
                              f"{x.get('commenti','')} | {x.get('commenti_cta','')} | {x.get('condivisioni','')} | {str(x.get('audio',''))[:24]} |")
         print(f"✓ {nome}: {len(righe)} reel")
+    if NOTE:
+        riepilogo.append("\n## Errori Meta (primi)\n" + "\n".join(f"- {x}" for x in list(dict.fromkeys(NOTE))[:6]))
     (out_dir / "RIEPILOGO.md").write_text("\n".join(riepilogo) + "\n", encoding="utf-8")
     print("\n".join(riepilogo))
