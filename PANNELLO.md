@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 21/11/2026 13:08
+Aggiornato: 21/11/2026 14:34
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 15 | 5.0 gg | sab 14:30 | 11-21 01:30 ✅ | 6 pubblicati |
+| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 14 | 4.7 gg | sab 19:30 | 11-21 14:30 ✅ | 7 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | sab 18:30 | 11-21 12:45 ✅ | 19 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 8 | 1.3 gg | sab 15:30 | 11-21 12:45 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 43 | 10.8 gg | sab 18:30 | 11-21 12:45 ✅ | 14 pubblicati |
@@ -22,6 +22,7 @@ Aggiornato: 21/11/2026 13:08
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-21 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgAWL2YlQgs/ · FB: https://www.facebook.com/reel/1474090335786275 |
 | 2026-11-21 13:00 | PijamaMania | inserito: tt_7324039866268912902_mitski.m4a | https://www.instagram.com/reel/DgALzKgk_YQ/ |
 | 2026-11-21 12:45 | Luce di Fede | inserito: voce_it+Df29cLNtRov.m4a | https://www.instagram.com/reel/DgAKTnkpY6a/ |
 | 2026-11-21 12:45 | Doni di Natale | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgAKNUzBS2s/ · FB: https://www.facebook.com/reel/3485153848312244 |
@@ -41,4 +42,3 @@ Aggiornato: 21/11/2026 13:08
 | 2026-11-20 21:00 | PijamaMania | inserito: DfxfzLtKSwL.m4a | https://www.instagram.com/reel/Df-ehiYFYva/ |
 | 2026-11-20 21:00 | Luce di Fede | inserito: voce_it+Df29cLNtRov.m4a | https://www.instagram.com/reel/Df-edPUFWG7/ |
 | 2026-11-20 21:00 | Doni di Natale | inserito: DfxwXrQpgSh.m4a | https://www.instagram.com/reel/Df-eXKPhhYm/ · FB: https://www.facebook.com/reel/4518549278414715 |
-| 2026-11-20 21:00 | Ciabatte Pazze | inserito: DeZxXLPiEUV.m4a | https://www.instagram.com/reel/Df-eQCXlSyh/ · FB: https://www.facebook.com/reel/1452631183749077 |
