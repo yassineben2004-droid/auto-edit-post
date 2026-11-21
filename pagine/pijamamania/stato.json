@@ -1617,6 +1617,17 @@
       "audio_id": null,
       "audio_file": "DfoYCD4hnZI.m4a",
       "ora": "2026-11-21T09:49+01:00"
+    },
+    "2026-11-21 11:30": {
+      "esito": "pubblicato",
+      "id": "pijamamania-00080",
+      "file": "pijamamania-00080.mp4",
+      "media_id": "18151303222536849",
+      "link": "https://www.instagram.com/reel/DgABtnLjqOJ/",
+      "audio": "inserito: Df1AKcmND2p.m4a",
+      "audio_id": null,
+      "audio_file": "Df1AKcmND2p.m4a",
+      "ora": "2026-11-21T11:34+01:00"
     }
   },
   "usati": [
@@ -1722,7 +1733,8 @@
     "pijamamania-00068",
     "pijamamania-00069",
     "pijamamania-00075",
-    "pijamamania-00071"
+    "pijamamania-00071",
+    "pijamamania-00080"
   ],
   "scartati": {},
   "errori": {},
