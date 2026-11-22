@@ -21,9 +21,9 @@ orari:
 sospesi: ["pr"]
 
 caption_cta:                      # caption = CTA diretta, per prodotto (prefisso nome clip)
-  altro: "Commenta NATALE per ricevere l'offerta 🎄"
-  stamp: "Commenta STAMPA per ricevere l'offerta 📸"
-  em: "Commenta FUOCO per ricevere l'offerta 🔥"
+  altro: "Link in Bio o Commenta NATALE per ricevere l'offerta 🎄"
+  stamp: "Link in Bio o Commenta STAMPA per ricevere l'offerta 📸"
+  em: "Link in Bio o Commenta FUOCO per ricevere l'offerta 🔥"
 
 hashtag: "#donidinatale #natale #natale2026 #regalodinatale #ideeregalo #luciditale #decorazioninatalizie #atmosferanatalizia"
 caption: []                       # da compilare con le caption del brand
