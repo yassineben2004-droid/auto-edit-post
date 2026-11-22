@@ -28,3 +28,4 @@
 - [Df3BIAXMvDv](Df3BIAXMvDv/report.md) — autore: Crosiiaax  ·  data: 20261117 · views: -  ·  like: 3.946  ·  commenti: 2.441
 - [DfgRouGID1p](DfgRouGID1p/report.md) — autore: MemoryPrint.us  ·  data: 20261109 · views: -  ·  like: 15.833  ·  commenti: 1.034
 - [Daf2I_LxmzJ](Daf2I_LxmzJ/report.md) — autore: Ofertas da Florzinha  ·  data: 20260707 · views: -  ·  like: 321.445  ·  commenti: 28.164
+- [DVdPZhDDi0G](DVdPZhDDi0G/report.md) — autore: CozyCo  ·  data: 20260304 · views: -  ·  like: 2.596.578  ·  commenti: 9.087
