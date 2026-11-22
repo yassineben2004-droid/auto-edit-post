@@ -786,7 +786,7 @@ reel:
   # Ricrea il reel "Do NOT show this to a christmas mom" (negozio → acqua → olio → tasto: fiamma+vapore → sera → macro).
   # A = hook ragazza al negozio (pan di zenzero) · B = copia fedele del competitor col Babbo Natale.
   # em_*_spento = diffusore spento al negozio (versione corretta) · em_*_acceso = prima versione (già acceso)
-  # Audio del reel competitor: pagine/donidinatale/audio/embermist_natale.m4a
+  # Audio del reel competitor: pagine/donidinatale/audio/embermist_natale.m4a (fisso in ricetta, peso 0.001 in rotazione)
   # ═══════════════════════════════════════════════════════════════
 
   - nome: em01_negozio_spento
