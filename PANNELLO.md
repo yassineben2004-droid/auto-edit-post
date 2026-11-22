@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 22/11/2026 14:34
+Aggiornato: 22/11/2026 14:50
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,18 +10,19 @@ Aggiornato: 22/11/2026 14:34
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 43 | 10.8 gg | dom 18:30 | 11-22 12:45 ✅ | 18 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 1 | 0.5 gg | dom 15:30 | 11-21 22:30 ✅ | 11 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 18 | 4.5 gg | dom 18:30 | 11-22 12:45 ✅ | 27 pubblicati, 1 saltati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 7 | 0.7 gg | dom 14:45 | 11-22 13:00 ✅ | 59 pubblicati, 11 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 6 | 0.6 gg | dom 16:30 | 11-22 14:45 ✅ | 59 pubblicati, 11 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **BottiZero**: coda quasi finita (3 video ≈ 0.8 giorni)
 - **Ciabatte Pazze**: coda quasi finita (2 video ≈ 0.3 giorni)
 - **Insegnia**: coda quasi finita (1 video ≈ 0.5 giorni)
-- **PijamaMania**: coda quasi finita (7 video ≈ 0.7 giorni)
+- **PijamaMania**: coda quasi finita (6 video ≈ 0.6 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-22 14:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgC88NAFfn3/ |
 | 2026-11-22 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgC7CUsFUni/ · FB: https://www.facebook.com/reel/2038478370059514 |
 | 2026-11-22 13:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgCwvUCjeZ_/ |
 | 2026-11-22 12:45 | Luce di Fede | inserito: DfoYCD4hnZI.m4a | https://www.instagram.com/reel/DgCvRpOCRj1/ |
@@ -41,4 +42,3 @@ Aggiornato: 22/11/2026 14:34
 | 2026-11-21 22:30 | Insegnia | - | https://www.instagram.com/reel/DgBMxo8lael/ · FB: https://www.facebook.com/reel/2066976007303173 |
 | 2026-11-21 21:00 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgBDGThDbbh/ |
 | 2026-11-21 21:00 | Luce di Fede | inserito: voce_it+Df29cLNtRov.m4a | https://www.instagram.com/reel/DgBDCdRl1fU/ |
-| 2026-11-21 21:00 | Doni di Natale | inserito: DfZ_7-fJC7N.m4a | https://www.instagram.com/reel/DgBC8F-hYwE/ · FB: https://www.facebook.com/reel/2882886622125998 |
