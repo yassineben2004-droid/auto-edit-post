@@ -31,7 +31,7 @@ caption:
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio)
 audio_inseriti:
   comuni: false                   # pagina in inglese: niente libreria audio comune italiana
-  pesi: {"Df1rf6GtDi_.m4a": 6}   # audio del virale alldaylegs.co (Christmas)
+  pesi: {"Df1rf6GtDi_.m4a": 6, "Df3BIAXMvDv.m4a": 6}   # alldaylegs.co (Christmas) + virale "Nurses are so hard to shop for"
 
 # Musica di tendenza di Meta: spenta come sulle altre pagine (copre l'audio inserito)
 audio:
