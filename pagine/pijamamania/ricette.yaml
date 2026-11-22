@@ -932,7 +932,7 @@ reel:
   # ═══════════════════════════════════════════════════════════════
 
   - nome: sqh01_tagga_competitor
-    testo: "Tagga quella persona che userebbe\nsicuramente questo pigiama con te 👇🦈"
+    testo: "Tagga quella persona\nche userebbe sicuramente\nquesto pigiama con te 👇🦈"
     posizione: centro
     cta: "Commenta SQUALO per il link! 🦈"
     audio: VIRALE_squalo_3M6.mp3
@@ -984,7 +984,7 @@ reel:
     pezzi: [sqh_03_divano 0 3, sqh_01_pacco 0 3, sqh_02_specchio 0 3, sqh_04_cammina 0 3, sqh_05_spiaggiato 0 3]
 
   - nome: rana01_tagga_competitor
-    testo: "Tagga quella persona che userebbe\nsicuramente questo pigiama con te 👇🐸"
+    testo: "Tagga quella persona\nche userebbe sicuramente\nquesto pigiama con te 👇🐸"
     posizione: centro
     cta: "Commenta RANA per il link! 🐸"
     pezzi: &rana_pezzi [rana_01_pacco 0 3, rana_02_specchio 0 3, rana_03_divano 0 3, rana_04_cammina 0 3, rana_05_spiaggiato 0 3]
@@ -1032,3 +1032,48 @@ reel:
     posizione: centro
     cta: "Commenta RANA per il link! 🐸"
     pezzi: *rana_pezzi
+
+  # Varianti extra squalo/rana (22/11/2026 sera): comment bait, reverse psychology, dialogo scena per scena
+  - nome: sqh08_voto
+    testo: "Da 1 a 10 quanto è brutto\nil mio pigiama nuovo? 👇🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sqh_02_specchio 0 3, sqh_04_cammina 0 3, sqh_03_divano 0 3, sqh_05_spiaggiato 0 3]
+
+  - nome: sqh09_non_comprate
+    testo: "Non comprate questo pigiama\nse avete una vita sociale 😭🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: *sqh_pezzi
+
+  - nome: sqh10_lui_10sec
+    posizione: centro
+    pezzi: *sqh_pezzi
+    testi_scene:
+      - "Lui: un pigiama? Ma dai 🙄"
+      - "Lui 10 secondi dopo:"
+      - "Ha già convinto l'amico 😂"
+      - "Ormai è uno squalo 🦈"
+      - "Missione compiuta 🫠\nCommenta SQUALO per il link! 🦈"
+
+  - nome: rana08_voto
+    testo: "Da 1 a 10 quanto è brutto\nil mio pigiama nuovo? 👇🐸"
+    posizione: centro
+    cta: "Commenta RANA per il link! 🐸"
+    pezzi: [rana_02_specchio 0 3, rana_04_cammina 0 3, rana_03_divano 0 3, rana_05_spiaggiato 0 3]
+
+  - nome: rana09_non_comprate
+    testo: "Non comprate questo pigiama\nse avete una vita sociale 😭🐸"
+    posizione: centro
+    cta: "Commenta RANA per il link! 🐸"
+    pezzi: *rana_pezzi
+
+  - nome: rana10_lui_10sec
+    posizione: centro
+    pezzi: *rana_pezzi
+    testi_scene:
+      - "Lui: un pigiama? Ma dai 🙄"
+      - "Lui 10 secondi dopo:"
+      - "Ha già convinto l'amico 😂"
+      - "Ormai è una rana 🐸"
+      - "Missione compiuta 🫠\nCommenta RANA per il link! 🐸"
