@@ -22,18 +22,18 @@ facebook:
   orari: ["09:45", "13:00", "18:00", "21:00"]
 
 caption_cta:                      # caption = CTA diretta, per prodotto (prefisso del nome del reel montato)
-  sq: "Commenta SQUALO per ricevere l'offerta 🦈"
-  bb: "Commenta PANCIA per ricevere l'offerta 🍺"
-  ch: "Commenta STIVALI per ricevere l'offerta 👢"
-  gr: "Commenta GRINCH per ricevere l'offerta 💚"
-  pp: "Commenta POWERPUFF per ricevere l'offerta 💖"
-  dk: "Commenta PAPERA per ricevere l'offerta 🦆"
-  tart: "Commenta TARTARUGA per ricevere l'offerta 🐢"
-  demo: "Commenta DEMOGORGONE per ricevere l'offerta 👹"
-  stitch: "Commenta STITCH per ricevere l'offerta 💙"
-  dt: "Commenta DRAGO per ricevere l'offerta 🐉"
-  bg: "Commenta GIRLY per ricevere l'offerta 💖"
-  altro: "Commenta REGALO per ricevere l'offerta 🎁"
+  sq: "Link in Bio o Commenta SQUALO per ricevere l'offerta 🦈"
+  bb: "Link in Bio o Commenta PANCIA per ricevere l'offerta 🍺"
+  ch: "Link in Bio o Commenta STIVALI per ricevere l'offerta 👢"
+  gr: "Link in Bio o Commenta GRINCH per ricevere l'offerta 💚"
+  pp: "Link in Bio o Commenta POWERPUFF per ricevere l'offerta 💖"
+  dk: "Link in Bio o Commenta PAPERA per ricevere l'offerta 🦆"
+  tart: "Link in Bio o Commenta TARTARUGA per ricevere l'offerta 🐢"
+  demo: "Link in Bio o Commenta DEMOGORGONE per ricevere l'offerta 👹"
+  stitch: "Link in Bio o Commenta STITCH per ricevere l'offerta 💙"
+  dt: "Link in Bio o Commenta DRAGO per ricevere l'offerta 🐉"
+  bg: "Link in Bio o Commenta GIRLY per ricevere l'offerta 💖"
+  altro: "Link in Bio o Commenta REGALO per ricevere l'offerta 🎁"
 
 hashtag: "#regalodinatale #ideeregalo #natale2026 #pijamamania #perte"
 

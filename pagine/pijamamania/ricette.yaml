@@ -774,3 +774,153 @@ reel:
     posizione: centro
     cta: "Commenta GIRLY per il link! 🥹💖"
     pezzi: [bg_hf_b 0 12.1]
+
+  # ═══════════════════════════════════════════════════════════════
+  # SPINTA PIGIAMA BARBIE 22/11/2026 sera — split test testi/stili/audio sulle clip esistenti
+  # Set 1 (bg_01..05, reveal a 7,8 s = drop di Df1AKcmND2p "Barbie girl", audio principale)
+  # Set 2 (bg_hf_a/b, reveal a 3 s): 2 con Barbie girl, 4 con altri audio di tendenza
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: bg10a_giorno_notte
+    stile: tiktok
+    posizione: centro
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+    testi_scene:
+      - "Di giorno sembra un\npigiama normale… 💖"
+      - "Di giorno sembra un\npigiama normale… 💖"
+      - "Di giorno sembra un\npigiama normale… 💖"
+      - "…ma di notte 😳✨"
+      - "Commenta GIRLY per il link! 🥹💖"
+
+  - nome: bg10b_fidanzato
+    stile: tiktok_regular
+    posizione: centro
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+    testi_scene:
+      - "Lui: \"è solo un pigiama\" 🙄"
+      - "Lui: \"è solo un pigiama\" 🙄"
+      - "Lui: \"è solo un pigiama\" 🙄"
+      - "Il pigiama al buio: 😳💖"
+      - "Commenta GIRLY per il link! 🥹💖"
+
+  - nome: bg10c_aspetta
+    testo: "Aspetta che spenga\nla luce… 😳💖"
+    stile: tiktok_regular
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi:                     # teaser del buio in apertura, il reveal resta sul drop (7,8 s)
+      - bg_04_buio_reveal 1.5 2.5
+      - bg_01_letto 0 2
+      - bg_02_abbottona 0 2.8
+      - bg_03_selfie_luce 0 2
+      - bg_04_buio_reveal 0 3
+      - bg_05_stampa_luminosa 0 1.8
+
+  - nome: bg11a_natale_lei
+    testo: "Regalo di Natale per lei?\nFidati 💖🎄"
+    stile: classico
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg11b_amiche
+    testo: "Le mie amiche quando hanno visto\nil mio pigiama al buio 😳"
+    stile: tiktok
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg11c_inverno
+    testo: "Ogni Barbie girl ne ha\nbisogno quest'inverno 💖❄️"
+    stile: tiktok_regular
+    posizione: 0.58
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg11d_pov_luce
+    testo: "POV: spegni la luce\nin camera 💡😳"
+    stile: tiktok
+    posizione: 0.58
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg11e_party
+    testo: "Pigiama party\nma fatto bene 💖✨"
+    stile: classico
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg11f_davvero
+    testo: "Si illumina DAVVERO\nal buio 😳💖"
+    stile: tiktok
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg11g_impazzire
+    testo: "Questo pigiama mi ha\nfatto impazzire 😭💖"
+    stile: tiktok_regular
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: *bg_pezzi
+
+  - nome: bg12a_stasera
+    testo: "Io quando spengo la luce\nin camera stasera 😏💖"
+    stile: tiktok
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: De9mXGYxfUc.m4a
+    pezzi: [bg_hf_a 0 12.1]
+
+  - nome: bg12b_party_luce
+    stile: tiktok_regular
+    posizione: centro
+    audio: Dfs2ZdTMnGw.m4a
+    pezzi: [bg_hf_b 0 3, bg_hf_b 3 12.1]
+    testi_scene:
+      - "Pigiama party con\nle amiche… 💖"
+      - "…poi qualcuno spegne\nla luce 😳✨\nCommenta GIRLY per il link! 🥹💖"
+
+  - nome: bg12c_accesa_spenta
+    stile: tiktok
+    posizione: centro
+    audio: Dfv1Hs6umL4.m4a
+    pezzi: [bg_hf_a 0 3, bg_hf_a 3 12.1]
+    testi_scene:
+      - "Luce accesa:\npigiama carino 💖"
+      - "Luce spenta: 😳✨\nCommenta GIRLY per il link! 🥹💖"
+
+  - nome: bg12d_tagga_party
+    testo: "Tagga chi deve venire\nal pigiama party 💖👇"
+    stile: classico
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: DfN_bzwinf5.m4a
+    pezzi: [bg_hf_b 0 12.1]
+
+  - nome: bg12e_regalo_ragazza
+    testo: "Il regalo che vuole ogni\nragazza quest'inverno 💖🎁"
+    stile: tiktok_regular
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: [bg_hf_a 0 12.1]
+
+  - nome: bg12f_amiche_buio
+    testo: "Le amiche quando\nspegni la luce 😳💖"
+    stile: tiktok
+    posizione: 0.58
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    audio: Df1AKcmND2p.m4a
+    pezzi: [bg_hf_b 0 12.1]
