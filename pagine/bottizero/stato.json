@@ -396,7 +396,18 @@
     "bottizero-00021",
     "bottizero-00022"
   ],
-  "scartati": {},
-  "errori": {},
+  "scartati": {
+    "bottizero-00029": "HTTP 400: {\"message\": \"Unsupported get request. Object with ID '1108952475288470' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\", \"type\": \"GraphMethodException"
+  },
+  "errori": {
+    "2026-11-22 08:15": [
+      {
+        "quando": "2026-11-22T08:17+01:00",
+        "video": "bottizero-00029",
+        "errore": "HTTP 400: {\"message\": \"Unsupported get request. Object with ID '1108952475288470' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\", \"type\": \"GraphMethodException\", \"code\": 100, \"error_subcode\": 33, \"fbtrace_id\": \"AXGAFlVUIpNq3N-8jmnCuc3\"}",
+        "temporaneo": false
+      }
+    ]
+  },
   "audio_usati": []
 }
