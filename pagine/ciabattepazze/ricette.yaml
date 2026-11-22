@@ -869,3 +869,238 @@ reel:
       - ../ciabattepazze_snug/s4_bottone 0 1.5
       - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
 
+
+  # --- 22/11/2026: 18 reel nuovi, alternati sui 3 prodotti (massaggiatore / riscaldate / a piede). Hook nel solco dei top per like+commenti: ms03 "non ditelo a mia madre", cr13 "le ho regalato", cr03 "non farle vedere a tua madre" ---
+  - nome: ms19_mamma_non_deve_vedere
+    testo: "Mia madre non deve vedere questo video 🤫"
+    posizione: 0.42
+    cta: "Commenta PIEDI se lo vuoi anche tu 🦶✨"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/05_figlio_nasconde 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/06_mamma_caffe_ride 0 3.0
+
+  - nome: ms20_natale_vinco_io
+    testo: "Quest'anno a Natale vinco io 😎🎁"
+    posizione: 0.42
+    cta: "Commenta PIEDI se lo vuoi anche tu 🦶✨"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/05_figlio_nasconde 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/06_mamma_caffe_ride 0 3.0
+
+  - nome: ms21_non_le_serve_niente
+    testo: "Mia madre dice sempre che non le serve niente… 🙄"
+    posizione: 0.42
+    cta: "Commenta PIEDI se lo vuoi anche tu 🦶✨"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/03_mamma_apre_pacco 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/04_mamma_relax_divano 0 3.0
+
+  - nome: ms22_non_sa_di_volere
+    testo: "Il regalo che mia madre non sa di volere 🥹"
+    posizione: 0.42
+    cta: "Commenta PIEDI se lo vuoi anche tu 🦶✨"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/03_mamma_apre_pacco 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/04_mamma_relax_divano 0 3.0
+
+  - nome: ms23_nascosto_armadio
+    testo: "Ho nascosto il regalo di mamma nell'armadio 🤫"
+    posizione: 0.42
+    cta: "Commenta PIEDI se lo vuoi anche tu 🦶✨"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/05_figlio_nasconde 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/06_mamma_caffe_ride 0 3.0
+
+  - nome: ms24_sempre_in_piedi
+    testo: "Per la mamma che sta in piedi tutto il giorno 🥲"
+    posizione: 0.42
+    cta: "Commenta PIEDI se lo vuoi anche tu 🦶✨"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/03_mamma_apre_pacco 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/04_mamma_relax_divano 0 3.0
+
+  - nome: cr25_nonna_te_le_chiede
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Non farle vedere a tua nonna o te le chiede 😭"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr26_guarda_faccia
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Le ho regalato delle ciabatte… guarda la sua faccia 🥹"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c10_regalo_scettica 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr27_scopre_che_scaldano
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Quando tua madre scopre che si scaldano 😳🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr28_piedi_freddi_regalo
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Il regalo per chi ha sempre i piedi freddi 🎁❄️"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c10_regalo_scettica 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr29_madre_le_ha_rubate
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Mia madre me le ha rubate dopo 5 minuti 😭"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_snug/s1_caffe_cade 0 3.04
+      - ../ciabattepazze_snug/s2_apre_scatola 1 3
+      - ../ciabattepazze_snug/s3_infila 0 1.8
+      - ../ciabattepazze_snug/s4_bottone 0 1.5
+      - ../ciabattepazze_snug/s5_divano_gatto 0 3.04
+
+  - nome: cr30_sotto_albero
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Le ciabatte che tutte vogliono sotto l'albero 🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cp46_papa_piu_brutte
+    testo: "Ho regalato a mio padre le ciabatte più assurde d'Italia 😂"
+    posizione: 0.58
+    cta: "Non le toglie più 🦶😂"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_regalo/v1_regalo 0 3.0
+      - ../ciabattepazze_regalo/v2_prova 0 3.0
+      - ../ciabattepazze_regalo/v3_cucina 0 3.0
+      - ../ciabattepazze_regalo/v4_strada 0 3.0
+
+  - nome: cp47_secret_santa
+    testo: "Secret Santa in ufficio? Ci penso io 😈🎁"
+    posizione: 0.58
+    cta: "Il collega non mi parla più 😂"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_nov/n1_unboxing 0 3.0
+      - ../ciabattepazze_nov/n2_squishy 0 3.0
+      - r3_bar 0 3.0
+
+  - nome: cp48_regalo_zio
+    testo: "Quando trovi il regalo perfetto per lo zio 😂"
+    posizione: 0.58
+    cta: "Il pranzo di Natale è salvo 🦶"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_39anni/v1_corsia 0 3.0
+      - ../ciabattepazze_39anni/v2_scaffale 0 3.0
+      - ../ciabattepazze_39anni/v3_casa 0 3.0
+
+  - nome: cp49_mamma_no
+    testo: "Regalo per tuo padre: lui ride, tu ridi, la mamma no 😂"
+    posizione: 0.58
+    cta: "Commenta CIABATTE se ne vuoi un paio 🦶"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_regalo/v1_regalo 0 3.0
+      - ../ciabattepazze_regalo/v2_prova 0 3.0
+      - ../ciabattepazze_regalo/v3_cucina 0 3.0
+      - ../ciabattepazze_regalo/v4_strada 0 3.0
+
+  - nome: cp50_scherzo_natale
+    testo: "Lo scherzo di Natale che funziona sempre 😂🎁"
+    posizione: 0.58
+    cta: "Anche il cane è rimasto scioccato 🐶"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_nov/n1_unboxing 0 3.0
+      - ../ciabattepazze_nov/n2_squishy 0 3.0
+      - ../ciabattepazze_nov/n3_cane 0 3.0
+
+  - nome: cp51_fratello
+    testo: "Regalo di Natale per mio fratello: fatto ✅"
+    posizione: 0.58
+    cta: "Ora esce solo così 😂🦶"
+    cta_posizione: 0.58
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_regalo/v1_regalo 0 3.0
+      - ../ciabattepazze_regalo/v2_prova 0 3.0
+      - r2_supermercato 0 3.0
+      - r3_bar 0 3.0
+
