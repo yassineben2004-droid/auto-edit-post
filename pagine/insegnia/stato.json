@@ -166,7 +166,8 @@
   ],
   "scartati": {
     "insegnia-00004": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}",
-    "insegnia-00006": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}"
+    "insegnia-00006": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}",
+    "insegnia-00014": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}"
   },
   "errori": {
     "2026-11-16 15:30": [
@@ -200,6 +201,14 @@
         "quando": "2026-11-16T21:59+01:00",
         "video": "insegnia-00001",
         "errore": "HTTP 400: {\"message\": \"(#10) Requires instagram_content_publish permission to manage the object\", \"code\": 10, \"type\": \"OAuthException\", \"fbtrace_id\": \"A72emuC-0MzW1C7VQBa_q5c\"}",
+        "temporaneo": false
+      }
+    ],
+    "2026-11-22 15:30": [
+      {
+        "quando": "2026-11-22T15:35+01:00",
+        "video": "insegnia-00014",
+        "errore": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}",
         "temporaneo": false
       }
     ]
