@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 22/11/2026 22:49
+Aggiornato: 22/11/2026 23:27
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 22/11/2026 22:49
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 24 | 6.0 gg | lun 08:15 | 11-22 21:00 ✅ | 20 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | lun 15:30 | 11-22 22:30 ⚠ coda_vuota | 11 pubblicati, 4 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 16 | 4.0 gg | lun 08:15 | 11-22 21:00 ✅ | 27 pubblicati, 1 saltati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 25 | 2.5 gg | lun 08:00 | 11-22 22:30 ✅ | 59 pubblicati, 11 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 45 | 4.5 gg | lun 08:00 | 11-22 22:30 ✅ | 59 pubblicati, 11 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
