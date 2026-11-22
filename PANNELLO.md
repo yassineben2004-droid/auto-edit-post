@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 22/11/2026 00:02
+Aggiornato: 22/11/2026 01:33
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 13 | 4.3 gg | dom 01:30 | 11-21 19:30 ✅ | 8 pubblicati |
+| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 12 | 4.0 gg | dom 14:30 | 11-22 01:30 ✅ | 9 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 6 | 1.5 gg | dom 08:15 | 11-21 21:00 ✅ | 19 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 5 | 0.8 gg | dom 08:15 | 11-21 21:00 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 41 | 10.2 gg | dom 08:15 | 11-21 21:00 ✅ | 16 pubblicati |
@@ -22,6 +22,7 @@ Aggiornato: 22/11/2026 00:02
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-22 01:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgBho7TipZa/ · FB: https://www.facebook.com/reel/1915327409881359 |
 | 2026-11-21 22:30 | PijamaMania | inserito: tt_7366328334118096133_barsong.m4a | https://www.instagram.com/reel/DgBM4xuFSyw/ |
 | 2026-11-21 22:30 | Insegnia | - | https://www.instagram.com/reel/DgBMxo8lael/ · FB: https://www.facebook.com/reel/2066976007303173 |
 | 2026-11-21 21:00 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgBDGThDbbh/ |
@@ -41,4 +42,3 @@ Aggiornato: 22/11/2026 00:02
 | 2026-11-21 15:30 | Ciabatte Pazze | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DgAc-AjkXRQ/ · FB: https://www.facebook.com/reel/1799948301282522 |
 | 2026-11-21 14:45 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgAX1ULCnVR/ |
 | 2026-11-21 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgAWL2YlQgs/ · FB: https://www.facebook.com/reel/1474090335786275 |
-| 2026-11-21 13:00 | PijamaMania | inserito: tt_7324039866268912902_mitski.m4a | https://www.instagram.com/reel/DgALzKgk_YQ/ |
