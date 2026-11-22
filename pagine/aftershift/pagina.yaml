@@ -10,7 +10,7 @@ elimina_dopo: true
 # ORARI FISSI (ora italiana) pensati per gli USA:
 # 14:30 = mattina East Coast, 19:30 = pranzo/pausa, 01:30 = sera dopo il turno East Coast / pomeriggio West Coast
 orari:
-  ogni_giorno: ["14:30", "19:30", "01:30"]
+  ogni_giorno: ["11:45", "14:30", "16:45", "19:30", "22:15", "01:30", "03:15"]   # 7 al giorno dal 22/11 (prima 3)
 
 # ANCHE SU FACEBOOK: lo stesso reel esce anche come Reel sulla Pagina Facebook collegata.
 facebook:
