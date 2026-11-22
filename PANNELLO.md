@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 22/11/2026 22:05
+Aggiornato: 22/11/2026 22:21
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 03:15, 11:45, 14:30, 16:45, 19:30, 22:15 | 7 | 22 | 3.1 gg | dom 22:15 | 11-22 19:30 ✅ | 11 pubblicati, 8 saltati |
+| AfterShift | ✅ attiva · IG | 01:30, 03:15, 11:45, 14:30, 16:45, 19:30, 22:15 | 7 | 21 | 3.0 gg | lun 01:30 | 11-22 22:15 ✅ | 12 pubblicati, 8 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 1 | 0.2 gg | lun 08:15 | 11-22 21:00 ✅ | 20 pubblicati, 8 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 18 | 3.0 gg | lun 08:15 | 11-22 21:00 ⚠ coda_vuota | 40 pubblicati, 2 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 24 | 6.0 gg | lun 08:15 | 11-22 21:00 ✅ | 20 pubblicati |
@@ -20,6 +20,7 @@ Aggiornato: 22/11/2026 22:05
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-22 22:15 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgDwdcEEdy_/ · FB: https://www.facebook.com/reel/2034821113845053 |
 | 2026-11-22 21:00 | PijamaMania | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DgDo34ijl7p/ |
 | 2026-11-22 21:00 | Luce di Fede | inserito: DfxwXrQpgSh.m4a | https://www.instagram.com/reel/DgDoz1SIaXY/ |
 | 2026-11-22 21:00 | Doni di Natale | inserito: DfxwXrQpgSh.m4a | https://www.instagram.com/reel/DgDorCnBAi3/ · FB: https://www.facebook.com/reel/1718915999600948 |
@@ -39,4 +40,3 @@ Aggiornato: 22/11/2026 22:05
 | 2026-11-22 12:45 | Luce di Fede | inserito: DfoYCD4hnZI.m4a | https://www.instagram.com/reel/DgCvRpOCRj1/ |
 | 2026-11-22 12:45 | Doni di Natale | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgCvKxOzVzm/ · FB: https://www.facebook.com/reel/4643466992603455 |
 | 2026-11-22 12:45 | Ciabatte Pazze | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/DgCvB76E6R8/ · FB: https://www.facebook.com/reel/1820050812612177 |
-| 2026-11-22 12:45 | BottiZero | inserito: rif_fuochi_19M.m4a | https://www.facebook.com/reel/1331721609041228 |
