@@ -780,3 +780,77 @@ reel:
     cta_secondi: 3.0
     audio: stampa_voce_A.m4a
     pezzi: *stamp_pezzi
+
+  # ═══════════════════════════════════════════════════════════════
+  # EMBERMIST — diffusore a falò natalizio (pan di zenzero / Babbo Natale), clip Higgsfield 22/11/2026
+  # Ricrea il reel "Do NOT show this to a christmas mom" (negozio → acqua → olio → tasto: fiamma+vapore → sera → macro).
+  # A = hook ragazza al negozio (pan di zenzero) · B = copia fedele del competitor col Babbo Natale.
+  # em_*_spento = diffusore spento al negozio (versione corretta) · em_*_acceso = prima versione (già acceso)
+  # Audio del reel competitor: pagine/donidinatale/audio/embermist_natale.m4a
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: em01_negozio_spento
+    testo: "Quando al negozio trovi QUESTO a Natale 😱"
+    posizione: 0.6
+    cta: Commenta FUOCO se lo vuoi 🔥
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: embermist_natale.m4a
+    pezzi:
+    - em_a1_spento 0 4.2
+    - em_a2_acqua 0.3 1.7
+    - em_a3_olio 0.3 1.7
+    - em_a4_accende 0.2 2.2
+    - em_a5_sera 0.3 1.9
+    - em_a6_coppia 0.3 1.9
+    - em_a7_macro 0.5 2.3
+
+  - nome: em02_negozio_acceso
+    testo: "Lei quando ha visto il falò di pan di zenzero 😂🎄"
+    posizione: 0.6
+    cta: Commenta FUOCO se lo vuoi 🔥
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: embermist_natale.m4a
+    pezzi:
+    - em_a1_acceso 0 3.8
+    - em_a2_acqua 0.3 1.7
+    - em_a3_olio 0.3 1.7
+    - em_a4_accende 0.2 2.2
+    - em_a5_sera 0.3 1.9
+    - em_a6_coppia 0.3 1.9
+    - em_a7_macro 0.5 2.3
+
+  - nome: em03_babbo_spento
+    testo: "NON fate vedere questo a una mamma fissata col Natale 🥹🎄"
+    posizione: 0.6
+    cta: Commenta FUOCO se lo vuoi 🔥
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: embermist_natale.m4a
+    pezzi:
+    - em_b1_spento 0 1.8
+    - em_b2_tronchi 0.3 1.7
+    - em_b3_acqua 0.3 1.7
+    - em_b4_olio 0.3 1.7
+    - em_b5_accende 0.2 2.2
+    - em_b6_sera 0.3 1.9
+    - em_b7_tazza 0.3 1.7
+    - em_b8_macro 0.5 2.1
+
+  - nome: em04_babbo_acceso
+    testo: "Se sei una mamma che ama il Natale NON guardare... 🥹🎅"
+    posizione: 0.6
+    cta: Commenta FUOCO se lo vuoi 🔥
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: embermist_natale.m4a
+    pezzi:
+    - em_b1_acceso 0 1.8
+    - em_b2_tronchi 0.3 1.7
+    - em_b3_acqua 0.3 1.7
+    - em_b4_olio 0.3 1.7
+    - em_b5_accende 0.2 2.2
+    - em_b6_sera 0.3 1.9
+    - em_b7_tazza 0.3 1.7
+    - em_b8_macro 0.5 2.1

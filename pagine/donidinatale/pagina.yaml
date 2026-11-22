@@ -19,13 +19,14 @@ orari:
 caption_cta:                      # caption = CTA diretta, per prodotto (prefisso nome clip)
   altro: "Commenta NATALE per ricevere l'offerta 🎄"
   stamp: "Commenta STAMPA per ricevere l'offerta 📸"
+  em: "Commenta FUOCO per ricevere l'offerta 🔥"
 
 hashtag: "#donidinatale #natale #natale2026 #regalodinatale #ideeregalo #luciditale #decorazioninatalizie #atmosferanatalizia"
 caption: []                       # da compilare con le caption del brand
 
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio)
 audio_inseriti:
-  pesi: {"DfxwXrQpgSh.m4a": 10, "DfxfzLtKSwL.m4a": 10, "stampa_voce_A.m4a": 0.001, "stampa_voce_B.m4a": 0.001}   # stampa_voce_*: solo per i reel stampante (ricette), mai a rotazione   # audio dei 2 reel virali: copridivano (Rockin' Around, drop a 8s) e proiettore (drop a 5,6s)
+  pesi: {"DfxwXrQpgSh.m4a": 10, "DfxfzLtKSwL.m4a": 10, "stampa_voce_A.m4a": 0.001, "stampa_voce_B.m4a": 0.001, "embermist_natale.m4a": 0.001}   # stampa_voce_*: solo per i reel stampante (ricette), mai a rotazione   # audio dei 2 reel virali: copridivano (Rockin' Around, drop a 8s) e proiettore (drop a 5,6s)
 
 audio:
   attivo: false                   # musica di tendenza spenta come sulle altre pagine (coprirebbe l'audio inserito)
