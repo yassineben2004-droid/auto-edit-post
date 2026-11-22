@@ -187,38 +187,44 @@ reel:
   # --- Infermiera USA, ricreato reel virale "Nurses are so hard to shop for" (22/11/2026) ---
   # c4_nurse_gift: negozio → unboxing → prodotto (drop) → l'amica glielo mette → render 3D airbag/calore → relax (13.7s)
   - nome: as28_nurse_shopfor
-    testo: "Nurses are so hard to shop for 😮‍💨"
+    testo: "Nurses are so hard to shop for 😭"
     posizione: 0.58
     cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [c4_nurse_gift 0 13.7]
+    audio: "Df3BIAXMvDv.m4a"
   - nome: as29_nurse_bestgift
     testo: "Best gift I got my nurse bestie this Christmas 🎄🩺"
     posizione: 0.58
     cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [c4_nurse_gift 0 13.7]
+    audio: "Df3BIAXMvDv.m4a"
   - nome: as30_nurse_3twelves
     testo: "3 twelves in a row… then this 🥹"
     posizione: 0.58
     cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [c4_nurse_gift 0 13.7]
+    audio: "Df3BIAXMvDv.m4a"
   - nome: as31_nurse_found
     testo: "Finally found a gift for my nurse friend 😭💗"
     posizione: 0.58
     cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [c4_nurse_gift 0 13.7]
+    audio: "Df3BIAXMvDv.m4a"
   - nome: as32_nurse_whatsheneeds
     testo: "What nurses actually want for Christmas 🎁"
     posizione: 0.58
     cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [c4_nurse_gift 0 13.7]
+    audio: "Df3BIAXMvDv.m4a"
   - nome: as33_nurse_reaction
-    testo: "Her face when the heat kicked in 😮‍💨🔥"
+    testo: "Her face when the heat kicked in 🔥🥹"
     posizione: 0.58
     cta: "Comment SHIFT for the link 🎁"
     cta_secondi: 3
     pezzi: [c4_nurse_gift 0 13.7]
+    audio: "Df3BIAXMvDv.m4a"
