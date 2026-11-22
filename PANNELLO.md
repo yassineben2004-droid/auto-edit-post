@@ -1,23 +1,23 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 22/11/2026 11:38
+Aggiornato: 22/11/2026 12:33
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 12 | 4.0 gg | dom 14:30 | 11-22 01:30 ✅ | 9 pubblicati |
+| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 18 | 6.0 gg | dom 14:30 | 11-22 01:30 ✅ | 9 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 4 | 1.0 gg | dom 12:45 | 11-22 08:15 ✅ | 19 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 3 | 0.5 gg | dom 12:45 | 11-22 10:45 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 40 | 10.0 gg | dom 12:45 | 11-22 08:15 ✅ | 17 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 1 | 0.5 gg | dom 15:30 | 11-21 22:30 ✅ | 11 pubblicati, 2 saltati |
-| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 15 | 3.8 gg | dom 12:45 | 11-22 08:15 ✅ | 27 pubblicati, 1 saltati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 2 | 0.2 gg | dom 13:00 | 11-22 11:30 ✅ | 59 pubblicati, 11 saltati |
+| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 19 | 4.8 gg | dom 12:45 | 11-22 08:15 ✅ | 27 pubblicati, 1 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 8 | 0.8 gg | dom 13:00 | 11-22 11:30 ✅ | 59 pubblicati, 11 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **BottiZero**: coda quasi finita (4 video ≈ 1.0 giorni)
 - **Ciabatte Pazze**: coda quasi finita (3 video ≈ 0.5 giorni)
 - **Insegnia**: coda quasi finita (1 video ≈ 0.5 giorni)
-- **PijamaMania**: coda quasi finita (2 video ≈ 0.2 giorni)
+- **PijamaMania**: coda quasi finita (8 video ≈ 0.8 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
