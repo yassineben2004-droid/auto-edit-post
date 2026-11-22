@@ -16,6 +16,10 @@ facebook:
 orari:
   ogni_giorno: ["08:15", "12:45", "18:30", "21:00"]
 
+# PRODOTTI SOSPESI: i video dei reel montati che iniziano con questi prefissi restano in coda ma NON escono.
+# 22/11/2026: proiettore ologrammi (pr) sospeso in attesa della risposta del fornitore → per riattivarlo togli "pr".
+sospesi: ["pr"]
+
 caption_cta:                      # caption = CTA diretta, per prodotto (prefisso nome clip)
   altro: "Commenta NATALE per ricevere l'offerta 🎄"
   stamp: "Commenta STAMPA per ricevere l'offerta 📸"

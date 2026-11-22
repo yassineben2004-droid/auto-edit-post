@@ -134,10 +134,19 @@ def chiave(t):
     return t.strftime("%Y-%m-%d %H:%M")
 
 
+def sospeso(pag, r):
+    """True se il video viene da un reel montato il cui nome inizia con un prefisso in `sospesi` (pagina.yaml):
+    resta in coda ma non si pubblica finché il prefisso non viene tolto (es. prodotto in attesa del fornitore)."""
+    pref = [str(x) for x in (pag.get("sospesi") or [])]
+    stem = Path(r.get("origine", "")).stem
+    return any(stem.startswith(x) for x in pref)
+
+
 def prossimo_video(nome, coda, st):
     usati = set(st["usati"]) | set(st.get("scartati", {}))
+    pag = cfg_pagina(nome)
     for r in coda:
-        if r["id"] not in usati and (PAGINE / nome / "coda" / r["file"]).exists():
+        if r["id"] not in usati and not sospeso(pag, r) and (PAGINE / nome / "coda" / r["file"]).exists():
             return r
     return None
 
@@ -334,7 +343,8 @@ def pannello(stampa=True):
     for nome in elenco_pagine():
         pag, st, coda = cfg_pagina(nome), leggi_stato(nome), leggi_coda(nome)
         usati = set(st["usati"]) | set(st.get("scartati", {}))
-        in_coda = [r for r in coda if r["id"] not in usati and (PAGINE / nome / "coda" / r["file"]).exists()]
+        in_coda = [r for r in coda if r["id"] not in usati and not sospeso(pag, r)
+                   and (PAGINE / nome / "coda" / r["file"]).exists()]
         oggi = orari_del_giorno(pag, adesso.date())
         al_giorno = len(oggi) or 1
         da = adesso
