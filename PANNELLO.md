@@ -1,16 +1,16 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 22/11/2026 19:04
+Aggiornato: 22/11/2026 19:35
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 17 | 5.7 gg | dom 19:30 | 11-22 14:30 ✅ | 10 pubblicati |
+| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 16 | 5.3 gg | lun 01:30 | 11-22 19:30 ✅ | 11 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 2 | 0.5 gg | dom 21:00 | 11-22 18:30 ✅ | 19 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 0 | 0.0 gg | dom 21:00 | 11-22 18:30 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 42 | 10.5 gg | dom 21:00 | 11-22 18:30 ✅ | 19 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | dom 22:30 | 11-22 15:30 ⚠ coda_vuota | 11 pubblicati, 3 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 17 | 4.2 gg | dom 21:00 | 11-22 18:30 ✅ | 27 pubblicati, 1 saltati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 28 | 2.8 gg | dom 19:30 | 11-22 18:00 ✅ | 59 pubblicati, 11 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 27 | 2.7 gg | dom 21:00 | 11-22 19:30 ✅ | 59 pubblicati, 11 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -21,6 +21,8 @@ Aggiornato: 22/11/2026 19:04
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-22 19:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgDdkbSlcWQ/ |
+| 2026-11-22 19:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgDdcm0FZXT/ · FB: https://www.facebook.com/reel/2394809594674287 |
 | 2026-11-22 18:30 | Luce di Fede | inserito: Dfs2ZdTMnGw.m4a | https://www.instagram.com/reel/DgDW4xQEsqR/ |
 | 2026-11-22 18:30 | Doni di Natale | inserito: embermist_natale.m4a | https://www.instagram.com/reel/DgDWxp3yd_M/ · FB: https://www.facebook.com/reel/2458337748268404 |
 | 2026-11-22 18:30 | Ciabatte Pazze | inserito: De4UoomsP0B.m4a | https://www.instagram.com/reel/DgDWqFzkp1q/ · FB: https://www.facebook.com/reel/1629908495039229 |
@@ -39,5 +41,3 @@ Aggiornato: 22/11/2026 19:04
 | 2026-11-22 10:45 | Ciabatte Pazze | inserito: DfXJfGTRPnC.m4a | https://www.instagram.com/reel/DgChG_aoLl2/ · FB: https://www.facebook.com/reel/1675918730987653 |
 | 2026-11-22 09:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgCaU4vEtsH/ |
 | 2026-11-22 08:15 | Luce di Fede | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DgCQNUqE1ts/ |
-| 2026-11-22 08:15 | Doni di Natale | inserito: stampa_voce_A.m4a | https://www.instagram.com/reel/DgCQFITzkWS/ · FB: https://www.facebook.com/reel/1654297449670738 |
-| 2026-11-22 08:15 | Ciabatte Pazze | inserito: DeQ30juIto-.m4a | https://www.instagram.com/reel/DgCP_p3kyEV/ · FB: https://www.facebook.com/reel/2366801030756770 |
