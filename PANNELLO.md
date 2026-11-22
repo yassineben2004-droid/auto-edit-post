@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 22/11/2026 09:52
+Aggiornato: 22/11/2026 10:48
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 12 | 4.0 gg | dom 14:30 | 11-22 01:30 ✅ | 9 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 4 | 1.0 gg | dom 12:45 | 11-22 08:15 ✅ | 19 pubblicati, 9 saltati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 4 | 0.7 gg | dom 10:45 | 11-22 08:15 ✅ | 41 pubblicati, 1 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 3 | 0.5 gg | dom 12:45 | 11-22 10:45 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 40 | 10.0 gg | dom 12:45 | 11-22 08:15 ✅ | 17 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 1 | 0.5 gg | dom 15:30 | 11-21 22:30 ✅ | 11 pubblicati, 2 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 15 | 3.8 gg | dom 12:45 | 11-22 08:15 ✅ | 27 pubblicati, 1 saltati |
@@ -15,13 +15,14 @@ Aggiornato: 22/11/2026 09:52
 
 ## ⚠ Da guardare
 - **BottiZero**: coda quasi finita (4 video ≈ 1.0 giorni)
-- **Ciabatte Pazze**: coda quasi finita (4 video ≈ 0.7 giorni)
+- **Ciabatte Pazze**: coda quasi finita (3 video ≈ 0.5 giorni)
 - **Insegnia**: coda quasi finita (1 video ≈ 0.5 giorni)
 - **PijamaMania**: coda quasi finita (3 video ≈ 0.3 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-22 10:45 | Ciabatte Pazze | inserito: DfXJfGTRPnC.m4a | https://www.instagram.com/reel/DgChG_aoLl2/ · FB: https://www.facebook.com/reel/1675918730987653 |
 | 2026-11-22 09:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgCaU4vEtsH/ |
 | 2026-11-22 08:15 | Luce di Fede | inserito: De9-6_5vUNU.m4a | https://www.instagram.com/reel/DgCQNUqE1ts/ |
 | 2026-11-22 08:15 | Doni di Natale | inserito: stampa_voce_A.m4a | https://www.instagram.com/reel/DgCQFITzkWS/ · FB: https://www.facebook.com/reel/1654297449670738 |
@@ -41,4 +42,3 @@ Aggiornato: 22/11/2026 09:52
 | 2026-11-21 18:30 | Luce di Fede | inserito: voce_it+Df29cLNtRov.m4a | https://www.instagram.com/reel/DgAx3zukQLm/ |
 | 2026-11-21 18:30 | Doni di Natale | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgAxxCWRYNx/ · FB: https://www.facebook.com/reel/1466029354971133 |
 | 2026-11-21 18:30 | Ciabatte Pazze | inserito: DfcePltxWpz.m4a | https://www.instagram.com/reel/DgAxrFpkYxu/ · FB: https://www.facebook.com/reel/2188882325385005 |
-| 2026-11-21 18:30 | BottiZero | inserito: De2eB4GxCRg.m4a | https://www.facebook.com/reel/2495573494184458 |
