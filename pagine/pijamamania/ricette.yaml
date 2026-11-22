@@ -731,3 +731,46 @@ reel:
     cta: "Commenta GIRLY per il link! 🥹💖"
     audio: Df1AKcmND2p.m4a
     pezzi: *bg_pezzi
+
+  # ═══════════════════════════════════════════════════════════════
+  # PIGIAMA BARBIE LUMINOSO — nuovi reel Higgsfield 22/11/2026 (testi dei virali @rosyblink_)
+  # bg_hf_a: ragazza sola, interruttore → buio → selfie → letto (12.1s, reveal a 3s)
+  # bg_hf_b: pigiama party 3 amiche → buio → selfie → letto (12.1s, reveal a 3s)
+  # audio a rotazione (il drop dell'audio competitor è a ~7s, qui il reveal è a 3s)
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: bg06a_spegni
+    testo: "Spegni la luce e guarda\ncosa succede...💖✨"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_a 0 12.1]
+
+  - nome: bg06b_barbiegirl
+    testo: "NON far vedere questo\na una Barbie girl...💖👠"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_a 0 12.1]
+
+  - nome: bg06c_esiste
+    testo: "Il pigiama che si illumina\nal buio esiste davvero 😳💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_a 0 12.1]
+
+  - nome: bg07a_party
+    testo: "POV: pigiama party e\nqualcuno spegne la luce 😳💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_b 0 12.1]
+
+  - nome: bg07b_nonguardare
+    testo: "Se sei una Barbie girl\nNON guardare...💖👠"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_b 0 12.1]
+
+  - nome: bg07c_tagga
+    testo: "Tagga le amiche del\npigiama party 💖👇"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_b 0 12.1]

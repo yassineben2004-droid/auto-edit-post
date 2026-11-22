@@ -472,3 +472,28 @@ reel:
       - c3_croce_accesa_casa 0 3.04
       - s3_orbita 0 2
       - m3_nativita 2 4.04
+
+  # --- Nuovo reel Higgsfield 22/11/2026: nonna apre il regalo → croce accesa (r2_nonna_regalo, 15.1s) ---
+  - nome: lf50_scatola_pianto
+    testo: "Ha aperto la scatola e ha pianto 🥹✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi: [r2_nonna_regalo 0 15.1]
+
+  - nome: lf51_non_nonna
+    testo: "Non fatelo vedere alla nonna ✝️👼"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi: [r2_nonna_regalo 0 15.1]
+
+  - nome: lf52_regalo_perfetto
+    testo: "Il regalo perfetto per un cristiano non esist- ✝️😇"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi: [r2_nonna_regalo 0 15.1]
+
+  - nome: lf53_regalato_nonna
+    testo: "Ho regalato questa croce a mia nonna… 🥹✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi: [r2_nonna_regalo 0 15.1]
