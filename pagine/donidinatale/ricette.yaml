@@ -854,3 +854,67 @@ reel:
     - em_b6_sera 0.3 1.9
     - em_b7_tazza 0.3 1.7
     - em_b8_macro 0.5 2.1
+
+  # ═══════════════════════════════════════════════════════════════
+  # STAMPANTE FOTO 2 — ricrea reel MemoryPrint.us DfgRouGID1p (22/11/2026): "Il regalo perfetto non esist—"
+  # stamp_06_hook = POV pacco coperto di foto (taglio sul drop a 2,4 s) · stamp_07_pacco = foto attaccata sul pacco (loop)
+  # 6 varianti: stessa clip con testi e audio diversi (DfgRouGID1p = audio originale, drop a 2,4 s)
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: stamp02a_non_esiste
+    testo: "Il regalo di Natale perfetto non esist— 🎁😳"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfgRouGID1p.m4a
+    pezzi: &stamp2_pezzi
+    - stamp_06_hook 0 2.4
+    - stamp_04_stampa 0 3.0
+    - stamp_05_foto 0 3.0
+    - stamp_07_pacco 0 3.0
+
+  - nome: stamp02b_mamma
+    testo: "Il regalo che farà piangere la mamma a Natale 😭🎄"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxwXrQpgSh.m4a
+    pezzi: *stamp2_pezzi
+
+  - nome: stamp02c_pacco_foto
+    testo: "Quest'anno il regalo l'ho incartato con i nostri ricordi 🥹📸"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfgRouGID1p.m4a
+    pezzi: *stamp2_pezzi
+
+  - nome: stamp02d_non_esiste_b
+    testo: "Il regalo di Natale perfetto non esist— 🎁😳"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxfzLtKSwL.m4a
+    pezzi: *stamp2_pezzi
+
+  - nome: stamp02e_pov
+    testo: "POV: stampi le foto di famiglia direttamente dal telefono 😳📸"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfgRouGID1p.m4a
+    pezzi: *stamp2_pezzi
+
+  - nome: stamp02f_nonni
+    testo: "Ai nonni ho regalato TUTTE le foto dell'anno 🥹🎄"
+    posizione: 0.6
+    cta: Commenta STAMPA per il link 🔗
+    cta_posizione: 0.6
+    cta_secondi: 3.0
+    audio: DfxwXrQpgSh.m4a
+    pezzi: *stamp2_pezzi
