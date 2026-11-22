@@ -26,6 +26,12 @@ cp41_piedi_veri,tiktok_regular
 cp42_piu_realistiche,tiktok
 cp43_cane_non_approva,tiktok
 cp44_anche_il_cane,tiktok_regular
+cp46_papa_piu_brutte,tiktok
+cp47_secret_santa,tiktok_regular
+cp48_regalo_zio,tiktok
+cp49_mamma_no,tiktok_regular
+cp50_scherzo_natale,tiktok
+cp51_fratello,tiktok
 cr01_fedele_disponibili,clean
 cr02_cercano_natale,clean
 cr03_non_farle_vedere,clean
@@ -50,6 +56,12 @@ cr21_tutto_inverno,clean
 cr22_ogni_mattina,clean
 cr23_pavimento_gelato,clean
 cr24_piedi_freddi_sempre,clean
+cr25_nonna_te_le_chiede,tiktok
+cr26_guarda_faccia,tiktok
+cr27_scopre_che_scaldano,tiktok
+cr28_piedi_freddi_regalo,tiktok
+cr29_madre_le_ha_rubate,tiktok
+cr30_sotto_albero,tiktok
 ms01_regalo_mamma_A,tiktok_regular
 ms02_regalo_mamma_B,tiktok
 ms03_non_ditelo_A,tiktok
@@ -68,3 +80,9 @@ ms15_fedele_non_si_aspettava,clean
 ms16_fedele_non_ditelo,clean
 ms17_fedele_in_piedi,clean
 ms18_fedele_dopo_regalo,clean
+ms19_mamma_non_deve_vedere,tiktok
+ms20_natale_vinco_io,tiktok
+ms21_non_le_serve_niente,tiktok_regular
+ms22_non_sa_di_volere,tiktok
+ms23_nascosto_armadio,tiktok_regular
+ms24_sempre_in_piedi,tiktok
