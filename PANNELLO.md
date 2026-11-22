@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 22/11/2026 13:14
+Aggiornato: 22/11/2026 14:34
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 18 | 6.0 gg | dom 14:30 | 11-22 01:30 ✅ | 9 pubblicati |
+| AfterShift | ✅ attiva · IG | 01:30, 14:30, 19:30 | 3 | 17 | 5.7 gg | dom 19:30 | 11-22 14:30 ✅ | 10 pubblicati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 3 | 0.8 gg | dom 18:30 | 11-22 12:45 ✅ | 19 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 2 | 0.3 gg | dom 15:30 | 11-22 12:45 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 43 | 10.8 gg | dom 18:30 | 11-22 12:45 ✅ | 18 pubblicati |
@@ -22,6 +22,7 @@ Aggiornato: 22/11/2026 13:14
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-22 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgC7CUsFUni/ · FB: https://www.facebook.com/reel/2038478370059514 |
 | 2026-11-22 13:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgCwvUCjeZ_/ |
 | 2026-11-22 12:45 | Luce di Fede | inserito: DfoYCD4hnZI.m4a | https://www.instagram.com/reel/DgCvRpOCRj1/ |
 | 2026-11-22 12:45 | Doni di Natale | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgCvKxOzVzm/ · FB: https://www.facebook.com/reel/4643466992603455 |
@@ -41,4 +42,3 @@ Aggiornato: 22/11/2026 13:14
 | 2026-11-21 21:00 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgBDGThDbbh/ |
 | 2026-11-21 21:00 | Luce di Fede | inserito: voce_it+Df29cLNtRov.m4a | https://www.instagram.com/reel/DgBDCdRl1fU/ |
 | 2026-11-21 21:00 | Doni di Natale | inserito: DfZ_7-fJC7N.m4a | https://www.instagram.com/reel/DgBC8F-hYwE/ · FB: https://www.facebook.com/reel/2882886622125998 |
-| 2026-11-21 21:00 | Ciabatte Pazze | inserito: DfblaVNxHsY.m4a | https://www.instagram.com/reel/DgBCyImgD20/ · FB: https://www.facebook.com/reel/1803789181322786 |
