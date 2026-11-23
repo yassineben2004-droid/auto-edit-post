@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 23/11/2026 01:39
+Aggiornato: 23/11/2026 03:22
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 03:15, 11:45, 14:30, 16:45, 19:30, 22:15 | 7 | 20 | 2.9 gg | lun 03:15 | 11-23 01:30 ✅ | 13 pubblicati, 8 saltati |
+| AfterShift | ✅ attiva · IG | 01:30, 03:15, 11:45, 14:30, 16:45, 19:30, 22:15 | 7 | 19 | 2.7 gg | lun 11:45 | 11-23 03:15 ✅ | 14 pubblicati, 8 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 1 | 0.2 gg | lun 08:15 | 11-22 21:00 ✅ | 20 pubblicati, 8 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 18 | 3.0 gg | lun 08:15 | 11-22 21:00 ⚠ coda_vuota | 40 pubblicati, 2 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 24 | 6.0 gg | lun 08:15 | 11-22 21:00 ✅ | 20 pubblicati |
@@ -20,6 +20,7 @@ Aggiornato: 23/11/2026 01:39
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-23 03:15 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgES6FLjMyl/ · FB: https://www.facebook.com/reel/4737455263243192 |
 | 2026-11-23 01:30 | AfterShift | inserito: Df3BIAXMvDv.m4a | https://www.instagram.com/reel/DgEHHUYlXdw/ · FB: https://www.facebook.com/reel/1170604525504927 |
 | 2026-11-22 22:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgDyMJNCiN1/ |
 | 2026-11-22 22:15 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgDwdcEEdy_/ · FB: https://www.facebook.com/reel/2034821113845053 |
@@ -39,4 +40,3 @@ Aggiornato: 23/11/2026 01:39
 | 2026-11-22 14:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgC88NAFfn3/ |
 | 2026-11-22 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgC7CUsFUni/ · FB: https://www.facebook.com/reel/2038478370059514 |
 | 2026-11-22 13:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgCwvUCjeZ_/ |
-| 2026-11-22 12:45 | Luce di Fede | inserito: DfoYCD4hnZI.m4a | https://www.instagram.com/reel/DgCvRpOCRj1/ |

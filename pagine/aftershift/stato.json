@@ -200,6 +200,19 @@
       "ora": "2026-11-23T01:38+01:00",
       "fb_link": "https://www.facebook.com/reel/1170604525504927",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-23 03:15": {
+      "esito": "pubblicato",
+      "id": "aftershift-00013",
+      "file": "aftershift-00013.mp4",
+      "media_id": "18140474218645597",
+      "link": "https://www.instagram.com/reel/DgES6FLjMyl/",
+      "audio": "inserito: Df1rf6GtDi_.m4a",
+      "audio_id": null,
+      "audio_file": "Df1rf6GtDi_.m4a",
+      "ora": "2026-11-23T03:21+01:00",
+      "fb_link": "https://www.facebook.com/reel/4737455263243192",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -215,7 +228,8 @@
     "aftershift-00010",
     "aftershift-00011",
     "aftershift-00012",
-    "aftershift-00028"
+    "aftershift-00028",
+    "aftershift-00013"
   ],
   "scartati": {},
   "errori": {},
