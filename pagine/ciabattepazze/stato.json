@@ -1157,6 +1157,19 @@
     },
     "2026-11-22 21:00": {
       "esito": "coda_vuota"
+    },
+    "2026-11-23 08:15": {
+      "esito": "pubblicato",
+      "id": "ciabattepazze-00088",
+      "file": "ciabattepazze-00088.mp4",
+      "media_id": "18419906350091181",
+      "link": "https://www.instagram.com/reel/DgE0onvAFi1/",
+      "audio": "inserito: DemuZChuX50.m4a",
+      "audio_id": null,
+      "audio_file": "DemuZChuX50.m4a",
+      "ora": "2026-11-23T08:16+01:00",
+      "fb_link": "https://www.facebook.com/reel/2426553568097467",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -1245,7 +1258,8 @@
     "ciabattepazze-00057",
     "ciabattepazze-00061",
     "ciabattepazze-00051",
-    "ciabattepazze-00056"
+    "ciabattepazze-00056",
+    "ciabattepazze-00088"
   ],
   "scartati": {
     "ciabattepazze-00011": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}"
