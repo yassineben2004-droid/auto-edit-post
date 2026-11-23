@@ -431,6 +431,9 @@
       "piattaforma": "facebook",
       "stato_fb": "pubblicato",
       "ora": "2026-11-23T08:16+01:00"
+    },
+    "2026-11-23 12:45": {
+      "esito": "coda_vuota"
     }
   },
   "usati": [
