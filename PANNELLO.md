@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 23/11/2026 16:37
+Aggiornato: 23/11/2026 16:48
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 03:15, 11:45, 14:30, 16:45, 19:30, 22:15 | 7 | 17 | 2.4 gg | lun 16:45 | 11-23 14:30 ✅ | 16 pubblicati, 8 saltati |
+| AfterShift | ✅ attiva · IG | 01:30, 03:15, 11:45, 14:30, 16:45, 19:30, 22:15 | 7 | 16 | 2.3 gg | lun 19:30 | 11-23 16:45 ✅ | 17 pubblicati, 8 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | lun 18:30 | 11-23 12:45 ⚠ coda_vuota | 21 pubblicati, 7 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 14 | 2.3 gg | lun 18:30 | 11-23 15:30 ✅ | 40 pubblicati, 2 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 22 | 5.5 gg | lun 18:30 | 11-23 12:45 ✅ | 22 pubblicati |
@@ -20,6 +20,7 @@ Aggiornato: 23/11/2026 16:37
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-23 16:45 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgFvJJEDrC2/ · FB: https://www.facebook.com/reel/2397884834433362 |
 | 2026-11-23 16:30 | PijamaMania | inserito: Dfs2ZdTMnGw.m4a | https://www.instagram.com/reel/DgFt8eEAczK/ |
 | 2026-11-23 15:30 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgFnD0Wk5z1/ · FB: https://www.facebook.com/reel/1616998212979203 |
 | 2026-11-23 14:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgFh39jjbIP/ |
@@ -39,4 +40,3 @@ Aggiornato: 23/11/2026 16:37
 | 2026-11-23 08:00 | PijamaMania | inserito: DfcePltxWpz.m4a | https://www.instagram.com/reel/DgEzhPODxOp/ |
 | 2026-11-23 03:15 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgES6FLjMyl/ · FB: https://www.facebook.com/reel/4737455263243192 |
 | 2026-11-23 01:30 | AfterShift | inserito: Df3BIAXMvDv.m4a | https://www.instagram.com/reel/DgEHHUYlXdw/ · FB: https://www.facebook.com/reel/1170604525504927 |
-| 2026-11-22 22:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgDyMJNCiN1/ |
