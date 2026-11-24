@@ -325,6 +325,19 @@
       "ora": "2026-11-24T08:16+01:00",
       "fb_link": "https://www.facebook.com/reel/1883389689365029",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-24 12:45": {
+      "esito": "pubblicato",
+      "id": "donidinatale-00061",
+      "file": "donidinatale-00061.mp4",
+      "media_id": "18654718177030968",
+      "link": "https://www.instagram.com/reel/DgH49zDx9Xy/",
+      "audio": "inserito: embermist_natale.m4a",
+      "audio_id": null,
+      "audio_file": "embermist_natale.m4a",
+      "ora": "2026-11-24T12:52+01:00",
+      "fb_link": "https://www.facebook.com/reel/1457770302558878",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -352,7 +365,8 @@
     "donidinatale-00054",
     "donidinatale-00026",
     "donidinatale-00059",
-    "donidinatale-00028"
+    "donidinatale-00028",
+    "donidinatale-00061"
   ],
   "scartati": {},
   "errori": {},
