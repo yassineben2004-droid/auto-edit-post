@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 24/11/2026 16:39
+Aggiornato: 24/11/2026 16:49
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 01:30, 03:15, 11:45, 14:30, 16:45, 19:30, 22:15 | 7 | 10 | 1.4 gg | mar 16:45 | 11-24 14:30 ✅ | 23 pubblicati, 8 saltati |
+| AfterShift | ✅ attiva · IG | 01:30, 03:15, 11:45, 14:30, 16:45, 19:30, 22:15 | 7 | 9 | 1.3 gg | mar 19:30 | 11-24 16:45 ✅ | 24 pubblicati, 8 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mar 18:30 | 11-24 12:45 ⚠ coda_vuota | 21 pubblicati, 7 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 8 | 1.3 gg | mar 18:30 | 11-24 15:30 ✅ | 40 pubblicati, 2 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 18 | 4.5 gg | mar 18:30 | 11-24 12:45 ✅ | 26 pubblicati |
@@ -14,7 +14,7 @@ Aggiornato: 24/11/2026 16:39
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
-- **AfterShift**: coda quasi finita (10 video ≈ 1.4 giorni)
+- **AfterShift**: coda quasi finita (9 video ≈ 1.3 giorni)
 - **BottiZero**: coda quasi finita (0 video ≈ 0.0 giorni)
 - **Ciabatte Pazze**: coda quasi finita (8 video ≈ 1.3 giorni)
 - **Ciabatte Pazze** turno 2026-11-24 08:15: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '1316669103925205' does not exist, cannot be loaded due to missing permission
@@ -23,6 +23,7 @@ Aggiornato: 24/11/2026 16:39
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-24 16:45 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgIUDmYEhgp/ · FB: https://www.facebook.com/reel/1456537506438830 |
 | 2026-11-24 16:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgITBc2ivzX/ |
 | 2026-11-24 15:30 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgIL_Wiih-z/ · FB: https://www.facebook.com/reel/1012887301895516 |
 | 2026-11-24 14:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgIGmffgUdy/ |
@@ -42,4 +43,3 @@ Aggiornato: 24/11/2026 16:39
 | 2026-11-24 03:15 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgG3x0uETTJ/ · FB: https://www.facebook.com/reel/1694469262043533 |
 | 2026-11-24 01:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgGrnqlAMMy/ · FB: https://www.facebook.com/reel/2057832798259899 |
 | 2026-11-23 22:30 | PijamaMania | inserito: tt_fuochi_19M.m4a | https://www.instagram.com/reel/DgGXIxVEXzX/ |
-| 2026-11-23 22:15 | AfterShift | inserito: Df3BIAXMvDv.m4a | https://www.instagram.com/reel/DgGWPhVAdua/ · FB: https://www.facebook.com/reel/1173775745024940 |
