@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 24/11/2026 22:43
+Aggiornato: 24/11/2026 23:26
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 0 | 0.0 gg | mar 23:15 | 11-24 22:15 ✅ | 26 pubblicati, 20 saltati |
+| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 33 | 4.7 gg | mer 07:45 | 11-24 22:15 ✅ | 26 pubblicati, 20 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mer 08:15 | 11-24 21:00 ⚠ coda_vuota | 21 pubblicati, 7 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 6 | 1.0 gg | mer 08:15 | 11-24 21:00 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 15 | 3.8 gg | mer 08:15 | 11-24 21:00 ✅ | 28 pubblicati |
@@ -14,7 +14,6 @@ Aggiornato: 24/11/2026 22:43
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
-- **AfterShift**: coda quasi finita (0 video ≈ 0.0 giorni)
 - **BottiZero**: coda quasi finita (0 video ≈ 0.0 giorni)
 - **Ciabatte Pazze**: coda quasi finita (6 video ≈ 1.0 giorni)
 - **Ciabatte Pazze** turno 2026-11-24 08:15: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '1316669103925205' does not exist, cannot be loaded due to missing permission
