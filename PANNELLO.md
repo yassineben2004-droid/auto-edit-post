@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 24/11/2026 18:32
+Aggiornato: 24/11/2026 18:42
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
