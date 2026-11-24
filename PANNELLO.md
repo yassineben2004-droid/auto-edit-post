@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 24/11/2026 12:59
+Aggiornato: 24/11/2026 13:09
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 24/11/2026 12:59
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 18 | 4.5 gg | mar 18:30 | 11-24 12:45 ✅ | 26 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | mar 15:30 | 11-23 22:30 ⚠ coda_vuota | 10 pubblicati, 4 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 10 | 2.5 gg | mar 18:30 | 11-24 12:45 ✅ | 27 pubblicati, 1 saltati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 32 | 3.2 gg | mar 13:00 | 11-24 11:30 ✅ | 62 pubblicati, 8 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 31 | 3.1 gg | mar 14:45 | 11-24 13:00 ✅ | 63 pubblicati, 7 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -23,6 +23,7 @@ Aggiornato: 24/11/2026 12:59
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-24 13:00 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgH68e9jS9U/ |
 | 2026-11-24 12:45 | Luce di Fede | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgH5E9PjRfU/ |
 | 2026-11-24 12:45 | Doni di Natale | inserito: embermist_natale.m4a | https://www.instagram.com/reel/DgH49zDx9Xy/ · FB: https://www.facebook.com/reel/1457770302558878 |
 | 2026-11-24 12:45 | Ciabatte Pazze | inserito: tt_7268720844577262894_comfyshark.m4a | https://www.instagram.com/reel/DgH41PeCZ8t/ · FB: https://www.facebook.com/reel/1021810167644305 |
@@ -42,4 +43,3 @@ Aggiornato: 24/11/2026 12:59
 | 2026-11-23 21:00 | Luce di Fede | inserito: tt_7324039866268912902_mitski.m4a | https://www.instagram.com/reel/DgGNEKMlWH_/ |
 | 2026-11-23 21:00 | Doni di Natale | inserito: embermist_natale.m4a | https://www.instagram.com/reel/DgGM9QOhykT/ · FB: https://www.facebook.com/reel/1376717347718193 |
 | 2026-11-23 21:00 | Ciabatte Pazze | inserito: tt_7324039866268912902_mitski.m4a | https://www.instagram.com/reel/DgGM2DGlWxW/ · FB: https://www.facebook.com/reel/2400032680782213 |
-| 2026-11-23 19:30 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgGCfiUkWRa/ |
