@@ -1,5 +1,6 @@
-# Pagina: AfterShift (account IG ex Raven & Resin by Cole, ripulito) (brand worldwide in inglese, nicchia: chi lavora in piedi tutto il giorno)
-# Primo prodotto: massaggiatore riscaldato per caviglia (angoli parrucchiera e magazzino)
+# Pagina: AfterShift (account IG ex Raven & Resin by Cole, ripulito) — dal 24/11/2026 MERCATO ITALIA in italiano
+# (prima brand worldwide in inglese per gli USA). Nicchia: chi lavora in piedi tutto il giorno (angle principale: infermiere)
+# Primo prodotto: massaggiatore riscaldato per caviglia
 nome: "AfterShift"
 attiva: true
 ig_user_id: "17841429655295961"   # @shop.aftershift
@@ -7,10 +8,11 @@ token_env: TOKEN_META_STORE        # token del portafoglio Business del profilo 
 anche_nel_feed: true
 elimina_dopo: true
 
-# ORARI FISSI (ora italiana) pensati per gli USA:
-# 14:30 = mattina East Coast, 19:30 = pranzo/pausa, 01:30 = sera dopo il turno East Coast / pomeriggio West Coast
+# ORARI FISSI (ora italiana) per il pubblico ITALIANO, 7 al giorno (dal 24/11; prima orari USA):
+# 07:45 colazione/inizio turno, 12:45 pausa pranzo, 14:30 cambio turno, 18:15 fine turno,
+# 20:30 dopo cena, 21:45 picco serale, 23:15 prima di dormire / pausa turno di notte
 orari:
-  ogni_giorno: ["11:45", "14:30", "16:45", "19:30", "22:15", "01:30", "03:15"]   # 7 al giorno dal 22/11 (prima 3)
+  ogni_giorno: ["07:45", "12:45", "14:30", "18:15", "20:30", "21:45", "23:15"]
 
 # ANCHE SU FACEBOOK: lo stesso reel esce anche come Reel sulla Pagina Facebook collegata.
 facebook:
@@ -18,19 +20,19 @@ facebook:
   fb_page_id: "1465124596678386"   # Pagina FB AfterShift
   orari: "tutti"
 
-hashtag: "#aftershift #onyourfeetallday #hairstylist #warehouseworker #nurselife #giftideas #christmasgift #selfcare"
+hashtag: "#aftershift #infermiera #infermieri #turnodinotte #parrucchiera #magazziniere #piedistanchi #ideeregalo #regalidinatale #relax"
 
-# Caption = CTA a commento (lo store non c'e' ancora: si risponde a mano col link quando e' pronto)
-caption_cta: "Comment SHIFT and I'll send you the link 🎁🦶"
+# Caption = formato standard "Link in Bio o Commenta <PAROLA> …" (dal 24/11/2026, mercato Italia)
+caption_cta: "Link in Bio o Commenta TURNO e ti mando il link 🎁🦶"
 
 # Caption a rotazione (usate solo se caption_cta manca)
 caption:
-  - "For the ones who never sit down 🦶✨ Comment SHIFT for the link"
-  - "Tag someone who's on their feet all day 👇"
+  - "Per chi non si siede mai 🦶✨ Link in Bio o Commenta TURNO"
+  - "Tagga chi sta in piedi tutto il giorno 👇 Link in Bio o Commenta TURNO"
 
 # AUDIO INSERITI NEI VIDEO (cartella audio/, comando metti-audio)
 audio_inseriti:
-  comuni: false                   # pagina in inglese: niente libreria audio comune italiana
+  comuni: true                    # dal 24/11 mercato Italia: anche la libreria audio comune italiana
   pesi: {"Df1rf6GtDi_.m4a": 6, "Df3BIAXMvDv.m4a": 6}   # alldaylegs.co (Christmas) + virale "Nurses are so hard to shop for"
 
 # Musica di tendenza di Meta: spenta come sulle altre pagine (copre l'audio inserito)

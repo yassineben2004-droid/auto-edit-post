@@ -1,230 +1,222 @@
-# Ricette dei reel AfterShift — si montano su Mac con il workflow "Monta reel" (emoji iOS)
-# Clip in clip_originali/aftershift/ (reel completi clean, fatti su Higgsfield, struttura del virale alldaylegs.co):
-#   a1_stylist_v1     parrucchiera, prima animazione raggi X (15.1s)
-#   a2_stylist_v2     parrucchiera, animazione raggi X corretta (15.6s)
-#   b1_warehouse_v1   magazzino, prima animazione raggi X (15.1s)
-#   b2_warehouse_v2   magazzino, animazione raggi X corretta (15.6s)
-# Split test sul text hook: le v2 hanno 5 varianti, le v1 3 varianti con testi diversi.
-# Hook a 0.58 (piu in basso, come nei reel nativi). CTA negli ultimi 3s: commento SHIFT (store non ancora pronto, si risponde a mano col link).
+# Ricette dei reel AfterShift — MERCATO ITALIA (dal 24/11/2026, prima versione US in inglese: vedi storico git)
+# Si montano su Mac con il workflow "Monta reel" (emoji iOS).
+# Clip in clip_originali/aftershift/ (reel completi clean, fatti su Higgsfield):
+#   a1_stylist_v1 / a2_stylist_v2       parrucchiera (15.1s / 15.6s)
+#   b1_warehouse_v1 / b2_warehouse_v2   magazzino (15.1s / 15.6s)
+#   c1_nurse_usa (15.6s), c2_nurse_corridor (12.1s), c3_nurse_sofa (12.1s), c4_nurse_gift (13.7s)  infermiera
+#   ⚠ le clip c1-c4 hanno elementi americani in scena (bandiera/coperta USA, display in °F): da rifare in versione italiana
+# Hook a 0.58 (come nei reel nativi). CTA negli ultimi 3s: "Commenta TURNO per il link 🎁".
+# Mai frasi su tempi di ordine/consegna (vedi CLAUDE.md).
 reel:
-  # --- Parrucchiera v2 ---
-  - nome: as01_stylist_hardtogift
-    testo: "Hairstylists are so hard to gift\nMe: 😍"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [a2_stylist_v2 0 15.6]
-  - nome: as02_stylist_pov
-    testo: "POV: you stand 10 hours a day doing hair 💇‍♀️"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [a2_stylist_v2 0 15.6]
-  - nome: as03_stylist_gift
-    testo: "The gift for the hairstylist who never sits down 🎁"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [a2_stylist_v2 0 15.6]
-  - nome: as04_stylist_boyfriend
-    testo: "My boyfriend finally gets it 😭💙"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [a2_stylist_v2 0 15.6]
-  - nome: as05_stylist_10hours
-    testo: "10 hours behind the chair… then this 🥹"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [a2_stylist_v2 0 15.6]
+- nome: it01_parrucchiera_regalo
+  testo: 'Le parrucchiere sono difficilissime da regalare
 
-  # --- Parrucchiera v1 ---
-  - nome: as06_stylist_bestgift
-    testo: "Best gift I got this Christmas 🎄"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [a1_stylist_v1 0 15.1]
-  - nome: as07_stylist_doubleshift
-    testo: "My feet after a double shift vs. after this 😮‍💨"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [a1_stylist_v1 0 15.1]
-  - nome: as08_stylist_everystylist
-    testo: "Every stylist needs this after a long shift 💇‍♀️"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [a1_stylist_v1 0 15.1]
+    Io: 😍'
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [a2_stylist_v2 0 15.6]
+- nome: it02_parrucchiera_pov
+  testo: 'POV: 10 ore in piedi dietro la poltrona 💇‍♀️'
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [a2_stylist_v2 0 15.6]
+- nome: it03_parrucchiera_nonsiede
+  testo: Il regalo per la parrucchiera che non si siede mai 🎁
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [a2_stylist_v2 0 15.6]
+- nome: it04_parrucchiera_fidanzato
+  testo: Il mio ragazzo finalmente ha capito 😭💙
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [a2_stylist_v2 0 15.6]
+- nome: it05_parrucchiera_10ore
+  testo: 10 ore in salone… poi questo 🥹
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [a2_stylist_v2 0 15.6]
+- nome: it06_parrucchiera_natale
+  testo: Il regalo più bello che ho ricevuto a Natale 🎄
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [a1_stylist_v1 0 15.1]
+- nome: it07_parrucchiera_primadopo
+  testo: I miei piedi dopo un doppio turno vs. dopo questo 😮‍💨
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [a1_stylist_v1 0 15.1]
+- nome: it08_parrucchiera_ognuna
+  testo: Ogni parrucchiera ne ha bisogno dopo una giornata così 💇‍♀️
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [a1_stylist_v1 0 15.1]
+- nome: it09_magazzino_regalo
+  testo: 'I magazzinieri sono difficilissimi da regalare
 
-  # --- Magazzino v2 ---
-  - nome: as09_warehouse_hardtogift
-    testo: "Warehouse workers are so hard to gift\nMe: 😍"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [b2_warehouse_v2 0 15.6]
-  - nome: as10_warehouse_pov
-    testo: "POV: 28,000 steps every single shift 🥾"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [b2_warehouse_v2 0 15.6]
-  - nome: as11_warehouse_gift
-    testo: "The gift for the guy who never sits down 🎁"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [b2_warehouse_v2 0 15.6]
-  - nome: as12_warehouse_girlfriend
-    testo: "She said it's for my feet. I said I love her 😭"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [b2_warehouse_v2 0 15.6]
-  - nome: as13_warehouse_12hours
-    testo: "12-hour shift… then this 🥹"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [b2_warehouse_v2 0 15.6]
+    Io: 😍'
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [b2_warehouse_v2 0 15.6]
+- nome: it10_magazzino_pov
+  testo: 'POV: 28.000 passi a ogni turno 🥾'
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [b2_warehouse_v2 0 15.6]
+- nome: it11_magazzino_nonsiede
+  testo: Il regalo per chi non si siede mai 🎁
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [b2_warehouse_v2 0 15.6]
+- nome: it12_magazzino_ragazza
+  testo: 'Lei: "è per i tuoi piedi". Io: ti amo 😭'
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [b2_warehouse_v2 0 15.6]
+- nome: it13_magazzino_12ore
+  testo: 12 ore di turno… poi questo 🥹
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [b2_warehouse_v2 0 15.6]
+- nome: it14_magazzino_natale
+  testo: Il regalo più bello che ho ricevuto a Natale 🎄
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [b1_warehouse_v1 0 15.1]
+- nome: it15_magazzino_primadopo
+  testo: I miei piedi dopo un doppio turno vs. dopo questo 😮‍💨
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [b1_warehouse_v1 0 15.1]
+- nome: it16_magazzino_ognuno
+  testo: Ogni magazziniere ne ha bisogno 📦
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [b1_warehouse_v1 0 15.1]
+- nome: it17_infermiera_regalo
+  testo: 'Le infermiere sono difficilissime da regalare
 
-  # --- Magazzino v1 ---
-  - nome: as14_warehouse_bestgift
-    testo: "Best gift I got this Christmas 🎄"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [b1_warehouse_v1 0 15.1]
-  - nome: as15_warehouse_doubleshift
-    testo: "My feet after a double shift vs. after this 😮‍💨"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [b1_warehouse_v1 0 15.1]
-  - nome: as16_warehouse_everyworker
-    testo: "Every warehouse worker needs this 📦"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [b1_warehouse_v1 0 15.1]
+    Io: 😍'
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c1_nurse_usa 0 15.6]
+- nome: it18_infermiera_smontonotte
+  testo: 'POV: smonti dalla notte dopo 12 ore 🩺'
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c1_nurse_usa 0 15.6]
+- nome: it19_infermiera_marito
+  testo: Mio marito finalmente ha capito i piedi da infermiera 😭💙
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c1_nurse_usa 0 15.6]
+- nome: it20_infermiera_bisogno
+  testo: Il regalo di cui ogni infermiera ha davvero bisogno 🎁
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c1_nurse_usa 0 15.6]
+- nome: it21_infermiera_dormiva
+  testo: Dopo 10 minuti dormiva già 😴
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c1_nurse_usa 0 15.6]
+- nome: it22_infermiera_regalo
+  testo: 'Le infermiere sono difficilissime da regalare
 
-
-  # --- Infermiera USA (reel C, bandiera/plaid americano) ---
-  - nome: as17_nurse_hardtogift
-    testo: "Nurses are so hard to gift\nMe: 😍"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c1_nurse_usa 0 15.6]
-  - nome: as18_nurse_nightshift
-    testo: "POV: you just finished a 12-hour night shift 🩺"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c1_nurse_usa 0 15.6]
-  - nome: as19_nurse_husband
-    testo: "My husband finally understands nurse feet 😭💙"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c1_nurse_usa 0 15.6]
-  - nome: as20_nurse_gift
-    testo: "The gift every nurse actually needs 🎁"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c1_nurse_usa 0 15.6]
-  - nome: as21_nurse_asleep
-    testo: "She was asleep in 10 minutes 😴🇺🇸"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c1_nurse_usa 0 15.6]
-
-  # --- Infermiera USA, nuovi reel Higgsfield 22/11/2026 (bandiera/coperta/tappeto americani ben visibili) ---
-  # c2_nurse_corridor: corridoio ospedale → divano → display 104°F → relax (12.1s)
-  # c3_nurse_sofa: si toglie gli zoccoli sul divano → stesse scene finali (12.1s)
-  - nome: as22_nurse_hardtogift
-    testo: "Nurses are so hard to gift\nMe: 😍"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c2_nurse_corridor 0 12.1]
-  - nome: as23_nurse_nightshift
-    testo: "POV: you just finished a 12-hour night shift 🩺"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c2_nurse_corridor 0 12.1]
-  - nome: as24_nurse_thenthis
-    testo: "12-hour shift… then this 🥹"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c2_nurse_corridor 0 12.1]
-  - nome: as25_nurse_feet_vs
-    testo: "My feet after a 12-hour shift vs. after this 😮‍💨"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c3_nurse_sofa 0 12.1]
-  - nome: as26_nurse_gift
-    testo: "The gift every nurse actually needs 🎁"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c3_nurse_sofa 0 12.1]
-  - nome: as27_nurse_husband
-    testo: "My husband finally understands nurse feet 😭💙"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c3_nurse_sofa 0 12.1]
-
-  # --- Infermiera USA, ricreato reel virale "Nurses are so hard to shop for" (22/11/2026) ---
-  # c4_nurse_gift: negozio → unboxing → prodotto (drop) → l'amica glielo mette → render 3D airbag/calore → relax (13.7s)
-  - nome: as28_nurse_shopfor
-    testo: "Nurses are so hard to shop for 😭"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c4_nurse_gift 0 13.7]
-    audio: "Df3BIAXMvDv.m4a"
-  - nome: as29_nurse_bestgift
-    testo: "Best gift I got my nurse bestie this Christmas 🎄🩺"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c4_nurse_gift 0 13.7]
-    audio: "Df3BIAXMvDv.m4a"
-  - nome: as30_nurse_3twelves
-    testo: "3 twelves in a row… then this 🥹"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c4_nurse_gift 0 13.7]
-    audio: "Df3BIAXMvDv.m4a"
-  - nome: as31_nurse_found
-    testo: "Finally found a gift for my nurse friend 😭💗"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c4_nurse_gift 0 13.7]
-    audio: "Df3BIAXMvDv.m4a"
-  - nome: as32_nurse_whatsheneeds
-    testo: "What nurses actually want for Christmas 🎁"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c4_nurse_gift 0 13.7]
-    audio: "Df3BIAXMvDv.m4a"
-  - nome: as33_nurse_reaction
-    testo: "Her face when the heat kicked in 🔥🥹"
-    posizione: 0.58
-    cta: "Comment SHIFT for the link 🎁"
-    cta_secondi: 3
-    pezzi: [c4_nurse_gift 0 13.7]
-    audio: "Df3BIAXMvDv.m4a"
+    Io: 😍'
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c2_nurse_corridor 0 12.1]
+- nome: it23_infermiera_smontonotte
+  testo: 'POV: smonti dalla notte dopo 12 ore 🩺'
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c2_nurse_corridor 0 12.1]
+- nome: it24_infermiera_poiquesto
+  testo: Turno di 12 ore… poi questo 🥹
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c2_nurse_corridor 0 12.1]
+- nome: it25_infermiera_primadopo
+  testo: I miei piedi dopo 12 ore di turno vs. dopo questo 😮‍💨
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c3_nurse_sofa 0 12.1]
+- nome: it26_infermiera_bisogno
+  testo: Il regalo di cui ogni infermiera ha davvero bisogno 🎁
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c3_nurse_sofa 0 12.1]
+- nome: it27_infermiera_marito
+  testo: Mio marito finalmente ha capito i piedi da infermiera 😭💙
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c3_nurse_sofa 0 12.1]
+- nome: it28_infermiera_cosaregalare
+  testo: Le infermiere sono le più difficili da regalare 😭
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c4_nurse_gift 0 13.7]
+  audio: Df3BIAXMvDv.m4a
+- nome: it29_infermiera_amica
+  testo: Il regalo di Natale per la mia amica infermiera 🎄🩺
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c4_nurse_gift 0 13.7]
+  audio: Df3BIAXMvDv.m4a
+- nome: it30_infermiera_3turni
+  testo: 3 turni da 12 ore di fila… poi questo 🥹
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c4_nurse_gift 0 13.7]
+  audio: Df3BIAXMvDv.m4a
+- nome: it31_infermiera_trovato
+  testo: Finalmente ho trovato il regalo per la mia amica infermiera 😭💗
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c4_nurse_gift 0 13.7]
+  audio: Df3BIAXMvDv.m4a
+- nome: it32_infermiera_vogliono
+  testo: Cosa vogliono davvero le infermiere a Natale 🎁
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c4_nurse_gift 0 13.7]
+  audio: Df3BIAXMvDv.m4a
+- nome: it33_infermiera_calore
+  testo: La sua faccia quando è partito il calore 🔥🥹
+  posizione: 0.58
+  cta: Commenta TURNO per il link 🎁
+  cta_secondi: 3
+  pezzi: [c4_nurse_gift 0 13.7]
+  audio: Df3BIAXMvDv.m4a
