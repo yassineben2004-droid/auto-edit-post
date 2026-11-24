@@ -382,7 +382,18 @@
     "donidinatale-00061",
     "donidinatale-00055"
   ],
-  "scartati": {},
-  "errori": {},
+  "scartati": {
+    "donidinatale-00030": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}"
+  },
+  "errori": {
+    "2026-11-24 21:00": [
+      {
+        "quando": "2026-11-24T21:07+01:00",
+        "video": "donidinatale-00030",
+        "errore": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}",
+        "temporaneo": false
+      }
+    ]
+  },
   "audio_usati": []
 }
