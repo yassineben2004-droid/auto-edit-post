@@ -416,6 +416,19 @@
     },
     "2026-11-24 21:45": {
       "esito": "coda_vuota"
+    },
+    "2026-11-24 23:15": {
+      "esito": "pubblicato",
+      "id": "aftershift-00033",
+      "file": "aftershift-00033.mp4",
+      "media_id": "18173729572474723",
+      "link": "https://www.instagram.com/reel/DgJCfugkqV3/",
+      "audio": "-",
+      "audio_id": null,
+      "audio_file": "",
+      "ora": "2026-11-24T23:34+01:00",
+      "fb_link": "https://www.facebook.com/reel/1453028583015158",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -444,7 +457,8 @@
     "aftershift-00019",
     "aftershift-00020",
     "aftershift-00031",
-    "aftershift-00021"
+    "aftershift-00021",
+    "aftershift-00033"
   ],
   "scartati": {},
   "errori": {},
