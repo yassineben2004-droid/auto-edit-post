@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 25/11/2026 13:22
+Aggiornato: 25/11/2026 14:39
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 30 | 4.3 gg | mer 14:30 | 11-25 12:45 ✅ | 29 pubblicati, 20 saltati |
+| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 29 | 4.1 gg | mer 18:15 | 11-25 14:30 ✅ | 30 pubblicati, 20 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mer 18:30 | 11-25 12:45 ⚠ coda_vuota | 19 pubblicati, 9 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 3 | 0.5 gg | mer 15:30 | 11-25 12:45 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 13 | 3.2 gg | mer 18:30 | 11-25 12:45 ✅ | 28 pubblicati |
@@ -22,6 +22,7 @@ Aggiornato: 25/11/2026 13:22
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-25 14:30 | AfterShift | inserito: Df3BIAXMvDv.m4a | https://www.instagram.com/reel/DgKp7ryID1L/ · FB: https://www.facebook.com/reel/1790032942256023 |
 | 2026-11-25 13:00 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgKfYHryLcS/ |
 | 2026-11-25 12:45 | Luce di Fede | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DgKeEZxNGKl/ |
 | 2026-11-25 12:45 | Doni di Natale | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgKd7XbtSuP/ · FB: https://www.facebook.com/reel/1472007635084201 |
@@ -41,4 +42,3 @@ Aggiornato: 25/11/2026 13:22
 | 2026-11-24 21:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgIxz0sjhrS/ |
 | 2026-11-24 21:00 | Luce di Fede | inserito: tt_7268720844577262894_comfyshark.m4a | https://www.instagram.com/reel/DgIxvv0jXo8/ |
 | 2026-11-24 21:00 | Doni di Natale | inserito: stampa_voce_B.m4a | https://www.instagram.com/reel/DgIzA7NI4Ru/ · FB: https://www.facebook.com/reel/1823752168930444 |
-| 2026-11-24 21:00 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgIxlWYjcCp/ · FB: https://www.facebook.com/reel/1085789634482577 |
