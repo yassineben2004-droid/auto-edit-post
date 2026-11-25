@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 25/11/2026 04:48
+Aggiornato: 25/11/2026 07:52
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 32 | 4.6 gg | mer 07:45 | 11-24 23:15 ✅ | 27 pubblicati, 20 saltati |
+| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 31 | 4.4 gg | mer 12:45 | 11-25 07:45 ✅ | 28 pubblicati, 20 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mer 08:15 | 11-24 21:00 ⚠ coda_vuota | 21 pubblicati, 7 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 6 | 1.0 gg | mer 08:15 | 11-24 21:00 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 15 | 3.8 gg | mer 08:15 | 11-24 21:00 ✅ | 28 pubblicati |
@@ -22,6 +22,7 @@ Aggiornato: 25/11/2026 04:48
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-25 07:45 | AfterShift | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgJ7dYcz96l/ · FB: https://www.facebook.com/reel/1141224022133544 |
 | 2026-11-24 23:15 | AfterShift | - | https://www.instagram.com/reel/DgJCfugkqV3/ · FB: https://www.facebook.com/reel/1453028583015158 |
 | 2026-11-24 22:30 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgI7uR6jnpz/ |
 | 2026-11-24 22:15 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgI6M1hEjLM/ · FB: https://www.facebook.com/reel/29297591636557140 |
@@ -41,4 +42,3 @@ Aggiornato: 25/11/2026 04:48
 | 2026-11-24 14:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgIGmffgUdy/ |
 | 2026-11-24 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgIFADXlsh4/ · FB: https://www.facebook.com/reel/1862240758291674 |
 | 2026-11-24 13:00 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgH68e9jS9U/ |
-| 2026-11-24 12:45 | Luce di Fede | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgH5E9PjRfU/ |
