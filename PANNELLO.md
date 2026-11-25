@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 25/11/2026 19:48
+Aggiornato: 25/11/2026 20:39
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 28 | 4.0 gg | mer 20:30 | 11-25 18:15 ✅ | 31 pubblicati, 20 saltati |
+| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 27 | 3.9 gg | mer 21:45 | 11-25 20:30 ✅ | 32 pubblicati, 20 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mer 21:00 | 11-25 18:30 ⚠ coda_vuota | 18 pubblicati, 10 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 1 | 0.2 gg | mer 21:00 | 11-25 18:30 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 12 | 3.0 gg | mer 21:00 | 11-25 18:30 ✅ | 28 pubblicati |
@@ -23,6 +23,7 @@ Aggiornato: 25/11/2026 19:48
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-25 20:30 | AfterShift | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DgLTHefiIjc/ · FB: https://www.facebook.com/reel/2228085754798086 |
 | 2026-11-25 19:30 | PijamaMania | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DgLMIhqyD74/ |
 | 2026-11-25 18:30 | Luce di Fede | inserito: DfblOSux_I5.m4a | https://www.instagram.com/reel/DgLFB6hzwW_/ |
 | 2026-11-25 18:30 | Doni di Natale | inserito: stampa_voce_A.m4a | https://www.instagram.com/reel/DgLE65sT_-d/ · FB: https://www.facebook.com/reel/1837450953972412 |
@@ -42,4 +43,3 @@ Aggiornato: 25/11/2026 19:48
 | 2026-11-25 10:45 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgKQFABhAuA/ · FB: https://www.facebook.com/reel/1136236312521096 |
 | 2026-11-25 09:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgKJdVES3j3/ |
 | 2026-11-25 08:15 | Luce di Fede | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgJ_DOOTPbc/ |
-| 2026-11-25 08:15 | Doni di Natale | inserito: DfxfzLtKSwL.m4a | https://www.instagram.com/reel/DgJ-6kwTnkM/ · FB: https://www.facebook.com/reel/2804478606615498 |
