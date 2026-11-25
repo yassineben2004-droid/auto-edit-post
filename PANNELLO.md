@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 25/11/2026 19:18
+Aggiornato: 25/11/2026 19:37
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 25/11/2026 19:18
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 12 | 3.0 gg | mer 21:00 | 11-25 18:30 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | mer 22:30 | 11-25 15:30 ⚠ coda_vuota | 7 pubblicati, 7 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 5 | 1.2 gg | mer 21:00 | 11-25 18:30 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 18 | 1.8 gg | mer 19:30 | 11-25 18:00 ✅ | 65 pubblicati, 5 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 17 | 1.7 gg | mer 21:00 | 11-25 19:30 ✅ | 65 pubblicati, 5 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -18,11 +18,12 @@ Aggiornato: 25/11/2026 19:18
 - **Ciabatte Pazze**: coda quasi finita (1 video ≈ 0.2 giorni)
 - **Insegnia**: coda quasi finita (0 video ≈ 0.0 giorni)
 - **Luce di Fede**: coda quasi finita (5 video ≈ 1.2 giorni)
-- **PijamaMania**: coda quasi finita (18 video ≈ 1.8 giorni)
+- **PijamaMania**: coda quasi finita (17 video ≈ 1.7 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-25 19:30 | PijamaMania | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DgLMIhqyD74/ |
 | 2026-11-25 18:30 | Luce di Fede | inserito: DfblOSux_I5.m4a | https://www.instagram.com/reel/DgLFB6hzwW_/ |
 | 2026-11-25 18:30 | Doni di Natale | inserito: stampa_voce_A.m4a | https://www.instagram.com/reel/DgLE65sT_-d/ · FB: https://www.facebook.com/reel/1837450953972412 |
 | 2026-11-25 18:30 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgLEz1nTCeE/ · FB: https://www.facebook.com/reel/2622310544952662 |
@@ -42,4 +43,3 @@ Aggiornato: 25/11/2026 19:18
 | 2026-11-25 09:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgKJdVES3j3/ |
 | 2026-11-25 08:15 | Luce di Fede | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgJ_DOOTPbc/ |
 | 2026-11-25 08:15 | Doni di Natale | inserito: DfxfzLtKSwL.m4a | https://www.instagram.com/reel/DgJ-6kwTnkM/ · FB: https://www.facebook.com/reel/2804478606615498 |
-| 2026-11-25 08:15 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgJ-0BMzCo3/ · FB: https://www.facebook.com/reel/2736433746798981 |
