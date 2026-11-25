@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 25/11/2026 07:52
+Aggiornato: 25/11/2026 08:07
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 25/11/2026 07:52
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 15 | 3.8 gg | mer 08:15 | 11-24 21:00 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | mer 15:30 | 11-24 22:30 ⚠ coda_vuota | 8 pubblicati, 6 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | mer 08:15 | 11-24 21:00 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 25 | 2.5 gg | mer 08:00 | 11-24 22:30 ✅ | 65 pubblicati, 5 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 24 | 2.4 gg | mer 09:45 | 11-25 08:00 ✅ | 65 pubblicati, 5 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -22,6 +22,7 @@ Aggiornato: 25/11/2026 07:52
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-25 08:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgJ9JVxSUY5/ |
 | 2026-11-25 07:45 | AfterShift | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgJ7dYcz96l/ · FB: https://www.facebook.com/reel/1141224022133544 |
 | 2026-11-24 23:15 | AfterShift | - | https://www.instagram.com/reel/DgJCfugkqV3/ · FB: https://www.facebook.com/reel/1453028583015158 |
 | 2026-11-24 22:30 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgI7uR6jnpz/ |
@@ -41,4 +42,3 @@ Aggiornato: 25/11/2026 07:52
 | 2026-11-24 15:30 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgIL_Wiih-z/ · FB: https://www.facebook.com/reel/1012887301895516 |
 | 2026-11-24 14:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgIGmffgUdy/ |
 | 2026-11-24 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgIFADXlsh4/ · FB: https://www.facebook.com/reel/1862240758291674 |
-| 2026-11-24 13:00 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgH68e9jS9U/ |
