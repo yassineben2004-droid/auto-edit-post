@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 25/11/2026 12:54
+Aggiornato: 25/11/2026 13:06
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 25/11/2026 12:54
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 13 | 3.2 gg | mer 18:30 | 11-25 12:45 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | mer 15:30 | 11-24 22:30 ⚠ coda_vuota | 8 pubblicati, 6 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 6 | 1.5 gg | mer 18:30 | 11-25 12:45 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 22 | 2.2 gg | mer 13:00 | 11-25 11:30 ✅ | 65 pubblicati, 5 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 21 | 2.1 gg | mer 14:45 | 11-25 13:00 ✅ | 65 pubblicati, 5 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -22,6 +22,7 @@ Aggiornato: 25/11/2026 12:54
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-25 13:00 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgKfYHryLcS/ |
 | 2026-11-25 12:45 | Luce di Fede | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DgKeEZxNGKl/ |
 | 2026-11-25 12:45 | Doni di Natale | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgKd7XbtSuP/ · FB: https://www.facebook.com/reel/1472007635084201 |
 | 2026-11-25 12:45 | Ciabatte Pazze | inserito: DfxfzLtKSwL.m4a | https://www.instagram.com/reel/DgKd0zetYAh/ · FB: https://www.facebook.com/reel/1143393254746267 |
@@ -41,4 +42,3 @@ Aggiornato: 25/11/2026 12:54
 | 2026-11-24 21:00 | Luce di Fede | inserito: tt_7268720844577262894_comfyshark.m4a | https://www.instagram.com/reel/DgIxvv0jXo8/ |
 | 2026-11-24 21:00 | Doni di Natale | inserito: stampa_voce_B.m4a | https://www.instagram.com/reel/DgIzA7NI4Ru/ · FB: https://www.facebook.com/reel/1823752168930444 |
 | 2026-11-24 21:00 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgIxlWYjcCp/ · FB: https://www.facebook.com/reel/1085789634482577 |
-| 2026-11-24 19:30 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgInT-TklhZ/ |
