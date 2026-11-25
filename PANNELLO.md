@@ -1,27 +1,30 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 25/11/2026 08:14
+Aggiornato: 25/11/2026 08:23
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 31 | 4.4 gg | mer 12:45 | 11-25 07:45 ✅ | 28 pubblicati, 20 saltati |
-| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mer 08:15 | 11-24 21:00 ⚠ coda_vuota | 21 pubblicati, 7 saltati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 6 | 1.0 gg | mer 08:15 | 11-24 21:00 ✅ | 41 pubblicati, 1 saltati |
-| Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 15 | 3.8 gg | mer 08:15 | 11-24 21:00 ✅ | 28 pubblicati |
+| BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | mer 12:45 | 11-25 08:15 ⚠ coda_vuota | 20 pubblicati, 8 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 5 | 0.8 gg | mer 10:45 | 11-25 08:15 ✅ | 41 pubblicati, 1 saltati |
+| Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 14 | 3.5 gg | mer 12:45 | 11-25 08:15 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | mer 15:30 | 11-24 22:30 ⚠ coda_vuota | 8 pubblicati, 6 saltati |
-| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | mer 08:15 | 11-24 21:00 ✅ | 28 pubblicati |
+| Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 7 | 1.8 gg | mer 12:45 | 11-25 08:15 ✅ | 28 pubblicati |
 | PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 24 | 2.4 gg | mer 09:45 | 11-25 08:00 ✅ | 65 pubblicati, 5 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
 - **BottiZero**: coda quasi finita (0 video ≈ 0.0 giorni)
-- **Ciabatte Pazze**: coda quasi finita (6 video ≈ 1.0 giorni)
-- **Ciabatte Pazze** turno 2026-11-24 08:15: Instagram ok, Facebook NO → HTTP 400: {"message": "Unsupported get request. Object with ID '1316669103925205' does not exist, cannot be loaded due to missing permission
+- **Ciabatte Pazze**: coda quasi finita (5 video ≈ 0.8 giorni)
 - **Insegnia**: coda quasi finita (0 video ≈ 0.0 giorni)
+- **Luce di Fede**: coda quasi finita (7 video ≈ 1.8 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-25 08:15 | Luce di Fede | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgJ_DOOTPbc/ |
+| 2026-11-25 08:15 | Doni di Natale | inserito: DfxfzLtKSwL.m4a | https://www.instagram.com/reel/DgJ-6kwTnkM/ · FB: https://www.facebook.com/reel/2804478606615498 |
+| 2026-11-25 08:15 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgJ-0BMzCo3/ · FB: https://www.facebook.com/reel/2736433746798981 |
 | 2026-11-25 08:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgJ9JVxSUY5/ |
 | 2026-11-25 07:45 | AfterShift | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgJ7dYcz96l/ · FB: https://www.facebook.com/reel/1141224022133544 |
 | 2026-11-24 23:15 | AfterShift | - | https://www.instagram.com/reel/DgJCfugkqV3/ · FB: https://www.facebook.com/reel/1453028583015158 |
@@ -39,6 +42,3 @@ Aggiornato: 25/11/2026 08:14
 | 2026-11-24 18:00 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgIdSu4lUyp/ |
 | 2026-11-24 16:45 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgIUDmYEhgp/ · FB: https://www.facebook.com/reel/1456537506438830 |
 | 2026-11-24 16:30 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgITBc2ivzX/ |
-| 2026-11-24 15:30 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgIL_Wiih-z/ · FB: https://www.facebook.com/reel/1012887301895516 |
-| 2026-11-24 14:45 | PijamaMania | inserito: Df1AKcmND2p.m4a | https://www.instagram.com/reel/DgIGmffgUdy/ |
-| 2026-11-24 14:30 | AfterShift | inserito: Df1rf6GtDi_.m4a | https://www.instagram.com/reel/DgIFADXlsh4/ · FB: https://www.facebook.com/reel/1862240758291674 |
