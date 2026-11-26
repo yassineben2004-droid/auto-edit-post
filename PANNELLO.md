@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 26/11/2026 11:13
+Aggiornato: 26/11/2026 11:38
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 26/11/2026 11:13
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 10 | 2.5 gg | gio 12:45 | 11-26 08:15 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | gio 15:30 | 11-25 22:30 ⚠ coda_vuota | 6 pubblicati, 8 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 13 | 3.2 gg | gio 12:45 | 11-26 08:15 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 38 | 3.8 gg | gio 11:30 | 11-26 09:45 ✅ | 65 pubblicati, 5 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 37 | 3.7 gg | gio 13:00 | 11-26 11:30 ✅ | 65 pubblicati, 5 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -21,6 +21,7 @@ Aggiornato: 26/11/2026 11:13
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-26 11:30 | PijamaMania | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DgM6J-gh0F7/ |
 | 2026-11-26 10:45 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgM19oBBbEW/ · FB: https://www.facebook.com/reel/1917297299233700 |
 | 2026-11-26 09:45 | PijamaMania | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/DgMuRYBCUWy/ |
 | 2026-11-26 08:15 | Luce di Fede | inserito: Df29cLNtRov.m4a | https://www.instagram.com/reel/DgMjcd0hEJE/ |
@@ -40,4 +41,3 @@ Aggiornato: 26/11/2026 11:13
 | 2026-11-25 19:30 | PijamaMania | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DgLMIhqyD74/ |
 | 2026-11-25 18:30 | Luce di Fede | inserito: DfblOSux_I5.m4a | https://www.instagram.com/reel/DgLFB6hzwW_/ |
 | 2026-11-25 18:30 | Doni di Natale | inserito: stampa_voce_A.m4a | https://www.instagram.com/reel/DgLE65sT_-d/ · FB: https://www.facebook.com/reel/1837450953972412 |
-| 2026-11-25 18:30 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgLEz1nTCeE/ · FB: https://www.facebook.com/reel/2622310544952662 |
