@@ -497,3 +497,111 @@ reel:
     posizione: 0.58
     cta: "Commenta AMEN se la vuoi 🙏"
     pezzi: [r2_nonna_regalo 0 15.1]
+
+  # ═══ RICARICA 26/11/2026 — testi nuovi sulle strutture esistenti ═══
+
+  - nome: lf54_vigilia
+    testo: "La Vigilia a casa mia quest'anno ✝️🕯️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - s2_buio_accensione 0 3.04
+      - s3_orbita 0 3.04
+      - s4_giorno_notte 0.5 3.04
+      - m1_ultima_cena 0.5 2
+      - m3_nativita 2 4.04
+
+  - nome: lf55_parroco
+    testo: "Anche il parroco me l'ha chiesta 😳✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h9_cloche_countdown 0.3 2.45
+      - r1_croce_distesa 0 1.83
+      - s5_accensione_telecomando 0 3.0
+      - k1_ultima_cena_ferma 0 2.5
+      - k2_resurrezione_ferma 0 2.5
+      - k3_nativita_ferma 0 3.0
+
+  - nome: lf56_scaletta_mamma
+    testo: "Mia madre per appenderla al posto giusto 💀✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h1_lei_cade_scaletta 0 3.9
+      - c3_croce_accesa_casa 0 3.04
+      - s3_orbita 0 2
+      - m3_nativita 2 4.04
+
+  - nome: lf57_supermercato_mamma
+    testo: "Il regalo per la mamma credente l'ho trovato 🥹✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h6_supermercato_abbraccio 0 3.04
+      - c4_appende_divano 0 2.5
+      - s1_telecomando_parete_grigia 1 3.5
+      - m3_nativita 2 4.04
+
+  - nome: lf58_nonna_rosario
+    testo: "Per la nonna che dice il rosario ogni sera 📿✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi: [r2_nonna_regalo 0 15.1]
+
+  - nome: lf59_tagga
+    testo: "Tagga chi la metterebbe\nin salotto 👇✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - s2_buio_accensione 0 3.04
+      - s3_orbita 0 3.04
+      - s4_giorno_notte 0.5 3.04
+      - m1_ultima_cena 0.5 2
+      - m3_nativita 2 4.04
+
+  - nome: lf60_battesimo
+    testo: "Regalo per battesimo o comunione\nche resta per sempre ✝️🤍"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h9_cloche_countdown 0.3 2.45
+      - r1_croce_distesa 0 1.83
+      - s5_accensione_telecomando 0 3.0
+      - k1_ultima_cena_ferma 0 2.5
+      - k2_resurrezione_ferma 0 2.5
+      - k3_nativita_ferma 0 3.0
+
+  - nome: lf61_nonna_pianto
+    testo: "Mia nonna quando l'ha accesa per la prima volta 🥹"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    pezzi: [r2_nonna_regalo 0 15.1]
+
+  - nome: lf62_scaletta_valeva
+    testo: "Caduta dalla scaletta, ma guarda il risultato 😭✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN se la vuoi 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h1_lei_cade_scaletta 0 3.9
+      - c3_croce_accesa_casa 0 3.04
+      - s3_orbita 0 2
+      - m3_nativita 2 4.04
+
+  - nome: lf63_manda_mamma
+    testo: "Manda questo a tua madre\ne guarda cosa risponde 👀✝️"
+    posizione: 0.58
+    cta: "Commenta AMEN e te la mando 🙏"
+    cta_posizione: 0.58
+    pezzi:
+      - h6_supermercato_abbraccio 0 3.04
+      - c4_appende_divano 0 2.5
+      - s1_telecomando_parete_grigia 1 3.5
+      - m3_nativita 2 4.04

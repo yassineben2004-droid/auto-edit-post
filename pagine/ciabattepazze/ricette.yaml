@@ -1104,3 +1104,165 @@ reel:
       - r2_supermercato 0 3.0
       - r3_bar 0 3.0
 
+
+  # ═══ RICARICA 26/11/2026 — varianti dei format migliori (cr01/cr03/cr13 calde, ms03 non ditelo) ═══
+
+  - nome: cr31_sorella_ruba
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Mia sorella me le ha già rubate due volte 😤"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr32_dicembre_casa
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Io a dicembre appena torno a casa 🥶➡️🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr33_papa_non_toglie
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Le ho prese a mio padre e non le toglie più 😭"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr34_tasto_magico
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Un tasto e i piedi tornano a vivere 🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr35_regalo_nonna
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Il regalo per la nonna che ha sempre freddo ai piedi 👵🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr36_tagga_freddolosa
+    posizione: 0.32
+    stile: tiktok
+    testi_scene:
+      - "Tagga l'amica che ha sempre i piedi gelati 👇🥶"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c1_negozio_caffe 0 5.0
+      - ../ciabattepazze_calde/c2_apre_scatola 0 2.2
+      - ../ciabattepazze_calde/c3_piedi_tappeto 0 1.5
+      - ../ciabattepazze_calde/c4_pulsante_rosso 0.4 1.6
+      - ../ciabattepazze_calde/c5_divano_gatto 0 5.0
+
+  - nome: cr37_scettica
+    posizione: 0.38
+    stile: tiktok
+    testi_scene:
+      - "Lei: «ciabatte? Che regalo è?» 🙄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c10_regalo_scettica 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: cr38_cambiato_idea
+    posizione: 0.38
+    stile: tiktok
+    testi_scene:
+      - "Dopo 5 minuti ha cambiato idea 😂🔥"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+      - "Commenta CALDE se ne vuoi un paio! 🔥🎄"
+    pezzi:
+      - ../ciabattepazze_calde/c10_regalo_scettica 0.1 2.95
+      - ../ciabattepazze_calde/c8_accende_parquet 0.1 2.95
+      - ../ciabattepazze_calde/c7_pulsante_infila 0.1 2.95
+      - ../ciabattepazze_calde/c11_regalo_sorpresa 0.1 2.95
+
+  - nome: ms25_mamma_sempre_piedi
+    testo: "Non ditelo a mia madre ma il suo regalo ce l'ho già 🤫"
+    posizione: 0.42
+    cta: "Missione compiuta 🎁"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/05_figlio_nasconde 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/06_mamma_caffe_ride 0 3.0
+
+  - nome: ms26_nascosto
+    testo: "L'ho nascosto in camera fino a Natale 🤫🎁"
+    posizione: 0.42
+    cta: "Commenta PIEDI per il link 🦶✨"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/05_figlio_nasconde 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/06_mamma_caffe_ride 0 3.0
+
+  - nome: ms27_mamma_cucina
+    testo: "Per la mamma che sta in piedi in cucina tutto il giorno 🍝"
+    posizione: 0.42
+    cta: "Commenta PIEDI per il link 🦶✨"
+    cta_posizione: 0.42
+    cta_secondi: 3.0
+    pezzi:
+      - ../ciabattepazze_massaggio/05_figlio_nasconde 0 3.0
+      - ../ciabattepazze_massaggio/01_piedi_entrano 0 3.0
+      - ../ciabattepazze_massaggio/02_pulsanti 0 3.0
+      - ../ciabattepazze_massaggio/06_mamma_caffe_ride 0 3.0

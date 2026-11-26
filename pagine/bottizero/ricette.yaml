@@ -348,3 +348,110 @@ reel:
       - a4_nonna_tavolo 0 3.0
       - c2_nonna_fascia 0 3.0
       - f2_nonna_divano 0 3.0
+
+  # ═══ RICARICA 26/11/2026 — testi nuovi sulle clip esistenti ═══
+
+  - nome: bz33_capodanno_arriva
+    stile: tiktok
+    posizione: 0.72
+    pezzi:
+      - a3_capodanno 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+    testi_scene:
+      - "Mancano 5 settimane a Capodanno 🎆"
+      - "quest'anno ci siamo preparati 🎧"
+      - "noi pronti per la mezzanotte 🐶❤️"
+
+  - nome: bz34_nonna_coccole
+    stile: tiktok_regular
+    posizione: 0.72
+    pezzi:
+      - a4_nonna_tavolo 0 3.0
+      - c2_nonna_fascia 0 3.0
+      - f3_nonna_carezza 0 3.0
+    testi_scene:
+      - "Il suo primo Capodanno con la nonna 👵"
+      - "fascia antirumore e tante coccole 🎧"
+      - "che amore 🥹"
+
+  - nome: bz35_tagga_padrone
+    testo: "Tagga chi ha un cane\nche odia i botti 👇🐶"
+    stile: tiktok
+    posizione: 0.72
+    pezzi:
+      - a2_temporale 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+
+  - nome: bz36_golden_anno_scorso
+    posizione: 0.62
+    pezzi:
+      - g1_golden_prima 0 3.0 0.75
+      - g2_golden_durante 0 3.0 0.75
+    testi_scene:
+      - "lui l'anno scorso a Capodanno"
+      - "lui quest'anno 🎧"
+
+  - nome: bz37_bassotti_anno_scorso
+    posizione: 0.64
+    pezzi:
+      - b1_bassotti_prima 0 3.0 0.75
+      - b2_bassotto_durante 0 3.0 0.75
+    testi_scene:
+      - "loro l'anno scorso a Capodanno"
+      - "loro quest'anno 🎧"
+
+  - nome: bz38_temporale_divano
+    stile: tiktok_regular
+    posizione: 0.72
+    pezzi:
+      - a2_temporale 0 3.0
+      - c2_nonna_fascia 0 3.0
+      - f2_nonna_divano 0 3.0
+    testi_scene:
+      - "Ogni temporale la stessa storia ⛈️"
+      - "finché non abbiamo provato questa 🎧"
+      - "ora resta sul divano con noi 🐶"
+
+  - nome: bz39_regalo_natale
+    testo: "Il regalo di Natale che\nil tuo cane ti chiederebbe 🎁🐶"
+    stile: tiktok
+    posizione: 0.72
+    pezzi:
+      - a4_nonna_tavolo 0 3.0
+      - c2_nonna_fascia 0 3.0
+      - f2_nonna_divano 0 3.0
+
+  - nome: bz40_palco
+    stile: tiktok
+    posizione: 0.72
+    pezzi:
+      - a1_palco 0 4.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
+    testi_scene:
+      - "Il concerto in piazza sotto casa 🎤"
+      - "lui con la sua fascia antirumore 🎧"
+      - "e noi tranquilli 🐶❤️"
+
+  - nome: bz41_lista_capodanno
+    stile: tiktok_regular
+    posizione: 0.72
+    pezzi:
+      - a3_capodanno 0 3.0
+      - c2_nonna_fascia 0 3.0
+      - f3_nonna_carezza 0 3.0
+    testi_scene:
+      - "Lista per Capodanno col cane 📝"
+      - "1. fascia antirumore 🎧"
+      - "2. lui vicino a noi ❤️"
+
+  - nome: bz42_manda
+    testo: "Manda questo a chi ha un cane\npauroso dei botti 🐶🎆"
+    stile: tiktok
+    posizione: 0.72
+    pezzi:
+      - g1_golden_prima 0 3.0
+      - c1_ragazza_fascia 0 4.0
+      - f1_ragazza_fuochi 0 4.0
