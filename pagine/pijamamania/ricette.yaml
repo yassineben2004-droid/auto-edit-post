@@ -1077,3 +1077,168 @@ reel:
       - "Ha già convinto l'amico 😂"
       - "Ormai è una rana 🐸"
       - "Missione compiuta 🫠\nCommenta RANA per il link! 🐸"
+
+  # ═══════════════════════════════════════════════════════════════
+  # PIGIAMA LUMINOSO (bg) — nuove clip Higgsfield 26/11/2026 (reel già montati, senza audio)
+  # bg_hf_c: giorno vs notte, sola (9.1s, buio a 3s) · bg_hf_d: pigiama party 3 amiche (9.1s, buio a 3s)
+  # bg_hf_e: regalo di Natale sotto l'albero (12.1s, buio a 9s)
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: bg20a_giorno_notte
+    posizione: centro
+    pezzi: [bg_hf_c_giorno_notte 0 3, bg_hf_c_giorno_notte 3 9.1]
+    testi_scene:
+      - "Di giorno: pigiama normale 💖"
+      - "Di notte: 😳✨\nCommenta GIRLY per il link! 🥹💖"
+
+  - nome: bg20b_due_look
+    testo: "Due look, un solo pigiama 💖✨"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_c_giorno_notte 0 9.1]
+
+  - nome: bg20c_spegni
+    posizione: centro
+    pezzi: [bg_hf_c_giorno_notte 0 3, bg_hf_c_giorno_notte 3 9.1]
+    testi_scene:
+      - "Ok ora spengo la luce… 👀"
+      - "NON me lo aspettavo così 😭💖"
+
+  - nome: bg20d_voto
+    testo: "Da 1 a 10 quanto è bello\nquando si spegne la luce? 👇💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_c_giorno_notte 0 9.1]
+
+  - nome: bg20e_lista
+    testo: "Da aggiungere alla lista\ndi Natale subito 📝💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_c_giorno_notte 0 9.1]
+
+  - nome: bg21a_party
+    posizione: centro
+    pezzi: [bg_hf_d_party 0 3, bg_hf_d_party 3 9.1]
+    testi_scene:
+      - "Pigiama party con le amiche 💖"
+      - "…poi qualcuno spegne la luce 😳✨"
+
+  - nome: bg21b_tagga
+    testo: "Tagga le 2 amiche con cui\nlo metteresti 👇💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_d_party 0 9.1]
+
+  - nome: bg21c_coordinate
+    testo: "Noi al prossimo\npigiama party ✨💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_d_party 0 9.1]
+
+  - nome: bg21d_esiste
+    testo: "Non sapevamo che esistesse\nun pigiama così 😳💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_d_party 0 9.1]
+
+  - nome: bg21e_manda
+    testo: "Manda questo alla tua\nmigliore amica 💖👀"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_d_party 0 9.1]
+
+  - nome: bg22a_regalo
+    posizione: centro
+    pezzi: [bg_hf_e_regalo 0 6, bg_hf_e_regalo 6 9, bg_hf_e_regalo 9 12.1]
+    testi_scene:
+      - "Il mio regalo di Natale\nsembrava normale… 🎁"
+      - "Bello eh 💖"
+      - "…finché non ho spento la luce 😳✨"
+
+  - nome: bg22b_fidanzato
+    testo: "Il regalo che la tua ragazza\nvuole davvero a Natale 🎁💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_e_regalo 0 12.1]
+
+  - nome: bg22c_aspetta
+    testo: "Aspetta la fine 😳✨"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_e_regalo 0 12.1]
+
+  - nome: bg22d_regalo_lei
+    testo: "Idea regalo per lei\nche nessuno ha ancora 🎁💖"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_e_regalo 0 12.1]
+
+  - nome: bg22e_pov
+    testo: "POV: apri il regalo e\npoi spegni la luce 🎁✨"
+    posizione: centro
+    cta: "Commenta GIRLY per il link! 🥹💖"
+    pezzi: [bg_hf_e_regalo 0 12.1]
+
+  # ═══════════════════════════════════════════════════════════════
+  # SPINTA SQUALO 26/11/2026 — testi nuovi sulle clip esistenti (sgranature già in sgranature.yaml)
+  # ═══════════════════════════════════════════════════════════════
+
+  - nome: sq01g_natale_casa
+    testo: "Natale a casa mia quest'anno 🎄🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sq01_mov 0 11.9]
+
+  - nome: sq02g_giudicate
+    testo: "Non giudicatemi,\nfa freddo 🥶🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sq02_tiktok 0 6.1]
+
+  - nome: sq03g_coinquilina
+    testo: "Quando la coinquilina\nti ruba la coperta squalo 😤🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sq03_tiktok 0 9.9]
+
+  - nome: sq04g_tagga
+    testo: "Tagga chi la userebbe\nogni sera 👇🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sq04_tiktok 0 8.6]
+
+  - nome: sq05g_lunedi
+    testo: "Io la domenica sera\nprima del lunedì 🫠🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sq05_tiktok 0 9.1]
+
+  - nome: sq06g_voto
+    testo: "Da 1 a 10 quanto\nla vorresti? 👇🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sq06_tiktok 0 12.8]
+
+  - nome: sq07g_riscaldamento
+    testo: "Quando i tuoi non accendono\nil riscaldamento 🥶🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sq07_tiktok 0 7.6]
+
+  - nome: sq08g_secret_santa
+    testo: "Regalo per il Secret Santa\nrisolto 🎁🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sq08_tiktok 0 9.7]
+
+  - nome: sqh11_film
+    testo: "Io pronto per la maratona\ndi film di Natale 🍿🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: *sqh_pezzi
+
+  - nome: sqh12_tagga_amico
+    testo: "Tagga l'amico che\nsarebbe capace di metterlo 😂🦈"
+    posizione: centro
+    cta: "Commenta SQUALO per il link! 🦈"
+    pezzi: [sqh_02_specchio 0 3, sqh_04_cammina 0 3, sqh_03_divano 0 3, sqh_05_spiaggiato 0 3]
