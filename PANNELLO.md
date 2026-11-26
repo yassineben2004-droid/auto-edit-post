@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 26/11/2026 20:22
+Aggiornato: 26/11/2026 20:41
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 21 | 3.0 gg | gio 20:30 | 11-26 18:15 ✅ | 36 pubblicati, 20 saltati |
+| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 20 | 2.9 gg | gio 21:45 | 11-26 20:30 ✅ | 37 pubblicati, 20 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 7 | 1.8 gg | gio 21:00 | 11-26 18:30 ✅ | 17 pubblicati, 11 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 6 | 1.0 gg | gio 21:00 | 11-26 18:30 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | gio 21:00 | 11-26 18:30 ✅ | 28 pubblicati |
@@ -22,6 +22,7 @@ Aggiornato: 26/11/2026 20:22
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-26 20:30 | AfterShift | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgN4OIdpqNO/ · FB: https://www.facebook.com/reel/1711291063840177 |
 | 2026-11-26 19:30 | PijamaMania | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DgNxA7ut9bS/ |
 | 2026-11-26 18:30 | Luce di Fede | inserito: DfVk91wsXyg.m4a | https://www.instagram.com/reel/DgNqfTsucm6/ |
 | 2026-11-26 18:30 | Doni di Natale | inserito: DfxwXrQpgSh.m4a | https://www.instagram.com/reel/DgNqYmaOnrX/ · FB: https://www.facebook.com/reel/1698993928302756 |
@@ -41,4 +42,3 @@ Aggiornato: 26/11/2026 20:22
 | 2026-11-26 12:45 | AfterShift | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgNCsLJOFjj/ · FB: https://www.facebook.com/reel/1610486097545407 |
 | 2026-11-26 11:30 | PijamaMania | inserito: De2HYYvqdNK.m4a | https://www.instagram.com/reel/DgM6J-gh0F7/ |
 | 2026-11-26 10:45 | Ciabatte Pazze | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgM19oBBbEW/ · FB: https://www.facebook.com/reel/1917297299233700 |
-| 2026-11-26 09:45 | PijamaMania | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/DgMuRYBCUWy/ |
