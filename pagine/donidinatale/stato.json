@@ -455,6 +455,19 @@
       "ora": "2026-11-26T18:40+01:00",
       "fb_link": "https://www.facebook.com/reel/1698993928302756",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-26 21:00": {
+      "esito": "pubblicato",
+      "id": "donidinatale-00043",
+      "file": "donidinatale-00043.mp4",
+      "media_id": "17990432759888008",
+      "link": "https://www.instagram.com/reel/DgN7ercJ0vR/",
+      "audio": "inserito: DfZ_7-fJC7N.m4a",
+      "audio_id": null,
+      "audio_file": "DfZ_7-fJC7N.m4a",
+      "ora": "2026-11-26T21:09+01:00",
+      "fb_link": "https://www.facebook.com/reel/2015486055789020",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -492,7 +505,8 @@
     "donidinatale-00036",
     "donidinatale-00038",
     "donidinatale-00039",
-    "donidinatale-00041"
+    "donidinatale-00041",
+    "donidinatale-00043"
   ],
   "scartati": {
     "donidinatale-00030": "HTTP 400: {\"debug_info\": {\"retriable\": false, \"type\": \"ProcessingFailedError\", \"message\": \"Request processing failed\"}}"
