@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 26/11/2026 18:08
+Aggiornato: 26/11/2026 18:18
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 22 | 3.1 gg | gio 18:15 | 11-26 14:30 ✅ | 36 pubblicati, 20 saltati |
+| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 21 | 3.0 gg | gio 20:30 | 11-26 18:15 ✅ | 37 pubblicati, 20 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | gio 18:30 | 11-26 12:45 ✅ | 17 pubblicati, 11 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 7 | 1.2 gg | gio 18:30 | 11-26 15:30 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 9 | 2.2 gg | gio 18:30 | 11-26 12:45 ✅ | 28 pubblicati |
@@ -21,6 +21,7 @@ Aggiornato: 26/11/2026 18:08
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-26 18:15 | AfterShift | inserito: tt_7366328334118096133_barsong.m4a | https://www.instagram.com/reel/DgNnzdhSVKB/ · FB: https://www.facebook.com/reel/1806367790634662 |
 | 2026-11-26 18:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgNmxdkBnYz/ |
 | 2026-11-26 16:30 | PijamaMania | inserito: DfVk91wsXyg.m4a | https://www.instagram.com/reel/DgNdIqEhB5R/ |
 | 2026-11-26 15:30 | Ciabatte Pazze | inserito: tt_7366328334118096133_barsong.m4a | https://www.instagram.com/reel/DgNVlz9tHxj/ · FB: https://www.facebook.com/reel/40388192374158003 |
@@ -40,4 +41,3 @@ Aggiornato: 26/11/2026 18:08
 | 2026-11-26 08:15 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgMjMpIBJJs/ · FB: https://www.facebook.com/reel/1678692933854047 |
 | 2026-11-26 08:15 | BottiZero | inserito: DeQ30juIto-.m4a | https://www.facebook.com/reel/1886463729376697 |
 | 2026-11-26 08:00 | PijamaMania | inserito: Dfc14MBxfoy.m4a | https://www.instagram.com/reel/DgMiG-mTcNc/ |
-| 2026-11-26 07:45 | AfterShift | inserito: DfVk91wsXyg.m4a | https://www.instagram.com/reel/DgMgaDNt7Rr/ · FB: https://www.facebook.com/reel/2144845113061042 |
