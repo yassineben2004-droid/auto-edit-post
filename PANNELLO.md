@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 26/11/2026 22:08
+Aggiornato: 26/11/2026 22:39
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -8,9 +8,9 @@ Aggiornato: 26/11/2026 22:08
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 6 | 1.5 gg | ven 08:15 | 11-26 21:00 ✅ | 17 pubblicati, 11 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 5 | 0.8 gg | ven 08:15 | 11-26 21:00 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 7 | 1.8 gg | ven 08:15 | 11-26 21:00 ✅ | 28 pubblicati |
-| Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | gio 22:30 | 11-26 15:30 ⚠ coda_vuota | 5 pubblicati, 9 saltati |
+| Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | ven 15:30 | 11-26 22:30 ⚠ coda_vuota | 4 pubblicati, 10 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 10 | 2.5 gg | ven 08:15 | 11-26 21:00 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 31 | 3.1 gg | gio 22:30 | 11-26 21:00 ✅ | 65 pubblicati, 5 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 30 | 3.0 gg | ven 08:00 | 11-26 22:30 ✅ | 65 pubblicati, 5 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -22,6 +22,7 @@ Aggiornato: 26/11/2026 22:08
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-26 22:30 | PijamaMania | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DgOFy_MpSj3/ |
 | 2026-11-26 21:45 | AfterShift | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DgOAv9ZhxZH/ · FB: https://www.facebook.com/reel/2547821252365447 |
 | 2026-11-26 21:00 | PijamaMania | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/DgN7oysJ5Ux/ |
 | 2026-11-26 21:00 | Luce di Fede | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgN7k9opSC7/ |
@@ -41,4 +42,3 @@ Aggiornato: 26/11/2026 22:08
 | 2026-11-26 14:45 | PijamaMania | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DgNQfk8Bpv7/ |
 | 2026-11-26 14:30 | AfterShift | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DgNOwAySr02/ · FB: https://www.facebook.com/reel/1503542188317264 |
 | 2026-11-26 13:00 | PijamaMania | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgNEgJHpj_i/ |
-| 2026-11-26 12:45 | Luce di Fede | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DgNDJOCJO1l/ |
