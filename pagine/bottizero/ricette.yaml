@@ -390,8 +390,8 @@ reel:
       - g1_golden_prima 0 3.0 0.75
       - g2_golden_durante 0 3.0 0.75
     testi_scene:
-      - "lui l'anno scorso a Capodanno"
-      - "lui quest'anno 🎧"
+      - "pronti per Capodanno 🎧🐶"
+      - "a mezzanotte, tranquillo in braccio ❤️"
 
   - nome: bz37_bassotti_anno_scorso
     posizione: 0.64
@@ -399,8 +399,8 @@ reel:
       - b1_bassotti_prima 0 3.0 0.75
       - b2_bassotto_durante 0 3.0 0.75
     testi_scene:
-      - "loro l'anno scorso a Capodanno"
-      - "loro quest'anno 🎧"
+      - "la squadra è pronta per i botti 🎧"
+      - "mezzanotte in braccio a mamma ❤️"
 
   - nome: bz38_temporale_divano
     stile: tiktok_regular
