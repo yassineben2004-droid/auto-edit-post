@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 27/11/2026 13:20
+Aggiornato: 27/11/2026 14:44
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 16 | 2.3 gg | ven 14:30 | 11-27 12:45 ✅ | 40 pubblicati, 20 saltati |
+| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 15 | 2.1 gg | ven 18:15 | 11-27 14:30 ✅ | 40 pubblicati, 20 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 4 | 1.0 gg | ven 18:30 | 11-27 12:45 ✅ | 17 pubblicati, 11 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 2 | 0.3 gg | ven 15:30 | 11-27 12:45 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 5 | 1.2 gg | ven 18:30 | 11-27 12:45 ✅ | 28 pubblicati |
@@ -23,6 +23,7 @@ Aggiornato: 27/11/2026 13:20
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-27 14:30 | AfterShift | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/DgP0JzyumQ1/ · FB: https://www.facebook.com/reel/1068745102848989 |
 | 2026-11-27 13:00 | PijamaMania | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgPopGxsf57/ |
 | 2026-11-27 12:45 | Luce di Fede | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/DgPnsVKvOqj/ |
 | 2026-11-27 12:45 | Doni di Natale | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgPnltnzKiL/ · FB: https://www.facebook.com/reel/1527987679170692 |
@@ -42,4 +43,3 @@ Aggiornato: 27/11/2026 13:20
 | 2026-11-26 22:30 | PijamaMania | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DgOFy_MpSj3/ |
 | 2026-11-26 21:45 | AfterShift | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DgOAv9ZhxZH/ · FB: https://www.facebook.com/reel/2547821252365447 |
 | 2026-11-26 21:00 | PijamaMania | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/DgN7oysJ5Ux/ |
-| 2026-11-26 21:00 | Luce di Fede | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgN7k9opSC7/ |
