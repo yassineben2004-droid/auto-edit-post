@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 27/11/2026 11:08
+Aggiornato: 27/11/2026 11:42
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 27/11/2026 11:08
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 6 | 1.5 gg | ven 12:45 | 11-27 08:15 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | ven 15:30 | 11-26 22:30 ⚠ coda_vuota | 4 pubblicati, 10 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 9 | 2.2 gg | ven 12:45 | 11-27 08:15 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 28 | 2.8 gg | ven 11:30 | 11-27 09:45 ✅ | 66 pubblicati, 4 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 27 | 2.7 gg | ven 13:00 | 11-27 11:30 ✅ | 67 pubblicati, 3 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -22,6 +22,7 @@ Aggiornato: 27/11/2026 11:08
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-27 11:30 | PijamaMania | inserito: De4UoomsP0B.m4a | https://www.instagram.com/reel/DgPfXcDIXFs/ |
 | 2026-11-27 10:45 | Ciabatte Pazze | inserito: Dfs2ZdTMnGw.m4a | https://www.instagram.com/reel/DgPZrcbpEvE/ · FB: https://www.facebook.com/reel/2595228724295859 |
 | 2026-11-27 09:45 | PijamaMania | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgPS_FrhFUL/ |
 | 2026-11-27 08:15 | Luce di Fede | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgPIjWcorfg/ |
@@ -41,4 +42,3 @@ Aggiornato: 27/11/2026 11:08
 | 2026-11-26 20:30 | AfterShift | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgN4OIdpqNO/ · FB: https://www.facebook.com/reel/1711291063840177 |
 | 2026-11-26 19:30 | PijamaMania | inserito: De2eB4GxCRg.m4a | https://www.instagram.com/reel/DgNxA7ut9bS/ |
 | 2026-11-26 18:30 | Luce di Fede | inserito: DfVk91wsXyg.m4a | https://www.instagram.com/reel/DgNqfTsucm6/ |
-| 2026-11-26 18:30 | Doni di Natale | inserito: DfxwXrQpgSh.m4a | https://www.instagram.com/reel/DgNqYmaOnrX/ · FB: https://www.facebook.com/reel/1698993928302756 |
