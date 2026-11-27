@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 27/11/2026 07:56
+Aggiornato: 27/11/2026 08:11
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 27/11/2026 07:56
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 7 | 1.8 gg | ven 08:15 | 11-26 21:00 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | ven 15:30 | 11-26 22:30 ⚠ coda_vuota | 4 pubblicati, 10 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 10 | 2.5 gg | ven 08:15 | 11-26 21:00 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 30 | 3.0 gg | ven 08:00 | 11-26 22:30 ✅ | 65 pubblicati, 5 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 29 | 2.9 gg | ven 09:45 | 11-27 08:00 ✅ | 65 pubblicati, 5 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -22,6 +22,7 @@ Aggiornato: 27/11/2026 07:56
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-27 08:00 | PijamaMania | inserito: Det5jkoxU4q.m4a | https://www.instagram.com/reel/DgPHOkQRSkz/ |
 | 2026-11-27 07:45 | AfterShift | inserito: DfVk91wsXyg.m4a | https://www.instagram.com/reel/DgPFfMsuMZ5/ · FB: https://www.facebook.com/reel/1895848071782066 |
 | 2026-11-26 23:15 | AfterShift | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgOKvtoNyXM/ · FB: https://www.facebook.com/reel/1211005487918242 |
 | 2026-11-26 22:30 | PijamaMania | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DgOFy_MpSj3/ |
@@ -41,4 +42,3 @@ Aggiornato: 27/11/2026 07:56
 | 2026-11-26 18:00 | PijamaMania | inserito: VIRALE_squalo_3M6.mp3 | https://www.instagram.com/reel/DgNmxdkBnYz/ |
 | 2026-11-26 16:30 | PijamaMania | inserito: DfVk91wsXyg.m4a | https://www.instagram.com/reel/DgNdIqEhB5R/ |
 | 2026-11-26 15:30 | Ciabatte Pazze | inserito: tt_7366328334118096133_barsong.m4a | https://www.instagram.com/reel/DgNVlz9tHxj/ · FB: https://www.facebook.com/reel/40388192374158003 |
-| 2026-11-26 14:45 | PijamaMania | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DgNQfk8Bpv7/ |
