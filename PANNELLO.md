@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 27/11/2026 12:55
+Aggiornato: 27/11/2026 13:03
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 27/11/2026 12:55
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 5 | 1.2 gg | ven 18:30 | 11-27 12:45 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | ven 15:30 | 11-26 22:30 ⚠ coda_vuota | 4 pubblicati, 10 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 8 | 2.0 gg | ven 18:30 | 11-27 12:45 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 27 | 2.7 gg | ven 13:00 | 11-27 11:30 ✅ | 67 pubblicati, 3 saltati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 26 | 2.6 gg | ven 14:45 | 11-27 13:00 ✅ | 68 pubblicati, 2 saltati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -23,6 +23,7 @@ Aggiornato: 27/11/2026 12:55
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-27 13:00 | PijamaMania | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgPopGxsf57/ |
 | 2026-11-27 12:45 | Luce di Fede | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/DgPnsVKvOqj/ |
 | 2026-11-27 12:45 | Doni di Natale | inserito: DemuZChuX50.m4a | https://www.instagram.com/reel/DgPnltnzKiL/ · FB: https://www.facebook.com/reel/1527987679170692 |
 | 2026-11-27 12:45 | Ciabatte Pazze | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgPnfRkTGbb/ · FB: https://www.facebook.com/reel/1873608880653791 |
@@ -42,4 +43,3 @@ Aggiornato: 27/11/2026 12:55
 | 2026-11-26 21:45 | AfterShift | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DgOAv9ZhxZH/ · FB: https://www.facebook.com/reel/2547821252365447 |
 | 2026-11-26 21:00 | PijamaMania | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/DgN7oysJ5Ux/ |
 | 2026-11-26 21:00 | Luce di Fede | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgN7k9opSC7/ |
-| 2026-11-26 21:00 | Doni di Natale | inserito: DfZ_7-fJC7N.m4a | https://www.instagram.com/reel/DgN7ercJ0vR/ · FB: https://www.facebook.com/reel/2015486055789020 |
