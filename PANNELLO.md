@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 27/11/2026 04:21
+Aggiornato: 27/11/2026 07:56
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 18 | 2.6 gg | ven 07:45 | 11-26 23:15 ✅ | 38 pubblicati, 20 saltati |
+| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 17 | 2.4 gg | ven 12:45 | 11-27 07:45 ✅ | 39 pubblicati, 20 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 6 | 1.5 gg | ven 08:15 | 11-26 21:00 ✅ | 17 pubblicati, 11 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 5 | 0.8 gg | ven 08:15 | 11-26 21:00 ✅ | 41 pubblicati, 1 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 7 | 1.8 gg | ven 08:15 | 11-26 21:00 ✅ | 28 pubblicati |
@@ -22,6 +22,7 @@ Aggiornato: 27/11/2026 04:21
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-27 07:45 | AfterShift | inserito: DfVk91wsXyg.m4a | https://www.instagram.com/reel/DgPFfMsuMZ5/ · FB: https://www.facebook.com/reel/1895848071782066 |
 | 2026-11-26 23:15 | AfterShift | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgOKvtoNyXM/ · FB: https://www.facebook.com/reel/1211005487918242 |
 | 2026-11-26 22:30 | PijamaMania | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DgOFy_MpSj3/ |
 | 2026-11-26 21:45 | AfterShift | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DgOAv9ZhxZH/ · FB: https://www.facebook.com/reel/2547821252365447 |
@@ -41,4 +42,3 @@ Aggiornato: 27/11/2026 04:21
 | 2026-11-26 16:30 | PijamaMania | inserito: DfVk91wsXyg.m4a | https://www.instagram.com/reel/DgNdIqEhB5R/ |
 | 2026-11-26 15:30 | Ciabatte Pazze | inserito: tt_7366328334118096133_barsong.m4a | https://www.instagram.com/reel/DgNVlz9tHxj/ · FB: https://www.facebook.com/reel/40388192374158003 |
 | 2026-11-26 14:45 | PijamaMania | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DgNQfk8Bpv7/ |
-| 2026-11-26 14:30 | AfterShift | inserito: DeWAYKMIsHe.m4a | https://www.instagram.com/reel/DgNOwAySr02/ · FB: https://www.facebook.com/reel/1503542188317264 |
