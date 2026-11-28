@@ -568,6 +568,19 @@
       "piattaforma": "facebook",
       "stato_fb": "pubblicato",
       "ora": "2026-11-27T21:07+01:00"
+    },
+    "2026-11-28 08:15": {
+      "esito": "pubblicato",
+      "id": "bottizero-00041",
+      "file": "bottizero-00041.mp4",
+      "media_id": "1845924169887313",
+      "link": "https://www.facebook.com/reel/1845924169887313",
+      "audio": "inserito: Dfn9wfYR-6A.m4a",
+      "audio_id": null,
+      "audio_file": "Dfn9wfYR-6A.m4a",
+      "piattaforma": "facebook",
+      "stato_fb": "pubblicato",
+      "ora": "2026-11-28T08:21+01:00"
     }
   },
   "usati": [
@@ -609,7 +622,8 @@
     "bottizero-00037",
     "bottizero-00038",
     "bottizero-00039",
-    "bottizero-00040"
+    "bottizero-00040",
+    "bottizero-00041"
   ],
   "scartati": {
     "bottizero-00029": "HTTP 400: {\"message\": \"Unsupported get request. Object with ID '1108952475288470' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\", \"type\": \"GraphMethodException"
