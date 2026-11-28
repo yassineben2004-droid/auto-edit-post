@@ -1,14 +1,14 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 28/11/2026 15:01
+Aggiornato: 28/11/2026 15:36
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 8 | 1.1 gg | sab 18:15 | 11-28 14:30 ✅ | 44 pubblicati, 17 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 0 | 0.0 gg | sab 18:30 | 11-28 12:45 ✅ | 17 pubblicati, 11 saltati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 0 | 0.0 gg | sab 15:30 | 11-28 12:45 ⚠ coda_vuota | 37 pubblicati, 5 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 0 | 0.0 gg | sab 18:30 | 11-28 15:30 ⚠ coda_vuota | 36 pubblicati, 6 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 1 | 0.2 gg | sab 18:30 | 11-28 12:45 ✅ | 28 pubblicati |
-| Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | sab 15:30 | 11-27 22:30 ⚠ coda_vuota | 2 pubblicati, 12 saltati |
+| Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | sab 22:30 | 11-28 15:30 ⚠ coda_vuota | 1 pubblicati, 13 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 4 | 1.0 gg | sab 18:30 | 11-28 12:45 ✅ | 28 pubblicati |
 | PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 15 | 1.5 gg | sab 16:30 | 11-28 14:45 ✅ | 70 pubblicati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
