@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 28/11/2026 11:06
+Aggiornato: 28/11/2026 11:37
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 28/11/2026 11:06
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 2 | 0.5 gg | sab 12:45 | 11-28 08:15 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | sab 15:30 | 11-27 22:30 ⚠ coda_vuota | 2 pubblicati, 12 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 5 | 1.2 gg | sab 12:45 | 11-28 08:15 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 18 | 1.8 gg | sab 11:30 | 11-28 09:45 ✅ | 70 pubblicati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 17 | 1.7 gg | sab 13:00 | 11-28 11:30 ✅ | 70 pubblicati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -21,11 +21,12 @@ Aggiornato: 28/11/2026 11:06
 - **Doni di Natale**: coda quasi finita (2 video ≈ 0.5 giorni)
 - **Insegnia**: coda quasi finita (0 video ≈ 0.0 giorni)
 - **Luce di Fede**: coda quasi finita (5 video ≈ 1.2 giorni)
-- **PijamaMania**: coda quasi finita (18 video ≈ 1.8 giorni)
+- **PijamaMania**: coda quasi finita (17 video ≈ 1.7 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-28 11:30 | PijamaMania | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/DgSDio4hf0m/ |
 | 2026-11-28 09:45 | PijamaMania | inserito: DetkbnLv9bW.m4a | https://www.instagram.com/reel/DgR39fXOw5n/ |
 | 2026-11-28 08:15 | Luce di Fede | inserito: DeuSp1UAWbb.m4a | https://www.instagram.com/reel/DgRtTjNx_um/ |
 | 2026-11-28 08:15 | Doni di Natale | inserito: DfZ_7-fJC7N.m4a | https://www.instagram.com/reel/DgRtMapxP3j/ · FB: https://www.facebook.com/reel/1804719470743718 |
@@ -45,4 +46,3 @@ Aggiornato: 28/11/2026 11:06
 | 2026-11-27 18:30 | Doni di Natale | inserito: Dfv1Hs6umL4.m4a | https://www.instagram.com/reel/DgQPZeAu702/ · FB: https://www.facebook.com/reel/1950022789742836 |
 | 2026-11-27 18:30 | Ciabatte Pazze | inserito: De-DMbQPfLZ.m4a | https://www.instagram.com/reel/DgQPSzCuj3r/ · FB: https://www.facebook.com/reel/1153946613755598 |
 | 2026-11-27 18:30 | BottiZero | inserito: tt_7324039866268912902_mitski.m4a | https://www.facebook.com/reel/2967482060285739 |
-| 2026-11-27 18:15 | AfterShift | inserito: DfN_bzwinf5.m4a | https://www.instagram.com/reel/DgQMd5UBxW6/ · FB: https://www.facebook.com/reel/1878015216984157 |
