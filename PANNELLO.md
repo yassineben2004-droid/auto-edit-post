@@ -1,12 +1,12 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 28/11/2026 10:03
+Aggiornato: 28/11/2026 10:50
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
 | AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 10 | 1.4 gg | sab 12:45 | 11-28 07:45 ✅ | 43 pubblicati, 18 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 1 | 0.2 gg | sab 12:45 | 11-28 08:15 ✅ | 17 pubblicati, 11 saltati |
-| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 0 | 0.0 gg | sab 10:45 | 11-28 08:15 ⚠ coda_vuota | 39 pubblicati, 3 saltati |
+| Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 0 | 0.0 gg | sab 12:45 | 11-28 10:45 ⚠ coda_vuota | 38 pubblicati, 4 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 2 | 0.5 gg | sab 12:45 | 11-28 08:15 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | sab 15:30 | 11-27 22:30 ⚠ coda_vuota | 2 pubblicati, 12 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 5 | 1.2 gg | sab 12:45 | 11-28 08:15 ✅ | 28 pubblicati |
