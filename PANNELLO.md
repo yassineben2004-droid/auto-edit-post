@@ -1,6 +1,6 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 28/11/2026 07:52
+Aggiornato: 28/11/2026 08:06
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Aggiornato: 28/11/2026 07:52
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 3 | 0.8 gg | sab 08:15 | 11-27 21:00 ✅ | 28 pubblicati |
 | Insegnia | ✅ attiva · IG | 15:30, 22:30 | 2 | 0 | 0.0 gg | sab 15:30 | 11-27 22:30 ⚠ coda_vuota | 2 pubblicati, 12 saltati |
 | Luce di Fede | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 6 | 1.5 gg | sab 08:15 | 11-27 21:00 ✅ | 28 pubblicati |
-| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 20 | 2.0 gg | sab 08:00 | 11-27 22:30 ✅ | 70 pubblicati |
+| PijamaMania | ✅ attiva · IG | 08:00, 09:45, 11:30, 13:00, 14:45, 16:30, 18:00, 19:30, 21:00, 22:30 | 10 | 19 | 1.9 gg | sab 09:45 | 11-28 08:00 ✅ | 70 pubblicati |
 | Raven & Resin by Cole | ⏸ in pausa · IG | 00:30, 02:30, 14:30, 18:30 | 4 | 22 | 5.5 gg | - | - | 0 pubblicati |
 
 ## ⚠ Da guardare
@@ -21,10 +21,12 @@ Aggiornato: 28/11/2026 07:52
 - **Doni di Natale**: coda quasi finita (3 video ≈ 0.8 giorni)
 - **Insegnia**: coda quasi finita (0 video ≈ 0.0 giorni)
 - **Luce di Fede**: coda quasi finita (6 video ≈ 1.5 giorni)
+- **PijamaMania**: coda quasi finita (19 video ≈ 1.9 giorni)
 
 ## Ultimi post
 | Quando | Pagina | Audio | Link |
 |---|---|---|---|
+| 2026-11-28 08:00 | PijamaMania | inserito: DelhYk8vORs.m4a | https://www.instagram.com/reel/DgRrgmsBZiJ/ |
 | 2026-11-28 07:45 | AfterShift | inserito: Dfn9wfYR-6A.m4a | https://www.instagram.com/reel/DgRpxzGg-L0/ · FB: https://www.facebook.com/reel/1120007347526231 |
 | 2026-11-27 23:15 | AfterShift | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/DgQva9pp0KH/ · FB: https://www.facebook.com/reel/1155788070373821 |
 | 2026-11-27 22:30 | PijamaMania | inserito: DfblaVNxHsY.m4a | https://www.instagram.com/reel/DgQqUWJvHXM/ |
@@ -44,4 +46,3 @@ Aggiornato: 28/11/2026 07:52
 | 2026-11-27 16:30 | PijamaMania | inserito: tt_7268720844577262894_comfyshark.m4a | https://www.instagram.com/reel/DgQBOHXhjRz/ |
 | 2026-11-27 15:30 | Ciabatte Pazze | inserito: DfxwXrQpgSh.m4a | https://www.instagram.com/reel/DgP6tKts64B/ · FB: https://www.facebook.com/reel/1860781085042302 |
 | 2026-11-27 14:45 | PijamaMania | inserito: DfdTxVtAxLK.m4a | https://www.instagram.com/reel/DgP1tTOBBBT/ |
-| 2026-11-27 14:30 | AfterShift | inserito: DeHqy9oRpiE.m4a | https://www.instagram.com/reel/DgP0JzyumQ1/ · FB: https://www.facebook.com/reel/1068745102848989 |
