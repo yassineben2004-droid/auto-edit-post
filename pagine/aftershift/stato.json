@@ -714,6 +714,19 @@
       "ora": "2026-11-28T07:51+01:00",
       "fb_link": "https://www.facebook.com/reel/1120007347526231",
       "fb_stato": "pubblicato"
+    },
+    "2026-11-28 12:45": {
+      "esito": "pubblicato",
+      "id": "aftershift-00056",
+      "file": "aftershift-00056.mp4",
+      "media_id": "18102671687416084",
+      "link": "https://www.instagram.com/reel/DgSMDkozsay/",
+      "audio": "inserito: DeWAYKMIsHe.m4a",
+      "audio_id": null,
+      "audio_file": "DeWAYKMIsHe.m4a",
+      "ora": "2026-11-28T12:51+01:00",
+      "fb_link": "https://www.facebook.com/reel/1933671821378404",
+      "fb_stato": "pubblicato"
     }
   },
   "usati": [
@@ -765,7 +778,8 @@
     "aftershift-00052",
     "aftershift-00053",
     "aftershift-00054",
-    "aftershift-00055"
+    "aftershift-00055",
+    "aftershift-00056"
   ],
   "scartati": {},
   "errori": {},
