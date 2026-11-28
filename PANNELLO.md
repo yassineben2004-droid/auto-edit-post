@@ -1,10 +1,10 @@
 # Pannello Auto Edit & Post
 
-Aggiornato: 28/11/2026 11:37
+Aggiornato: 28/11/2026 11:47
 
 | Pagina | Stato | Orari oggi | Post/giorno | In coda | Copertura | Prossimo | Ultimo | Ultimi 7gg |
 |---|---|---|---|---|---|---|---|---|
-| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 10 | 1.4 gg | sab 12:45 | 11-28 07:45 ✅ | 43 pubblicati, 18 saltati |
+| AfterShift | ✅ attiva · IG | 07:45, 12:45, 14:30, 18:15, 20:30, 21:45, 23:15 | 7 | 10 | 1.4 gg | sab 12:45 | 11-28 07:45 ✅ | 43 pubblicati, 17 saltati |
 | BottiZero | ✅ attiva · FB | 08:15, 12:45, 18:30, 21:00 | 4 | 1 | 0.2 gg | sab 12:45 | 11-28 08:15 ✅ | 17 pubblicati, 11 saltati |
 | Ciabatte Pazze | ✅ attiva · IG | 08:15, 10:45, 12:45, 15:30, 18:30, 21:00 | 6 | 0 | 0.0 gg | sab 12:45 | 11-28 10:45 ⚠ coda_vuota | 38 pubblicati, 4 saltati |
 | Doni di Natale | ✅ attiva · IG | 08:15, 12:45, 18:30, 21:00 | 4 | 2 | 0.5 gg | sab 12:45 | 11-28 08:15 ✅ | 28 pubblicati |
